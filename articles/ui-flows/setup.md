@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: e364c4d9c07f3bac1f78fa6941d1823272ae2466
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.openlocfilehash: e7d5e4219c46703019f995b625c6d672a767018a
+ms.sourcegitcommit: 683127e3655abeec9ae6e86fcdf4ac2256101d08
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74370911"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882115"
 ---
 # <a name="set-up-ui-flows"></a>Configurar fluxos de IU
 
@@ -34,7 +34,7 @@ ms.locfileid: "74370911"
 [!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
 
 > [!IMPORTANT]
-> A funcionalidade dos fluxos de IU está atualmente a ser implementada nas regiões. Se não vir esta funcionalidade no seu ambiente, não conseguirá criar fluxos de IU. Se obtiver um erro ao tentar executá-la num fluxo, tente novamente mais tarde.
+> A funcionalidade dos fluxos de IU está atualmente a ser implementada nas regiões. Se não vir a funcionalidade no seu ambiente, não conseguirá criar fluxos de IU. Se obtiver um erro ao tentar executá-la num fluxo, tente novamente mais tarde.
 
 Para poder utilizar o dispositivo para criar fluxos de IU, terá de assegurar que o dispositivo cumpre os requisitos aqui descritos.
 
