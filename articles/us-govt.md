@@ -169,9 +169,9 @@ Utiliza um conjunto diferente de URLs para aceder aos ambientes do Power Automat
 
 Versão comercial | Versão US Government
 ------ | --------
-https://flow.microsoft.com | https://gov.flow.microsoft.us (GCC) e https://high.flow.microsoft.us (GCC High)
-https://admin.flow.microsoft.com | https://gov.admin.flow.microsoft.us (GCC) e https://high.admin.flow.microsoft.us (GCC High)
-https://flow.microsoft.com/connectors | https://gov.flow.microsoft.us/connectors (GCC) e https://high.flow.microsoft.us/connectors (GCC High)
+https://flow.microsoft.com | [https://gov.flow.microsoft.us](https://gov.flow.microsoft.us ) (GCC) e https://high.flow.microsoft.us (GCC High)
+https://admin.flow.microsoft.com | [https://gov.admin.flow.microsoft.us](https://gov.admin.flow.microsoft.us ) (GCC) e https://high.admin.flow.microsoft.us (GCC High)
+https://flow.microsoft.com/connectors | [https://gov.flow.microsoft.us/connectors]https://gov.flow.microsoft.us/connectors (GCC) e https://high.flow.microsoft.us/connectors (GCC High)
 
 
 Para os clientes que implementam restrições de rede, confirme que o acesso aos seguintes domínios está disponível para os pontos de acesso dos utilizadores finais:
