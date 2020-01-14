@@ -1,6 +1,6 @@
 - name: Descrição geral
   items:
-    - name: Inscrever(-se)
+    - name: Inscrever-se
       href: sign-up-sign-in.md
     - name: Introdução
       href: getting-started.md
@@ -118,7 +118,7 @@
           href: replace-workflows-with-flows.md
     - name: Ações clássicas do Common Data Service
       items:
-        - name: Utilizar ações
+        - name: Use actions (Utilizar ações)
           href: actions.md
         - name: Criar uma ação personalizada
           href: create-actions.md
@@ -154,6 +154,20 @@
       href: visio-flows.md
     - name: 'Reference: Use functions in expressions (Referência: utilizar funções em expressões)'
       href: 'https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference'
+    - name: Utilizar cartões adaptáveis para modelar fluxos
+      items:
+        - name: Descrição geral dos cartões adaptáveis do Teams
+          href: overview-adaptive-cards.md
+        - name: Criar cartões adaptáveis do Teams
+          href: create-adaptive-cards.md
+        - name: Exemplo – Partilha de imagens
+          href: image-share-sample.md
+        - name: Exemplo – Atualização de metadados
+          href: metadata-update-sample.md
+        - name: Exemplo – Meteorologia diária
+          href: daily-weather-sample.md
+        - name: Exemplo – Geração de oportunidades potenciais
+          href: lead-collection-sample.md
     - name: Fluxos de aprovação
       items:
         - name: Aprovações únicas
@@ -174,7 +188,7 @@
       href: mobile-manage-flows.md
     - name: Publicar um modelo
       href: publish-a-template.md
-- name: Resolver problemas
+- name: Resolução de Problemas
   items:
     - name: Observar um fluxo
       href: see-a-flow-run.md
@@ -207,7 +221,7 @@
     - name: Trabalhar com fluxos do processo de negócio através de código
       href: ./developer/business-process-flows-code.md
       items:
-        - name: 'Exemplo: trabalhar com fluxos de processo de negócio'
+        - name: 'Exemplo: Trabalhar com fluxos de processo de negócio'
           href: ./developer/sample-work-business-process-flows.md
     - name: Atividades do fluxo de trabalho personalizadas do Common Data Service
       href: ./developer/custom-cds-for-apps-workflow-activities.md
@@ -259,13 +273,13 @@
       href: regions-overview.md
     - name: Limites e configuração
       href: limits-and-config.md
-    - name: Notas de versão
+    - name: Release notes
       href: release-notes.md
     - name: API Web do Power Automate
       href: web-api.md
-    - name: Perguntas mais frequentes
+    - name: Perguntas frequentes
       href: frequently-asked-questions.md
-- name: Aprenda com outros utilizadores
+- name: Aprender com outras pessoas
   items:
     - name: Webinars
       href: 'https://flow.microsoft.com/blog/category/webinars/'
