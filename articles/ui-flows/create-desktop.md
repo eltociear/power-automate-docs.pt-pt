@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 064ab35f68ad36ba52395be7768b95276c5c648d
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.openlocfilehash: afe9277ced28cdb964ed32550dd0402eaa0d1df4
+ms.sourcegitcommit: 8c4231190023d17c3d620e1e58d1d3d6bcd289ab
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74372613"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75943511"
 ---
 # <a name="create-and-test-desktop-ui-flows"></a>Criar e testar fluxos de IU para computador
 
@@ -112,7 +112,7 @@ Nos passos a seguir, vamos demonstrar como automatizar a aplicação de calculad
 
 1. Selecione **Guardar e sair** para guardar o fluxo de IU.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 - Saiba como [acionar o fluxo de IU](run-ui-flow.md) que acabou de criar.
 
@@ -124,7 +124,7 @@ Nos passos a seguir, vamos demonstrar como automatizar a aplicação de calculad
 
 - Poderá ser útil adicionar uma [ação **Fechar**](edit-desktop.md#add-a-manual-action) no final do fluxo de IU, porque os fluxos de IU iniciam uma nova instância das aplicações a cada teste ou execução.
 
-- Selecione **...**  > **Eliminar** no cartão de ações gravadas para remover as ações desnecessárias/duplicadas. As ações duplicadas podem ser criadas dependendo do tipo e da velocidade com que está a gravar. 
+- Selecione **...**  > **Eliminar** no cartão de ações gravadas para remover as ações desnecessárias/duplicadas.
 
 - Os cliques com o botão direito podem não ser reproduzidos corretamente. Nesse caso, durante a gravação, clique com o botão esquerdo para focar os fluxos de IU no elemento da interface de utilizador de destino e, em seguida, clique com o botão direito.
 
