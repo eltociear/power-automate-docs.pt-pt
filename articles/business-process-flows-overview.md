@@ -1,7 +1,7 @@
 ---
 title: Descrição geral dos fluxos de processos de negócio | Microsoft Docs
 ms.custom: ''
-ms.date: 06/27/2018
+ms.date: 12/12/2019
 ms.reviewer: ''
 ms.service: flow
 author: MSFTMAN
@@ -21,12 +21,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 5ca4e1698ec3196f90d6765fc52d26ddbb1eb591
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.openlocfilehash: ce726a2f4bfdbd7c57a60e5dcc25eb5cee504bce
+ms.sourcegitcommit: 85100833f23c3bcc42f3ee090be476a53fe5c55b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74356628"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75951506"
 ---
 # <a name="business-process-flows-overview"></a>Descrição geral dos fluxos de processos de negócio
 [!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
@@ -94,7 +94,7 @@ Os fluxos de processos de negócio orientam as pessoas para que consigam realiza
  Só pode definir fluxos de processos de negócio para as entidades os suportam. Também terá de ter em consideração os limites relativos ao número de processos, fases e passos que podem ser adicionados.  
   
 ### <a name="business-process-flows-that-call-a-workflow"></a>Fluxos de processos de negócio que chamam um fluxo de trabalho  
- Pode chamar fluxos de trabalho a pedido a partir de um fluxo de processo de negócio. Pode configurar isto a partir do novo estruturador de fluxos de processos de negócio ao arrastar um componente de fluxo de trabalho para uma fase do processo ou para a secção dos Fluxos de Trabalho Globais. Para obter mais informações sobre como utilizar fluxos de trabalho em fluxos de processos de negócio, veja [Blog: Business process flow automation in Dynamics 365](https://blogs.msdn.microsoft.com/crm/2017/03/28/business-process-flow-automation-in-dynamics-365/) (Blogue: automatização de fluxos de processos de negócio no Dynamics 365).  
+ Pode chamar fluxos de trabalho a pedido a partir de um fluxo de processo de negócio. Pode configurar isto a partir do novo estruturador de fluxos de processos de negócio ao arrastar um componente de fluxo de trabalho para uma fase do processo ou para a secção dos Fluxos de Trabalho Globais. Para obter mais informações sobre a utilização de fluxos de trabalho em fluxos do processo de negócio, veja [Blog: Business process flow automation in Dynamics 365](https://blogs.msdn.microsoft.com/crm/2017/03/28/business-process-flow-automation-in-dynamics-365/) (Blogue: Automatização de fluxos do processo de negócio no Dynamics 365).  
   
  Quando inclui um fluxo de trabalho que pretende acionar à Saída de Fase de uma fase do seu fluxo de processo de negócio e essa fase é a última do fluxo, o estruturador dá a impressão de que o fluxo de trabalho será acionado quando essa fase é concluída. No entanto, o fluxo de trabalho não será acionado porque não ocorre uma transição de fase. Não receberá um aviso ou erro que o impedirá de incluir o fluxo de trabalho na fase. Quando um utilizador interage com o fluxo de processo de negócio, a conclusão ou o abandono do processo não resulta numa transição de fase, pelo que o fluxo de trabalho não é acionado. Considere os seguintes exemplos:  
   
@@ -120,7 +120,7 @@ Os fluxos de processos de negócio orientam as pessoas para que consigam realiza
 -   Fax  
 -   Incidente  
 -   Fatura  
--   Oportunidade Potencial  
+-   Cliente potencial  
 -   Carta  
 -   Lista de Marketing  
 -   Oportunidade  
@@ -139,7 +139,7 @@ Os fluxos de processos de negócio orientam as pessoas para que consigam realiza
  Para ativar uma entidade personalizada para fluxos de processos de negócio, selecione a caixa de verificação **Fluxos do processo de negócio (serão criados campos)** na definição da entidade. Tenha em atenção que não é possível anular esta ação.  
   
 > [!NOTE]
->  Se navegar para a fase do fluxo de processo de negócio que contém a entidade `Social Activity` e selecionar o botão **Fase Seguinte**, verá a opção **Criar**. Quando selecionar **Criar**, o formulário **Atividade de Rede Social** é carregado. No entanto, como a `Social Activity` não é válida para `Create` a partir da interface de utilizador da aplicação, não conseguirá guardar o formulário e verá a mensagem de erro "Erro inesperado".  
+>  Se navegar para a fase do fluxo de processo de negócio que contém a entidade `Social Activity` e selecionar o botão **Fase Seguinte**, verá a opção **Criar**. Quando selecionar **Criar**, o formulário **Atividade de Rede Social** é carregado. No entanto, como a `Social Activity` não é válida para `Create` a partir da interface de utilizador da aplicação, não conseguirá guardar o formulário e verá a mensagem de erro: "Erro inesperado".  
   
 <a name="BPF_MaxNumbers"></a>   
 ### <a name="maximum-number-of-processes-stages-and-steps"></a>Número máximo de processos, fases e passos  
@@ -172,13 +172,26 @@ Estão disponíveis várias vistas predefinidas que pode ver sob a forma de um g
 ### <a name="interact-with-the-business-process-flow-entity-from-a-workflow"></a>Interagir com a entidade de fluxo de processo de negócio a partir de um fluxo de trabalho
 Também pode interagir com entidades de fluxos de processo de negócio a partir de um fluxo de trabalho. Pode, por exemplo, criar um fluxo de trabalho para o registo de entidade do Fluxo do Processo de Negócio para alterar a Fase Ativa quando um campo do registo da entidade Oportunidade é atualizado. Para obter mais informações sobre como o fazer, veja [Automate business process flow stages using workflows](https://blogs.msdn.microsoft.com/crminthefield/2017/12/18/automate-business-process-flow-stages-using-workflows) (Automatizar fases de fluxos de processos de negócio com fluxos de trabalho).
 
+### <a name="run-business-process-flows-offline"></a>Executar fluxos do processo de negócio offline
+
+Pode utilizar fluxos do processo de negócio offline se as seguintes condições forem cumpridas:
+
+- O fluxo do processo de negócio é utilizado a partir de uma aplicação do Power Apps.
+- A aplicação do Power Apps está ativada para utilização offline.
+- O fluxo do processo de negócio tem uma única entidade.
+
+Especificamente, os três comandos disponíveis para um fluxo do processo de negócio quando a aplicação do Power Apps está offline são:
+
+- Fase seguinte
+- Fase anterior
+- Definir Fase ativa
 
 ### <a name="limitations-of-using-business-process-flow-entities"></a>Limitações da utilização de entidades de fluxos de processo de negócio
 
 - Atualmente, não pode criar formulários personalizados para entidades com base num fluxo de processo de negócio.
-- Se uma solução incluir uma entidade de fluxo de processo de negócio, essa entidade terá de ser adicionada manualmente à solução antes de a exportar. Caso contrário, a entidade de fluxo de processo de negócio não será incluída no pacote de solução. Mais informações: [Add solution components](/powerapps/maker/model-driven-apps/create-solution#add-solution-components) (Adicionar componentes da solução)
+- Se uma solução incluir uma entidade de fluxo de processo de negócio, essa entidade terá de ser adicionada manualmente à solução antes de a exportar. Caso contrário, a entidade de fluxo de processo de negócio não será incluída no pacote de solução. Mais informações: [Adicionar componentes da solução](/powerapps/maker/model-driven-apps/create-solution#add-solution-components)
 
-### <a name="next-steps"></a>Passos seguintes  
+### <a name="next-steps"></a>Próximos passos  
  [Veja um breve vídeo (4:49) sobre fluxos de processos de negócio](https://go.microsoft.com/fwlink/p/?linkid=842226)   
  [Criar um fluxo de processo de negócio](create-business-process-flow.md)   
  [Melhorar fluxos de processos de negócio com ramificação](enhance-business-process-flows-branching.md) <br/>
