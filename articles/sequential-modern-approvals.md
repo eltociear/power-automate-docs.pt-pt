@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: e8f7b993b59c269b56dac2f13d4db166ed3e91b7
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74373073"
 ---
 # <a name="manage-sequential-approvals-with-power-automate"></a>Gerir aprovações sequenciais com o Power Automate
@@ -45,7 +45,7 @@ O fluxo:
 3. Envia a decisão de pré-aprovação por e-mail ao funcionário.
 4. Atualiza a lista do SharePoint Online com a decisão e os comentários do pré-aprovador.
    
-   Nota: se o pedido tiver sido pré-aprovado, o fluxo continua com estes passos:
+   Nota: se o pedido tiver sido pré-aprovado, o fluxo continuará com estes passos:
 5. Envia o pedido para o aprovador final.
 6. Envia a decisão final por e-mail ao funcionário.
 7. Atualiza a lista do SharePoint com a decisão final.
@@ -152,7 +152,7 @@ Nota: esta ação tem de ser adicionada ao ramo **SE NÃO, NÃO FAZER NADA** aba
 ## <a name="send-email-with-final-rejection"></a>Enviar um e-mail com a rejeição final
 1. Utilize os passos para [Enviar um e-mail com a rejeição da pré-aprovação](sequential-modern-approvals.md#send-email-with-pre-approval-rejection) para adicionar e, em seguida, configure uma ação que envia um e-mail quando o pedido de férias é rejeitado pelo aprovador final.
    
-    Nota: esta ação tem de ser adicionada ao ramo **SE NÃO, NÃO FAZER NADA** abaixo do cartão **Condição 2**.
+    Nota: esta ação tem de ser adicionada ao ramo **SE NÃO, NÃO FAZER NADA** abaixo do cartão **Condição 2**.
 2. Quando tiver concluído, o cartão deve assemelhar-se a esta imagem:
    
    ![configuração para pedidos rejeitados](./media/sequential-modern-approvals/final-rejection-email-card.png)

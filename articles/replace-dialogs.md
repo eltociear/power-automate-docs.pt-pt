@@ -22,10 +22,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: b338991cfdbb73a8a0464fd4322714ece82c2ac5
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74373027"
 ---
 # <a name="replace-dialogs-with-business-process-flows-or-canvas-apps"></a>Substituir diálogos por processos do fluxo de negócio ou aplicações baseadas em telas
@@ -85,7 +85,7 @@ Por fim, configure as fases e os passos do fluxo de processo de negócio, juntam
 
 Para disponibilizar este fluxo de processo de negócio aos utilizadores, certifique-se de que os utilizadores certos têm privilégios para o fluxo de processo de negócio e o ativam depois.
 
-Para obter mais informações sobre como criar um fluxo de processo de negócio, veja [Tutorial: criar um fluxo de processo de negócio para normalizar processos](create-business-process-flow.md).
+Para obter mais informações sobre como criar um fluxo de processo de negócio, veja [Tutorial: Criar um fluxo de processo de negócio para normalizar processos](create-business-process-flow.md).
 
 ## <a name="dialog-replacement-using-canvas-app-scenario"></a>Substituição de diálogos através de um cenário com uma aplicação baseada em telas
 
@@ -116,7 +116,7 @@ As dependências das aplicações baseadas em telas são controladas?
 - As dependências das aplicações de tela são controladas da mesma forma que as dependências nas aplicações do Dynamics 365.
 
 Posso iniciar uma aplicação baseada em telas como um item de pop-up a partir de um botão na barra de comando?
-- Sim. Para tal, basta definir o URL de destino para o URL da aplicação baseada em telas, obtido a partir da secção **Detalhes** da aplicação conforme descrito anteriormente.
+- Yes. Para tal, basta definir o URL de destino para o URL da aplicação baseada em telas, obtido a partir da secção **Detalhes** da aplicação conforme descrito anteriormente.
 
 Os fluxos de trabalho podem ser chamados a partir de uma aplicação baseada em telas?
 - Esta ação não é suportada. Como alternativa, recomendamos que utilize um fluxo. Mais informações: [Introdução aos fluxos de botões com entradas de utilizador](button-flow-with-user-input-tokens.md)
@@ -126,7 +126,7 @@ Posso converter automaticamente diálogos em fluxos de processo de negócio ou a
 
 
 ## <a name="see-also"></a>Veja também
-[Tutorial: criar um fluxo de processo de negócio para normalizar processos](create-business-process-flow.md) </br>
+[Tutorial: Criar um fluxo de processo de negócio para normalizar processos](create-business-process-flow.md) </br>
 [O que são aplicações de tela no Power Apps?](/powerapps/maker/canvas-apps/getting-started)
 
 

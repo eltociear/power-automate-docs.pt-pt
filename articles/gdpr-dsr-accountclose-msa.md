@@ -21,10 +21,10 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: 277765754683a6690b186a5f592517482b32666f
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74366380"
 ---
 # <a name="responding-to-gdpr-data-subject-account-close-requests-for-power-automate"></a>Responder a Pedidos de Fecho de Conta de Titulares de Dados do RGPD no Power Automate

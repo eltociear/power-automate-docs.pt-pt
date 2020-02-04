@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 94ea624378a58e92441e1c72ce3e0ff72040a7f2
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74375143"
 ---
 # <a name="overview"></a>Descrição geral
@@ -50,7 +50,7 @@ Tem de ter os seguintes componentes para criar soluções e fluxos com suporte p
 
 Siga estes passos para criar uma solução:
 
-1. Inicie sessão no [Power Automate](https://flow.microsoft.com).
+1. Iniciar sessão no [Power Automate](https://flow.microsoft.com).
 1. Selecione **Soluções** na barra de navegação.
 
    ![](./media/overview-solution-flows/select-solutions-from-left-nav.png)

@@ -21,10 +21,10 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: 45fe310d7c18fc395857d29503faef9bf4e6eedb
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74365713"
 ---
 # <a name="using-environments-within-power-automate"></a>Utilizar ambientes no Power Automate
@@ -34,7 +34,7 @@ ms.locfileid: "74365713"
 
 Os ambientes oferecem as seguintes vantagens:
 
-* **Localidade de dados**: os ambientes podem ser criados em regiões diferentes e estão vinculados a essa localização geográfica. Quando cria um fluxo num ambiente, esse fluxo é encaminhado para todos os datacenters nessa localização geográfica. Isto também proporciona vantagens em termos de desempenho.
+* **Localidade dos dados**: os ambientes podem ser criados em regiões diferentes e estão vinculados a essa localização geográfica. Quando cria um fluxo num ambiente, esse fluxo é encaminhado para todos os datacenters nessa localização geográfica. Isto também proporciona vantagens em termos de desempenho.
 
     Se os seus utilizadores estiverem na Europa, crie e utilize o ambiente na região da Europa. Se os seus utilizadores estiverem nos Estados Unidos, crie e utilize o ambiente na região dos EUA. 
 
@@ -48,7 +48,7 @@ Os ambientes oferecem as seguintes vantagens:
   > A prevenção de perda de dados está disponível com alguns skus de licença, incluindo a licença P2.
 
 * **Limite de isolamento para todos os recursos**: quaisquer fluxos, gateways, ligações, conectores personalizados, etc., residem num ambiente específico. Não existem em quaisquer outros ambientes.
-* **Common Data Service**: seguem-se as opções disponíveis se pretender criar um fluxo para inserir dados num serviço:
+* **Common Data Service**: seguem-se as opções disponíveis se quiser criar um fluxo para inserir dados num serviço:
 
   * Inserir dados para um ficheiro Excel e armazenar o ficheiro Excel numa conta de armazenamento na cloud, como o OneDrive.
   * Crie uma Base de Dados SQL e, em seguida, armazene os dados nela.
@@ -71,7 +71,7 @@ O ambiente **predefinido** é partilhado por todos os utilizadores e qualquer ut
 
 Os administradores utilizam o centro de administração para criar e gerir ambientes. Existem duas formas de abrir o centro de administração:
 
-### <a name="option-1-select-settings"></a>Opção 1: Selecionar Definições
+### <a name="option-1-select-settings"></a>Opção 1: Selecionar Definições
 
 1. Inicie sessão em [flow.microsoft.com](https://flow.microsoft.com).
 1. Selecione o ícone de engrenagem de Definições e escolha **Centro de Administração** na lista:
@@ -79,7 +79,7 @@ Os administradores utilizam o centro de administração para criar e gerir ambie
    ![Definições e Portal de Administrador](./media/environments-overview-admin/settings.png)
 1. O centro de administrador abre.
 
-### <a name="option-2-open-adminflowmicrosoftcom"></a>Opção 2: Abrir admin.flow.microsoft.com
+### <a name="option-2-open-adminflowmicrosoftcom"></a>Opção 2: Abrir o admin.flow.microsoft.com
 
 Aceda a [admin.flow.microsoft.com](https://admin.flow.microsoft.com) e inicie sessão com a sua conta profissional.
 
@@ -92,7 +92,7 @@ Aceda a [admin.flow.microsoft.com](https://admin.flow.microsoft.com) e inicie se
    |     Propriedade     |                                                 Descrição                                                 |
    |------------------|-------------------------------------------------------------------------------------------------------------|
    | Nome do Ambiente |              Introduza o nome do ambiente, tal como `Human Resources` ou `Europe flows`.              |
-   |      Região      | Escolha a localização para alojar o ambiente. Para obter o melhor desempenho, utilize a região mais próxima dos utilizadores. |
+   |      Region      | Escolha a localização para alojar o ambiente. Para obter o melhor desempenho, utilize a região mais próxima dos utilizadores. |
    | Tipo de Ambiente |                  Escolha um tipo de ambiente com base na sua licença: Produção ou Avaliação.                   |
 
      ![definições de ambiente](./media/environments-overview-admin/new-environment-dialog.png)
@@ -167,7 +167,7 @@ A capacidade de criar e modificar um esquema de base de dados e de estabelecer l
 
    ![atribuir a função ao utilizador](./media/environments-overview-admin/D365-Assign-Role.png)
 
-## <a name="frequently-asked-questions"></a>Perguntas mais frequentes
+## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
 ### <a name="can-i-move-a-flow-between-environments"></a>Posso mover um fluxo entre ambientes?
 

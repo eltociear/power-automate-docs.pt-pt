@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 0238905fe079bb0511c032fee0a3822b3c6d65c5
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74374269"
 ---
 # <a name="faq-for-regions-in-power-automate"></a>FAQ sobre s regiões no Power Automate
@@ -51,7 +51,7 @@ Para identificar a região, os administradores podem iniciar sessão no [centro 
 * Governo dos E.U.A. (GCC)
 * França
 
-## <a name="what-features-are-specific-to-a-given-region"></a>Que funcionalidades são específicas de uma determinada região?
+## <a name="what-features-are-specific-to-a-given-region"></a>Quais são as funcionalidades específicas de uma determinada região?
 Os ambientes podem ser criados em regiões diferentes e estão vinculados a essa localização geográfica. Quando cria um fluxo num ambiente, esse fluxo é implementado em datacenters nessa localização geográfica. Isto aplica-se a todos os itens que criar nesse ambiente, incluindo modelo de dados comuns, fluxos, ligações, gateways, aplicações e conectores personalizados.
 
 Para um desempenho ideal, crie o seu ambiente na região que esteja mais próxima dos seus utilizadores. Por exemplo, se os seus utilizadores estiverem na Europa, crie os ambientes na região da Europa. Se os seus utilizadores estiverem nos Estados Unidos, crie os ambientes na região dos E.U.A.
@@ -63,7 +63,7 @@ Os gateways são:
 * Suportado apenas no ambiente predefinido, não em ambientes personalizados.
 
 ## <a name="is-power-automate-available-in-national-clouds"></a>O Power Automate está disponível nas clouds nacionais?
-Sim. [Saiba mais](./us-govt.md).
+Yes. [Saiba mais](./us-govt.md).
 
 ## <a name="what-outbound-ip-addresses-are-used-in-each-region"></a>Que endereços IP de saída são utilizados em cada região?
 Veja o artigo [Limites e configuração](limits-and-config.md).
