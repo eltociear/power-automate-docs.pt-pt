@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 2faafe936dc9659a50b7e249c75eb9c495101fbf
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74377604"
 ---
 # <a name="create-a-flow-from-your-phone-by-using-power-automate"></a>Criar um fluxo a partir do telemóvel com o Power Automate
@@ -92,7 +92,7 @@ Se não estiver familiarizado com o Power Automate, [veja uma descrição geral]
    
     O fluxo é criado e irá verificar a existência de correio do gestor até colocar em pausa ou eliminar o fluxo.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 * [Monitorizar a atividade do fluxo](mobile-monitor-activity.md).
 * [Gerir as seus fluxos](mobile-manage-flows.md).
 

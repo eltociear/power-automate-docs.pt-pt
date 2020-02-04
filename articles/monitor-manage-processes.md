@@ -22,10 +22,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: dc0fbe16593396f4d611b98825cf00ddc56efceb
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74376155"
 ---
 # <a name="monitor-and-manage-workflow-processes"></a>Monitorizar e gerir processos de fluxo de trabalho
@@ -103,6 +103,6 @@ A opção **Imediatamente** será ativada quando as seguintes condições forem 
 
 A eliminação em massa síncrona só eliminará registos AsyncOperation no estado concluído. É processado um máximo de um milhão de registos para cada invocação. Terá de executar a tarefa múltiplas vezes se o ambiente tiver mais de um milhão de registos a remover.  
   
-## <a name="next-steps"></a>Passos seguintes   
+## <a name="next-steps"></a>Próximos passos   
  [Melhores práticas para os processos de fluxo de trabalho](best-practices-workflow-processes.md) <br />
 

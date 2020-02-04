@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: c174ad7fe18539a7dc1d44acf315d569f4b35a39
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74376523"
 ---
 # <a name="create-and-test-an-approval-workflow-with-power-automate"></a>Criar e testar um fluxo de trabalho de aprovação com o Power Automate

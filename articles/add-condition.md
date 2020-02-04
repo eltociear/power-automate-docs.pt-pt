@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: aca3291bcbda1917b669107b73f84248741dee7e
-ms.sourcegitcommit: e3543e32e4e8e8163bef0565e27b657eabbdc741
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/10/2020
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "75867816"
 ---
 # <a name="add-a-condition-to-a-flow"></a>Adicionar uma condição a um fluxo

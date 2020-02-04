@@ -1,6 +1,6 @@
 Veja todos os pedidos de aprovação pendentes através destes passos:
 
-1. Inicie sessão no [Power Automate](https://flow.microsoft.com).
+1. Iniciar sessão no [Power Automate](https://flow.microsoft.com).
    
     ![iniciar sessão](media/modern-approvals/sign-in.png)
 2. Selecione **Itens de ação** > **Aprovações**.

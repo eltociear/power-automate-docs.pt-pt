@@ -16,5 +16,5 @@
    
      Este cartão é um modelo do e-mail que é enviado quando o estado dos pedidos de férias muda.
    
-     Nota: Na caixa **Corpo** no cartão **Enviar um e-mail**, utilize o token **Comentários** da ação **Aprovações - Iniciar uma aprovação**.
+     Nota: na caixa **Corpo** no cartão **Enviar um e-mail**, utilize o token **Comentários** da ação **Aprovações - Iniciar uma aprovação**.
 
