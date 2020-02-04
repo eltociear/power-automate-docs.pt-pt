@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 9c9da27098ca9114c0919d0fb6e70495f442a3c6
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74371716"
 ---
 # <a name="edit-desktop-ui-flows"></a>Editar fluxos de IU para computador
@@ -73,7 +73,7 @@ Pode querer gravar o fluxo de IU em várias sessões. Depois de ter concluído a
 
 1. Selecione **Iniciar gravador**.
 
-   ![Selecionar iniciar gravador](../media/create-windows-ui-flow/select-launch-recorder.png "Selecionar iniciar gravador").
+   ![Selecionar Iniciar gravador](../media/create-windows-ui-flow/select-launch-recorder.png "Selecionar iniciar gravador")
 
    O controlo do gravador é apresentado na parte superior do ecrã.
 
@@ -162,7 +162,7 @@ Remova o primeiro elemento (tudo antes de /Window) antes de utilizar o resultado
 
 Teste o fluxo de IU para confirmar se o seletor funciona corretamente.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 - Saiba como [executar o fluxo de IU](run-ui-flow.md) que acabou de editar.
 

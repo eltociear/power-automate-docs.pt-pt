@@ -21,16 +21,16 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: 26bed9ab3329bbf0edf8ea055de71b732d7d0746
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74355409"
 ---
 # <a name="responding-to-gdpr-data-subject-discovery-requests-for-power-automate"></a>Responder a Pedidos de Deteção de Titulares de Dados do RGPD no Power Automate
 [!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
 
-O primeiro passo para responder a um DSR é localizar os dados pessoais objeto do pedido. Este primeiro passo ajuda-o a determinar se um DSR cumpre os requisitos da sua organização para respeitar ou recusar um pedido de DSR. Por exemplo, após localizar e analisar os dados pessoais em causa, pode determinar que o pedido não cumpre os requisitos da sua organização, uma vez que pode afetar negativamente os direitos e as liberdades de terceiros.
+O primeiro passo para responder a um DSR é localizar os dados pessoais objeto do pedido. Este primeiro passo ajuda-o a determinar se um DSR cumpre os requisitos da sua organização para respeitar ou recusar um pedido de DSR. Por exemplo, depois de localizar e analisar os dados pessoais em questão, pode determinar que o pedido não cumpre os requisitos da sua organização porque ao fazê-lo poderá afetar negativamente os direitos e liberdades de terceiros.
 
 Segue-se um resumo dos tipos de recursos do Power Automate com dados pessoais de um utilizador específico.
 
@@ -43,9 +43,9 @@ Segue-se um resumo dos tipos de recursos do Power Automate com dados pessoais de
 |Fluxos|A lógica do fluxo de trabalho que existe para um fluxo. [Saiba mais](https://docs.microsoft.com/flow/get-started-logic-flow)|
 |Permissões dos fluxos|Os fluxos podem ser partilhados e reatribuídos a outros utilizadores. As listas de permissões existem para todos os fluxos. [Saiba mais](https://docs.microsoft.com/flow/frequently-asked-questions#can-i-share-the-flows-i-create)|
 |Detalhes do utilizador|Detalhes, não visíveis para o utilizador, que suportam a execução dos fluxos.|
-|Ligações|Utilizadas por conectores para permitir a conectividade a APIs, sistemas, bases de dados, etc. [Saiba mais](https://docs.microsoft.com/flow/add-manage-connections)|
-|Permissões da ligação|Permissões para uma ligação específica. [Saiba mais](https://docs.microsoft.com/flow/add-manage-connections)|
+|Ligações|Utilizada pelos conectores, permite a conectividade a APIs, sistemas, bases de dados, etc. [Saiba mais](https://docs.microsoft.com/flow/add-manage-connections)|
+|Permissões de ligação|Permissões para uma ligação específica. [Saiba mais](https://docs.microsoft.com/flow/add-manage-connections)|
 |Conectores personalizados|Conectores personalizados criados e publicados por um utilizador para permitir a conectividade a sistemas personalizados ou de terceiros. [Saiba mais](https://docs.microsoft.com/connectors/custom-connectors/)|
-|Permissões dos conectores personalizados|Listas de permissões dos conectores personalizados. [Saiba mais](https://docs.microsoft.com/connectors/custom-connectors/share)|
+|Permissões do conector personalizado|Listas de permissões dos conectores personalizados. [Saiba mais](https://docs.microsoft.com/connectors/custom-connectors/share)|
 |Gateway|Os gateways são serviços de dados no local que podem ser instalados por um utilizador para transferir dados de forma rápida e segura entre o Power Automate e uma origem de dados que não esteja na nuvem. [Saiba mais](https://docs.microsoft.com/flow/gateway-manage)|
 |Permissões dos gateways|Os gateways podem ser partilhados com os utilizadores numa organização. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=872249)|

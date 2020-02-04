@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: f29873dff5ae842d2f7b86f4f6e3e5c31bf04712
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74371693"
 ---
 # <a name="edit-web-ui-flows"></a>Editar fluxos de IU para a Web
@@ -54,7 +54,7 @@ Veja a seguir um exemplo de seletores possíveis que o Selenium IDE identificou:
 
 Esta capacidade avançada permite-lhe utilizar sintaxes como \${foo.bar} para aceder à propriedade bar do objeto foo. Também é possível escrever para a propriedade bar do foo ao utilizar foo. bar como a propriedade value num comando store. Também pode utilizar sintaxes como \${foo[0]} para aceder ao item no índice 0 na matriz foo.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 - [Criar os fluxos de IU para a Web](create-web.md)
 - [Executar fluxos de IU](run-ui-flow.md)

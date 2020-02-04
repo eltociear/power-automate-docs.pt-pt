@@ -21,10 +21,10 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: 256e874e2b70844219cd1c21e2ed37f2a96ba78c
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74367392"
 ---
 # <a name="responding-to-gdpr-data-subject-requests-for-power-automate"></a>Responder a Pedidos de Titulares de Dados do RGPD no Power Automate
@@ -59,23 +59,23 @@ O GDPR confere às pessoas (denominadas no GDPR como titulares dos dados) os dir
 
 Este artigo descreve como utilizar os produtos, os serviços e as ferramentas administrativas da Microsoft de modo a ajudar os responsáveis pelo tratamento a localizarem e a realizarem ações nos dados pessoais em resposta a DSRs. Especificamente, este artigo inclui como localizar, aceder e realizar ações nos dados pessoais que residem na cloud da Microsoft. Veja a seguir uma rápida descrição geral dos processos descritos neste guia:
 
-1. Deteção: utilize as ferramentas de pesquisa e deteção para localizar mais facilmente os dados de clientes que podem ser objeto de um DSR. Após recolher os documentos potencialmente reativos, pode realizar uma ou mais das ações DSR descritas nos passos seguintes para responder ao pedido. Em alternativa, pode determinar que o pedido não cumpre as diretrizes da sua organização para responder a DSRs. [Documentação de Deteção de DSR do Power Automate](gdpr-dsr-discovery.md)
+1. Deteção: utilize as ferramentas de pesquisa e deteção para localizar mais facilmente os dados de clientes que podem ser sujeitos a um PTD. Após recolher os documentos potencialmente reativos, pode realizar uma ou mais das ações DSR descritas nos passos seguintes para responder ao pedido. Em alternativa, pode determinar que o pedido não cumpre as diretrizes da sua organização para responder a DSRs. [Documentação de Deteção de DSR do Power Automate](gdpr-dsr-discovery.md)
 
-1. Acesso: obtenha os dados pessoais que residem na cloud da Microsoft e, se solicitado, faça uma cópia deles que possa estar disponível para o titular dos dados.
+1. Acesso: obtenha os dados pessoais que residem na cloud da Microsoft e, caso lhe seja pedido, copie-os para os disponibilizar para o titular de dados.
 
-1. Correção: efetue alterações ou implemente outras ações solicitadas nos dados pessoais, se aplicável.
+1. Correção: faça alterações ou implemente outras ações solicitadas nos dados pessoais, se aplicável.
 
     Caso um titular dos dados solicite a correção dos dados pessoais que residem na sua organização, deve determinar, em conjunto com a sua organização, se é adequado respeitar o pedido.  A retificação dos dados pode incluir a realização de ações tais como a edição, a redação ou a eliminação dos dados pessoais.
 
     Pode utilizar o Azure Active Directory para gerir as identidades dos utilizadores do Power Automate. Os clientes empresariais podem gerir os pedidos de retificação de DSR, incluindo funcionalidades de edição limitadas, de acordo com a natureza de um determinado serviço Microsoft.  Na qualidade de responsável pelo tratamento de dados, a Microsoft não permite corrigir os registos gerados pelo sistema, uma vez que esses registos refletem atividades factuais e constituem um registo histórico de eventos nos serviços Microsoft.  [Mais informações sobre o DSR.](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure)
 
-1. Restrição: restrinja o processamento dos dados pessoais ao remover licenças para vários serviços online ou ao desativar os serviços pretendidos sempre que possível. Pode também eliminar os dados da cloud da Microsoft e retê-los no local ou noutra localização.
+1. Restrição: restrinja o processamento de dados pessoais ao remover as licenças de vários serviços online ou desativar os serviços pretendidos, sempre que possível. Também pode remover os dados da Microsoft Cloud e retê-los no local ou noutra localização.
 
     Os titulares dos dados podem solicitar a restrição do processamento dos seus dados pessoais.  A Microsoft fornece interfaces de programação de aplicações (APIs) e interfaces de utilizador (UIs) para este efeito.  Estas interfaces permitem ao administrador de inquilinos do cliente empresarial gerir tais DSRs através de uma combinação de exportação dos dados e eliminação dos dados. Um cliente pode (1) exportar uma cópia eletrónica dos dados pessoais do utilizador (incluindo as contas, os registos gerados pelo sistema e os registos associados) e, em seguida, (2) eliminar a conta e os dados associados que residem nos sistemas Microsoft.
 
 1. Eliminação: elimine permanentemente os dados pessoais que residem na cloud da Microsoft. [Saiba mais sobre a eliminação de dados pessoais](gdpr-dsr-delete.md).
 
-1. Exportação: forneça uma cópia eletrónica (num formato legível por computador) dos dados pessoais ao titular dos dados. Cada secção deste artigo descreve os procedimentos técnicos que uma organização responsável pelo tratamento de dados pode efetuar para responder a um DSR relativo aos dados pessoais na cloud da Microsoft. [Saiba mais sobre a exportação de dados pessoais](gdpr-dsr-export.md).
+1. Exportação: forneça uma cópia eletrónica (num formato legível por computadores) dos dados pessoais ao titular de dados. Cada secção deste artigo descreve os procedimentos técnicos que uma organização responsável pelo tratamento de dados pode efetuar para responder a um DSR relativo aos dados pessoais na cloud da Microsoft. [Saiba mais sobre a exportação de dados pessoais](gdpr-dsr-export.md).
 
 ## <a name="system-generated-logs"></a>Registos gerados pelo sistema
 

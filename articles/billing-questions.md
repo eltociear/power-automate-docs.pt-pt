@@ -21,10 +21,10 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: 3ea993f30f34a9997a1a3a3580b0151e93223d7a
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74356789"
 ---
 # <a name="billing-and-metering-questions"></a>Perguntas sobre faturação e medição
@@ -75,7 +75,7 @@ Sempre que um fluxo é acionado, através de um acionador automático ou inician
 
 ## <a name="are-there-differences-between-microsoft-accounts-and-work-or-school-accounts-for-billing"></a>Existem diferenças entre Contas Microsoft e contas escolares ou profissionais para a faturação?
 
-Sim. Se iniciar sessão com uma Conta Microsoft (tal como uma conta que termine em @outlook.com ou em @gmail.com), só pode utilizar o plano gratuito. Para tirar partido das funcionalidades do plano pago, inicie sessão com um endereço de e-mail escolar ou profissional.
+Yes. Se iniciar sessão com uma Conta Microsoft (tal como uma conta que termine em @outlook.com ou em @gmail.com), só pode utilizar o plano gratuito. Para tirar partido das funcionalidades do plano pago, inicie sessão com um endereço de e-mail escolar ou profissional.
 
 ## <a name="im-trying-to-upgrade-but-im-told-my-account-isnt-eligible"></a>Estou a tentar fazer a atualização, mas foi-me dito que a minha conta não é elegível.
 

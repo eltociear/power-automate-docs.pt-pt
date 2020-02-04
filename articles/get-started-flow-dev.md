@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: feca66dc9148d6416e2bac8a6e690cee62d6aa9b
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74369094"
 ---
 # <a name="start-to-build-with-power-automate"></a>Começar a criar com o Power Automate
@@ -62,11 +62,11 @@ Depois de submeter estas informações, a Microsoft dá início à avaliação d
 
 ## <a name="embed-the-flow-experience-into-your-website-or-app"></a>Incorporar a experiência de fluxo no seu site ou aplicação
 
-Pode [incorporar](developer/embed-flow-dev.md) o Power Automate na aplicação para ativar a integração contextual aprofundada entre a aplicação e todos os outros serviços suportados pelo Power Automate. Pode, por exemplo:
+Pode [incorporar](developer/embed-flow-dev.md) o Power Automate na aplicação para ativar a integração contextual aprofundada entre a aplicação e todos os outros serviços suportados pelo Power Automate. Por exemplo, você pode:
 
 * Procurar todos os modelos relacionados com o seu serviço e permitir que os utilizadores selecionem um modelo.
 * Gerir os fluxos que os utilizadores têm em relação à sua aplicação.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 Saiba como [incorporar](developer/embed-flow-dev.md) o Power Automate na aplicação.

@@ -22,10 +22,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 9157159a263bb2b8be41445aebb478fc6aa2ddb3
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74360561"
 ---
 # <a name="configure-custom-actions-from-a-workflow"></a>Configurar as ações personalizadas de um fluxo de trabalho
@@ -44,7 +44,7 @@ Ao contrário dos processos de fluxo de trabalho, não precisa de definir as seg
   
 - **Iniciar Quando**: as ações começam quando o código chama a mensagem gerada para as mesmas.  
   
-- **Âmbito**: as ações são sempre executadas no contexto do utilizador chamador.  
+- **Âmbito**: as ações são sempre executadas no contexto do utilizador que efetua a chamada.  
   
 - **Executar em segundo plano**: as ações são sempre fluxos de trabalho em tempo real.  
   
@@ -123,7 +123,7 @@ As ações também têm algo que os processos de fluxo de trabalho não têm: ar
   
 |Tipo|Descrição|  
 |----------|-----------------|  
-|Boolean|Um valor `true` ou `false`.|  
+|Booleano|Um valor `true` ou `false`.|  
 |DateTime|Um valor que armazena informações de data e hora.|  
 |Decimal|Um valor numérico com precisão decimal. Utilizado quando a precisão é extremamente importante.|  
 |Entity|Um registo da entidade especificada. Quando selecionar Entidade, o menu pendente será ativado e irá permitir-lhe selecionar o tipo de entidade.|  
@@ -136,7 +136,7 @@ As ações também têm algo que os processos de fluxo de trabalho não têm: ar
 |String|Um valor de texto.|  
   
 > [!NOTE]
-> Não é possível definir valores do argumento **EntityCollection** na interface de utilizador para condições ou ações. Estes valores são fornecidos para que os programadores os utilizem em código personalizado. Mais informações: [Create your own actions](https://docs.microsoft.com/dynamics365/customer-engagement/developer/create-own-actions) (Criar suas próprias ações) 
+> Não é possível definir valores do argumento **EntityCollection** na interface de utilizador para condições ou ações. Estes valores são fornecidos para que os programadores os utilizem em código personalizado. Mais informações: [Criar as suas próprias ações](https://docs.microsoft.com/dynamics365/customer-engagement/developer/create-own-actions) 
   
 <a name="BKMK_AddStagesConditionsAndActions"></a>   
 ### <a name="add-stages-and-steps"></a>Adicionar fases e passos  
@@ -144,7 +144,7 @@ As ações também têm algo que os processos de fluxo de trabalho não têm: ar
   
  Para além dos passos que podem ser utilizados em fluxos de trabalho em tempo real, as ações também têm o passo **Atribuir Valor**.  Nas ações, estes só podem ser utilizados para definir argumentos de saída. Pode utilizar o assistente de formulários para definir argumentos de saída para valores específicos ou, mais provavelmente, para valores provenientes do registo no qual a ação está a ser executada, registos relacionados com esse registo com uma relação muitos-para-um, registos criados num passo anterior ou valores que fazem parte do próprio processo.  
   
-## <a name="next-steps"></a>Passos seguintes  
+## <a name="next-steps"></a>Próximos passos  
  [Ações](actions.md)  
 
  [Invocar ações personalizadas de um fluxo de trabalho](invoke-custom-actions-workflow-dialog.md)   

@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: fe7e8f685d319e11994adaf1926d2d0ab03706d7
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74358583"
 ---
 # <a name="introducing-button-flows-with-user-input"></a>Introdução aos fluxos de botões com entradas de utilizador
@@ -142,7 +142,7 @@ Além disso, pode querer designar algumas entradas como obrigatórias e outras c
 
 ![Selecionar tokens opcionais](media/button-flow-with-user-input-tokens/required-optional.png)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 * [Partilhar fluxos de botões](share-buttons.md)
 * [Saiba mais sobre fluxos de botão](introduction-to-button-flows.md)  
 * [Saiba mais sobre fluxos de botão com tokens de acionador](introduction-to-button-trigger-tokens.md)  

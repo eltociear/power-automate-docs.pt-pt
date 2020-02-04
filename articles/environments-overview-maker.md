@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 263ebf710d280ebd7c4a6d2846fa859693561476
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74355478"
 ---
 # <a name="choosing-an-environment"></a>Escolher um ambiente
@@ -44,7 +44,7 @@ Quando cria um fluxo, pode escolher um ambiente no qual vai alojar o fluxo e os 
 
 ## <a name="here-are-a-few-scenarios-for-using-environments"></a>Seguem-se alguns cenários de utilização de ambientes
 
-Cenário|Recomendação
+Scenario|Recomendação
 -----|-----
 Pretende criar um fluxo que utiliza uma ligação para o Microsoft Common Data Service.|Coloque o fluxo e o Common Data Service residem no mesmo ambiente. Isto garante que todos os dados estão isolados nesse ambiente (limite de isolamento).
 Está a criar um fluxo para o departamento de Recursos Humanos. Pretende garantir que apenas os utilizadores do departamento de Recursos Humanos têm acesso ao fluxo.|Crie um ambiente e adicione apenas os utilizadores de RH ao mesmo. Coloque o fluxo e quaisquer outros recursos que o fluxo utiliza neste ambiente.
@@ -91,7 +91,7 @@ Ao escolher o ambiente no qual pretende alojar os seus fluxos, considere os segu
 > [!NOTE]
 > Poderá sempre criar fluxos no ambiente predefinido.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 * [Criar um fluxo a partir de um modelo](get-started-logic-template.md)
 * [Criar um fluxo](get-started-logic-flow.md)

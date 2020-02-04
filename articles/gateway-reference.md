@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 46a661b8e4cae28be2c25e8b07269b2677ca5667
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74367944"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>O que é um gateway de dados no local?
@@ -55,6 +55,6 @@ Existem quatro passos principais para utilizar um gateway.
 3. [Adicionar administradores de gateway](/data-integration/gateway/service-gateway-manage) que também consigam gerir e administrar outros requisitos de rede.
 4. [Resolver problemas](/data-integration/gateway/service-gateway-tshoot) relacionados com o gateway em caso de erros.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 - [Instalar o gateway de dados no local](/data-integration/gateway/service-gateway-install)

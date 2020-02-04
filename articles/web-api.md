@@ -11,10 +11,10 @@ ms.technology: ''
 ms.author: stepsic
 audience: Power user
 ms.openlocfilehash: 7cce365213f22854b8a3b97808ad7172c3af3409
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74369692"
 ---
 # <a name="power-automate-web-api"></a>API Web do Power Automate
@@ -36,7 +36,7 @@ Para começar a criar pedidos, primeiro necessita de criar o URL. O formato do U
 
      ![URL do fluxo](media/web-api/get-region-name.png "URL do fluxo")
 
-     | Região         | Subdomínio   |
+     | Region         | Subdomínio   |
      | -------------- | ----------- |
      | Estados Unidos  | crm         |
      | América do Sul  | crm2        |
@@ -92,7 +92,7 @@ Conforme apresentado acima, pode obter a lista de fluxos de trabalho ao chamar `
 
 | Nome da propriedade     | Descrição                                              |
 | ----------------- | -------------------------------------------------------- |
-| category          | A categoria do fluxo. Os diferentes tipos são: 0 – fluxos de trabalho clássicos do Common Data Service, 1 – caixas de diálogo clássicas do Common Data Service, 2 – regras de negócio, 3 – ações clássicas do Common Data Service, 4 – fluxos de processos de negócio e 5 – fluxos automatizados, instantâneos ou agendados. |
+| category          | A categoria do fluxo. Os diferentes tipos são: 0 – fluxos de trabalho clássicos do Common Data Service, 1 – caixas de diálogo clássicas do Common Data Service, 2 – regras de negócio, 3 – ações clássicas do Common Data Service, 4 – fluxos de processos de negócio e 5 – fluxos automatizados, instantâneos ou agendados |
 | statecode         | O estado do fluxo. O estado pode ser **0** – desativado ou **1** – ativado.|
 | workflowuniqueid  | O identificador exclusivo desta instalação do fluxo. |
 | workflowid        | O identificador exclusivo de um fluxo em todas as importações. |
@@ -247,7 +247,7 @@ O parâmetro `AccessMask` é um campo com os seguintes valores para diferentes n
 
 | Nome         | Descrição                                          |
 | ------------ | ---------------------------------------------------- |
-| None         | Sem acesso.                                           |
+| Nenhum         | Sem acesso.                                           |
 | ReadAccess   | Tem direito a ler o fluxo.                          |
 | WriteAccess  | Tem direito a atualizar o fluxo.                        |
 | DeleteAccess | Tem direito a eliminar o fluxo.                        |

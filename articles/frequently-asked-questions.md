@@ -21,13 +21,13 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 5af881b25afb9dbc1554eaf730b21e2bf27f095d
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74367875"
 ---
-# <a name="frequently-asked-questions"></a>Perguntas mais frequentes
+# <a name="frequently-asked-questions"></a>Perguntas frequentes
 [!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
 ## <a name="audience-and-strategy"></a>Audiência e estratégia
 ### <a name="what-is-power-automate"></a>O que é o Power Automate?
@@ -150,9 +150,9 @@ Os administradores podem criar [políticas de prevenção de perda de dados](pre
 
 Embora possa criar fluxos com uma conta de serviço, recomendamos que não o faça se as credenciais da conta de serviço forem partilhadas.
 
-## <a name="licensing"></a>Licenciamento
+## <a name="licensing"></a>Licensing
 ### <a name="will-power-automate-still-have-a-free-or-trial-option"></a>O Power Automate continuará a ter uma opção gratuita ou de avaliação?
-Sim. O utilizador pode utilizar a oferta gratuita, que tem direitos de utilizador limitados, ou pode inscrever-se numa versão de avaliação gratuita do Power Automate de 90 dias. Pode ativar a subscrição em qualquer altura durante a versão de avaliação.
+Yes. O utilizador pode utilizar a oferta gratuita, que tem direitos de utilizador limitados, ou pode inscrever-se numa versão de avaliação gratuita do Power Automate de 90 dias. Pode ativar a subscrição em qualquer altura durante a versão de avaliação.
 
 ### <a name="what-pricing-plans-do-you-offer"></a>Que planos de preços oferecem?
 O Power Automate oferece os níveis de serviço gratuito e pago. [Saiba mais sobre os preços](billing-questions.md).

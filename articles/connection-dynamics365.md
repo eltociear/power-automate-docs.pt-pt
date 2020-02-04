@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 84b3a8956008149f80f1790a20c1388dde8737ac
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74360239"
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>Criar um fluxo com o Dynamics 365 (online)
@@ -34,7 +34,7 @@ Ao utilizar um conector do Dynamics 365, pode criar fluxos que são iniciados qu
 No Power Automate, pode configurar fluxos de trabalho automatizados entre os seus serviços e aplicações favoritos para sincronizar ficheiros, receber notificações, recolher dados e mais. Para obter mais informações, veja [Introdução ao Power Automate](getting-started.md).
 
 > [!IMPORTANT] 
-> Para invocar um acionador de fluxo, a entidade do Common Data Service utilizada com o fluxo deve ter o **Controlo de Alterações** ativado. Para saber mais, veja: [Ativar a monitorização de alterações para controlar a sincronização de dados](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization). 
+> Para invocar um acionador de fluxo, a entidade do Common Data Service utilizada com o fluxo deve ter o **Controlo de Alterações** ativado. Mais informações: [Ativar a monitorização de alterações para controlar a sincronização de dados](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization). 
 
 ## <a name="create-a-flow-from-a-template"></a>Criar um fluxo a partir de um modelo
 Pode utilizar um dos muitos modelos disponíveis para criar um fluxo, como, por exemplo:
@@ -79,7 +79,7 @@ Se não estiver disponível nenhum modelo para aquilo de que precisa, crie um a 
     
     ![Tópico para adicionar fluxos](./media/connection-dynamics365/flow-addtopic.png)
     
-    > **Sugestão:** no painel conteúdo dinâmico, clique ou toque em **Ver mais** para apresentar mais campos que estão associados à entidade. Por exemplo, também pode preencher o campo **Assunto** da tarefa com o campo **Nome da Empresa**, **Cliente**, **Descrição** ou **E-mail** da oportunidade potencial.
+    > **Sugestão:** no painel de conteúdo dinâmico, clique ou toque em **Ver mais** para apresentar mais campos associados à entidade. Por exemplo, também pode preencher o campo **Assunto** da tarefa com o campo **Nome da Empresa**, **Cliente**, **Descrição** ou **E-mail** da oportunidade potencial.
     > 
     > 
 12. Clique ou toque em **Criar fluxo**.
@@ -149,7 +149,7 @@ Este exemplo também atribui a tarefa a um utilizador específico com base no ID
 
 Para localizar o ID de um registo, veja [Localizar o ID de registo](#find-the-records-id) mais adiante neste tópico.
 
-> **Importante:** os campos não devem conter qualquer valor se tiverem uma descrição de "Para utilização interna apenas". Estes campos incluem **Caminho percorrido**, **Parâmetros Adicionais** e **Número da Versão da Regra de Fuso Horário.**
+> **Importante:** os campos não deverão conter nenhum valor se tiverem a descrição “Apenas para utilização interna”. Estes campos incluem **Caminho percorrido**, **Parâmetros Adicionais** e **Número da Versão da Regra de Fuso Horário.**
 > 
 > 
 

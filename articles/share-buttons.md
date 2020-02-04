@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 3209748b03823add7622472665ce70b4cd581b1f
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74372751"
 ---
 # <a name="share-button-flows-in-power-automate"></a>Partilhar fluxos de botões no Power Automate
@@ -138,7 +138,7 @@ Se quiser deixar de utilizar um botão que tenha sido partilhado consigo, remova
     ![remover botão](./media/share-buttons/share-button-flows-added-shared-button.png)
 2. Toque em **Remover** no menu que aparece.
 
-Já está. O botão já não aparece no separador **Botões** da aplicação do Power Automate.
+Já está! O botão já não aparece no separador **Botões** da aplicação do Power Automate.
 
 > [!NOTE]
 > Depois de remover um botão partilhado, pode adicioná-lo novamente ao selecionar **OBTER MAIS** a partir do separador **Botões**.

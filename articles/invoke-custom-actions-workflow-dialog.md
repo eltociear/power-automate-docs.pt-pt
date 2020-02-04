@@ -23,10 +23,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 15cbfdf61a25287714f0244639ec4a3246bd845c
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74355432"
 ---
 # <a name="invoke-custom-actions-from-a-workflow"></a>Invocar ações personalizadas de um fluxo de trabalho
@@ -37,7 +37,7 @@ Os fluxos de trabalho têm várias funcionalidades que suportam cenários empres
  Vejamos o cenário em que uma ação personalizada é invocada a partir de um fluxo de trabalho. Invocaremos uma ação personalizada para pedir a aprovação do gerente quando um desconto numa determinada oportunidade exceder 20%.  
   
 <a name="action"></a>   
-## <a name="example-create-a-custom-action-using-the-opportunity-entity"></a>Exemplo: Criar uma ação personalizada através da entidade oportunidade
+## <a name="example-create-a-custom-action-using-the-opportunity-entity"></a>Por exemplo: criar uma ação personalizada através da entidade Oportunidade
   
 1. No [explorador de soluções](/powerapps/maker/model-driven-apps/advanced-navigation#solution-explorer), selecione **Processos**.  
   

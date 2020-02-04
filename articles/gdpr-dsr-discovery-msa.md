@@ -21,10 +21,10 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: 2830d08832bad330ec67717234f5a8cb0482d3a9
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74369048"
 ---
 # <a name="respond-to-gdpr-data-subject-discovery-requests"></a>Responder a Pedidos de Deteção de Titulares de Dados RGPD 
@@ -33,7 +33,7 @@ ms.locfileid: "74369048"
 O primeiro passo para responder a um pedido de DSR é localizar os dados pessoais objeto do pedido.
 Segue-se um resumo dos recursos do Power Automate que contêm dados pessoais de um utilizador que efetua a autenticação com a respetiva Conta Microsoft (MSA).
 
-|Recurso|Finalidade|
+|Recurso|Objetivo|
 |-----|-----|
 |Histórico de execuções|Fornece o histórico da execução de cada fluxo nos últimos 28 dias. Estes dados incluem a hora de início, a hora de fim, o estado e todas as informações de entrada/saída de cada execução de fluxo. Saiba mais sobre o [histórico de execuções de fluxo](https://flow.microsoft.com/blog/download-history-recurrence/).|
 |Feed de atividades| Fornece um resumo das atividades de cada fluxo, incluindo o estado da execução, as falhas e as notificações.|

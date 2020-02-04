@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: bb50b99f0a86e1221aaa4c4072426a31b9bf8f61
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74368657"
 ---
 # <a name="get-started-with-power-automate"></a>Introdução ao Power Automate 
@@ -42,7 +42,7 @@ O Power Automate é um dos pilares do Power Platform. Fornece uma plataforma de 
 
 | **Tipo de fluxo**                                                                       | **Caso de utilização**                                                                                  | **Finalidade**                                                                             |
 |-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [Fluxos automatizados](get-started-logic-flow.md)                 | Crie um fluxo que efetue automaticamente uma ou mais tarefas depois de ser acionado por um evento. | [Conectores](https://docs.microsoft.com/connectors/) para serviços cloud ou no local. |
+| [Fluxos automatizados](get-started-logic-flow.md)                 | Crie um fluxo que realize uma ou mais tarefas automaticamente depois de ser acionado por um evento. | [Conectores](https://docs.microsoft.com/connectors/) para serviços cloud ou no local. |
 | [Fluxos de botão](introduction-to-button-flows.md)              | Execute tarefas repetitivas a partir de qualquer lugar, a qualquer momento, através do dispositivo móvel.                        |                                                                                        |
 | [Fluxos agendados](run-scheduled-tasks.md)                    | Crie um fluxo que executa uma ou mais tarefas através de agendamento.             |                                                                                        |
 | [Fluxos de processo de negócio](business-process-flows-overview.md) | Defina um conjunto de passos que as pessoas deverão seguir para alcançarem um resultado pretendido.                 | Processos humanos                                                                        |

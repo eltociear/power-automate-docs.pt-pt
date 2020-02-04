@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 2808fb064ae0910d184d1f785a528c6f44e601af
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74360285"
 ---
 # <a name="create-an-automated-flow-by-using-common-data-service"></a>Criar um fluxo automatizado com o Common Data Service
@@ -59,7 +59,7 @@ Pode utilizar âmbitos para determinar se o seu fluxo é executado se criar um n
 | --- | --- |
 |Unidade de Negócio|A ação é realizada num registo que pertence à sua unidade de negócio|
 |Organização|A ação é realizada por qualquer pessoa na organização ou base de dados|
-|Principal:unidade de negócio subordinada|A ação é realizada num registo que pertence à sua unidade de negócio ou a uma unidade de negócio subordinada|
+|Nível Principal: unidade de negócio subordinada|A ação é realizada num registo que pertence à sua unidade de negócio ou a uma unidade de negócio subordinada|
 |Utilizador|A ação é realizada num registo que lhe pertence|
 
 Os acionadores que são executados quando um registo é atualizado também podem utilizar atributos de filtragem. Isto garante que o fluxo só é executado quando um dos atributos definidos é atualizado.

@@ -23,13 +23,13 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 2c8e512c39805296e5885266750b59b49feca482
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74359204"
 ---
-# <a name="tutorial-create-a-business-process-flow-to-standardize-processes"></a>Tutorial: criar um fluxo de processo de negócio para normalizar processos
+# <a name="tutorial-create-a-business-process-flow-to-standardize-processes"></a>Tutorial: Criar um fluxo de processo de negócio para normalizar processos
 [!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
 
 Este tutorial mostra-lhe como criar um fluxo de processo de negócio com o Power Apps. Para saber mais sobre por que motivo os fluxos de processo de negócio são utilizados, veja [Business process flows overview](business-process-flows-overview.md) (Descrição geral de fluxos de processo de negócio). Para obter informações sobre como criar um fluxo de tarefas móveis, veja [Criar um fluxo de tarefas móveis](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-mobile-task-flow).  
@@ -382,7 +382,7 @@ Para ver
 
 Selecione uma instância para a abrir num separador novo ou selecione-a para copiar uma ligação, partilhar uma ligação por e-mail, abandonar ou eliminar a instância.
   
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
  - [Business process flows overview](business-process-flows-overview.md) (Descrição geral de fluxos de processo de negócio)  
  - [Melhorar fluxos de processo de negócio com ramificação](enhance-business-process-flows-branching.md)

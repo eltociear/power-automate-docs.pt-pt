@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 04/29/2019
 ms.author: deonhe
 ms.openlocfilehash: a2a9b5d5a6ed8305ed3e7c29717ef19978bae0a7
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74367070"
 ---
 # <a name="power-automate-in-teams"></a>Power Automate no Teams
@@ -70,12 +70,12 @@ Siga estes passos para instalar a aplicação do Power Automate no Microsoft Tea
 
     ![Página de destino do Flow](media/flows-teams/flow-landing-page.png)
 
-    Nome|Finalidade
+    Nome|Objetivo
     ----|-----|
     Conversação|Interagir com o bot do Flow.
     Fluxos|Criar e gerir fluxos.
     Aprovações|Apresenta uma lista de pedidos de aprovação recebidos e enviados.
-    Sobre|Apresenta a versão e outras informações do Power Automate.
+    Acerca de|Apresenta a versão e outras informações do Power Automate.
 
 
     Agora, pode ver todos os fluxos que criou com o estruturador do Power Automate (se existirem). 
@@ -93,7 +93,7 @@ Pode gerir [aprovações](modern-approvals.md) no Microsoft Teams, tal como faz 
 
     Verá os seguintes subseparadores:
 
-    Separador|Finalidade
+    Separador|Objetivo
     ----|-----|
     Recebidos|Apresenta uma lista de pedidos de aprovação que recebeu e que aguardam a sua ação.
     Enviados|Apresenta uma lista de pedidos de aprovação que enviou e que aguardam a ação de outros utilizadores.

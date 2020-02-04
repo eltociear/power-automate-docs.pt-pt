@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: fdfa1966c40c3c6db6803a58d9f2df687058b3d6
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74365644"
 ---
 # <a name="trigger-a-flow-based-on-email-properties"></a>Acionar um fluxo com base nas propriedades de e-mail
@@ -35,7 +35,7 @@ Utilize o acionador **Quando é recebida uma nova mensagem de e-mail** para cria
 | --- | --- |
 | Pasta |Acionar um fluxo sempre que são recebidos e-mails numa pasta específica. Esta propriedade pode ser útil se tiver regras para encaminhar e-mails para pastas diferentes. |
 | Para |Acionar um fluxo com base no endereço para o qual foi enviado um e-mail. Esta propriedade pode ser útil se receber e-mails que foram enviados para diferentes endereços de e-mail na mesma caixa de entrada. |
-| De |Acionar um fluxo com base no endereço de e-mail do remetente. |
+| A partir do |Acionar um fluxo com base no endereço de e-mail do remetente. |
 | Importância |Acionar um fluxo com base na importância de envio dos e-mails. Os e-mails podem ser enviados com prioridade alta, normal ou baixa. |
 | Tem Anexo |Acionar um fluxo com base na presença de anexos nos e-mails recebidos. |
 | Filtro de Assunto |Pesquisar a presença de palavras específicas no assunto de um e-mail. O fluxo executa então as *ações* com base nos resultados da pesquisa. |

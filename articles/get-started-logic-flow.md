@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 569408367130c6f5121b30d2c8c14833b142b934
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74368795"
 ---
 # <a name="create-a-flow-in-power-automate"></a>Criar um fluxo no Power Automate
@@ -32,7 +32,7 @@ ms.locfileid: "74368795"
 
 > [!VIDEO https://www.youtube.com/embed/Gt3CMhLAQqE?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF]
 
-Crie um fluxo que efetue automaticamente uma ou mais tarefas depois de ser acionado por um evento. Por exemplo, crie um fluxo que o notifique por e-mail quando alguém lhe enviar um tweet que contenha uma palavra-chave que especificar. Neste exemplo, enviar um tweet é o evento e enviar correio é a ação.
+Crie um fluxo que realize uma ou mais tarefas automaticamente depois de ser acionado por um evento. Por exemplo, crie um fluxo que o notifique por e-mail quando alguém lhe enviar um tweet que contenha uma palavra-chave que especificar. Neste exemplo, enviar um tweet é o evento e enviar correio é a ação.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -126,7 +126,7 @@ Em primeiro lugar, terá de selecionar qual o evento ou *acionador*, que inicia 
 >
 >
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 * [Adicione passos](multi-step-logic-flow.md), tais como diferentes formas de ser notificado, ao fluxo.
 * [Execute tarefas com base numa agenda](run-scheduled-tasks.md), quando pretender que uma ação ocorra diariamente, numa determinada data, ou após um determinado número de minutos.

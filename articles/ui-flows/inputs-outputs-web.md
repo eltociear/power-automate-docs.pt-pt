@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 38b6ba7f8fe3ab7a386229b6c9c5ccc300a147de
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74371417"
 ---
 # <a name="use-inputs-and-outputs-in-web-ui-flows"></a>Utilizar entradas e saídas em fluxos de IU para a Web
@@ -69,7 +69,7 @@ Qualquer variável definida no script do selenium torna-se automaticamente num v
 
 [Execute script](https://www.seleniumhq.org/selenium-ide/docs/en/api/commands/#execute-script) (adicione a sintaxe “return” para devolver o objeto que quer armazenar no fim do script)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 - Saiba como [criar fluxos de IU para a Web](create-web.md).
 - Saiba como [acionar fluxos de IU](run-ui-flow.md).

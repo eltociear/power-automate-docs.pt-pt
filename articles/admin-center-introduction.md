@@ -21,10 +21,10 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: 7ad18de11dcd06b38a0be4ea9d076ff5ea83252e
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74358307"
 ---
 # <a name="the-admin-center"></a>O Centro de Administração
@@ -46,7 +46,7 @@ Saiba mais sobre como utilizar os [ambientes](environments-overview-admin.md) pa
 
 Saiba mais sobre como utilizar as [políticas de dados](prevent-data-loss.md) para criar regras que gerem a forma como os dados empresariais são partilhados entre serviços nos fluxos.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 * [Saiba mais sobre os ambientes](environments-overview-admin.md)
 * [Saber mais sobre o Power Automate](getting-started.md)

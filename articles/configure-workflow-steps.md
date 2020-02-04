@@ -19,10 +19,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 0380509b2677e2229ecd2a98a5f3b8dde4f9732c
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74361435"
 ---
 # <a name="configure-workflow-stages-and-steps"></a>Configurar fases e passos do fluxo de trabalho
@@ -77,7 +77,7 @@ Quando cria fluxos de trabalho, tem a opção de conter a lógica que pretende e
   
 |Tipo de Condição|Descrição|  
 |--------------------|-----------------|  
-|**Condição de Verificação**|Uma declaração lógica "if-\<condição> then".<br /><br /> Pode verificar os valores atuais do registo em que o fluxo de trabalho está a ser executado, qualquer um dos registos ligados a esse registo numa relação N:1 ou qualquer um dos registos criados pelos passos anteriores. Com base nesses valores, pode definir passos adicionais quando a condição for verdadeira.<br /><br /> Na declaração "if-\<condição> then", pode utilizar os seguintes operadores: **Igual a**, **Diferente De**, **Contém Dados**, **Não Contém Dados**, **Abaixo De** e **Não Abaixo De**. **Nota:** os operadores **Abaixo De** e **Não Abaixo De** são operadores hierárquicos. Só podem ser utilizados nas entidades que têm uma relação hierárquica definida. Se estiver a tentar utilizar estes operadores nas entidades que não têm a relação hierárquica definida, verá a mensagem de erro: "Está a utilizar um operador hierárquico numa entidade que não tem uma relação hierárquica definida. Torne a entidade hierárquica (ao marcar uma relação como hierárquica) ou utilize outro operador." Para obter mais informações sobre relações hierárquicas, veja [Definir e consultar dados hierárquicos relacionados](/powerapps/maker/common-data-service/define-query-hierarchical-data). A captura de ecrã que se encontra a seguir à tabela é um exemplo da definição do processo de fluxo de trabalho que utiliza os operadores hierárquicos **Abaixo De** e **Não Abaixo De**.|  
+|**Condição de Verificação**|Uma declaração lógica "if-\<condição> then".<br /><br /> Pode verificar os valores atuais do registo em que o fluxo de trabalho está a ser executado, qualquer um dos registos ligados a esse registo numa relação N:1 ou qualquer um dos registos criados pelos passos anteriores. Com base nesses valores, pode definir passos adicionais quando a condição for verdadeira.<br /><br /> Na declaração "if-\<condição> then", pode utilizar os seguintes operadores: **Igual A**, **Não É Igual A**, **Contém Dados**, **Não Contém Dados**, **Por Baixo** e **Não Em**. **Nota:**  os operadores **Por Baixo** e **Não Em** são operadores hierárquicos. Só podem ser utilizados nas entidades que têm uma relação hierárquica definida. Se estiver a tentar utilizar estes operadores nas entidades que não têm a relação hierárquica definida, verá a mensagem de erro: "Está a utilizar um operador hierárquico numa entidade que não tem uma relação hierárquica definida. Torne a entidade hierárquica (ao marcar uma relação como hierárquica) ou utilize outro operador." Para obter mais informações sobre relações hierárquicas, veja [Definir e consultar dados hierárquicos relacionados](/powerapps/maker/common-data-service/define-query-hierarchical-data). A captura de ecrã que se encontra a seguir à tabela é um exemplo da definição do processo de fluxo de trabalho que utiliza os operadores hierárquicos **Abaixo De** e **Não Abaixo De**.|  
 |**Ramo Condicional**|Numa declaração lógica "else-if-then", o editor utiliza o texto "Otherwise, if \<condição> then:"<br /><br /> Selecione uma condição de verificação que definiu anteriormente e pode adicionar um ramo condicional para definir passos adicionais quando a condição de verificação for falsa.|  
 |**Ação Predefinida**|Numa declaração lógica "else", o editor utiliza o texto "Otherwise:"<br /><br /> Selecione uma condição de verificação, ramo condicional, condição de espera ou ramo de espera paralelo que definiu anteriormente e pode utilizar uma ação predefinida para definir passos para todos os casos que não correspondam aos critérios definidos nos elementos do ramo ou condição.|  
 |**Condição de Espera**|Permite que um fluxo de trabalho em segundo plano se coloque a si mesmo em pausa até que os critérios definidos pela condição sejam cumpridos. O fluxo de trabalho começa de novo automaticamente quando os critérios na condição de espera forem cumpridos.<br /><br /> Os fluxos de trabalho em tempo real não podem utilizar condições de espera.|  
@@ -112,7 +112,7 @@ Quando cria fluxos de trabalho, tem a opção de conter a lógica que pretende e
 
  Quando aplica uma ação **Parar Fluxo de Trabalho** num fluxo de trabalho, tem a opção de especificar uma condição de estado que pode ter o estado **Com Êxito** ou **Cancelado**. Quando define o estado como cancelado, impede a operação. Uma mensagem de erro que contém o texto da mensagem de estado da ação de interrupção será apresentada ao utilizador com o cabeçalho **Erro de Processo de Negócio**.  
   
-## <a name="next-steps"></a>Passos seguintes  
+## <a name="next-steps"></a>Próximos passos  
  [Create custom business logic with processes](guide-staff-through-common-tasks-processes.md)  (Criar lógica de negócio personalizada com processos)  
  [Workflow processes overview](workflow-processes.md)  (Descrição geral de processos de fluxo de trabalho)  
  [Monitorizar e gerir processos de fluxo de trabalho](monitor-manage-processes.md)   

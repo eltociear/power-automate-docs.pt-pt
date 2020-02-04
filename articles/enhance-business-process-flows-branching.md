@@ -17,13 +17,13 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 577bad2fa7e0db66c95fae5668c4a576e3c3a2d7
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74365184"
 ---
-# <a name="tutorial-enhance-business-process-flows-with-branching"></a>Tutorial: Melhorar fluxos de processos de negócio com ramificação
+# <a name="tutorial-enhance-business-process-flows-with-branching"></a>Tutorial: Melhorar fluxos de processo de negócio com ramificação
 [!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
 
 Os fluxos de processos de negócio orientam-no ao longo de várias fases dos processos de vendas, marketing ou serviço até à respetiva conclusão. Em casos simples, um fluxo de processo de negócio linear é uma boa opção. No entanto, em cenários mais complexos, pode melhorar um fluxo de processo de negócio através da ramificação. Se tiver as permissões de criação em fluxos de processos de negócio, será capaz de criar um fluxo de processo de negócio com múltiplas ramificações através da lógica `If-Else`. A condição de ramificação pode incluir múltiplas expressões lógicas que utilizam uma combinação de operadores `AND` ou `OR`. A seleção da ramificação é feita automaticamente, em tempo real e com base em regras definidas durante a definição do processo. Por exemplo, na venda de automóveis, pode configurar um único fluxo de processo de negócio que se divida em duas ramificações separadas com base numa regra após uma fase de qualificação comum (o cliente prefere um automóvel novo ou usado, o orçamento dele está acima ou abaixo dos 20 mil €, etc. ): uma ramificação para vender automóveis novos e outra ramificação para vender automóveis usados. Para obter mais informações sobre Fluxos de processos de negócio, veja [Descrição geral dos fluxos de processos de negócio](business-process-flows-overview.md).  
@@ -58,10 +58,10 @@ Os fluxos de processos de negócio orientam-no ao longo de várias fases dos pro
 > - É possível revisitar uma entidade utilizada no processo múltiplas vezes (múltiplos ciclos de entidade fechados).  
 > - Os processos podem voltar à fase anterior independentemente do tipo de entidade. Por exemplo, se a fase ativa for **Entregar Proposta** num registo de proposta, os utilizadores do processo podem mover novamente a fase ativa para a fase **Propor** num registo de oportunidade.  
 >   
->   Para dar outro exemplo, imagine que um processo está atualmente na fase **Apresentar Proposta** do seu fluxo do processo **Qualificar Oportunidade Potencial** > **Identificar Necessidades** > **Criar Proposta** > **Apresentar Proposta** > **Fechar**. Se for necessário fazer mais pesquisa para identificar as necessidades do cliente no âmbito da proposta apresentada ao mesmo, os utilizadores podem simplesmente selecionar a fase **Identificar Necessidades** do seu processo e selecionar **Definir como Ativo**.  
+>   Para dar outro exemplo, imagine que um processo está atualmente na fase **Apresentar Proposta** no fluxo do processo: **Qualificar Oportunidade Potencial** > **Identificar Necessidades** > **Criar Proposta** > **Apresentar Proposta** > **Fechar**. Se for necessário fazer mais pesquisa para identificar as necessidades do cliente no âmbito da proposta apresentada ao mesmo, os utilizadores podem simplesmente selecionar a fase **Identificar Necessidades** do seu processo e selecionar **Definir como Ativo**.  
   
 <a name="CarSelling365"></a>   
-## <a name="example-car-selling-process-flow-with-two-branches"></a>Exemplo: Fluxo do processo de venda de automóveis com duas ramificações
+## <a name="example-car-selling-process-flow-with-two-branches"></a>Por exemplo: fluxo do processo de venda de automóveis com duas ramificações
  
 Vejamos o exemplo do fluxo de processo de negócio com duas ramificações: uma relativa à venda de automóveis novos e outra relativa à venda de automóveis usados.  
   
@@ -120,7 +120,7 @@ Vejamos o exemplo do fluxo de processo de negócio com duas ramificações: uma 
   
  Terá de fornecer um fluxo de trabalho para sincronizar a decisão Aprovar/Negar do registo Investigação para o registo Pedido.  
   
-### <a name="next-steps"></a>Passos seguintes  
+### <a name="next-steps"></a>Próximos passos  
  [Criar um fluxo de processo de negócio](create-business-process-flow.md)   
  [Criar lógica de negócio personalizada através de processos](guide-staff-through-common-tasks-processes.md)   
  

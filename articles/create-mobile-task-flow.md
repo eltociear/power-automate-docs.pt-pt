@@ -22,10 +22,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 22736d826c6e0448e3d1272aed1b3d4f78fdb23b
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74362079"
 ---
 # <a name="create-a-mobile-task-flow"></a>Criar um fluxo de tarefas móveis
@@ -81,6 +81,6 @@ Crie um fluxo no Dynamics 365 para telemóveis ou no Dynamics 365 para tablets c
 > -  Para ligar um componente válido a outro componente válido no estruturador, selecione **Conector** na barra de ação.  
 > -  Pode tornar as imagens no ecrã maiores ou menores ao selecionar os botões **Aumentar o nível de zoom** ou **Diminuir o nível de zoom** no canto superior direito do ecrã. Selecione o botão **Ajustar à tela** para expandir as imagens até ao tamanho maior que o ecrã pode conter.  
   
-## <a name="next-steps"></a>Passos seguintes  
+## <a name="next-steps"></a>Próximos passos  
  [Criar um fluxo de processo de negócio](create-business-process-flow.md)   
 

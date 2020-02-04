@@ -20,10 +20,10 @@ author: msftman
 ms.author: deonhe
 manager: kvivek
 ms.openlocfilehash: ffc9fef64a9eda74d8a834745204fd635125e0c2
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74357272"
 ---
 # <a name="best-practices-in-using-business-process-flow-attributes"></a>Melhores práticas para utilizar os atributos do fluxo do processo de negócio
@@ -40,7 +40,7 @@ Anteriormente, para criar um relatório sobre os processos de negócio por fase,
 
 Como o campo *Fase Ativa* (activestageid) foi preterido nas entidades relacionadas, existem duas formas de criar relatórios sobre os fluxos do processo de negócio.
 
-### <a name="option-1-views-and-charts-on-business-process-flow-entity-recommended"></a>Opção 1: Vistas e gráficos na entidade do fluxo do processo de negócio **(Recomendado)**
+### <a name="option-1-views-and-charts-on-business-process-flow-entity-recommended"></a>Opção 1: Vistas e gráficos na entidade do fluxo do processo de negócio **(Recomendado)**
 
 Nas versões 9.0 e superiores, cada fluxo do processo de negócio cria a sua própria entidade do Common Data Service, normalmente com o mesmo nome do fluxo do processo de negócio. Para criar relatórios sobre o fluxo do processo de negócio, selecione a entidade do fluxo do processo de negócio para a qual pretende criar um relatório e, em seguida, crie vistas e gráficos, tal como fazia anteriormente.
 
