@@ -5,7 +5,7 @@ Para aprovar um pedido:
 ### <a name="from-email"></a>A partir do e-mail
 1. Selecione **Aprovar** no e-mail que recebe quando um item é adicionado à lista do SharePoint Online.
    
-     Nota: se estiver a utilizar um dispositivo móvel com a aplicação do Power Automate instalada, esta aplicação será iniciada. Caso contrário, o centro de aprovação abrirá no browser.
+     Nota: se estiver a utilizar um dispositivo móvel com a aplicação Power Automate instalada, esta aplicação será iniciada. Caso contrário, o centro de aprovação será aberto no seu browser.
    
     ![e-mail de pedido](media/modern-approvals/email-approval-request.png)
 2. Introduza um comentário e, em seguida, selecione o botão **Confirmar**.
@@ -13,7 +13,7 @@ Para aprovar um pedido:
     ![introduzir comentário](media/modern-approvals/request-in-approval-center.png)
 
 ### <a name="from-the-approvals-center"></a>A partir do centro de aprovação
-1. Inicie sessão no [Power Automate](https://flow.microsoft.com).
+1. Iniciar sessão no [Power Automate](https://flow.microsoft.com).
    
     ![iniciar sessão](media/modern-approvals/sign-in.png)
 2. Selecione o separador **Aprovações**.

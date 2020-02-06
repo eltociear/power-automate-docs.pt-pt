@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: cba8de780c58a2b70f1d65ff002336c7312dfd36
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74377420"
 ---
 # <a name="manage-flows-in-power-automate-from-your-phone"></a>Gerir fluxos no Power Automate a partir do telemóvel
@@ -46,7 +46,7 @@ Quando o fluxo é executado, envia uma notificação push personalizada para o t
 
 ![Enviar mensagem para Slack](./media/mobile-manage-flows/create-event.png)
 
-**Nota**: também pode [Monitorizar atividade do fluxo](mobile-monitor-activity.md) a partir da aplicação móvel.
+**Nota**: também pode [monitorizar a atividade do fluxo](mobile-monitor-activity.md) a partir da aplicação móvel.
 
 ## <a name="manage-a-flow"></a>Gerir um fluxo
 1. Abra a aplicação móvel e, em seguida, toque em **Meus fluxos** na parte inferior do ecrã para listar todos os fluxos.

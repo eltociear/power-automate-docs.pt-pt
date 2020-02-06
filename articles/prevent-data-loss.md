@@ -21,10 +21,10 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: 63e49b656527f471d7bdd5a5d7a0b02d572c1221
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74374775"
 ---
 # <a name="data-loss-prevention-dlp-policies"></a>Políticas de prevenção de perda de dados (DLP)
@@ -34,9 +34,9 @@ Este documento apresenta-lhe políticas de prevenção de perda de dados, que aj
 
 ## <a name="whats-a-data-loss-prevention-policy"></a>O que é uma política de prevenção de perda de dados?
 
-Os dados de uma organização são importantes para o êxito. Esses dados têm de estar disponíveis para a tomada de decisões, mas têm de estar protegidos para que não sejam partilhados com audiências que não devem ter acesso aos mesmos. Para proteger estes dados, o Power Automate permite-lhe criar e impor políticas que definem que conectores do consumidor conseguem aceder e partilhar os dados de negócio. Estas políticas que definem a forma como os dados podem ser partilhados são referidas como políticas de prevenção de perda de dados (DLP).
+Os dados de uma organização são essenciais para o seu sucesso. Os dados têm de estar prontamente disponíveis para tomada de decisões, mas têm de estar protegidos para não serem partilhados com pessoas que não devem ter acesso aos mesmos. Para proteger estes dados, o Power Automate permite-lhe criar e impor políticas que definem que conectores do consumidor conseguem aceder e partilhar os dados de negócio. Estas políticas que definem a forma como os dados podem ser partilhados são referidas como políticas de prevenção de perda de dados (DLP).
 
-## <a name="why-create-a-dlp-policy"></a>Porquê criar uma política DLP?
+## <a name="why-create-a-dlp-policy"></a>Por quê criar uma política DLP?
 
 Pode criar uma política DLP para definir claramente que conectores do consumidor podem aceder e partilhar os seus dados de negócio. Por exemplo, uma organização que utilize o Power Automate pode não querer que os dados empresariais no SharePoint sejam automaticamente publicados no feed do Twitter. Para evitar esta situação, pode criar uma política DLP que impeça que esses dados do SharePoint sejam utilizados como a origem de tweets.
 
@@ -49,7 +49,7 @@ Pode criar uma política DLP para definir claramente que conectores do consumido
 
 ### <a name="prerequisites-for-managing-dlp-policies"></a>Pré-requisitos para gerir políticas DLP
 
-* Permissões de administrador de ambientes ou de administrador de inquilinos.
+* Permissões de administração do inquilino ou administrador do ambiente.
 
     Pode saber mais sobre as permissões no [artigo ambientes](environments-overview-admin.md).
 * Uma [licença do Power Automate P2](billing-questions.md).
@@ -102,7 +102,7 @@ Siga estes passos para criar uma política DLP que impede que os dados no site d
 
     ![Lista de DLP](./media/prevent-data-loss/create-policy-9.png)
 
-1. **Opcional** Envie um e-mail ou outra comunicação para a sua equipa, a alertá-los de que uma nova política DLP está agora disponível.
+1. **Opcional** Envie um e-mail ou outro tipo de comunicação para a sua equipa a alertá-los de que está agora disponível uma nova política DLP.
 
 Parabéns, acabou de criar uma política DLP que permite que a aplicação partilhe dados entre o SharePoint e o Salesforce e bloqueia a partilha de dados com outros serviços.
 
@@ -129,16 +129,16 @@ Se os seus utilizadores o contactarem devido a fluxos suspensos, considere os se
 
 ### <a name="admins"></a>Administradores
 
-Os administradores podem utilizar a funcionalidade de pesquisa a partir do Centro de administração para localizar políticas DLP específicas.
+Os administradores podem utilizar a funcionalidade de pesquisa do Centro de administração para localizar políticas DLP específicas.
 
 > [!NOTE]
 > Os administradores devem publicar todas as políticas DLP para que os utilizadores na organização estejam cientes das políticas antes de criarem fluxos.
 >
 >
 
-### <a name="makers"></a>Fabricantes
+### <a name="makers"></a>Criadores
 
-Se não tiver permissões de administrador e pretender obter mais informações sobre as políticas DLP na sua organização, contacte o administrador. Também pode saber mais no artigo [ambientes de fabricantes](environments-overview-maker.md)
+Se não tem permissões de administrador e quiser saber mais sobre as políticas DLP na sua organização, contacte o administrador. Também pode saber mais no artigo [ambientes de fabricantes](environments-overview-maker.md)
 
 > [!NOTE]
 > Apenas os administradores podem editar ou eliminar políticas DLP.
@@ -149,7 +149,7 @@ Se não tiver permissões de administrador e pretender obter mais informações 
 
 1. Inicie o [Centro de administração](https://admin.flow.microsoft.com).
 
-1. No Centro de administração que é iniciado, selecione a ligação **Políticas dos dados**, no lado esquerdo.
+1. No Centro de administração que é iniciado, selecione a ligação **Políticas de dados** no lado esquerdo.
 
     ![selecionar políticas de dados](./media/prevent-data-loss/2.png)
 
@@ -176,13 +176,13 @@ Se não tiver permissões de administrador e pretender obter mais informações 
 
     ![Selecionar o botão Eliminar](./media/prevent-data-loss/3-delete.png)
 
-1. Confirme se realmente pretende eliminar a política ao selecionar o botão **Eliminar**:
+1. Confirmar que quer realmente eliminar a política ao selecionar o botão **Eliminar**:
 
     ![confirmar que pretende eliminar a política](./media/prevent-data-loss/4.png)
 
 ## <a name="dlp-policy-permissions"></a>Permissões de políticas DLP
 
-Apenas os administradores de inquilinos e de ambientes podem criar e modificar políticas DLP. Saiba mais sobre as permissões no artigo [ambientes](environments-overview-admin.md).
+Apenas os inquilinos e os administradores de ambiente podem criar e modificar políticas DLP. Saiba mais sobre as permissões no artigo [ambientes](environments-overview-admin.md).
 
 
 ## <a name="custom-and-http-connectors"></a>Conectores HTTP e personalizados
@@ -206,7 +206,7 @@ Para adicionar os conectores HTTP a uma política existente através do [modelo]
 
 ## <a name="add-custom-and-http-connectors-with-powershell"></a>Adicionar conectores HTTP e personalizados com o PowerShell
 
-Para adicionar suporte para conectores personalizados e/ou conectores HTTP a uma política com o PowerShell, [transfira](https://docs.microsoft.com/powerapps/administrator/powerapps-powershell) e importe os scripts do PowerShell do Power Apps mais recentes e, em seguida, utilize estes cmdlets: “New-AdminDlpPolicy”, “Set-AdminDlpPolicy”, “Add-CustomConnectorToPolicy” e “Remove-CustomConnectorFromPolicy” para modificar a política. Utilize o cmdlet “Get-Help -detailed” como referência.
+Para adicionar suporte para conectores personalizados e/ou conectores HTTP a uma política com o PowerShell, [transfira](https://docs.microsoft.com/powerapps/administrator/powerapps-powershell) e importe os scripts mais recentes do PowerShell do Power Apps e, em seguida, utilize estes cmdlets:  “New-AdminDlpPolicy”, “Set-AdminDlpPolicy”, “Add-CustomConnectorToPolicy” e “Remove-CustomConnectorFromPolicy” para modificar a política. Utilize o cmdlet “Get-Help -detailed” como referência.
 
 
 > [!IMPORTANT]
@@ -214,7 +214,7 @@ Para adicionar suporte para conectores personalizados e/ou conectores HTTP a uma
 
 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 * [Saiba mais sobre os ambientes](environments-overview-admin.md)
 * [Saiba mais sobre o Power Automate](getting-started.md)

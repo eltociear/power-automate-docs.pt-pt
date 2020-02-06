@@ -1,5 +1,5 @@
 ---
-title: Limites e configuração | Microsoft Docs
+title: Limites e valores de configuração | Microsoft Docs
 description: Limites e configuração
 services: ''
 suite: flow
@@ -21,17 +21,17 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 4361705779ab31b73206835380a648557f581e66
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74354673"
 ---
 # <a name="limits-and-configuration-in-power-automate"></a>Limites e configuração no Power Automate
 [!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
 Este tópico contém informações sobre os limites atuais e os detalhes de configuração dos fluxos.
 
-## <a name="request-limits"></a>Limites dos pedidos
+## <a name="request-limits"></a>Limites de pedido
 Estes são os limites de um único pedido de saída.
 
 ### <a name="timeout"></a>Tempo limite
@@ -91,10 +91,10 @@ Estes são os limites de uma única execução de fluxo. Para saber os limites d
 |---|---|---|
 |Ponto final de runtime – Número de chamadas de leitura permitidas por 5 minutos – Licenças Gratuita, Office 365, Plano 1 e versões de avaliação|6000||
 |Ponto final de runtime – Número de chamadas de leitura por 5 minutos – Licenças Plano Pago 2, Por Utilizador e Por Fluxo|60 000||
-|Ponto final de runtime: chamadas de invocação por 5 minutos – Licenças Gratuita, Office 365, Plano 1 e versões de avaliação|4500||
-|Ponto final de runtime: número de chamadas de invocação por 5 minutos – Licenças Plano Pago 2, Por Utilizador e Por Fluxo|45 000||
+|Ponto final de runtime: chamadas de invocação por 5 minutos – Licenças Gratuitas, Office 365, Plano 1 e versões de avaliação|4500||
+|Ponto final de runtime: número de chamadas de invocação por 5 minutos – Licenças Pagas do Plano 2, Por Utilizador e Por Fluxo|45 000||
 |Quantidade de débito permitido por 5 minutos – Licenças Gratuita, Office 365 e Plano 1 e versões de avaliação|600 MB||
-|Quantidade de débito permitido por 5 minutos – Licenças Plano Pago 2, Por Utilizador e Por Fluxo|6 GB||
+|Quantidade de débito permitido por 5 minutos – Licenças Plano Pago 2, Por Utilizador e Por Fluxo|6 GB||
 |Quantidade de fluxos de conteúdo que estão autorizados a produzir (entradas/saídas de ações) por hora – Licenças Gratuita, Office 365, Plano 1, Plano 2, Por Utilizador e Por Fluxo|200 GB||
 
 
@@ -124,7 +124,7 @@ As chamadas feitas a partir de um fluxo passam diretamente pelo serviço de Apli
 ### <a name="connectors"></a>Conectores
 As chamadas feitas a partir de um conector num fluxo (por exemplo, a API SQL ou a API do SharePoint) serão provenientes do endereço IP listado abaixo:
 
-| Região | IP de Saída |
+| Region | IP de saída |
 | --- | --- |
 | Ásia-Pacífico | 13.75.36.64 - 13.75.36.79, 13.67.8.240 - 13.67.8.255, 52.175.23.169, 52.187.68.19 |
 | Austrália  | 13.70.72.192 - 13.70.72.207, 13.72.243.10, 13.77.50.240 - 13.77.50.255, 13.70.136.174 |

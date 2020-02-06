@@ -21,10 +21,10 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: 8554959026d299ac45ccf3ccb3ace7b8d9226294
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74369071"
 ---
 # <a name="responding-to-gdpr-data-subject-delete-requests-for-power-automate"></a>Responder a Pedidos de Eliminação de Titulares de Dados do GDPR no Power Automate
@@ -44,9 +44,9 @@ A tabela seguinte mostra os dados pessoais que são automaticamente eliminados e
 |Permissões dos fluxos|Gateway |
 |Detalhes do utilizador|Permissões dos gateways|
 |Ligações*||
-|Permissões da ligação||
+|Permissões de ligação||
 |Conector personalizado*||
-|Permissões dos conectores personalizados||
+|Permissões do conector personalizado||
 
 \* Cada um destes recursos contém os registos "Criado por" e "Modificado por", que incluem dados pessoais. Por motivos de segurança, estes registos são mantidos até que o recurso seja eliminado.
 
@@ -56,7 +56,7 @@ Para os dados e recursos que exigem uma revisão manual, o Power Automate oferec
 
 * **Acesso ao site:** inicie sessão no [Centro de Administração do Power Apps](https://admin.powerapps.com/) ou no [Centro de Administração do Power Automate](https://admin.flow.microsoft.com/)
 
-* **Acesso ao PowerShell:** [cdmlets do PowerShell para Administradores do Power Apps](https://go.microsoft.com/fwlink/?linkid=871804) 
+* **Acesso ao PowerShell:**  [Cmdlets do PowerShell para Administradores do Power Apps](https://go.microsoft.com/fwlink/?linkid=871804) 
 
 Veja a seguir a divisão das experiências que estão disponíveis para um administrador para eliminar cada tipo de dados pessoais em cada tipo de recurso:
 
@@ -72,9 +72,9 @@ Veja a seguir a divisão das experiências que estão disponíveis para um admin
 |Permissões dos fluxos|Portal de Criadores do Power Automate|||
 |Detalhes do utilizador||Cmdlets do Power Apps||
 |Ligações|Portal de Criadores do Power Automate| ||
-|Permissões da ligação|Portal de Criadores do Power Automate| ||
+|Permissões de ligação|Portal de Criadores do Power Automate| ||
 |Conector personalizado|Portal de Criadores do Power Automate| ||
-|Permissões dos conectores personalizados|Portal de Criadores do Power Automate| ||
+|Permissões do conector personalizado|Portal de Criadores do Power Automate| ||
 |Histórico de Aprovação|Portal de Criadores do Microsoft Power Apps*|||
 
 *Com a introdução do Common Data Service, se uma base de dados for criada no ambiente, as permissões do ambiente e as permissões da aplicação orientada por modelos serão armazenadas como registos na instância de base de dados do Common Data Service. Para obter orientações sobre como responder a DSRs dos utilizadores do Common Data Service, veja [Executing DSRs against Common Data Service Customer Data](https://go.microsoft.com/fwlink/?linkid=872251) (Executar DSRs nos Dados do Cliente do Common Data Service).

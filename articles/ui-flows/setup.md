@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: e7d5e4219c46703019f995b625c6d672a767018a
-ms.sourcegitcommit: 683127e3655abeec9ae6e86fcdf4ac2256101d08
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74882115"
 ---
 # <a name="set-up-ui-flows"></a>Configurar fluxos de IU
@@ -34,7 +34,7 @@ ms.locfileid: "74882115"
 [!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
 
 > [!IMPORTANT]
-> A funcionalidade dos fluxos de IU está atualmente a ser implementada nas regiões. Se não vir a funcionalidade no seu ambiente, não conseguirá criar fluxos de IU. Se obtiver um erro ao tentar executá-la num fluxo, tente novamente mais tarde.
+> A funcionalidade dos fluxos de IU está atualmente a ser implementada nas regiões. Se não vir esta funcionalidade no seu ambiente, não conseguirá criar fluxos de IU. Se obtiver um erro ao tentar executá-la num fluxo, tente novamente mais tarde.
 
 Para poder utilizar o dispositivo para criar fluxos de IU, terá de assegurar que o dispositivo cumpre os requisitos aqui descritos.
 
@@ -135,7 +135,7 @@ Precisará do gateway para acionar o fluxo de IU de um [evento, agendamento ou f
 1. Procure **Fluxos de IU (pré-visualização)** e selecione.
 1. Selecione **Desinstalar**.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 - Saiba como [criar fluxos de IU para computador](create-desktop.md).
 - Saiba como [criar fluxos de IU para a Web](create-web.md).

@@ -15,10 +15,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 2bb689f9dff55e8313a22d89efd8fa76eca4fb50
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74369715"
 ---
 # <a name="classic-common-data-service-workflows"></a>Fluxos de trabalho clássicos do Common Data Service 
@@ -78,7 +78,7 @@ Os programadores podem criar fluxos de trabalho através das informações prese
  ![Separador Geral num fluxo de trabalho](media/create-workflow-general-tab.PNG "Separador Geral num fluxo de trabalho")  
   
  **Ativar Como**  
- Pode selecionar **Modelo de processo** para criar um ponto de partida avançado para outros modelos. Se selecionar esta opção, a mesma não será aplicada após ativar o fluxo de trabalho, mas estará disponível para ser selecionada na caixa de diálogo **Criar Processo** se selecionar **Tipo**: **Novo processo baseado num modelo existente (selecione na lista)** .  
+ Pode selecionar **Modelo de processo** para criar um ponto de partida avançado para outros modelos. Se selecionar esta opção, a mesma não será aplicada após ativar o fluxo de trabalho, mas estará disponível para ser selecionada na caixa de diálogo **Criar Processo** se selecionar **Tipo**: **Novo processo baseado num modelo existente (selecione na lista)**  
   
  Os modelos de processo são úteis se tiver vários processos de fluxo de trabalho semelhantes e os quiser definir sem ter de duplicar a mesma lógica.  
   
@@ -115,7 +115,7 @@ Os programadores podem criar fluxos de trabalho através das informações prese
 >  O valor predefinido do âmbito é **Utilizador**. Certifique-se de que verifica se o valor do âmbito é o adequado antes de ativar o fluxo de trabalho.  
   
  **Iniciar quando**  
- Utilize as opções nesta secção para especificar o momento em que um fluxo de trabalho deve iniciar automaticamente. Pode configurar um fluxo de trabalho em tempo real para que este seja executado antes de determinados eventos. Esta é uma funcionalidade muito poderosa porque o fluxo de trabalho pode parar a ação antes de ela ocorrer. Mais informações: [Using Real-time Workflows](configure-workflow-steps.md#BKMK_SynchronousWorkflows) (Utilizar Fluxos de Trabalho em Tempo Real). As opções são:  
+ Utilize as opções nesta secção para especificar o momento em que um fluxo de trabalho deve iniciar automaticamente. Pode configurar um fluxo de trabalho em tempo real para que este seja executado antes de determinados eventos. Esta é uma funcionalidade muito poderosa porque o fluxo de trabalho pode parar a ação antes de ela ocorrer. Mais informações: [Utilizar Fluxos de Trabalho em Tempo Real](configure-workflow-steps.md#BKMK_SynchronousWorkflows). As opções são:  
   
 - **O registo foi criado**  
   
@@ -151,7 +151,7 @@ Os programadores podem criar fluxos de trabalho através das informações prese
   
  Os fluxos de trabalho são guardados quando são ativados, pelo que não é necessário guardá-los antes de os ativar.  
   
-## <a name="next-steps"></a>Passos seguintes  
+## <a name="next-steps"></a>Próximos passos  
  [Configuring workflow processes](configure-workflow-steps.md) (Configurar processos de fluxo de trabalho)  <br/>
 [Adicionar um fluxo de trabalho a pedido a um fluxo de processo de negócio](bpf-add-on-demand-workflow.md) 
 

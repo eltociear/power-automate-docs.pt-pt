@@ -13,10 +13,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: c4be61dfafa17c3808eb497aa9ed7d1bcaaecbab
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74373671"
 ---
 # <a name="replace-classic-common-data-service-workflows-with-flows"></a>Substituir os fluxos de trabalho clássicos do Common Data Service por fluxos
@@ -36,7 +36,7 @@ Esta tabela apresenta uma comparação entre as capacidades do Power Automate e 
 
 <table>
 <tr>
-<th colspan="2">Capacidade</th>
+<th colspan="2">Funcionalidade</th>
 <th>Power Automate</th>
 <th>Fluxo de trabalho clássico</th>
 </tr>

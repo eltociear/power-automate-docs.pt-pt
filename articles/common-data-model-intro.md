@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 2b536263d90af7b0bbdcdec30d1b00bc7bae2a9e
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74361205"
 ---
 # <a name="create-a-flow-that-uses-the-common-data-service"></a>Criar um fluxo que utilize o Common Data Service
@@ -86,12 +86,12 @@ Por exemplo, tire partido do Common Data Service no Power Automate das seguintes
     ![Especificar a instância do Dynamics 365](./media/common-data-model-intro/specify-instance.png)
 2. (opcional) Junto da parte superior do ecrã, especifique um nome diferente para o fluxo que está a criar.
    
-    **Nota**: se a janela do navegador não estiver maximizada, a IU poderá parecer ligeiramente diferente.
+    **Nota**: se a janela do browser não estiver maximizada, a IU poderá parecer ligeiramente diferente.
    
     ![Fluxo do nome](./media/common-data-model-intro/name-flow.png)
 3. Clique ou toque em **Criar fluxo**.
    
-    **Nota**: se a janela do navegador não estiver maximizada, poderá aparecer apenas a marca de verificação.
+    **Nota**: se a janela do browser não estiver maximizada, poderá aparecer apenas a marca de verificação.
    
     ![Criar fluxo](./media/common-data-model-intro/create-flow.png)
 

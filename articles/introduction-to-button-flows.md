@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 136bb90c47a1aeea2f11ef45e35a4957506ad488
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74363919"
 ---
 # <a name="introducing-button-flows"></a>Introdução aos fluxos de botões
@@ -143,7 +143,7 @@ No separador **Os meus fluxos** da aplicação Flow:
 3. Se desativar um fluxo, deixará de estar disponível no separador **Botões**:    
    ![Imagem de descrição geral](./media/introduction-to-button-flows/manage-flow-5.png)  
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 * [Partilhe fluxos de botões](share-buttons.md).
 * Aprenda a utilizar [tokens de acionador de botão](introduction-to-button-trigger-tokens.md) para enviar dados em tempo real quando os fluxos de botão são executados.
 * Instale a aplicação móvel do Power Automate para [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) ou [Windows Phone](https://aka.ms/flowmobilewindows).

@@ -21,10 +21,10 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: 81b486c0d9ed059cc310f1297e27b28206776f45
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74367553"
 ---
 # <a name="respond-to-gdpr-data-subject-rights-dsrs-requests"></a>Responder a Pedidos de Direitos de Titulares de Dados (DSRs) RGPD
@@ -57,12 +57,12 @@ Veja a seguir uma descrição geral dos processos descritos neste guia:
 
 1. **Deteção**: utilize as ferramentas de pesquisa e deteção para localizar facilmente os dados de clientes que podem ser objeto de um pedido de DSR. Se determinar que os documentos que recolhe cumprem as diretrizes do seu responsável pelo tratamento para realizar ações, pode realizar uma ou mais das ações de DSR descritas nos seguintes passos. Saiba mais na [Documentação de Deteção de DSR do Power Automate para Contas Microsoft](gdpr-dsr-discovery-msa.md). Em alternativa, pode determinar que o pedido não cumpre as diretrizes do seu responsável pelo tratamento para responder a pedidos de DSR.
 
-1. **Acesso**: obtenha os dados pessoais que residem na cloud da Microsoft e, se solicitado, faça uma cópia deles para que possam estar disponíveis para o titular dos dados.
+1. **Acesso**: obtenha os dados pessoais que residem na cloud da Microsoft e, se solicitado, faça uma cópia dos mesmos para que possam estar disponíveis para o titular dos dados.
 
 1. **Correção**: faça alterações ou implemente outras ações solicitadas nos dados pessoais, se aplicável.
 
-1. **Restrição**: restrinja o processamento dos dados pessoais ao remover licenças para vários serviços online ou ao desativar os serviços pretendidos sempre que possível. Pode também eliminar os dados da cloud da Microsoft e retê-los no local ou noutra localização.
+1. **Restrição**: restrinja o processamento de dados pessoais ao remover as licenças de vários serviços online ou desativar os serviços pretendidos, sempre que possível. Também pode remover os dados da Microsoft Cloud e retê-los no local ou noutra localização.
 
-1. **Eliminação**: elimine permanentemente os dados pessoais que residem na cloud da Microsoft. Saiba mais sobre como [eliminar dados pessoais para Contas Microsoft](gdpr-dsr-delete-msa.md). Saiba mais sobre como [fechar uma Conta Microsoft](gdpr-dsr-accountclose-msa.md).
+1. **Eliminar**: elimine permanentemente os dados pessoais que residem na cloud da Microsoft. Saiba mais sobre como [eliminar dados pessoais para Contas Microsoft](gdpr-dsr-delete-msa.md). Saiba mais sobre como [fechar uma Conta Microsoft](gdpr-dsr-accountclose-msa.md).
 
 1. **Exportação**: forneça uma cópia eletrónica (num formato legível por computador) dos dados pessoais. [Saiba mais sobre como exportar dados pessoais para Contas Microsoft](gdpr-dsr-export-msa.md).

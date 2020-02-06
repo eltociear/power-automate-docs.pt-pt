@@ -21,13 +21,13 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: e617e6928d5295a9485c55e1efa57a945abf870f
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74374315"
 ---
-# <a name="release-notes"></a>Notas de versão
+# <a name="release-notes"></a>Release notes
 [!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
 ## <a name="top-questions"></a>Principais perguntas?
 1. O meu fluxo falhou. Como posso corrigi-lo?
@@ -74,7 +74,7 @@ ms.locfileid: "74374315"
 ### <a name="release-2018-08-31"></a>Versão 2018-08-31
 
 - **Teste o fluxo ao utilizar dados de exemplo** – utilize dados de exemplo de conectores para testar o fluxo à medida que o cria a partir do estruturador do Power Automate. Ao testar o seu fluxo com dados de exemplo, está a confirmar que o fluxo será executado conforme esperado quando for implementado para produção.
-- **Cinco novos conectores** – adicionámos cinco novos conectores de gestão: Power Apps for App Makers, Power Platform for Admins, Power Apps for Admins, Power Automate for Admins e Microsoft School Data Sync.
+- **Cinco novos conectores** – adicionamos cinco novos conectores de gestão: Power Apps for App Makers, Power Platform for Admins, Power Apps for Admins, Power Automate for Admins e Microsoft School Data Sync.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/test-data-management-connectors/) sobre esta versão.
 
@@ -395,13 +395,13 @@ Já pode ver o estado de todos os pedidos de aprovação pendente enviados. Alé
 * **Criar webhooks de APIs personalizadas** – Os programadores de conectores personalizados podem agora adicionar acionadores às respetivas APIs personalizadas com webhooks.
 * **Gerir proprietários de fluxos no centro de administração** – os administradores de ambientes podem gerir os proprietários de fluxos no centro de administração do Power Automate.
 * **Referência de documentação do conector** – Temos agora uma [referência completa de conectores em docs.microsoft.com](https://docs.microsoft.com/Connectors/).
-* **Dois serviços de parceiros** – Foram lançados dois novos serviços de parceiros: Nexmo e Paylocity.
+* **Dois serviços de parceiros** – foram lançados dois novos serviços de parceiros: Nexmo e Paylocity.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/canada-mailboxes-aad) sobre esta versão.
 
 ### <a name="release-2017-04-27"></a>Versão 2017-04-27
 * **Construa fluxos com passos paralelos** - crie fluxos com execução paralela: o que significa que pode ter dois ou mais passos em execução exatamente ao mesmo tempo.
-* **Cinco novos serviços suportados** - cinco novos serviços: Approvals, Benchmark Email, Capsule CRM, LiveChat e Outlook Customer Manager.
+* **Cinco novos serviços suportados** – cinco novos serviços: Approvals, Benchmark Email, Capsule CRM, LiveChat e Outlook Customer Manager.
 * **Monitorização das novas tentativas de ações** – o Power Automate tentará novamente quando ocorrerem falhas nos serviços. Agora pode ver quantas novas tentativas automáticas ocorreram e os detalhes do que aconteceu.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/parallel-actions/) sobre esta versão.
@@ -424,7 +424,7 @@ Já pode ver o estado de todos os pedidos de aprovação pendente enviados. Alé
 ### <a name="release-2017-04-03"></a>Versão 2017-04-03
 * **Versão Beta do Windows Phone** - O programa beta da Aplicação do Windows Phone está disponível para que obtenha uma pré-visualização da aplicação no seu Windows Phone. [Saiba mais](https://flow.microsoft.com/blog/windows-phone-app-beta-is-now-available/).
 * **Muhimbi PDF** - Agora, pode converter ficheiros do Microsoft Word para PDF, adicionar marcas d’água, intercalar documentos e muito mais com o Muhimbi PDF. [Saiba mais](https://flow.microsoft.com/blog/convert-files-using-muhimbi/).
-* **Acionar fluxos a partir de botões físicos** - Anunciamos parcerias com dois dos principais produtos da área dos botões físicos: o Flic, da Shortcut Labs, e o Bttn, da The Button Corporation. [Saiba mais](https://flow.microsoft.com/blog/physical-buttons/)
+* **Acionar fluxos a partir de botões físicos** – anunciamos parcerias com dois dos principais produtos da área dos botões físicos: Flic, da Shortcut Labs, e Bttn, da The Button Corporation. [Saiba mais](https://flow.microsoft.com/blog/physical-buttons/)
 
 ### <a name="release-2017-03-22"></a>Versão 2017-03-22
 * **Fazer uma cópia do seu fluxo** – Agora, pode fazer uma cópia do seu fluxo, para trabalhar em versões de rascunho, ou duplicar um fluxo que tenha criado no passado.
@@ -526,7 +526,7 @@ Agora pode aproveitar informações valiosas quando acionar um fluxo de botão, 
 
 ### <a name="release-2016-11-15"></a>Versão 2016-11-15
 * **Programa de Parceiros do Power Automate** – o Power Automate tem agora um programa de parceiros certificado para efetuar ligações e tirar partido dos diferentes talentos da empresa e da experiência com o Power Automate em todo o mundo.
-* **Seis novos serviços** - serão lançados seis serviços esta semana: Asana, Campfire, EasyRedmine, JIRA, Redmine e Vimeo.
+* **Seis novos serviços** – também vamos lançar seis serviços esta semana: Asana, Campfire, EasyRedmine, JIRA, Redmine e Vimeo.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/partner-program-six-new-services/) sobre esta versão.
 
@@ -649,7 +649,7 @@ Conectividade no local para o Power Automate com o gateway de dados no local. Pe
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/may-updates-to-microsoft-flow/) sobre esta versão.
 
 ### <a name="release-2016-05-07"></a>Versão 2016-05-07
-Adicionámos dois novos serviços: Microsoft Project Online e Mandrill da Mailchimp. [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/announcing-microsoft-flow-webinars/) sobre esta versão.
+Adicionamos dois novos serviços: Microsoft Project Online e Mandrill da Mailchimp. [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/announcing-microsoft-flow-webinars/) sobre esta versão.
 
 ### <a name="release-2016-04-27---public-preview"></a>Versão de 27-04-2016 – Pré-visualização Pública
 Se tiver utilizado fluxos lógicos como parte do [Microsoft Power Apps](https://powerapps.microsoft.com), a versão de Pré-Visualização do Power Automate oferecerá várias funcionalidades novas:
@@ -660,6 +660,6 @@ Se tiver utilizado fluxos lógicos como parte do [Microsoft Power Apps](https://
 * Quando guarda um fluxo, pode [vê-lo em ação imediatamente](see-a-flow-run.md) bastando apenas efetuar a ação do acionador.
 * Há uma [nova comunidade](https://go.microsoft.com/fwlink/?LinkID=787467) onde pode discutir fluxo ou [submeter as suas ideias](https://go.microsoft.com/fwlink/?LinkID=787474).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Se tiver quaisquer problemas que ainda não estejam abrangidos nestas notas de versão ou nas [FAQ](frequently-asked-questions.md), volte a [aderir à nossa comunidade](https://go.microsoft.com/fwlink/?LinkID=787467) para fazer perguntas, ou [contacte o suporte](https://go.microsoft.com/fwlink/?LinkID=787479).
 

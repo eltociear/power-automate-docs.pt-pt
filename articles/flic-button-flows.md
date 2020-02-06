@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: a9042e258c1e99aafc5e20b9d1adce9782dc09ca
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74366633"
 ---
 # <a name="run-your-flows-by-pressing-a-flic-smart-button-preview"></a>Executar fluxos com botões inteligentes do Flic (Pré-visualização)
@@ -58,7 +58,7 @@ Depois de ligar um evento do Flic ao Power Automate, pode selecionar esse Flic c
 ## <a name="create-a-flow-thats-triggered-by-a-flic"></a>Criar um fluxo acionado por um Flic
 Nestas instruções, utilizamos um Flic para executar um fluxo que regista o tempo que um consultor despende com cada cliente. O consultor prime o Flic uma vez quando chega ao local e, no momento em que deixa o cliente, prime-o novamente. Sempre que o Flic é premido, é executado o fluxo ao qual está ligado. O fluxo guarda a hora atual no Google Sheets e, em seguida, envia uma notificação por e-mail. O e-mail contém detalhes sobre a execução do fluxo.
 
-Nota: garanta que utilizou a aplicação móvel do Flic para emparelhar e configure, pelo menos, uma ação de **clique** para acionar o Power Automate. Nesta captura de ecrã, configurei a ação de **clique** para acionar o Power Automate. Mais adiante nestas instruções, vamos configurar o nosso fluxo para ser acionado quando o Flic é premido uma vez (clicado).
+Nota: garanta que utilizou a aplicação móvel Flic para emparelhar e configure, pelo menos, uma ação de **clique** para acionar o Power Automate. Nesta captura de ecrã, configurei a ação de **clique** para acionar o Power Automate. Mais adiante nestas instruções, vamos configurar o nosso fluxo para ser acionado quando o Flic é premido uma vez (clicado).
 
    ![configuração do flic](./media/flic-button-flows/flic-configured-for-flow.png)
 

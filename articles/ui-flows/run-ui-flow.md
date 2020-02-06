@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: d0d5380e1ade6d1d11d557f38e7fc5db6616d1d9
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74370957"
 ---
 # <a name="run-ui-flows"></a>Executar fluxos de IU
@@ -72,9 +72,9 @@ Neste exemplo, vamos utilizar um fluxo automatizado para acionar um fluxo de IU 
 
    Terá de fazer isto uma vez para cada dispositivo:
 
-    - **Nome da ligação**: escolha um nome para o dispositivo para a Ligação do fluxo. Pode ser diferente do nome do gateway.
+    - **Nome da ligação**: escolha um nome para o dispositivo para a ligação de fluxo. Pode ser diferente do nome do gateway.
     - **Nome de utilizador**: indique a conta escolar ou profissional do dispositivo.
-    - **Tipo de autenticação**: selecione Windows.
+    - **Tipo de autenticação**: selecione o Windows.
     - **Palavra-passe**: a palavra-passe da conta escolar ou profissional.
     - **Gateway**: selecione o gateway que criou durante a instalação.
 

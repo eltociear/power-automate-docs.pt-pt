@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 756ccf21a75728da2ef8d114bc99d72692c38120
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74371118"
 ---
 # <a name="preview-introduction-to-ui-flows"></a>Pré-visualização: Introdução aos fluxos de IU
@@ -55,14 +55,14 @@ Com o Power Automate, pode automatizar as aplicações modernas com APIs ou as a
 | **Tipo de aplicação**      | **Funcionalidade** | **Vantagens**     |
 |---------------------------|----------------------------|------------------|
 | Aplicações modernas com APIs| Conectores                 | Fiabilidade elevada com atualizações de IU do software |
-| Aplicações legadas (sem APIs)          | Fluxos de IU                    | Fáceis de criar. Funcionam se não estiverem disponíveis APIs.   |
+| Aplicações legadas (sem APIs)          | Fluxos de IU                    | Fácil de criar. Funciona se não existirem APIs disponíveis.   |
 
 
-Encontrará os fluxos de IU juntamente com os fluxos automatizados, de botão, agendados e de processos de negócios em [**Os meus fluxos**](manage.md).
+Irá encontrar os seus fluxos de IU juntamente com fluxos de processo de negócio, agendados, de botão e automatizados em [**Os meus fluxos**](manage.md).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 - Saiba como [configurar fluxos de IU](setup.md). 
-- Saiba mais acerca dos [diferentes tipos de fluxos](..\getting-started.md#types-of-flows) que pode utilizar para automatizar os fluxos de trabalho.
+- Saiba mais sobre os [diferentes tipos de fluxos](..\getting-started.md#types-of-flows) que pode utilizar para automatizar os seus fluxos de trabalho.
 
 

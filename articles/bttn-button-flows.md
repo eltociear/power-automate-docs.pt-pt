@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 4ee3a9c7acb567ed0516b682377e5b79d40132cf
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74356743"
 ---
 # <a name="run-your-flows-with-physical-buttons-bttns-from-the-button-corporation-preview"></a>Executar fluxos com botões físicos (bttns) da The Button Corporation (Pré-visualização)
@@ -70,7 +70,7 @@ Agora que registou e configurou o bttn, vamos começar a criar o fluxo.
    
     ![iniciar sessão](./media/bttn-button-flows/sign-into-flow.png)
    
-    Nota: em alternativa, pode criar fluxos na aplicação móvel do Power Automate para [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) ou [Windows Phone](https://aka.ms/flowmobilewindows).
+    Nota: em alternativa, pode criar fluxos na aplicação móvel Power Automate para [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) ou [Windows Phone](https://aka.ms/flowmobilewindows).
 2. Introduza **bttn** na caixa de pesquisa e, em seguida, selecione o ícone de pesquisa.
    
     ![pesquisar](./media/bttn-button-flows/bttn-search-template.png)
@@ -118,7 +118,7 @@ Agora que registou e configurou o bttn, vamos começar a criar o fluxo.
    
     ![](./media/bttn-button-flows/support-request-email.png)
 
-## <a name="troubleshooting"></a>Resolução de Problemas
+## <a name="troubleshooting"></a>Resolução de problemas
 * Se o fluxo não tiver sido acionado, inicie sessão no site da The Button Corporation e verifique se a atividade dos botões (toques) está a ser registada.
 * Também pode aprofundar o nível de detalhe da atividade de execução no site do Power Automate e verificar se existem mensagens de erro.
 

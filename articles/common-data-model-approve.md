@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: eab01a20f44f68a85601ff824175f1a506ebec87
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74361320"
 ---
 # <a name="build-an-approval-loop-by-using-power-automate-and-the-microsoft-common-data-service"></a>Compilar um ciclo de aprovação através do Power Automate e do Microsoft Common Data Service
@@ -167,7 +167,7 @@ Ao seguir os passos nesta secção, irá compilar:
    
     ![Escolher um valor](./media/common-data-model-approve/choose-value.png)
    
-    **Nota**: se a janela do navegador não estiver maximizada, clique ou toque na caixa superior que contém **Escolher um valor**.
+    **Nota**: se a janela do browser não estiver maximizada, clique ou toque na caixa superior que contém **Escolher um valor**.
 3. Em **Saídas de Criar objeto**, clique ou toque em **Estado** para adicionar esse token de parâmetro ao campo.
    
     ![Adicionar token de Estado](./media/common-data-model-approve/add-status.png)
@@ -178,7 +178,7 @@ Ao seguir os passos nesta secção, irá compilar:
    
     ![Especificar estado a observar](./media/common-data-model-approve/do-until-not-pending.png)
    
-    **Nota**: se a janela do navegador não estiver maximizada, clique ou toque na caixa inferior que contém **Escolher um valor**.
+    **Nota**: se a janela do browser não estiver maximizada, clique ou toque na caixa inferior que contém **Escolher um valor**.
 6. Perto da parte inferior da ação **Fazer até**, clique ou toque em **Adicionar uma ação**.
    
     ![Adicionar ação dentro de um fazer até](./media/common-data-model-approve/add-action-in-dountil.png)
@@ -201,7 +201,7 @@ Ao seguir os passos nesta secção, irá compilar:
    
     ![Canto superior esquerdo da condição](./media/common-data-model-approve/condition-upper-left.png)
    
-    **Nota**: se a janela do navegador não estiver maximizada, clique ou toque na caixa superior que contém **Escolher um valor**.
+    **Nota**: se a janela do browser não estiver maximizada, clique ou toque na caixa superior que contém **Escolher um valor**.
 3. Em **Saídas de Obter objeto**, clique ou toque no token de parâmetro **Estado** para adicionar o token ao campo.
    
     ![Adicionar estado a condição](./media/common-data-model-approve/add-status-to-condition.png)
@@ -209,7 +209,7 @@ Ao seguir os passos nesta secção, irá compilar:
    
     ![Verificar se o estado está definido como aprovado](./media/common-data-model-approve/status-equals-approved.png)
    
-    **Nota**: se a janela do navegador não estiver maximizada, escreva ou cole **Aprovado** na caixa inferior que contém **Escolher um valor**.
+    **Nota**: se a janela do browser não estiver maximizada, escreva ou cole **Aprovado** na caixa inferior que contém **Escolher um valor**.
 
 ## <a name="send-notification-mail"></a>Enviar e-mail de notificação
 1. Em **Se Sim, não fazer nada**, clique ou toque em **Adicionar uma ação**.

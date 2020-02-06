@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 06a27a495a008542208cd56230ad8c21b5e5b938
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74372383"
 ---
 # <a name="create-and-test-your-web-ui-flows"></a>Criar e testar os fluxos de IU da Web
@@ -58,7 +58,7 @@ Siga estes passos para criar um fluxo de IU da Web simples:
    O IDE Selenium é iniciado.
 
    >[!TIP] 
-   >Sugestão: pode registar ações em vários sites HTTP ou HTTPS no mesmo separador.  
+   >Sugestão: pode registar ações em múltiplos sites HTTP ou HTTPS no mesmo separador.  
 
 1. No IDE Selenium, selecione o botão vermelho **REC** no canto superior direito do ecrã para iniciar o gravador.
 
@@ -112,7 +112,7 @@ Para resolver este problema, o utilizador deve editar manualmente o script para 
 
 -   Não existe suporte para a Multi-Factor Authentication (MFA). Utilize um inquilino que não exija MFA.
 
--   Estes comandos do IDE Selenium não são suportados: Run, AnswerOnNextPrompt, ChooseCancelOnNextConfirmation, ChooseCancelOnNextPrompt, ChooseOkOnNextConfirmation, Debugger, ClickAt, DoubleClickAt, Echo, MouseOut, MouseUpAt e MouseDownAt.
+-   Estes comandos do Selenium IDE não são suportados: Run, AnswerOnNextPrompt, ChooseCancelOnNextConfirmation, ChooseCancelOnNextPrompt, ChooseOkOnNextConfirmation, Debugger, ClickAt, DoubleClickAt, Echo, MouseOut, MouseUpAt e MouseDownAt.
 
 -   O clique com o botão direito não é suportado. 
 
@@ -125,7 +125,7 @@ Para resolver este problema, o utilizador deve editar manualmente o script para 
 
 -   A reprodução diretamente no IDE Selenium pode não se comportar conforme o esperado. No entanto, a reprodução no runtime através da infraestrutura de fluxo de IU comporta-se corretamente.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 - Saiba como [executar fluxos de IU](run-ui-flow.md).
 

@@ -21,10 +21,10 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: aa3a66f71860f2bee2e3f45441bbcd0cd1646914
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74367783"
 ---
 # <a name="responding-to-gdpr-data-subject-export-requests-for-power-automate"></a>Responder a Pedidos de Exportação de Titulares de Dados do RGPD no Power Automate
@@ -40,7 +40,7 @@ O Power Automate permite as seguintes experiências de localização ou exporta�
 
 * **Acesso ao site:** inicie sessão no [Centro de Administração do Power Apps](https://admin.powerapps.com/) ou no [Centro de Administração do Power Automate](https://admin.flow.microsoft.com/).
 
-* **Acesso ao PowerShell:** [cdmlets do PowerShell para Administradores do Power Apps](https://go.microsoft.com/fwlink/?linkid=871804).
+* **Acesso ao PowerShell:**  [Cmdlets do PowerShell para Administradores do Power Apps](https://go.microsoft.com/fwlink/?linkid=871804).
 
 |**Dados do cliente**|**Acesso ao site**|**Acesso ao PowerShell**|
 |-----------------|------------------|-------------------|
@@ -50,9 +50,9 @@ O Power Automate permite as seguintes experiências de localização ou exporta�
 |Permissões dos fluxos| Portal de Criadores do Power Automate e Centro de Administração do Power Automate||
 |Detalhes do utilizador||Cmdlets do Power Apps|
 |Ligações|Portal de Criadores do Power Automate|Cmdlets do Power Apps |
-|Permissões da ligação|Portal de Criadores do Power Automate|Cmdlets do Power Apps |
+|Permissões de ligação|Portal de Criadores do Power Automate|Cmdlets do Power Apps |
 |Conectores personalizados|Portal de Criadores do Power Automate|Cmdlets do Power Apps |
-|Permissões dos conectores personalizados|Portal de Criadores do Power Automate|Cmdlets do Power Apps |
+|Permissões do conector personalizado|Portal de Criadores do Power Automate|Cmdlets do Power Apps |
 |Gateway|Portal de Criadores do Power Automate|Cmdlets do PowerShell do Gateway de Dados no local|
 |Permissões dos gateways|Portal de Criadores do Power Automate|Cmdlets do PowerShell do Gateway de Dados no local|
 

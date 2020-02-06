@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 391e977343617497328ff231d4808a0c78ceb154
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74371647"
 ---
 # <a name="use-inputs-and-outputs-in-desktop-ui-flows"></a>Utilizar entradas e saídas em fluxos de IU para computador
@@ -114,7 +114,7 @@ A saída está agora disponível na área dedicada do assistente
 Cada saída tem:
 
 -  Um nome de saída conforme definido durante a gravação
--  Uma descrição: este campo pode ser muito útil quando define várias saídas durante uma gravação e deseja identificá-las facilmente.
+-  Uma descrição: este campo pode ser muito útil quando define várias saídas durante uma gravação e pretende identificá-las facilmente.
 -  Um nome de ação: a ação onde a saída foi definida no fluxo de IU
 
 ## <a name="delete-an-output-from-a-ui-flow"></a>Eliminar uma saída de um fluxo de IU

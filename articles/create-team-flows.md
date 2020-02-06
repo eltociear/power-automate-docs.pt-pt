@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 1343d71bab5819600130496dcc0df01751f15fa6
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74361780"
 ---
 # <a name="create-team-flows"></a>Criar fluxos de equipa
@@ -115,7 +115,7 @@ Poderá ter de alterar o proprietário de uma ligação num fluxo se remover o p
 As ligações utilizadas num fluxo abrangem duas categorias:
 
 * **Incorporadas** &mdash; Estas ligações são utilizadas no fluxo.
-* **Outras** &mdash; Estas ligações foram definidas para um fluxo mas não são utilizadas no mesmo.
+* **Outras** &mdash; Estas ligações foram definidas para um fluxo, mas não são utilizadas no mesmo.
 
 Se parar de utilizar uma ligação num fluxo, a mesma é apresentada na lista de ligações **Outras**, onde permanece até um proprietário a incluir novamente no fluxo.
 

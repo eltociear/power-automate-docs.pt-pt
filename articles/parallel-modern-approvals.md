@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 223ca24325ee9aed2476d1da6ad9e986c09306d7
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74375603"
 ---
 # <a name="create-parallel-approval-workflows-with-power-automate"></a>Criar fluxos de trabalho de aprovação paralela com o Power Automate
@@ -58,7 +58,7 @@ Anote o nome e o URL da lista do SharePoint Online. Iremos utilizar estes itens 
 
 [!INCLUDE [add-get-manager-action](includes/add-get-manager-action.md)]
 
-## <a name="name-and-save-your-flow"></a>Dar um nome ao fluxo e guardá-lo
+## <a name="name-and-save-your-flow"></a>Dar um nome e guardar o fluxo
 
 1. Dê um nome ao seu fluxo e, em seguida, selecione o ícone **Guardar** para guardar o trabalho feito até agora.
 
@@ -75,7 +75,7 @@ Anote o nome e o URL da lista do SharePoint Online. Iremos utilizar estes itens 
 [!INCLUDE [add-an-approval-action](includes/add-an-approval-action.md)]
 
 > [!IMPORTANT]
-> Esta ação envia o pedido de férias para o endereço de e-mail na caixa **Atribuído A**; por conseguinte, insira o token **E-mail** da lista **Obter gestor (v2)**.
+> Esta ação envia o pedido de férias para o endereço de e-mail na caixa **Atribuído A**; por conseguinte, insira o token **E-mail** da lista **Obter gestor (v2)** .
 > 
 > 
 

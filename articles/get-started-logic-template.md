@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: f2e92d43a33a4a05523ae350a63aa68f9cda2d1f
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74368703"
 ---
 # <a name="create-a-flow-from-a-template-in-power-automate"></a>Criar um fluxo a partir de um modelo no Power Automate
@@ -71,7 +71,7 @@ Crie um fluxo a partir de um dos diversos modelos incorporados que podem, por ex
 
 Agora, quando o gestor envia um e-mail, irá receber uma mensagem do Slack que contém as informações que especificou.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 * [Ver o fluxo em ação](see-a-flow-run.md)
 * [Publicar o seu próprio modelo](publish-a-template.md)
 * [Utilizar um modelo do Common Data Service](common-data-model-intro.md)

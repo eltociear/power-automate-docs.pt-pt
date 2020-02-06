@@ -20,10 +20,10 @@ search.app:
 search.audienceType:
 - developer
 ms.openlocfilehash: 6ca077b6a7b0d04f184ddf8a716dd677713e0667
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74364632"
 ---
 # <a name="integrate-power-automate-with-websites-and-apps"></a>Integrar o Power Automate com os sites e as aplicações
@@ -166,7 +166,7 @@ Estes são os parâmetros para `renderWidget()`:
 
 | Parâmetro        | Obrigatório/Opcional | Descrição                                                                                 | 
 |------------------|-------------------|---------------------------------------------------------------------------------------------| 
-| `container`        | Necessário          | ID de um elemento DIV na página anfitriã onde o widget será incorporado                   | 
+| `container`        | Obrigatório          | ID de um elemento DIV na página anfitriã onde o widget será incorporado                   | 
 | `environmentId`    | Opcional          | Os widgets precisam de um ID de ambiente. Se não fornecer um ID, é utilizado um ambiente predefinido. | 
 | `flowsSettings`    | Opcional          | Objeto de definições do Power Automate                                                                        | 
 | `templateSettings` | Opcional          | Objeto de definições do modelo                                                                    | 
@@ -213,7 +213,7 @@ flowsSettings?: {
 
 | Parâmetro | Obrigatório/Opcional | Descrição | 
 |-----------|-------------------|-------------| 
-| `createFromBlankTemplateId` | Necessário | Utilize o GUID do modelo quando o utilizador seleciona o botão **Criar do zero** no widget do Flow | 
+| `createFromBlankTemplateId` | Obrigatório | Utilize o GUID do modelo quando o utilizador seleciona o botão **Criar do zero** no widget do Flow | 
 | `flowsFilter` | Opcional | O widget do Power Automate aplica o filtro fornecido ao indicar fluxos. Por exemplo, mostra fluxos que fazem referência a um site do SharePoint específico. <br /> ```flowFilter: "operations/any(operation: operation/sharepoint.site eq 'https://microsoft.sharepoint.com/teams/ProcessSimple' )"   ``` |                 
 | `tab` | Opcional | Predefine o separador ativo para mostrar no widget do Power Automate. <br /> Por exemplo, <br /> ```tab:'sharedFlows' ``` apresenta o separador Equipa<br /> e ``` tab:'myFlows' ``` apresenta o separador Os meus fluxos. |   
 
@@ -258,7 +258,7 @@ Aplica-se a widgets ApprovalCenter.
 |------------|-------------------|--------------| 
 | `hideLink`| Opcional | Quando está definido como `true`, o widget oculta as ligações de aprovação recebidas e enviadas | 
 | `autoNavigateToDetails`| Opcional | Quando está definido como `true`, o widget abre automaticamente os detalhes de aprovação quando existe apenas uma aprovação | 
-| `approvalsFilter`| Opcional | O widget de aprovação irá aplicar o filtro de aprovação especificado ao indicar as aprovações, por exemplo: <br/> ``` approvalsFilter: 'properties/itemlink eq \'https://microsoft.sharepoint.com/teams/ProcessSimple/_layouts/15/listform.aspx?PageType=4&ListId=737e30a6-5bc4-4e9c-bcdc-d34c5c57d938&ID=3&ContentTypeID=0x010010B708969A9C16408696FD23801531C6\'' ```  <br/> <br/>``` approvalsFilter: 'properties/itemlinkencoded eq \'{Your base64 encoded item link url} \'' ```|
+| `approvalsFilter`| Opcional | O widget de aprovação irá aplicar o filtro de aprovação especificado ao indicar as aprovações, por exemplo:    O widget de aprovação irá aplicar o filtro de aprovação especificado ao indicar as aprovações, por exemplo: <br/> ``` approvalsFilter: 'properties/itemlink eq \'https://microsoft.sharepoint.com/teams/ProcessSimple/_layouts/15/listform.aspx?PageType=4&ListId=737e30a6-5bc4-4e9c-bcdc-d34c5c57d938&ID=3&ContentTypeID=0x010010B708969A9C16408696FD23801531C6\'' ```  <br/> <br/>``` approvalsFilter: 'properties/itemlinkencoded eq \'{Your base64 encoded item link url} \'' ```|
 | `tab`| Opcional | Separador ativo predefinido para mostrar no widget do Flow. <br/> Valores válidos: "receivedApprovals", "sentApprovals" | 
 | `showSimpleEmptyPage`| Opcional | Mostra uma página vazia quando não existem aprovações | 
 | `hideInfoPaneCloseButton` | Opcional | Oculta o botão Fechar (ou o anfitrião já tem um botão Fechar) | 
@@ -269,7 +269,7 @@ Aplica-se a widgets ApprovalCenter.
 
 O widget do Power Automate suporta eventos que permitem ao anfitrião escutar eventos de ciclo de vida do widget. O widget do Power Automate suporta dois tipos de eventos: eventos de notificação unidirecionais (por exemplo, Widget\_Ready) e eventos gerados a partir do widget para obter dados do anfitrião (Get\_Access\_Token). O anfitrião tem de utilizar o método widget.listen() para escutar eventos específicos gerados a partir do widget.
 
-### <a name="usage"></a>Utilização
+### <a name="usage"></a>Usage
 
 ```javascript
 widget.listen("<WIDGET_EVENT>", function() {
@@ -401,7 +401,7 @@ Siga estes passos para selecionar uma ou mais permissões delegadas:
 7. Selecione **Adicionar**.
 8. Escolha **Selecionar uma API**.
       ![arquitetura do widget](../media/embed-flow-dev/AAD-App-Select-an-API.png)
-9. Procure o **serviço do Power Automate** e selecione-o. Nota: para poder ver o serviço do Power Automate, o inquilino tem de ter, pelo menos, um utilizador do AAD com sessão iniciada no portal do Flow (<https://flow.microsoft.com>)
+9. Procure o **serviço do Power Automate** e selecione-o. Nota: para poder ver o serviço do Power Automate, o inquilino tem de ter pelo menos um utilizador do AAD com sessão iniciada no portal do Flow (<https://flow.microsoft.com>)
 10. Selecione os âmbitos do Flow necessários para a aplicação e, em seguida, selecione **Guardar**.
       ![arquitetura do widget](../media/embed-flow-dev/AAD-App-DelegatedPermissions.png)
 

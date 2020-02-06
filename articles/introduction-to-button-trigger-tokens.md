@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: b57e9dee27a2d22159a9cd805c65034a5e5bb578
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74363896"
 ---
 # <a name="get-started-with-button-trigger-tokens"></a>Introdução aos tokens de acionador de botão
@@ -96,6 +96,6 @@ Vamos começar:
 
 Parabéns, acabou de criar um fluxo de botão que utiliza os tokens de acionador de data e de endereço completo. 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 * [Partilhar fluxos de botões](share-buttons.md)
 * [Saiba mais sobre fluxos de botão](introduction-to-button-flows.md)

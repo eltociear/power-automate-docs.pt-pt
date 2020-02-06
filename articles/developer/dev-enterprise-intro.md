@@ -20,10 +20,10 @@ search.app:
 search.audienceType:
 - developer
 ms.openlocfilehash: ca815ad5949da494c1a50c193c040acdd948d3a2
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74362861"
 ---
 # <a name="power-automate-for-enterprise-developers-isvs-and-partners"></a>Power Automate para programadores empresariais, ISVs e parceiros
@@ -35,9 +35,9 @@ Enquanto programador, pode expandir o Power Automate, o que permitirá soluçõe
 
 Como programador empresarial, permita à sua organização criar soluções personalizáveis robustas no Power Automate:
 
-- **Criar conectores personalizados**: desenvolva conectores personalizados para ligar aos dados e aos serviços Web da sua organização através do Power Automate. [Saiba mais](https://docs.microsoft.com/connectors/custom-connectors/)
+- **Criar conectores personalizados**: desenvolva conectores personalizados para ligar aos dados e serviços Web da sua organização através do Power Automate. [Saiba mais](https://docs.microsoft.com/connectors/custom-connectors/)
 
-- **Criar Funções do Azure**: crie Funções do Azure para expandir aplicações com lógica personalizada do lado do servidor. [Saiba mais](/azure/azure-functions/app-service-export-api-to-powerapps-and-flow)
+- **Criar Funções do Azure**: Crie Funções do Azure para expandir as aplicações com a lógica personalizada do lado do servidor. [Saiba mais](/azure/azure-functions/app-service-export-api-to-powerapps-and-flow)
 
 - **Incorporar o Power Automate**: incorpore o Power Automate diretamente nas experiências dos sites para criar soluções integradas, através de fluxos de trabalho ou processos onde as pessoas na sua organização já fazem o trabalho. [Saiba mais](embed-flow-dev.md)
 
@@ -79,7 +79,7 @@ Depois de ter um conector, deve publicar modelos que demonstrem como utilizar o 
 
 Para dar aos utilizadores finais acesso a fluxos que os mesmos possam utilizar automaticamente, implemente os fluxos no inquilino do Azure AD do utilizador. Utilize um pacote de implementações com as nossas APIs REST ou o PowerShell. [Saiba mais](https://docs.microsoft.com/powerapps/export-import-packages)
 
-### <a name="6-licensing"></a>6. Licenciamento
+### <a name="6-licensing"></a>6. Licensing
 
 Se os seus clientes já tiverem o Office 365 ou o Dynamics 365 e estas licenças estiverem associadas às identidades com que os utilizadores iniciam sessão no Azure AD, não existem requisitos de licenciamento adicionais para si. No entanto, se os seus clientes não utilizarem o Office 365 ou o Dynamics 365, terá de adquirir os direitos de utilização do Power Automate em nome deles, para que tenham licença para tirar partido desses componentes incorporados na aplicação.
 
