@@ -23,10 +23,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: c5cc72f79b411f8ba50120308bcaf6dd03b302e6
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74368358"
 ---
 # <a name="create-custom-business-logic-through-processes"></a>Criar lógica de negócio personalizada através de processos
@@ -93,8 +93,8 @@ O Power Apps inclui vários tipos de processos, cada um estruturado para um pro
 |CEO – Gestor Empresarial|Organização|  
 |Administrador de Sistema|Organização|  
 |Personalizador de Sistemas|Organização|  
-|Vice-Presidente de Marketing|Principal: Unidades de Negócio Subordinadas|  
-|Vice-Presidente de Vendas|Principal: Unidades de Negócio Subordinadas|  
+|Vice-Presidente de Marketing|Nível Principal: Unidades de Negócio Subordinadas|  
+|Vice-Presidente de Vendas|Nível Principal: Unidades de Negócio Subordinadas|  
 |Gestor de Serviço|Unidade de Negócio|  
 |Gestor de Marketing|Unidade de Negócio|  
 |Gestor de Vendas|Unidade de Negócio|  
