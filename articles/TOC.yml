@@ -56,6 +56,24 @@
       href: run-scheduled-tasks.md
     - name: Processar uma lista de itens
       href: apply-to-each.md
+- name: Fluxos de aprovação
+  items:
+    - name: Aprovações únicas
+      href: modern-approvals.md
+    - name: Approvals with attachments (Aprovações com anexos)
+      href: approval-attachments.md
+    - name: Aprovações sequenciais
+      href: sequential-modern-approvals.md
+    - name: Aprovações paralelas
+      href: parallel-modern-approvals.md
+    - name: Todos os utilizadores têm de aprovar
+      href: all-assigned-must-approve.md
+    - name: Aprovações integradas
+      href: common-data-model-approve.md
+    - name: Formatar pedidos de aprovação
+      href: approvals-markdown-support.md
+    - name: Opções de respostas de aprovação personalizadas
+      href: create-approval-response-options.md
 - name: Fluxos de processo de negócio
   items:
     - name: Descrição geral de fluxos de processo de negócio
@@ -170,24 +188,6 @@
           href: daily-weather-sample.md
         - name: Exemplo – Geração de oportunidades potenciais
           href: lead-collection-sample.md
-    - name: Fluxos de aprovação
-      items:
-        - name: Aprovações únicas
-          href: modern-approvals.md
-        - name: Approvals with attachments (Aprovações com anexos)
-          href: approval-attachments.md
-        - name: Aprovações sequenciais
-          href: sequential-modern-approvals.md
-        - name: Aprovações paralelas
-          href: parallel-modern-approvals.md
-        - name: Todos os utilizadores têm de aprovar
-          href: all-assigned-must-approve.md
-        - name: Aprovações integradas
-          href: common-data-model-approve.md
-        - name: Formatar pedidos de aprovação
-          href: approvals-markdown-support.md
-        - name: Opções de respostas de aprovação personalizadas
-          href: create-approval-response-options.md
     - name: Gerir fluxos num telemóvel
       href: mobile-manage-flows.md
     - name: Publicar um modelo
