@@ -1,6 +1,6 @@
 ---
-title: Integrar o Power Automate com os sites e as aplicações | Microsoft Docs
-description: Incorpore as experiências do Power Automate no site ou na aplicação.
+title: Integrar o Power Automate em sites e aplicações | Microsoft Docs
+description: Incorpore as experiências do Power Automate no seu site ou aplicação.
 services: ''
 suite: flow
 documentationcenter: na
@@ -26,12 +26,12 @@ ms.contentlocale: pt-PT
 ms.lasthandoff: 01/29/2020
 ms.locfileid: "74364632"
 ---
-# <a name="integrate-power-automate-with-websites-and-apps"></a>Integrar o Power Automate com os sites e as aplicações
+# <a name="integrate-power-automate-with-websites-and-apps"></a>Integrar o Power Automate em sites e aplicações
 [!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
 
-Incorpore o Power Automate na aplicação ou site com *widgets de fluxo* para fornecer aos utilizadores uma forma simples de automatizar as tarefas pessoais ou profissionais.
+Incorpore o Power Automate na sua aplicação ou site com *widgets de fluxo*  para proporcionar aos utilizadores uma forma simples de automatizar as tarefas pessoais ou profissionais.
 
-Os widgets de fluxo são iframes localizados num documento anfitrião. Este documento aponta para uma página no estruturador do Power Automate. Estes widgets integram funcionalidades específicas do Power Automate numa aplicação de terceiros.
+Os widgets de fluxo são iframes localizados num documento anfitrião. Este documento aponta para uma página no estruturador do Power Automate. Estes widgets integram funcionalidades específicas do Power Automate na aplicação de terceiros.
 
 Os widgets podem ser simples. Por exemplo, um widget que apresenta uma lista de modelos sem comunicação entre o anfitrião e o iframe. Os widgets também podem ser complexos. Por exemplo, um widget que aprovisiona um fluxo a partir de um modelo e, em seguida, aciona o fluxo através de uma comunicação bidirecional entre o anfitrião e o widget.
 
@@ -85,11 +85,11 @@ A seguinte tabela mostra a lista de widgets do Power Automate que suportam a exp
 
 | Tipo de widget    | Funcionalidade suportada                                                                                                                  | 
 |----------------|------------------------------------------------------------------------------------------------------------------------------------| 
-| fluxos          | Mostra uma lista de fluxos num separador para fluxos pessoais e partilhados. Edite um fluxo existente ou crie um novo fluxo em branco ou a partir de um modelo. | 
+| flows          | Mostra uma lista de fluxos num separador para fluxos pessoais e partilhados. Edite um fluxo existente ou crie um novo fluxo em branco ou a partir de um modelo. | 
 | flowCreation   | Cria um fluxo a partir de um ID de modelo que a aplicação anfitriã fornece.                                                                | 
 | runtime        | Aciona um fluxo de acionamento híbrido ou manual que a aplicação anfitriã fornece.                                                        | 
 | approvalCenter | Incorpora pedidos de aprovação e aprovações enviadas.                                                                                        | 
-| modelos      | Mostra uma lista de modelos. O utilizador escolhe um para criar um novo fluxo.                                                                         | 
+| templates      | Mostra uma lista de modelos. O utilizador escolhe um para criar um novo fluxo.                                                                         | 
 
 Utilize o SDK de Fluxo autenticado para permitir que os utilizadores criem e façam a gestão de fluxos diretamente a partir do site ou da aplicação (em vez de navegar para o Power Automate). Terá de iniciar a sessão do utilizador com a respetiva Conta Microsoft ou do Azure Active Directory para utilizar o SDK autenticado.
 
@@ -126,7 +126,7 @@ var sdk = new MsFlowSdk({
 | Nome     | Obrigatório/Opcional | Descrição                                                    | 
 |----------|-------------------|----------------------------------------------------------------| 
 | `hostName` | Opcional          | Nome do anfitrião do Power Automate, por exemplo, https://flow.microsoft.com        | 
-| `locale`   | Opcional          | Região do cliente do widget (a predefinição será `en-Us` se não for especificado) | 
+| `locale`   | Opcional          | Região do cliente do widget (se não for especificada, a predefinição será `en-Us`) | 
 
 
 Assim que a instância do SDK do JS for criada, poderá inicializar e incorporar um widget do Power Automate num elemento principal na aplicação anfitriã. Para tal, adicione um div HTML:

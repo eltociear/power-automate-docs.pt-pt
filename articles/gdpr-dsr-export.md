@@ -124,7 +124,7 @@ Get-AdminConnection -CreateBy $userId | ConvertTo-Json |Out-File -FilePath "User
 
 ## <a name="export-a-list-of-a-users-connection-permissions"></a>Exportar uma lista de permissões da ligação de um utilizador
 
-Um utilizador pode exportar as atribuições de funções de ligação para todas as ligações às quais tem acesso através da função de Get-ConnectionRoleAssignment nos [cdmlets do PowerShell do Power Apps ](https://go.microsoft.com/fwlink/?linkid=871804).
+Um utilizador pode exportar as atribuições de funções de ligação para todas as ligações às quais tem acesso através da função Get-ConnectionRoleAssignment nos [cdmlets do PowerShell do Power Apps ](https://go.microsoft.com/fwlink/?linkid=871804).
 
 ```PowerShell
 Add-PowerAppsAccount
