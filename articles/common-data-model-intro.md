@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 2b536263d90af7b0bbdcdec30d1b00bc7bae2a9e
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: a96d2e7ee5d0050f5fcbc96afe79429e1aad2426
+ms.sourcegitcommit: 6b8e936cede73c8be8a63bdf77911fb69aced959
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74361205"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77575024"
 ---
 # <a name="create-a-flow-that-uses-the-common-data-service"></a>Criar um fluxo que utilize o Common Data Service
 [!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
@@ -42,7 +42,7 @@ Por exemplo, tire partido do Common Data Service no Power Automate das seguintes
 
 **Pré-requisitos**
 
-* Inscrição no [Power Automate](https://flow.microsoft.com) e no [PowerApps](https://make.powerapps.com).
+* Inscreva-se no [Power Automate](https://flow.microsoft.com) e no [Power Apps](https://make.powerapps.com).
   
     Se tiver problemas, verifique se o [Power Automate](sign-up-sign-in.md) e o [Power Apps](https://powerapps.microsoft.com/tutorials/signup-for-powerapps/) suportam o tipo de conta que tem e se a organização não bloqueou a inscrição.
 * Se ainda não utilizou o Common Data Service, abra o separador **Entidades** de [powerapps.com](https://web.powerapps.com/#/entities) e, em seguida, clique ou toque em **Criar a minha base de dados**.
