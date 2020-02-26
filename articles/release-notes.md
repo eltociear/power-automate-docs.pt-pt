@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: e617e6928d5295a9485c55e1efa57a945abf870f
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: ab6b6d0cf638b489db47e1f2d075afdf18a2ee49
+ms.sourcegitcommit: 6b8e936cede73c8be8a63bdf77911fb69aced959
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74374315"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77575050"
 ---
 # <a name="release-notes"></a>Release notes
 [!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
@@ -51,14 +51,9 @@ ms.locfileid: "74374315"
 
 ## <a name="whats-new"></a>Novidades
 
-> [!IMPORTANT]
->
-> **Anúncio das notas de versão**
->
-> Está curioso relativamente às funcionalidades futuras e lançadas recentemente no Power Automate?
->[Veja as notas de versão de outubro de 2018](https://docs.microsoft.com/business-applications-release-notes/October18/microsoft-flow/). Recolhemos, de forma específica e rigorosa, todos os detalhes que pode utilizar para planeamento. Para obter mais detalhes, veja [cada versão semanal](https://docs.microsoft.com/business-applications-release-notes/powerplatform/released-versions/flow) com as funcionalidades e os melhoramentos que esta contém.
->
-> As notas de versão anteriores à versão de outubro de 2018 vão permanecer aqui para referência futura, mas as novas versões apenas serão incluídas nas localizações acima e não nesta página.
+Para obter informações sobre as novas funcionalidades lançadas do Power Automate, visite:
+- [Plano de lançamento da fase 1 de 2020](https://docs.microsoft.com/power-platform-release-plan/2020wave1/power-automate/planned-features) sobre as novas funcionalidades que serão lançadas nos próximos meses.
+- [Notas de versão semanais](https://docs.microsoft.com/business-applications-release-notes/powerplatform/released-versions/flow) das novas funcionalidades, correções e melhorias lançadas nas últimas semanas.
 
 ### <a name="release-2018-09-24"></a>Versão de 24-09-2018
 

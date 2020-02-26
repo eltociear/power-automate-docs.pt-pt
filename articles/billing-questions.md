@@ -20,12 +20,12 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 3ea993f30f34a9997a1a3a3580b0151e93223d7a
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 5534b96eaa8ad762d24794f84c983811bf116d7f
+ms.sourcegitcommit: 6b8e936cede73c8be8a63bdf77911fb69aced959
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74356789"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77575010"
 ---
 # <a name="billing-and-metering-questions"></a>Perguntas sobre faturação e medição
 [!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
@@ -41,7 +41,7 @@ Veja a [página de preços](https://flow.microsoft.com/pricing/).
 
 ## <a name="where-can-i-find-out-what-my-plan-is"></a>Onde posso saber qual é o meu plano?
 
-Veja a [página de preços](https://flow.microsoft.com/pricing/).
+Veja esta [página de subscrição](https://portal.office.com/account/#subscriptions).
 
 ## <a name="how-do-i-switch-plans"></a>Como posso mudar de plano?
 

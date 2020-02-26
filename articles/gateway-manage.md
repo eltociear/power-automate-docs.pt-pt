@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: msftman
-manager: anneta
+manager: kvivek
 editor: ''
 tags: ''
 ms.service: flow
@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/16/2019
+ms.date: 02/13/2020
 ms.author: deonhe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 019d711771c10f360b1f5c7dab61aa432c827311
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: f3600587897b9e64ecd76f85c8b9762e84bc7b94
+ms.sourcegitcommit: dbba53a52e2c5b1c2965f6c608e586748d5baae0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74367116"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "77567018"
 ---
 # <a name="manage-an-on-premises-data-gateway-in-power-automate"></a>Gerir um gateway de dados no local no Power Automate
 [!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
@@ -58,8 +58,8 @@ Com um gateway, pode ligar aos dados no local através destas ligações:
   Tem estas permissões por predefinição para cada gateway que instalar. Além disso, um administrador de outro gateway pode conceder-lhe estas permissões para esse gateway.
 * Uma licença que suporta gateways. Para mais informações, consulte a secção "Connectivity (Conectividade)" da [pricing page (página de preços)](https://flow.microsoft.com/pricing/).
 
-> [!NOTE]
-> Só pode criar um gateway e uma ligação no local no seu [ambiente predefinido](environments-overview-maker.md).
+> [!TIP]
+> Pode criar um gateway e uma ligação no local para [qualquer ambiente](environments-overview-maker.md).
 
 ## <a name="install-a-gateway"></a>Instalar um gateway
 

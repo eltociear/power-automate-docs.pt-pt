@@ -14,12 +14,12 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 2b2b53b833711311c039678a9196a2833d50c84c
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 44220aebd8726c31f94996ec215020688f317223
+ms.sourcegitcommit: 6b8e936cede73c8be8a63bdf77911fb69aced959
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74370865"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77574995"
 ---
 # <a name="power-automate-us-government"></a>Power Automate para a Administração Pública dos Estados Unidos
 [!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
@@ -226,7 +226,7 @@ Algumas das funcionalidades disponíveis na versão comercial do Flow não estã
 
 - Acionar o Power Automate US Government *a partir do* GCC do Dynamics 365
 
-- [Aprovações](./modern-approvals.md) – apesar dos clientes do US Government poderem utilizar as aprovações do Power Automate, não serão capazes de enviar e-mails acionáveis e será necessário direcionar os aprovadores para o Centro de Aprovações. Em alternativa, os criadores do Power Automate podem utilizar conectores de e-mail padrão para notificar alguém de que tem uma aprovação pendente. Neste caso, devem também incluir uma hiperligação, no e-mail, a direcionar para o Centro de Aprovações onde os clientes do US Government podem agir sobre as aprovações.
+- As [aprovações](./modern-approvals.md) ainda não estão disponíveis para os inquilinos do GCC e do GCC High.
 
 - [Análise de Utilização](https://flow.microsoft.com/blog/admin-analytics/)
 
