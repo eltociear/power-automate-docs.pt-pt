@@ -1,0 +1,131 @@
+### YamlMime:Landing
+title: Documentação do Power Automate
+summary: O Power Automate é um serviço que o ajuda a criar fluxos de trabalho automatizados entre as suas aplicações e serviços favoritos para sincronizar ficheiros, obter notificações, recolher dados e mais.
+metadata:
+  title: Página de destino do Power Automate
+  description: Concede acesso a áreas realçadas dentro da documentação do Power Automate
+  services: service
+  ms.service: flow
+  ms.subservice: subservice
+  ms.topic: landing-page
+  ms.collection: collection
+  author: MSFTMAN
+  ms.author: Deonhe
+  ms.date: 01/18/2020
+  ms.openlocfilehash: 6bd3222b9ccb06ae310f5f45fe5fec5a0309c149
+  ms.sourcegitcommit: c063787413058b6702db1a03519f44540997bd16
+  ms.translationtype: HT
+  ms.contentlocale: pt-PT
+  ms.lasthandoff: 03/01/2020
+  ms.locfileid: "78203662"
+landingContent:
+- title: Acerca do Power Automate
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: O que é o Power Automate?
+      url: /power-automate/getting-started
+    - text: Inscrever-se no Power Automate
+      url: /power-automate/sign-up-sign-in
+    - text: FAQs do Power Automate
+      url: /power-automate/frequently-asked-questions
+  - linkListType: learn
+    links:
+    - text: Saber mais acerca do Power Automate
+      url: https://docs.microsoft.com/learn/browse/?products=power-automate&term=Power%20Automate
+  - linkListType: video
+    links:
+    - text: Descrição geral do Power Automate
+      url: https://www.youtube.com/watch?v=hCuxuUaGC6Y
+  - linkListType: whats-new
+    links:
+    - text: Planos de lançamento
+      url: https://docs.microsoft.com/power-platform-release-plan/2020wave1/power-automate/planned-features
+- title: Criar fluxos com o Power Automate
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Fluxos automatizados
+      url: /power-automate/get-started-logic-flow
+    - text: Fluxos de botão
+      url: /power-automate/introduction-to-button-flows
+    - text: Fluxos agendados
+      url: /power-automate/run-scheduled-tasks
+    - text: Fluxos de aprovação
+      url: /power-automate/modern-approvals
+    - text: Fluxos de processo de negócio
+      url: /power-automate/business-process-flows-overview
+  - linkListType: concept
+    links:
+    - text: 'Ligações: ligar a dados online'
+      url: /power-automate/add-manage-connections
+    - text: 'Gateways: ligar a dados no local'
+      url: /power-automate/gateway-manage
+- title: RPA com fluxos de UI
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: O que são fluxos de IU?
+      url: /power-automate/ui-flows/overview
+  - linkListType: how-to-guide
+    links:
+    - text: Configurar fluxos de IU
+      url: /power-automate/ui-flows/setup
+    - text: Criar fluxos de IU para computador
+      url: /power-automate/ui-flows/create-desktop
+    - text: Criar fluxos de IU para Web
+      url: /power-automate/ui-flows/create-web
+    - text: Executar fluxos de IU
+      url: /power-automate/ui-flows/run-ui-flow
+  - linkListType: video
+    links:
+    - text: Vídeos dos fluxos de IU
+      url: https://www.youtube.com/playlist?list=PLwh1E-0OEEGJQwqxCmNZYhJFzo_Eif9s8
+- title: ALM através de Soluções
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Distribuir fluxos através de soluções
+      url: /power-automate/overview-solution-flows
+  - linkListType: how-to-guide
+    links:
+    - text: Criar um fluxo numa solução
+      url: /power-automate/create-flow-solution
+    - text: Exportar solução
+      url: /power-automate/export-flow-solution
+    - text: Importar solução
+      url: /power-automate/import-flow-solution
+- title: Funcionalidades avançadas
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Utilizar o AI Builder
+      url: /power-automate/use-ai-builder
+    - text: Utilizar cartões adaptáveis
+      url: /power-automate/overview-adaptive-cards
+    - text: Utilizar operações de dados
+      url: /power-automate/data-operations
+    - text: Utilizar expressões e funções
+      url: /power-automate/use-expressions-in-conditions
+    - text: Use Visio to model flows (Utilizar o Visio para modelar fluxos)
+      url: /power-automate/visio-flows
+  - linkListType: concept
+    links:
+    - text: Power Automate para programadores, ISVs e parceiros
+      url: /power-automate/developer/dev-enterprise-intro
+- title: Suporte e licenciamento
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Resolver problemas relacionados com um fluxo
+      url: /power-automate/fix-flow-failures
+    - text: Utilizar a verificação do Power Automate
+      url: /power-automate/error-checker
+    - text: Comunidade Power Automate
+      url: https://powerusers.microsoft.com/t5/Microsoft-Power-Automate/ct-p/MPACommunity
+    - text: Blogue do Power Automate
+      url: https://flow.microsoft.com/en-us/blog/
+    - text: Licenciamento do Power Automate
+      url: /power-automate/billing-questions
+    - text: Planos do Power Automate US Government
+      url: /power-automate/us-govt
