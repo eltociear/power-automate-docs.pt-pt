@@ -88,7 +88,7 @@
       href: custom-controls-business-process-flows.md
     - name: Melhores práticas para os atributos do fluxo do processo de negócio
       href: best-practices-entity-attributes.md
-- name: Fluxos de IU (Pré-visualização)
+- name: 'UI flows (preview) (Fluxos de IU [pré-visualização])'
   items:
     - name: Introdução aos fluxos de IU
       href: ./ui-flows/overview.md
@@ -100,6 +100,9 @@
       href: ./ui-flows/edit-desktop.md
     - name: Utilizar entradas e saídas em fluxos de IU para computador
       href: ./ui-flows/inputs-outputs-desktop.md
+      items:
+        - name: 'Use Input Method Editors (IMEs) in UI flows (Utilizar Input Method Editors [IMEs] em fluxos de IU)'
+          href: ./ui-flows/use-ime.md
     - name: Criar e testar fluxos de IU para a Web
       href: ./ui-flows/create-web.md
     - name: Editar fluxos de IU para a Web
