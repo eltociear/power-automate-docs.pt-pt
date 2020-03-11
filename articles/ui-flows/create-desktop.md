@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/04/2019
+ms.date: 02/28/2020
 ms.author: DeonHe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: afe9277ced28cdb964ed32550dd0402eaa0d1df4
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: c27637f56defb1acff07302954424953ec48b506
+ms.sourcegitcommit: 26cda5060446812f3725ccd4fe435839088f50fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "75943511"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78244305"
 ---
 # <a name="create-and-test-desktop-ui-flows"></a>Criar e testar fluxos de IU para computador
 
@@ -60,6 +60,23 @@ Nos passos a seguir, vamos demonstrar como automatizar a aplicação de calculad
    ![Selecionar o computador](../media/create-windows-ui-flow/give-a-name.png "Selecionar o computador") 
 
 1. Selecione **Seguinte** na parte inferior para ignorar o ecrã opcional **Configurar entradas**, uma vez que não estamos a utilizar entradas nestas instruções.
+
+1.  Selecione **Transferir pacote**.
+1.  Abra o ficheiro **Setup.Microsoft.Flow.UIflow.exe**. Este ficheiro encontra-se provavelmente na pasta **Transferências**, depois de o ter transferido no passo anterior.
+1.  Siga as instruções do programa de instalação Configuração de fluxos de IU (pré-visualização) para concluir a instalação.
+
+    Depois de o programa de instalação dos fluxos de IU ser concluído, o browser irá pedir-lhe para ativar a extensão.
+
+1. No Microsoft Edge (Chromium), selecione cada ícone de aviso no canto superior direito do browser e, em seguida, selecione **Ativar extensão**.
+1. No Google Chrome, selecione **Ativar extensão**, quando lhe for pedido.
+
+   > [!TIP]
+   > Se não vir o pedido no browser, verifique o seguinte:
+   > - Tem de utilizar o Microsoft Edge (Chromium) ou o Google Chrome.
+   > - Pode ser necessário ativar a extensão manualmente. Com o Microsoft Edge (Chromium), navegue para **edge://extensions** ou, com o Google Chrome, navegue para **chrome://extensions**.
+   > - Se a extensão dos fluxos de IU do Power Automate não aparecer, poderá reinstalá-la com o [programa de instalação dos fluxos de IU](https://go.microsoft.com/fwlink/?linkid=2102613).
+
+   Continue após ter instalado a extensão.
 
 1. Selecione o cartão **Gravar aplicação** para a expandir.
 
@@ -128,14 +145,14 @@ Nos passos a seguir, vamos demonstrar como automatizar a aplicação de calculad
 
 - Os cliques com o botão direito podem não ser reproduzidos corretamente. Nesse caso, durante a gravação, clique com o botão esquerdo para focar os fluxos de IU no elemento da interface de utilizador de destino e, em seguida, clique com o botão direito.
 
-- Se os fluxos de IU não gravarem nem reproduzirem aplicações do Windows depois de instalar uma nova versão, desinstale a versão anterior e instale uma nova versão.
+- Se os fluxos de IU já não gravarem ou reproduzirem aplicações Windows após instalar uma nova versão, confirme que tem a [versão mais recente](https://go.microsoft.com/fwlink/?linkid=2102613&clcid=0x409).
 
 
 ### <a name="unsupported-application-types"></a>Tipos de aplicações não suportadas
 
--   Interações no Windows (Explorador de ficheiros, menu de inicialização, barra de tarefas e etc.).
+- Interações no Windows (Explorador de ficheiros, menu de inicialização, barra de tarefas e etc.).
 
--   Browsers (Chrome, IE, Edge, Edge Chromium, Firefox, Mozilla e etc.).
+- Browsers (Chrome, IE, Edge, Edge Chromium, Firefox, Mozilla e etc.).
     Em alternativa, veja [Criar um fluxo de IU para a Web](edit-web.md) para automatizar os sites.
 
 -   Aplicações Java.

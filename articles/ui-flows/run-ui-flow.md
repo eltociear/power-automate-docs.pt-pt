@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: d0d5380e1ade6d1d11d557f38e7fc5db6616d1d9
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 3feab8291a3dc14adab398f7619fd5b6141674ab
+ms.sourcegitcommit: 26cda5060446812f3725ccd4fe435839088f50fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74370957"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78244225"
 ---
 # <a name="run-ui-flows"></a>Executar fluxos de IU
 
@@ -72,7 +72,7 @@ Neste exemplo, vamos utilizar um fluxo automatizado para acionar um fluxo de IU 
 
    Terá de fazer isto uma vez para cada dispositivo:
 
-    - **Nome da ligação**: escolha um nome para o dispositivo para a ligação de fluxo. Pode ser diferente do nome do gateway.
+    - **Nome da ligação**: escolha um nome para o dispositivo para a ligação de fluxo. Poderá ser diferente do nome do gateway.
     - **Nome de utilizador**: indique a conta escolar ou profissional do dispositivo.
     - **Tipo de autenticação**: selecione o Windows.
     - **Palavra-passe**: a palavra-passe da conta escolar ou profissional.
@@ -111,10 +111,6 @@ Quando define entradas e saídas num fluxo de IU, pode transmitir informações 
 
 1. Também pode utilizar saídas do fluxo de IU como entradas para ações que surgem posteriormente no fluxo. Para isso, selecione o campo de texto e, em seguida, selecione uma entrada no seletor de tokens.
 
-## <a name="limitations-and-known-issues"></a>Problemas e limitações conhecidos
-
-- Não são suportados clusters de gateway.
-- Uma vez que neste lançamento só são suportados os teclados dos EUA (QWERTY), a reprodução de um passo de entrada onde a sequência de teclas foi gravada num teclado que não o dos EUA (QWERTY) resultará em toques nas teclas em teclados EUA (QWERTY).
 
 ## <a name="learn-more"></a>Saiba mais
 

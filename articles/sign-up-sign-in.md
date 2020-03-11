@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: anjlic
-manager: anneta
+manager: kvivek
 editor: ''
 tags: ''
 ms.service: flow
@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 5c70db242974e549d07161fa47e76ab7eaa7a924
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 3d9686ed208183aaf73a6a274b809d7a3cce4bf0
+ms.sourcegitcommit: 517c1418aca5745a93d8765cfde661067cedfdf6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74372705"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78267149"
 ---
 # <a name="sign-up-and-sign-in-for-power-automate"></a>Inscrever-se e iniciar sessão no Power Automate
 
@@ -38,9 +38,9 @@ Começar a utilizar o Power Automate, individualmente, é fácil! Antes de poder
 ## <a name="sign-up-free"></a>Inscrever-se gratuitamente
 Se ainda não utilizou outros produtos Microsoft online, terá de se inscrever.
 
-1. Em [flow.microsoft.com](https://flow.microsoft.com), clique ou toque em **Inscrever-se gratuitamente** no canto superior direito.
+1. Em [flow.microsoft.com](https://flow.microsoft.com), selecione **Experimente gratuitamente** no canto superior direito.
 2. Introduza o seu endereço de e-mail.
-3. Clique ou toque na seta à direita.
+3. Selecione a seta para a direita.
 
     ![Hiperligação para inscrever-se](./media/sign-up-sign-in/signup.png)
 

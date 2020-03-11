@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 9c9da27098ca9114c0919d0fb6e70495f442a3c6
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 0be3b3656cf9683b43d4ba22bc23b537ccc4e597
+ms.sourcegitcommit: 26cda5060446812f3725ccd4fe435839088f50fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74371716"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78244281"
 ---
 # <a name="edit-desktop-ui-flows"></a>Editar fluxos de IU para computador
 
@@ -161,6 +161,40 @@ Pode capturar o **elementXPath** com o [Gravador de IU WinAppDriver](https://blo
 Remova o primeiro elemento (tudo antes de /Window) antes de utilizar o resultado no **elementXPath** do seletor.
 
 Teste o fluxo de IU para confirmar se o seletor funciona corretamente.
+
+
+## <a name="enable-coordinate-based-playback"></a>Ativar a reprodução baseada em coordenadas
+
+A reprodução baseada em coordenadas utiliza o desvio de ecrã relativo como suporte que ajuda os fluxos de IU a localizar objetos-alvo que a arquitetura de automatização de IU do Windows predefinida não consegue localizar durante a reprodução. 
+
+Eis algumas das razões pelas quais a arquitetura de automatização da IU do Windows predefinida poderá não localizar objetos-alvo durante a reprodução:
+
+- A aplicação legada que está a automatizar poderá não utilizar tecnologias de programação que suportem a arquitetura de automatização de IU do Windows.
+- A aplicação ou os respetivos controlos poderão não ter um XPath, nome ou IDs de automatização de IU exclusivos. 
+- A aplicação tem controlos dinâmicos cujos nomes ou IDs poderiam mudar. 
+- A aplicação tem controlos que não têm nomes, IDs, identificadores exclusivos, etc.
+
+>[!TIP]
+>Utilize o mesmo dimensionamento e resolução, e maximize a aplicação-alvo durante a gravação para melhorar a precisão da reprodução baseada em coordenadas.
+
+Siga estes passos após gravar um script de fluxo de IU:
+
+1. Expanda o passo que inicia ou anexa a aplicação.
+   
+   Este é normalmente o primeiro passo do script de gravação.
+1. Selecione **Mostrar opções avançadas**.
+1. Localize as propriedades **Utilizar reprodução de coordenadas**.
+1. Selecione **Sim** na lista para permitir a reprodução baseada em coordenadas.
+
+>[!TIP]
+> Pode ativar ou desativar a opção **Utilizar reprodução de coordenadas** para cada aplicação para aplicar a definição a todos os passos efetuados na aplicação.  
+
+
+>[!WARNING]
+>Com a reprodução baseada em coordenadas, a automatização poderá selecionar controlos que não fazem parte da aplicação-alvo devido a várias razões, por exemplo, quando as aplicações-alvo da IU mudam drasticamente.
+
+
+
 
 ## <a name="next-steps"></a>Próximos passos
 

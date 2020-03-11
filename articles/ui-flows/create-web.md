@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/04/2019
+ms.date: 02/28/2020
 ms.author: DeonHe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 06a27a495a008542208cd56230ad8c21b5e5b938
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 90951e4244ef7caa75bedc522d1bb032e070dbef
+ms.sourcegitcommit: 26cda5060446812f3725ccd4fe435839088f50fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74372383"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78244269"
 ---
 # <a name="create-and-test-your-web-ui-flows"></a>Criar e testar os fluxos de IU da Web
 
@@ -96,9 +96,7 @@ Agora que criou um fluxo de IU da Web, utilize-o nos outros fluxos.
 
 **Os fluxo de IU já não registam ou reproduzem aplicações Windows após instalar uma nova versão.**
 
-Deve desinstalar a versão anterior antes de instalar uma nova.
-
-Para isso, abra o menu Iniciar, vá para **Definições** > **Aplicações**, procure **Fluxos de IU** na lista de aplicações > **Fluxos de IU (Pré-visualização)** e, em seguida, selecione “Desinstalar”. O assistente vai orientá-lo durante o processo.
+Confirme se está a utilizar a [versão mais recente](https://go.microsoft.com/fwlink/?linkid=2102613&clcid=0x409)
 
 **Perfil de utilizador temporário para reprodução**
 
@@ -131,3 +129,4 @@ Para resolver este problema, o utilizador deve editar manualmente o script para 
 
 - Se quiser fazer mais com os fluxos de IU, pode também experimentar fluxos de IU com parâmetros de [entrada e saída](inputs-outputs-web.md).
 
+ 

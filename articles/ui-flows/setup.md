@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/04/2019
+ms.date: 02/27/2020
 ms.author: DeonHe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 222ee4a6d7d3116100880ec4a5dc205988fc8ce6
-ms.sourcegitcommit: 6b8e936cede73c8be8a63bdf77911fb69aced959
+ms.openlocfilehash: 1cf0dee7576111a696f8486f36aa5a2cdd2eeebf
+ms.sourcegitcommit: 26cda5060446812f3725ccd4fe435839088f50fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77574968"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78244233"
 ---
 # <a name="set-up-ui-flows"></a>Configurar fluxos de IU
 
@@ -48,11 +48,12 @@ Para poder utilizar o dispositivo para criar fluxos de IU, terá de assegurar qu
 - Uma conta escolar ou profissional para iniciar sessão no dispositivo Windows com privilégios de administrador e no Power Automate.
 
 - Um dispositivo com o Windows 10, o Windows Server 2016 ou o Windows Server 2019.
-- Um teclado dos EUA (QWERTY) ligado.
 
-- A [próxima versão do Microsoft Edge](https://www.microsoftedgeinsider.com) ou Google Chrome.
+- O browser [Microsoft Edge](https://www.microsoftedgeinsider.com) ou Google Chrome.
 
 - Um [ambiente](https://docs.microsoft.com/power-platform/admin/environments-overview) com uma [base de dados do Common Data Service](https://docs.microsoft.com/power-platform/admin/create-database).
+
+- Um teclado suportado ligado.
 
 ## <a name="limitations"></a>Limitações
 
@@ -94,19 +95,14 @@ Siga estes passos para instalar a aplicação de fluxos de IU:
 
 Depois de o programa de instalação dos fluxos de IU ter sido concluído, o browser vai pedir-lhe para ativar a extensão.
 
-- No Microsoft Edge (Chromium), selecione cada ícone de aviso no canto superior direito do browser e, em seguida, selecione **Ativar extensão**.
+- No Microsoft Edge, selecione cada ícone de aviso no canto superior direito do browser e, em seguida, selecione **Ativar extensão**.
 -   No Google Chrome, selecione **Ativar extensão**, quando lhe for pedido.  
 
 > [!TIP]
 > Se não viu o pedido no browser, verifique o seguinte:
-> - Tem de utilizar o Microsoft Edge (Chromium) ou o Google Chrome
-> - Pode ser necessário ativar a extensão manualmente. Com o Microsoft Edge (Chromium), navegue para **edge://extensions** ou, com o Google Chrome, navegue para **chrome://extensions**.
+> - Tem de utilizar o Microsoft Edge ou o Google Chrome.
+> - Pode ser necessário ativar a extensão manualmente. Com o Microsoft Edge, navegue para **edge://extensions** ou, com o Google Chrome, navegue para **chrome://extensions**.
 > - Se a extensão dos fluxos de IU do Power Automate não aparecer, poderá reinstalá-la com o [programa de instalação dos fluxos de IU](https://go.microsoft.com/fwlink/?linkid=2102613).
-
-<!-- To do for Gautier: check if the below is not bugged as there was one at some point.
-> - Reinstall the extension from the Chrome store
-Navigate to this link https://chrome.google.com/webstore/detail/microsoft-flow-preview/jcajipieipkmjpfakbdhmjidmhidogoo and install it manually, that will fix any issues. (For Edge Chromium, use the same link and accept when prompted to install from external stores.)
--->
 
 ## <a name="install-selenium-ide-to-automate-web-applications"></a>Instalar o Selenium IDE para automatizar as aplicações Web
 
@@ -118,7 +114,7 @@ Siga estes passos para instalar o IDE Selenium:
 
 1. [Transfira e instale](https://go.microsoft.com/fwlink/?linkid=2107665) o IDE Selenium para a próxima versão do Microsoft Edge ou Google Chrome.
 
-1. No Microsoft Edge (Chromium), selecione **Permitir extensões de outras lojas** e, em seguida, selecione **Adicionar ao Chrome**.
+1. No Microsoft Edge, selecione **Permitir extensões de outras lojas** e selecione **Adicionar ao Chrome**.
 
 ## <a name="install-the-on-premises-data-gateway"></a>Instalar o gateway de dados no local
 
@@ -135,6 +131,50 @@ Precisará do gateway para acionar o fluxo de IU de um [evento, agendamento ou f
 1. Procure **Fluxos de IU (pré-visualização)** e selecione.
 1. Selecione **Desinstalar**.
 
+## <a name="supported-keyboard-layouts"></a>Esquemas de teclado suportados
+
+- Teclado dos EUA – Inglês (Estados Unidos)
+- Teclado dos EUA – Inglês (Austrália)
+- Teclado dos EUA – Inglês (Canadá)
+- Microsoft Pinyin – Chinês (Han Simplificado, China)
+- Teclado alemão – Alemão (Alemanha)
+- Microsoft IME – Japonês (Japão)
+- Teclado do Reino Unido – Inglês (Reino Unido)
+- Teclado francês – Francês (França)
+- Teclado russo – Russo (Rússia)
+- Teclado Português (ABNT do Brasil) – Português (Brasil)
+- Teclado Português (ABNT2 do Brasil) – Português (Brasil)
+- Microsoft IME – Coreia (Coreia do Sul)
+- Teclado espanhol – Espanhol (Espanha)
+- Teclado italiano – Italiano (Itália)
+- Teclado da América Latina – Espanhol (México)
+- Teclado polaco (programadores) – Polaco (Polónia)
+- Teclado internacional dos Estados Unidos – Neerlandês (Países Baixos)
+- Teclado Turco Q – Turco (Turquia)
+- Teclado da Índia – Inglês (Índia)
+
+## <a name="supported-languages"></a>Idiomas suportados
+
+Eis os idiomas que o fluxo de IU suporta, para além do inglês:
+
+|||||
+----|-----|-----|-----
+Basco  | Francês    | Letão   | Eslovaco
+Búlgaro   |   Galego    |   Lituano  |   Esloveno
+Catalão |   Alemão      |Malaio  |   Espanhol
+Chinês (Simplificado)    |   Grego   |   Norueguês   |   Sueco
+Chinês (Tradicional)   |   Hindi   |   Polaco  |   Tailandês
+Croata    |   Húngaro   |   Português (Brasil) |   Turco
+Checo   |   Indonésio  |   Português (Portugal)       |Ucraniano
+Dinamarquês  |   Italiano |   Romeno    |   Vietnamita
+Neerlandês       |Japonês   |   Russo 
+Estónio    |Cazaque |   Sérvio (Cirílico, Sérvia)  
+Finlandês     |Coreano     |Sérvio (Latim, Sérvia)
+
+## <a name="limitations"></a>Limitações
+- As versões mais recentes de cada componente são necessárias para gravar, testar ou executar fluxos de IU.
+
+
 ## <a name="next-steps"></a>Próximos passos
 
 - Saiba como [criar fluxos de IU para computador](create-desktop.md).
@@ -142,9 +182,3 @@ Precisará do gateway para acionar o fluxo de IU de um [evento, agendamento ou f
 - Saiba como executar [fluxos de IU](run-ui-flow.md).
 - Saiba como [gerir fluxos de IU](manage.md).
 - Saiba mais sobre o [gateway no local](../gateway-reference.md#use-a-gateway)
-
-## <a name="limitations"></a>Limitações
-- As versões mais recentes de cada componente são necessárias para gravar, testar ou executar fluxos de IU.
-- Desinstale as versões anteriores antes de instalar a versão mais recente.
-
-
