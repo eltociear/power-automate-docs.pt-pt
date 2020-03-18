@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 4e0e827b24b81ead79cb1fec73916e625b715eea
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 6a71b3ae1e72588dc6fb21aad83631a91ae1d4ba
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74375833"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79193059"
 ---
 # <a name="filter-and-copy-data-with-power-automate"></a>Filtrar e copiar dados com o Power Automate
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 Estas instruções mostram como criar um fluxo que monitoriza itens novos ou alterados numa origem e, em seguida, copia essas alterações para um destino. Pode criar um fluxo como este, se os seus utilizadores introduzirem dados numa única localização, mas a sua equipa precisa deles numa localização ou formato diferentes.
 
 Embora estas instruções copiem dados de uma [lista](https://support.office.com/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194) do Microsoft SharePoint (a origem) para uma tabela da [Base de Dados SQL do Azure](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview) (o destino), pode copiar dados entre qualquer dos mais de [150 serviços](https://flow.microsoft.com/connectors/) suportados pelo Power Automate.

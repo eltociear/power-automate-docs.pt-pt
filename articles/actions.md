@@ -18,15 +18,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: e3b5d53e72cff93f853bafd89f8a51200a7e735f
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.openlocfilehash: c165213949d72fa9e7aacbc28d076969677a8802
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74354604"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79192927"
 ---
 # <a name="use-actions"></a>Utilizar ações
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 As Ações abrem um leque de possibilidades para compor a lógica de negócio. Com as Ações, pode realizar operações como Criar, Atualizar, Eliminar, Atribuir ou Efetuar Ação. Internamente, uma ação cria uma mensagem personalizada. Os programadores designam estas ações de "mensagens". Cada uma destas mensagens baseia-se nas ações realizadas num registo de entidade. Se o objetivo de um processo for a criação de um registo e, em seguida, a atualização e a atribuição do mesmo, há três passos separados. Cada passo é definido pelas funcionalidades da entidade (e não necessariamente do seu processo de negócio).  
   
@@ -43,7 +43,7 @@ As ações permitem definir um único verbo (ou mensagem) que corresponde a uma 
  
  Ao contrário dos fluxos de trabalho ou [plug-ins](/powerapps/developer/common-data-service/apply-business-logic-with-code?branch=master#create-a-plug-in) do Common Data Service, as ações não têm de estar associadas a uma entidade específica. Pode definir Ações "globais" que podem ser chamadas individualmente.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 [Criar uma ação personalizada](create-actions.md)  
   

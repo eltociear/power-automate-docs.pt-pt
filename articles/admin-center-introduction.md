@@ -20,15 +20,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 7ad18de11dcd06b38a0be4ea9d076ff5ea83252e
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 0908540147d867b944101f01431a111e81adf33c
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74358307"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79193479"
 ---
 # <a name="the-admin-center"></a>O Centro de Administração
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 O centro de administração é a localização central onde os administradores de inquilinos e os administradores de ambientes gerem as políticas de dados e ambientes de uma empresa. Todas as alterações que fizer no centro de administração estarão imediatamente disponíveis para os utilizadores dentro da organização.
 

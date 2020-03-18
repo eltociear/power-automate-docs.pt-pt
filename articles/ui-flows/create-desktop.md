@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: c27637f56defb1acff07302954424953ec48b506
-ms.sourcegitcommit: 26cda5060446812f3725ccd4fe435839088f50fa
+ms.openlocfilehash: 254e92db3c02cac4294b92fc5a1deec4a23e341e
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78244305"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79224199"
 ---
 # <a name="create-and-test-desktop-ui-flows"></a>Criar e testar fluxos de IU para computador
 
@@ -129,11 +129,6 @@ Nos passos a seguir, vamos demonstrar como automatizar a aplicação de calculad
 
 1. Selecione **Guardar e sair** para guardar o fluxo de IU.
 
-## <a name="next-steps"></a>Próximos passos
-
-- Saiba como [acionar o fluxo de IU](run-ui-flow.md) que acabou de criar.
-
-- Se quiser fazer mais com os fluxos de IU, poderá também experimentar os fluxos de IU com parâmetros de [entrada e saída](inputs-outputs-web.md).
 
 ## <a name="known-issues-and-solutions"></a>Problemas conhecidos e soluções
 
@@ -205,3 +200,9 @@ As seguintes ações não serão gravadas:
 - Afixe o friso antes de começar a reproduzir para evitar problemas que possam ocorrer caso o friso esteja definido para ser ocultado automaticamente durante a reprodução.
 - Não selecione itens através de clique e arraste. Por exemplo, não utilize shift-clique para selecionar células no Microsoft Excel e não selecione texto no Microsoft Word ou no Microsoft PowerPoint ao arrastar o rato.
 - Alguns elementos podem não funcionar corretamente nos fluxos de IU (pré-visualização) para aplicações de computador do Microsoft Word e Microsoft PowerPoint. Por exemplo, as opções no menu Ficheiro, como começar do zero, clicar com o botão direito do rato nos controlos, como adicionar um parágrafo no Microsoft Word, ou alterar o esquema dos diapositivos no Microsoft PowerPoint podem não funcionar.
+
+## <a name="next-steps"></a>Próximos passos
+
+- Saiba como [acionar o fluxo de IU](run-ui-flow.md) que acabou de criar.
+
+- Se quiser fazer mais com os fluxos de IU, poderá também experimentar os fluxos de IU com parâmetros de [entrada e saída](inputs-outputs-web.md).

@@ -20,15 +20,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 1d8d17b3f3ad0621da11406c7b9e29892138a382
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 9c7ed87d62ff6fc7370d5b57053239c8bfbeb591
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74356214"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79193456"
 ---
 # <a name="sharing-and-connectors-admin-analytics-reports"></a>Relatórios de análise de partilha e conectores de administração
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 As organizações precisam de informações sobre como as aplicações são utilizadas e quem está a utilizá-las. Os Relatórios de análise de partilha e conectores de administração dão informações sobre como o Power Automate está a ser utilizado no inquilino. 
 

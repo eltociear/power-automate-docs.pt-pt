@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: a9042e258c1e99aafc5e20b9d1adce9782dc09ca
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 65d9a93215030905f41e082d38789592a4267404
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74366633"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194353"
 ---
 # <a name="run-your-flows-by-pressing-a-flic-smart-button-preview"></a>Executar fluxos com botões inteligentes do Flic (Pré-visualização)
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 Acione os seus fluxos com botões físicos, conhecidos como Flic, da Shortcut Labs. Por exemplo, prima um Flic para controlar o seu horário de trabalho, bloquear o calendário, fazer a contagem de pessoas que visitaram um evento ou guardar localizações geográficas.
 
 > [!IMPORTANT]

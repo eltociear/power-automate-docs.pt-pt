@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: b22a3b4c3efe294cfd3afa2359c46ee960d1c021
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 1df42c58cb02f8d62e016b071b3ce556b06a0efe
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74370152"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195894"
 ---
 # <a name="design-flows-in-microsoft-visio"></a>Criar fluxos no Microsoft Visio
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 O estruturador do Power Automate é uma ferramenta avançada na qual pode configurar todos os detalhes da sua lógica. No entanto, poderá, por vezes, querer apenas esboçar a sua lógica de fluxo antes de começar a criar o fluxo. Para fazer isso, utilize o Microsoft Visio diretamente a partir do Power Automate.
 

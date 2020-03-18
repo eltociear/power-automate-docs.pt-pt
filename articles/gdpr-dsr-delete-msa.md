@@ -20,15 +20,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: b9ef70579798b353ddcd8a961604665a287cd63a
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 48aafe66584e42f3011b135ff8dbdc5fec69737f
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74368151"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79193939"
 ---
 # <a name="respond-to-gdpr-data-subject-delete-requests"></a>Responder a Pedidos de Eliminação de Titulares de Dados RGPD
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 O **direito de apagamento** através da remoção de dados pessoais constitui uma proteção fundamental do RGPD. A remoção dos dados pessoais inclui remover todos os dados pessoais, exceto as informações dos registos de auditoria.
 

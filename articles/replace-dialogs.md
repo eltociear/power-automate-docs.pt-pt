@@ -21,15 +21,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: b338991cfdbb73a8a0464fd4322714ece82c2ac5
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 8d3ce37fee1a4650454cc2c47af0d19fe37da96d
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74373027"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79193709"
 ---
 # <a name="replace-dialogs-with-business-process-flows-or-canvas-apps"></a>Substituir diálogos por processos do fluxo de negócio ou aplicações baseadas em telas
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 Os [diálogos foram preteridos](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dialogs-are-deprecated) e devem ser substituídos por fluxos de processo de negócio ou aplicações baseadas em telas. Este tópico descreve as diferentes capacidades destas opções, bem como situações em que um fluxo de processo de negócio ou uma aplicação baseada em telas incorporados num formulário controlado por modelos podem ser utilizados para substituir um diálogo existente.
 

@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 5af881b25afb9dbc1554eaf730b21e2bf27f095d
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 624475254503f44756d97b1e59cc4896b586ab20
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74367875"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79193594"
 ---
 # <a name="frequently-asked-questions"></a>Perguntas frequentes
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 ## <a name="audience-and-strategy"></a>Audiência e estratégia
 ### <a name="what-is-power-automate"></a>O que é o Power Automate?
 O Power Automate é um serviço com base na cloud que torna a criação de fluxos de trabalhos mais prática e simples ao automatizar tarefas de negócio demoradas e processos em aplicações e serviços para utilizadores de linha de negócios.

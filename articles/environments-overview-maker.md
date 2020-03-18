@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 263ebf710d280ebd7c4a6d2846fa859693561476
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 7d62aa0870af1be0e05e0a3799d02cfdfe705e3c
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74355478"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195434"
 ---
 # <a name="choosing-an-environment"></a>Escolher um ambiente
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 Este artigo apresenta os **ambientes** do Power Automate em que pode criar e isolar, de forma segura, os fluxos, os gateways, as ligações e outros recursos.
 

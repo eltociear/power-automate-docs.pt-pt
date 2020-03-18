@@ -15,15 +15,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/29/2019
 ms.author: deonhe
-ms.openlocfilehash: 9a7e6b28f7080ea65141d9a68881a637cd68cb2d
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: fee8eedddd39226d01ee4dde72bc66fcdfcdfda6
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74362723"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194192"
 ---
 # <a name="manage-sharepoint-page-approvals-with-power-automate"></a>Gerir aprovações de páginas do SharePoint com o Power Automate
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 Os administradores de sites do SharePoint podem utilizar o Power Automate para pedir a aprovação de páginas novas ou atualizadas antes de serem publicadas.
 

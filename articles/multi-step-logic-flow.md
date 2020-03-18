@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: fbc18e31b571149164b7316bdaa02d2840686995
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: e6a64f60802330857f8e17c9d4ea179426307633
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74376339"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79224406"
 ---
 # <a name="add-multiple-actions-and-advanced-options-to-a-flow"></a>Adicionar várias ações e opções avançadas a um fluxo
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 Personalize um fluxo ao adicionar uma ou mais opções avançadas e várias ações ao mesmo acionador. Por exemplo, adicione uma opção avançada que envia uma mensagem de e-mail como alta prioridade. Para além do envio de correio quando um item é adicionado a uma lista do SharePoint, crie um ficheiro no Dropbox que contenha as mesmas informações.
 
 ## <a name="prerequisites"></a>Pré-requisitos

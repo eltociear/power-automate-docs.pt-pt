@@ -92,6 +92,8 @@
   items:
     - name: Introdução aos fluxos de IU
       href: ./ui-flows/overview.md
+    - name: Atualizar os fluxos de IU de versões anteriores
+      href: ./ui-flows/upgrade.md
     - name: Configurar fluxos de IU
       href: ./ui-flows/setup.md
     - name: Criar e testar fluxos de IU para computador
@@ -109,7 +111,7 @@
       href: ./ui-flows/edit-web.md
     - name: Utilizar entradas e saídas em fluxos de IU para a Web
       href: ./ui-flows/inputs-outputs-web.md
-    - name: Executar fluxos de IU
+    - name: Executar os fluxos de UI com e sem assistência
       href: ./ui-flows/run-ui-flow.md
     - name: Gerir fluxos de IU
       href: ./ui-flows/manage.md

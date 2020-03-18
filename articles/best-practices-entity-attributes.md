@@ -19,15 +19,15 @@ helpviewer_keywords:
 author: msftman
 ms.author: deonhe
 manager: kvivek
-ms.openlocfilehash: ffc9fef64a9eda74d8a834745204fd635125e0c2
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 8a5fb3cc698f20f025089524e6198c158f710980
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74357272"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79193962"
 ---
 # <a name="best-practices-in-using-business-process-flow-attributes"></a>Melhores práticas para utilizar os atributos do fluxo do processo de negócio
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 
 Os atributos legados relacionados com processos em entidades foram preteridos. Veja a seguir algumas melhores práticas para utilizar o atributo *Fase Ativa* (activestageid) na entidade do fluxo do processo de negócio. 

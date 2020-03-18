@@ -21,15 +21,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 9157159a263bb2b8be41445aebb478fc6aa2ddb3
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: cba86e3e10591bb5e1ac36a68840ff7954146329
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74360561"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79193519"
 ---
 # <a name="configure-custom-actions-from-a-workflow"></a>Configurar as ações personalizadas de um fluxo de trabalho
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 Pode ativar uma ação personalizada de um fluxo de trabalho sem escrever código. Mais informações: [Invocar ações personalizadas de um fluxo de trabalho](invoke-custom-actions-workflow-dialog.md).  
   

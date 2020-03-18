@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 4e05c7eaf6a797768574618ad911b8ba4ec27590
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: a026354671627d8d8714e0da1d0d6e8011387da8
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74373096"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79193801"
 ---
 # <a name="remove-a-solution-aware-flow"></a>Remover um fluxo com suporte para soluções
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 Pode remover um fluxo de uma solução ou eliminar o fluxo de um ambiente completo.
 

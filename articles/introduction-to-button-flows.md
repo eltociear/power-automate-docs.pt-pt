@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 136bb90c47a1aeea2f11ef45e35a4957506ad488
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: ef83dc95d5f9f9afae42f3c488513f81de69b172
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74363919"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79192421"
 ---
 # <a name="introducing-button-flows"></a>Introdução aos fluxos de botões
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 ## <a name="what-are-button-flows"></a>O que são fluxos de botões?
 Existem muitas tarefas repetitivas que gostaríamos de executar apenas com um toque num botão. Por exemplo, pode ter de enviar um e-mail rapidamente para os elementos da sua equipa para os lembrar de que devem associar-se à equipa de sincronização diária ou pode querer iniciar uma nova compilação do Visual Studio Online da sua base de código após ter sido notificado de que não existem mais registos de entrada planeados para o dia. Os fluxos de botões permitem-lhe realizar estas e muitas outras tarefas simplesmente ao tocar num botão no seu dispositivo móvel.
 

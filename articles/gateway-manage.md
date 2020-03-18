@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: f3600587897b9e64ecd76f85c8b9762e84bc7b94
-ms.sourcegitcommit: dbba53a52e2c5b1c2965f6c608e586748d5baae0
+ms.openlocfilehash: 33c2e0e6a3a35e23d0889cd19908a055cc7f5f5e
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "77567018"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79193571"
 ---
 # <a name="manage-an-on-premises-data-gateway-in-power-automate"></a>Gerir um gateway de dados no local no Power Automate
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 Instale e faça a gestão de um gateway de dados no local para integrar, de forma segura, uma variedade de aplicações baseadas na cloud com os dados e aplicações no local através do Power Automate.
 

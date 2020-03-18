@@ -12,12 +12,12 @@ metadata:
   author: MSFTMAN
   ms.author: Deonhe
   ms.date: 01/18/2020
-  ms.openlocfilehash: 6bd3222b9ccb06ae310f5f45fe5fec5a0309c149
-  ms.sourcegitcommit: c063787413058b6702db1a03519f44540997bd16
+  ms.openlocfilehash: b62daba1b1c41f8d9655ddbadae8210a9fbb4a49
+  ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 03/01/2020
-  ms.locfileid: "78203662"
+  ms.lasthandoff: 03/12/2020
+  ms.locfileid: "79194813"
 landingContent:
 - title: Acerca do Power Automate
   linkLists:
@@ -95,11 +95,11 @@ landingContent:
       url: /power-automate/export-flow-solution
     - text: Importar solução
       url: /power-automate/import-flow-solution
-- title: Funcionalidades avançadas
+- title: Faça mais com os fluxos
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Utilizar o AI Builder
+    - text: Utilizar o AI Builder nos fluxos com recurso a IA
       url: /power-automate/use-ai-builder
     - text: Utilizar cartões adaptáveis
       url: /power-automate/overview-adaptive-cards

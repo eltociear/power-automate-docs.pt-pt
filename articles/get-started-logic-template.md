@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: f2e92d43a33a4a05523ae350a63aa68f9cda2d1f
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 8ccb933188902b89fa45b65cfec0d3d0e96de4c8
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74368703"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195710"
 ---
 # <a name="create-a-flow-from-a-template-in-power-automate"></a>Criar um fluxo a partir de um modelo no Power Automate
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 Crie um fluxo a partir de um dos diversos modelos incorporados que podem, por exemplo, enviar-lhe uma mensagem Slack quando o gestor envia um e-mail no Office 365.
 
 **Nota:** [crie um fluxo do zero](get-started-logic-flow.md) se já tiver um processo em mente e não conseguir localizar um modelo para ele.

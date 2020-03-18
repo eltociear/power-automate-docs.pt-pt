@@ -16,15 +16,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 577bad2fa7e0db66c95fae5668c4a576e3c3a2d7
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 2fedda5160291362d1ff4fcbcf91cec9f4e78713
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74365184"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195595"
 ---
 # <a name="tutorial-enhance-business-process-flows-with-branching"></a>Tutorial: Melhorar fluxos de processo de negócio com ramificação
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 Os fluxos de processos de negócio orientam-no ao longo de várias fases dos processos de vendas, marketing ou serviço até à respetiva conclusão. Em casos simples, um fluxo de processo de negócio linear é uma boa opção. No entanto, em cenários mais complexos, pode melhorar um fluxo de processo de negócio através da ramificação. Se tiver as permissões de criação em fluxos de processos de negócio, será capaz de criar um fluxo de processo de negócio com múltiplas ramificações através da lógica `If-Else`. A condição de ramificação pode incluir múltiplas expressões lógicas que utilizam uma combinação de operadores `AND` ou `OR`. A seleção da ramificação é feita automaticamente, em tempo real e com base em regras definidas durante a definição do processo. Por exemplo, na venda de automóveis, pode configurar um único fluxo de processo de negócio que se divida em duas ramificações separadas com base numa regra após uma fase de qualificação comum (o cliente prefere um automóvel novo ou usado, o orçamento dele está acima ou abaixo dos 20 mil €, etc. ): uma ramificação para vender automóveis novos e outra ramificação para vender automóveis usados. Para obter mais informações sobre Fluxos de processos de negócio, veja [Descrição geral dos fluxos de processos de negócio](business-process-flows-overview.md).  
   

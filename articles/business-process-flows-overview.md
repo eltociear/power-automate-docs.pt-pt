@@ -21,15 +21,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: ce726a2f4bfdbd7c57a60e5dcc25eb5cee504bce
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 8f4a1fcf0feb893f3eca8ac12b6b7f725aceed10
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "75951506"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194238"
 ---
 # <a name="business-process-flows-overview"></a>Descrição geral dos fluxos de processos de negócio
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 Ao criar um fluxo de processo de negócio, pode ajudar a garantir que as pessoas introduzem os dados de forma consistente e seguem os mesmos passos sempre que trabalharem com um cliente. Por exemplo, é recomendado que crie um fluxo de processo de negócio para que todas as pessoas lidem com os pedidos de serviço de cliente da mesma forma ou para exigir que as pessoas obtenham aprovação para uma fatura antes de submeterem uma encomenda. Os fluxos de processos de negócio utilizam a mesma tecnologia subjacente a outros processos, mas as capacidades que proporcionam são muito diferentes de outras funcionalidades que utilizam processos. Para saber como criar ou editar um fluxo de processo de negócio, veja [Criar um fluxo do processo de negócio](create-business-process-flow.md).  
   

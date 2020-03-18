@@ -20,15 +20,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: aa3a66f71860f2bee2e3f45441bbcd0cd1646914
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: df82a2aa48a8e85c950757ef4f72a6f7ee88e071
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74367783"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79192053"
 ---
 # <a name="responding-to-gdpr-data-subject-export-requests-for-power-automate"></a>Responder a Pedidos de Exportação de Titulares de Dados do RGPD no Power Automate
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 Como parte do nosso compromisso para o ajudar no seu percurso de preparação para o Regulamento Geral sobre a Proteção de Dados (GDPR), desenvolvemos documentação de ajuda. A documentação não só descreve o que estamos a fazer para nos prepararmos para o RGPD, como também partilha exemplos de passos que pode seguir neste momento com a Microsoft para suportar a conformidade com o RGPD quando utilizar o Power Automate.
 
@@ -124,7 +124,7 @@ Get-AdminConnection -CreateBy $userId | ConvertTo-Json |Out-File -FilePath "User
 
 ## <a name="export-a-list-of-a-users-connection-permissions"></a>Exportar uma lista de permissões da ligação de um utilizador
 
-Um utilizador pode exportar as atribuições de funções de ligação para todas as ligações às quais tem acesso através da função Get-ConnectionRoleAssignment nos [cdmlets do PowerShell do Power Apps ](https://go.microsoft.com/fwlink/?linkid=871804).
+Um utilizador pode exportar as atribuições de funções de ligação para todas as ligações às quais tem acesso através da função de Get-ConnectionRoleAssignment nos [cdmlets do PowerShell do Power Apps ](https://go.microsoft.com/fwlink/?linkid=871804).
 
 ```PowerShell
 Add-PowerAppsAccount

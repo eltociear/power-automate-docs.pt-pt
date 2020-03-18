@@ -20,15 +20,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 2830d08832bad330ec67717234f5a8cb0482d3a9
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 5e1dc452bdbe7aa65700d159cf9365812dc50bfb
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74369048"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194146"
 ---
 # <a name="respond-to-gdpr-data-subject-discovery-requests"></a>Responder a Pedidos de Deteção de Titulares de Dados RGPD 
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 O primeiro passo para responder a um pedido de DSR é localizar os dados pessoais objeto do pedido.
 Segue-se um resumo dos recursos do Power Automate que contêm dados pessoais de um utilizador que efetua a autenticação com a respetiva Conta Microsoft (MSA).

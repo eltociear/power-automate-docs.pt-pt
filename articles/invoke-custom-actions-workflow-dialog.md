@@ -22,15 +22,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 15cbfdf61a25287714f0244639ec4a3246bd845c
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: a35523209e3db8444da71c0757db29fa21de08b3
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74355432"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195411"
 ---
 # <a name="invoke-custom-actions-from-a-workflow"></a>Invocar ações personalizadas de um fluxo de trabalho
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 Os fluxos de trabalho têm várias funcionalidades que suportam cenários empresariais. A chamada de ações de operações de dados básicas para um registo, tais como criar, atualizar e eliminar, a partir de um fluxo de trabalho resolve alguns cenários de negócios. No entanto, se conjugar as funcionalidades dos fluxos de trabalho com as das ações personalizadas invocadas diretamente a partir do fluxo de trabalho, consegue adicionar uma gama totalmente nova de cenários empresariais à sua aplicação sem ser necessário escrever código.  
   

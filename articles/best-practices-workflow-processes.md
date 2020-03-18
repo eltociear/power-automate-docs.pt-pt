@@ -22,15 +22,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 0b52fad0c5e8e1291dadf7422dafbb5902ee4646
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.openlocfilehash: f3d02ca92b94752a8bbe6e3458fa8639de917dd8
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74356950"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194008"
 ---
 # <a name="best-practices-for-workflow-processes"></a>Melhores práticas para os processos de fluxo de trabalho
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 Este tópico contém as melhores práticas para criar e gerir processos de fluxo de trabalho.  
   
@@ -62,14 +62,14 @@ Para fluxos de trabalho que não são executados em segundo plano (síncronos), 
 ![Opção Manter registos para fluxos de trabalho com falhas](media/keep-logs-for-workflows.png)
 
 ## <a name="limit-the-number-of-workflows-that-update-the-same-entity"></a>Limitar o número de fluxos de trabalho que atualizam a mesma entidade
-Executar mais do que um fluxo de trabalho que atualize a mesma entidade pode causar problemas de bloqueio de recursos. Imagine vários fluxos de trabalho em execução em que todas as atualizações de oportunidades acionam uma atualização na conta associada. Várias instâncias destes fluxos de trabalho estão em execução e tentar atualizar o mesmo registo de conta em simultâneo pode resultar em problemas de bloqueio de recursos. Ocorrem falhas de fluxo de trabalho e é gravada uma mensagem de erro, tal como **Tempo Limite do SQL: não é possível obter um bloqueio no recurso _nome do recurso_** . 
+Executar mais do que um fluxo de trabalho que atualize a mesma entidade pode causar problemas de bloqueio de recursos. Imagine vários fluxos de trabalho em execução em que todas as atualizações de oportunidades acionam uma atualização na conta associada. Várias instâncias destes fluxos de trabalho estão em execução e tentar atualizar o mesmo registo de conta em simultâneo pode resultar em problemas de bloqueio de recursos. Ocorrem falhas de fluxo de trabalho e é gravada uma mensagem de erro, tal como **Tempo Limite de SQL: não é possível obter um bloqueio no recurso _nome do recurso_** . 
 
   
 <a name="BKMK_DocumentChangesUsingNotes"></a>   
 ## <a name="use-notes-to-keep-track-of-changes"></a>Utilizar Notas para manter um registo das alterações  
  Quando editar fluxos de trabalho, deve utilizar o separador Notas e escrever a alteração que fez e por que motivo a fez. Isto permite que outra pessoa compreenda as alterações que efetuou.  
   
-## <a name="next-steps"></a>Passos seguintes  
+## <a name="next-steps"></a>Próximos passos  
  [Workflow processes overview](workflow-processes.md)  (Descrição geral de processos de fluxo de trabalho)  
  [Configure workflow processes](configure-workflow-steps.md)  (Configurar processos de fluxo de trabalho)  
  [Monitorizar e gerir processos de fluxo de trabalho](monitor-manage-processes.md)

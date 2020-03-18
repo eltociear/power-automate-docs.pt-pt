@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: fe7e8f685d319e11994adaf1926d2d0ab03706d7
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 5a2fa063b5379999a5dcbe37a56271fccf435cae
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74358583"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79192376"
 ---
 # <a name="introducing-button-flows-with-user-input"></a>Introdução aos fluxos de botões com entradas de utilizador
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 Crie um fluxo de botão para executar tarefas de rotina ao tocar simplesmente num botão. Personalize o seu fluxo ao permitir que o utilizador indique detalhes específicos que serão executados quando o fluxo for executado. Este tópico orienta-o ao longo da criação de um fluxo de botão que recebe introduções do utilizador e, depois, da execução do fluxo de botão, destacando como fornecer as introduções do utilizador.
 
 Pode criar um fluxo de botão no site do Power Automate ou na aplicação móvel do Power Automate. Neste tópico, vai utilizar o Website.

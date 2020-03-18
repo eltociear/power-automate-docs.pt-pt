@@ -20,15 +20,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 205857821402a629bebffe005525536ed42f9669
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: ca3271f7c61c6835c856bc363f64882802f1556f
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74355248"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195618"
 ---
 # <a name="learn-all-about-data-groups"></a>Saiba tudo sobre grupos de dados
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 ## <a name="what-is-a-data-group"></a>O que é um grupo de dados?
 Os grupos de dados são uma forma simples de categorizar serviços numa [política de prevenção de perda de dados (DLP)](prevent-data-loss.md). Os dois grupos de dados disponíveis são **Apenas dados de negócio** e **Não são permitidos dados de negócio**. As organizações são livres de determinar os serviços que são colocados num grupo de dados específico. Uma boa forma de categorizar serviços é colocá-los em grupos, com base no impacto na organização. Por predefinição, todos os serviços são colocados no grupo de dados **Não são permitidos dados de negócio**. Pode gerir os serviços num grupo de dados quando criar ou modificar as propriedades de uma política DLP a partir do centro de administração.
 

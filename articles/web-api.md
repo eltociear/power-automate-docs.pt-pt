@@ -10,15 +10,15 @@ ms.service: business-applications
 ms.technology: ''
 ms.author: stepsic
 audience: Power user
-ms.openlocfilehash: 7cce365213f22854b8a3b97808ad7172c3af3409
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: f446b1b4147b8531ee808447a18058628c2ac0cf
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74369692"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195779"
 ---
 # <a name="power-automate-web-api"></a>API Web do Power Automate
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 A partir de agora, todos os fluxos serão armazenados no Common Data Service e será utilizada a [API Web avançada](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/perform-operations-web-api).
 

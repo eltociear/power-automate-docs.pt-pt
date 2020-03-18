@@ -20,15 +20,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: bdcca1cb46ff9fdd0538bad231dddb64cb2dc0f3
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 77a1fbe61247a3264693ad0f6bb5d3205ad20239
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74370750"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195917"
 ---
 # <a name="use-ai-builder-in-power-automate"></a>Use AI Builder in Power Automate (Utilizar o AI Builder no Power Automate)
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 
 O AI Builder é uma nova capacidade do Power Platform que permite adicionar inteligência aos processos automatizados, prever resultados e ajudar a melhorar o desempenho dos negócios. O AI Builder é uma solução completa que traz o poder da IA da Microsoft através de uma experiência de apontar e clicar e está diretamente integrado no Power Apps e no Power Automate. Mais informações: [O que é o AI Builder?](/ai-builder/)

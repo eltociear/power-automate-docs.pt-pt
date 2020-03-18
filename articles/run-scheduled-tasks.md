@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: e8acff386e031eba3bb48a9f8abd535f8ce57940
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 4970554dee8e031a746cf604e2a628f41056b46c
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74373464"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79193686"
 ---
 # <a name="run-flows-on-a-schedule"></a>Executar fluxos com base numa agenda
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 Crie um fluxo que realize uma ou mais tarefas (como enviar um relatório num e-mail):
 
 * uma vez por dia, por hora ou por minuto

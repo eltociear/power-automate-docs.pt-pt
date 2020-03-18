@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: cba8de780c58a2b70f1d65ff002336c7312dfd36
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: ce9a943f50ef5c8cc69e5dbf8fde796a75e4cdf9
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74377420"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195819"
 ---
 # <a name="manage-flows-in-power-automate-from-your-phone"></a>Gerir fluxos no Power Automate a partir do telemóvel
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 Veja uma lista de todos os fluxos que criou e, para cada fluxo, veja os eventos e ações, ative ou desative e explore o histórico de execução dele.
 
 **Pré-requisitos**

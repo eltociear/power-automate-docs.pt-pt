@@ -20,15 +20,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 8554959026d299ac45ccf3ccb3ace7b8d9226294
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 39291e74b16727abe04c20c16eddeaa6d9871091
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74369071"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195687"
 ---
 # <a name="responding-to-gdpr-data-subject-delete-requests-for-power-automate"></a>Responder a Pedidos de Eliminação de Titulares de Dados do GDPR no Power Automate
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 O “direito de apagamento” através da remoção dos dados pessoais dos Dados do Cliente de uma organização constitui uma proteção fundamental do GDPR. A remoção dos dados pessoais inclui remover todos os dados pessoais e registos gerados pelo sistema, exceto as informações dos registos de auditoria.
 

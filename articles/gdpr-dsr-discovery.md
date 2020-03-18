@@ -20,15 +20,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 26bed9ab3329bbf0edf8ea055de71b732d7d0746
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 05def202f2a0b0db8a6eebb067406c96221e7d1c
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74355409"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195549"
 ---
 # <a name="responding-to-gdpr-data-subject-discovery-requests-for-power-automate"></a>Responder a Pedidos de Deteção de Titulares de Dados do RGPD no Power Automate
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 O primeiro passo para responder a um DSR é localizar os dados pessoais objeto do pedido. Este primeiro passo ajuda-o a determinar se um DSR cumpre os requisitos da sua organização para respeitar ou recusar um pedido de DSR. Por exemplo, depois de localizar e analisar os dados pessoais em questão, pode determinar que o pedido não cumpre os requisitos da sua organização porque ao fazê-lo poderá afetar negativamente os direitos e liberdades de terceiros.
 

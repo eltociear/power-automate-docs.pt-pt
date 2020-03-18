@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 2be12487e8f5a023299a8775ec568915fd3f8cc0
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 4aac1ace0e30d5e36d59f0d2bcbb3cb692f7256c
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74374637"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195572"
 ---
 # <a name="submit-a-template-to-the-power-automate-gallery"></a>Submeter um modelo para a galeria do Power Automate
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 Submeter um modelo de fluxo para a galeria de modelos do Power Automate. Os modelos ajudam as pessoas não só a criar fluxos mais facilmente, como também a imaginar cenários adicionais que iriam beneficiar de um fluxo.
 

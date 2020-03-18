@@ -22,15 +22,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: c5cc72f79b411f8ba50120308bcaf6dd03b302e6
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: af51cc703dbb42296493237bdd25387c6c15720c
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74368358"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194744"
 ---
 # <a name="create-custom-business-logic-through-processes"></a>Criar lógica de negócio personalizada através de processos
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 Definir e impor processos de negócio consistentes é um dos principais motivos pelos quais as pessoas utilizam aplicações baseadas em modelos. Os processos consistentes ajudam a garantir que as pessoas que utilizam o sistema podem focar-se no seu trabalho e não em lembrarem-se de executar um conjunto de passos manuais. Os processos podem ser simples ou complexos e podem sofrer alterações ao longo do tempo.  
   

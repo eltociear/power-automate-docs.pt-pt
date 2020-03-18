@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: f2e46711637497120872848f239d59651ab875d5
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: b4e087855890d7ca94a8288793494ce1e81826b2
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74358100"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79193295"
 ---
 # <a name="manage-connections-in-power-automate"></a>Gerir ligações no Power Automate
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 Se criar uma ligação no Power Automate, poderá aceder facilmente aos seus dados durante a criação de fluxos. O Power Automate inclui ligações utilizadas habitualmente, incluindo SharePoint, SQL Server, Office 365, OneDrive para Empresas, Salesforce, Excel, Dropbox, Twitter e muito mais. As ligações são partilhadas com o Power Apps, para que, quando cria uma ligação num produto, a mesma apareça no outro.
 
 Por exemplo, pode utilizar uma ligação para realizar estas tarefas:

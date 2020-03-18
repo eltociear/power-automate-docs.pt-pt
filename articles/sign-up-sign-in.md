@@ -20,20 +20,19 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 3d9686ed208183aaf73a6a274b809d7a3cce4bf0
-ms.sourcegitcommit: 517c1418aca5745a93d8765cfde661067cedfdf6
+ms.openlocfilehash: b3b121a5ca131427ce896126f261e43b6bdccade
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78267149"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79196009"
 ---
 # <a name="sign-up-and-sign-in-for-power-automate"></a>Inscrever-se e iniciar sessão no Power Automate
 
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cRkmSZrctLc?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF" frameborder="0" allowfullscreen></iframe>
 
 Começar a utilizar o Power Automate, individualmente, é fácil! Antes de poder criar um fluxo, inscreva-se utilizando qualquer endereço de e-mail. Se nunca tiver utilizado um produto Microsoft online com esse endereço, precisará de alguns momentos para se registar.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cRkmSZrctLc?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="sign-up-free"></a>Inscrever-se gratuitamente
 Se ainda não utilizou outros produtos Microsoft online, terá de se inscrever.

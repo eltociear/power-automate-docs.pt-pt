@@ -20,15 +20,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 81b486c0d9ed059cc310f1297e27b28206776f45
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: c785a900b0b92a22efc7559674965d5a105a5f51
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74367553"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194790"
 ---
 # <a name="respond-to-gdpr-data-subject-rights-dsrs-requests"></a>Responder a Pedidos de Direitos de Titulares de Dados (DSRs) RGPD
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 Este artigo descreve o Regulamento Geral Sobre a Proteção de Dados (RGPD) da União Europeia e fornece passos que pode seguir para suportar a conformidade com o RGPD para utilizadores do Power Automate que efetuam autenticação com Contas Microsoft (MSA).
 

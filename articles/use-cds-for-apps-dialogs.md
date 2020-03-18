@@ -16,15 +16,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 8af38dd57834df4b93f952ff0b62ac452f82dbf0
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.openlocfilehash: 69b8d448a3bb2636f4804fe75645467ca6bd081d
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74370796"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195871"
 ---
 # <a name="use-common-data-service-dialogs-for-guided-processes-deprecated"></a>Utilizar caixas de diálogo do Common Data Service para processos guiados (Preterido)
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 [As caixas de diálogo foram preteridas](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dialogs-are-deprecated). Deve substituir as caixas de diálogo por fluxos de processos de negócio ou aplicações baseadas em telas. Mais informações: [Substituir caixas de diálogo por fluxos de processos de negócio ou aplicações baseadas em telas](replace-dialogs.md) 
 

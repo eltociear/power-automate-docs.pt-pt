@@ -20,15 +20,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - flowmaker
-ms.openlocfilehash: 1c847d4d1f84f68772af227b35ff1349f2963d39
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 229ebd44dfed2bd234bfc86ed9ab27cb438274fa
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74355271"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195365"
 ---
 # <a name="the-power-automate-checker"></a>Verificador do Power Automate
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 O verificador do Power Automate promove fluxos de maior qualidade ao garantir que segue as melhores práticas quando estrutura os fluxos. Quando executar o verificador, obtém respostas a perguntas como “Quais são as áreas da implementação do meu fluxo que podem apresentar riscos quanto ao desempenho ou à fiabilidade?”
 

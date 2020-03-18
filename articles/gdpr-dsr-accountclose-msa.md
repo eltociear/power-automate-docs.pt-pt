@@ -20,15 +20,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 277765754683a6690b186a5f592517482b32666f
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 10f232e45a53cea30892f512b626246fec16deed
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74366380"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195641"
 ---
 # <a name="responding-to-gdpr-data-subject-account-close-requests-for-power-automate"></a>Responder a Pedidos de Fecho de Conta de Titulares de Dados do RGPD no Power Automate
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 O **direito de apagamento** de dados pessoais constitui uma proteção fundamental do RGPD. Este direito inclui remover todos os dados pessoais, exceto as informações dos registos de auditoria. Quando um utilizador decide fechar a Conta Microsoft (MSA), os dados subjacentes também serão eliminados.
 

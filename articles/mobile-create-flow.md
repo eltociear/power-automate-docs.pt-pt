@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 2faafe936dc9659a50b7e249c75eb9c495101fbf
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 393ae5f6a86363610c26aea78a04748f34dc4f97
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74377604"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79193617"
 ---
 # <a name="create-a-flow-from-your-phone-by-using-power-automate"></a>Criar um fluxo a partir do telemóvel com o Power Automate
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 Crie um fluxo a partir do telemóvel com um modelo, que pode localizar ao pesquisar numa lista de serviços, procurar categorias ou especificar palavras-chave. Siga os passos deste tópico para criar um fluxo que envia uma notificação push para o telemóvel quando enviar correio a partir do gestor.
 
 Se não estiver familiarizado com o Power Automate, [veja uma descrição geral](getting-started.md).

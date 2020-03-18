@@ -21,15 +21,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 22736d826c6e0448e3d1272aed1b3d4f78fdb23b
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 72a4e33dafd7c2237799357cc993d9815dd36012
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74362079"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194974"
 ---
 # <a name="create-a-mobile-task-flow"></a>Criar um fluxo de tarefas móveis
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 Crie um fluxo no Dynamics 365 para telemóveis ou no Dynamics 365 para tablets com base em tarefas comuns executadas pelos utilizadores. Por exemplo, se precisarem de efetuar regularmente uma série de etapas de acompanhamento após reuniões com clientes, crie um fluxo de tarefas. Quando os utilizadores tocarem na nova tarefa na aplicação móvel, esta irá guiá-los do início ao fim, para que não se esqueçam de nenhum passo importante.  
   

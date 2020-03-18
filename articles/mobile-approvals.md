@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 40692f5993652e386b084b2bd2ff375192448e35
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 513200d18ac2a845cd63a6d269513f3bcb45118c
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74377305"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79193985"
 ---
 # <a name="approve-requests-on-your-mobile-device-by-using-power-automate"></a>Aprovar pedidos no dispositivo móvel com o Power Automate
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 Se um fluxo o identificar como um aprovador e se tiver instalado a aplicação móvel do Power Automate, receberá uma notificação push sempre que a sua aprovação for solicitada.
 
 Este artigo explica alguns cenários comuns que poderá encontrar ao gerir pedidos de aprovação na aplicação móvel do Power Automate.

@@ -22,15 +22,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 2c8e512c39805296e5885266750b59b49feca482
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: ad075ec6c4b00d46f000b86aaa9166e40adda640
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74359204"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194054"
 ---
 # <a name="tutorial-create-a-business-process-flow-to-standardize-processes"></a>Tutorial: Criar um fluxo de processo de negócio para normalizar processos
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 Este tutorial mostra-lhe como criar um fluxo de processo de negócio com o Power Apps. Para saber mais sobre por que motivo os fluxos de processo de negócio são utilizados, veja [Business process flows overview](business-process-flows-overview.md) (Descrição geral de fluxos de processo de negócio). Para obter informações sobre como criar um fluxo de tarefas móveis, veja [Criar um fluxo de tarefas móveis](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-mobile-task-flow).  
   

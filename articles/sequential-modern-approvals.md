@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: e8f7b993b59c269b56dac2f13d4db166ed3e91b7
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 28199ab8b2a2dbf18ef89b905b2bdd362ff9e82b
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74373073"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194100"
 ---
 # <a name="manage-sequential-approvals-with-power-automate"></a>Gerir aprovações sequenciais com o Power Automate
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 Alguns fluxos de trabalho exigem pré-aprovação antes da aprovação do aprovador final. Por exemplo, uma empresa pode ter uma política de aprovação sequencial que requer aprovação prévia para faturas acima de $1000,00, antes de serem aprovadas pelo departamento Financeiro.
 
 Nestas instruções, criamos um fluxo de aprovação sequencial que gere os pedidos de férias dos funcionários.
