@@ -17,15 +17,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 7f6319bd0091c4c857e7df133c36b38a0cd78891
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.openlocfilehash: bb8ca7efb83a863f3031dd18d0d9bd67ae3c5c07
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74356835"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194077"
 ---
 # <a name="add-an-on-demand-workflow-to-a-business-process-flow"></a>Adicionar um fluxo de trabalho a pedido a um fluxo de processo de negócio
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 Pode acionar fluxos de trabalho a pedido a partir de um fluxo do processo de negócio. Pode, por exemplo, adicionar um fluxo de trabalho a pedido a um fluxo de processo de negócio para que uma atividade, como uma tarefa ou e-mail, seja criada sempre que uma fase é concluída. 
 
@@ -66,7 +66,7 @@ No exemplo abaixo, há um fluxo de trabalho a pedido chamado **My on demand work
 
 5. Selecione **Atualizar** na barra de ferramentas do estruturador de fluxo do processo de negócio.
  
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Use Workflow processes to automate processes that don't require user interaction](workflow-processes.md) (Utilizar processos de Fluxo de Trabalho para automatizar processos que não necessitam de interação do utilizador) <br/>
-[Tutorial: criar um fluxo de processo de negócio para normalizar processos](create-business-process-flow.md) <br/>
+[Tutorial: Criar um fluxo de processo de negócio para normalizar processos](create-business-process-flow.md) <br/>
 [Business process flow automation in Dynamics 365](https://blogs.msdn.microsoft.com/crm/2017/03/28/business-process-flow-automation-in-dynamics-365/) (Automatização de fluxos do processo de negócio no Dynamics 365)

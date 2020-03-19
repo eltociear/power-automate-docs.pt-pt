@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/27/2020
+ms.date: 03/04/2020
 ms.author: DeonHe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 1cf0dee7576111a696f8486f36aa5a2cdd2eeebf
-ms.sourcegitcommit: 26cda5060446812f3725ccd4fe435839088f50fa
+ms.openlocfilehash: 825ebceb042215c379340f1e1b7e2dae6f921c2c
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78244233"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79196049"
 ---
 # <a name="set-up-ui-flows"></a>Configurar fluxos de IU
 
@@ -47,7 +47,7 @@ Para poder utilizar o dispositivo para criar fluxos de IU, terá de assegurar qu
 
 - Uma conta escolar ou profissional para iniciar sessão no dispositivo Windows com privilégios de administrador e no Power Automate.
 
-- Um dispositivo com o Windows 10, o Windows Server 2016 ou o Windows Server 2019.
+- Um dispositivo com o Windows 10 Pro, o Windows Server 2016 ou o Windows Server 2019.
 
 - O browser [Microsoft Edge](https://www.microsoftedgeinsider.com) ou Google Chrome.
 
@@ -57,14 +57,14 @@ Para poder utilizar o dispositivo para criar fluxos de IU, terá de assegurar qu
 
 ## <a name="limitations"></a>Limitações
 
-Os fluxos de IU (pré-visualização) estão disponíveis em inglês.
+São necessárias as versões mais recentes de cada componente para gravar, testar ou executar fluxos de IU.
 
 Não há suporte para o seguinte:
+- As instalações do Windows 10 Home não são suportadas.
 
 -   Fluxos de IU para Computador
 
     -   Vários monitores
-    -   Máquinas virtuais
     -   Duplo clique, passagem do rato, entrada por toque/caneta
     -   Interações no Windows (Explorador de ficheiros, menu de inicialização, barra de tarefas e etc.)
 
@@ -88,8 +88,8 @@ Siga estes passos para instalar a aplicação de fluxos de IU:
 1. Abra o ficheiro **Setup.Microsoft.Flow.UIflow.exe**. Este ficheiro encontra-se provavelmente na pasta **Transferências**, depois de o ter transferido no passo anterior.
 1. Siga as instruções do programa de instalação **Configuração de fluxos de IU (pré-visualização)** para concluir a instalação.
 
-> [!TIP]
-> Se quiser alterar a definição da recolha de dados, reinstale os fluxos de IU e altere a definição.
+> [!WARNING]
+> Tem de desinstalar a aplicação de fluxos de IU e, em seguida, reinstalá-la se precisar de alterar as definições de recolha de dados. Os fluxos de IU deixarão de funcionar se alterar as definições de recolha de dados sem desinstalar primeiro a aplicação de fluxos de IU.
 
 ## <a name="activate-the-ui-flows-browser-extension"></a>Ativar a extensão do browser dos fluxos de IU 
 
@@ -103,6 +103,7 @@ Depois de o programa de instalação dos fluxos de IU ter sido concluído, o bro
 > - Tem de utilizar o Microsoft Edge ou o Google Chrome.
 > - Pode ser necessário ativar a extensão manualmente. Com o Microsoft Edge, navegue para **edge://extensions** ou, com o Google Chrome, navegue para **chrome://extensions**.
 > - Se a extensão dos fluxos de IU do Power Automate não aparecer, poderá reinstalá-la com o [programa de instalação dos fluxos de IU](https://go.microsoft.com/fwlink/?linkid=2102613).
+
 
 ## <a name="install-selenium-ide-to-automate-web-applications"></a>Instalar o Selenium IDE para automatizar as aplicações Web
 
@@ -118,18 +119,38 @@ Siga estes passos para instalar o IDE Selenium:
 
 ## <a name="install-the-on-premises-data-gateway"></a>Instalar o gateway de dados no local
 
-Precisará do gateway para acionar o fluxo de IU de um [evento, agendamento ou fluxo de botão](../getting-started.md#types-of-flows).
+Precisará do gateway para acionar o fluxo de IU de um [evento, agendamento ou fluxo de botão](../getting-started.md#types-of-flows) num dispositivo remoto.
 
 >[!TIP]
 >O gateway não é necessário, caso pretenda apenas criar, editar e testar os fluxos de IU no dispositivo.
 
 [Instale o gateway de dados no local](https://docs.microsoft.com/data-integration/gateway/service-gateway-install), caso precise dele.
 
-## <a name="uninstall-ui-flows"></a>Desinstalar os fluxos de IU
+## <a name="setup-ui-flows-connections-and-machine-credentials"></a>Configurar ligações de fluxos de IU e credenciais da máquina
 
-1. Abra o menu **iniciar** > **Definições** > **Aplicações**.
-1. Procure **Fluxos de IU (pré-visualização)** e selecione.
-1. Selecione **Desinstalar**.
+1. Inicie sessão no [Power Automate](https://powerautomate.microsoft.com).
+1. Expanda a opção **Dados** no lado esquerdo do ecrã.
+1. Selecione **Ligações**.
+
+   ![Uma captura de ecrã a mostrar o separador Ligações](../media/ui-flows-setup/connections-tab.png)
+
+1. Selecione Nova ligação.
+
+   ![Uma captura de ecrã a mostrar uma ligação](../media/ui-flows-setup/new-connection.png)
+
+1. Procure *fluxo de IU* e, em seguida, selecione **UI flows (preview) (Fluxos de IU [pré-visualização]).
+
+   ![Uma captura de ecrã a mostrar a caixa de pesquisa](../media/ui-flows-setup/search-ui-flow.png)
+
+1. Forneça as informações do gateway e as credenciais do dispositivo para *cada* gateway: 
+
+    - **Domínio e Nome de utilizador**: forneça a sua conta do dispositivo. Pode utilizar uma conta local com o nome do utilizador (por exemplo, "NOMEDOCOMPUTADOR\\Utilizador" ou "local\\Utilizador") ou uma conta do Active Directory como "DOMÍNIO\\Utilizador".
+    - **Palavra-passe**: a palavra-passe da sua conta.
+    - **Escolher um gateway**: selecione um dos gateways que pretende configurar.
+
+      ![Uma captura de ecrã a mostrar onde introduzir as credenciais para a ligação](../media/ui-flows-setup/credentials-screen.png)
+
+1. Selecione **Criar**.
 
 ## <a name="supported-keyboard-layouts"></a>Esquemas de teclado suportados
 
@@ -158,7 +179,7 @@ Precisará do gateway para acionar o fluxo de IU de um [evento, agendamento ou f
 Eis os idiomas que o fluxo de IU suporta, para além do inglês:
 
 |||||
-----|-----|-----|-----
+----|-----|-----|--------
 Basco  | Francês    | Letão   | Eslovaco
 Búlgaro   |   Galego    |   Lituano  |   Esloveno
 Catalão |   Alemão      |Malaio  |   Espanhol
@@ -171,12 +192,15 @@ Neerlandês       |Japonês   |   Russo
 Estónio    |Cazaque |   Sérvio (Cirílico, Sérvia)  
 Finlandês     |Coreano     |Sérvio (Latim, Sérvia)
 
-## <a name="limitations"></a>Limitações
-- As versões mais recentes de cada componente são necessárias para gravar, testar ou executar fluxos de IU.
+## <a name="uninstall-ui-flows"></a>Desinstalar os fluxos de IU
 
+1. Abra o menu **iniciar** > **Definições** > **Aplicações**.
+1. Procure **Fluxos de IU (pré-visualização)** e selecione.
+1. Selecione **Desinstalar**.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="learn-more"></a>Saiba mais
 
+- [Atualizar os seus fluxos de IU](upgrade.md) a partir de versões anteriores
 - Saiba como [criar fluxos de IU para computador](create-desktop.md).
 - Saiba como [criar fluxos de IU para a Web](create-web.md).
 - Saiba como executar [fluxos de IU](run-ui-flow.md).

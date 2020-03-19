@@ -14,15 +14,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 44220aebd8726c31f94996ec215020688f317223
-ms.sourcegitcommit: 6b8e936cede73c8be8a63bdf77911fb69aced959
+ms.openlocfilehash: 2c889d21336b632edf1f3746cc90846f469ecbd4
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77574995"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195940"
 ---
 # <a name="power-automate-us-government"></a>Power Automate para a Administração Pública dos Estados Unidos
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 Em resposta às condições exclusivas e em evolução do setor público dos Estados Unidos, a Microsoft criou os planos do Power Automate US Government. Esta seção fornece uma descrição geral das funcionalidades específicas do Power Automate US Government. Recomendamos que leia esta secção suplementar, bem como o tópico [introdução ](https://docs.microsoft.com/flow/getting-started) do serviço Power Automate. Por motivos de concisão, este serviço é frequentemente referido como *Flow GCC*.
 
@@ -46,11 +46,11 @@ Além das funcionalidades e das capacidades do Power Automate, as organizações
 
 A partir de setembro de 2019, os clientes elegíveis podem optar pela implementação do Power Automate US Government para o ambiente **GCC High**, que permite o início de sessão único e a integração completa com as implantações do GCC High do Microsoft Office 365. 
 
-A Microsoft concebeu a plataforma e os nossos procedimentos operacionais para cumprirem os requisitos referentes ao quadro de conformidade DISA SRG IL4. Prevemos que a base de clientes de contratantes do Departamento da Defesa dos EUA e outras Agências federais que atualmente utilizam o GCC High do Office 365 utilizem a opção de implementação do GCC High do Power Automate US Government. Esta opção permite e exige que o cliente utilize o Azure Active Directory Governamental para as identidades dos clientes, em contraste com o GCC que utiliza o Azure Active Directory público. Para a base de clientes de contratantes do Departamento de Defesa dos EUA, a Microsoft opera o serviço de uma forma que permite a estes clientes cumprirem o compromisso do ITAR e os regulamentos de aquisição DFARS, conforme documentado e exigido pelos contratos que têm com o Departamento de Defesa dos EUA.
+A Microsoft concebeu a plataforma e os nossos procedimentos operacionais para cumprirem os requisitos referentes ao quadro de conformidade DISA SRG IL4. Prevemos que a base de clientes de contratantes do Departamento da Defesa dos EUA e outras Agências federais que atualmente utilizam o GCC High do Office 365 utilizem a opção de implementação do GCC High do Power Automate US Government. Esta opção permite e exige que o cliente utilize o Azure AD Government para as identidades dos clientes, em contraste com o GCC que utiliza o Azure AD público. Para a base de clientes de contratantes do Departamento de Defesa dos EUA, a Microsoft opera o serviço de uma forma que permite a estes clientes cumprirem o compromisso do ITAR e os regulamentos de aquisição DFARS, conforme documentado e exigido pelos contratos que têm com o Departamento de Defesa dos EUA.
 
 ## <a name="customer-eligibility"></a>Elegibilidade dos clientes
 
-O Power Automate US Government está disponível para (1) entidades governamentais federais, estaduais, locais, tribais e territoriais dos Estados Unidos e (2) outras entidades que processem dados sujeitos a regulamentos e requisitos governamentais e onde a utilização do Power Automate US Government é adequada para cumprir estes requisitos, sujeito a validação de elegibilidade. A validação da elegibilidade da Microsoft inclui a confirmação do processamento de dados sujeitos às regulações ITAR (International Traffic in Arms Regulations), dados para fins de aplicação da lei sujeitos à Política CJIS (Criminal Justice Information Services) do FBI ou outros dados regulados ou controlados pelo governo. A validação pode exigir uma garantia por parte de uma entidade governamental com condições específicas para o processamento de dados.
+O Power Automate US Government está disponível para (1) entidades governamentais federais, estaduais, locais, tribais e territoriais dos Estados Unidos e (2) outras entidades que processem dados sujeitos a regulamentos e requisitos governamentais e onde a utilização do Power Automate US Government é adequada para cumprir estes requisitos, sujeito a validação de elegibilidade. A validação da elegibilidade da Microsoft inclui a confirmação do processamento de dados sujeitos às regulações ITAR (International Traffic in Arms Regulations), dados para fins de aplicação da lei sujeitos à Política CJIS (Criminal Justice Information Services) do FBI ou outros dados regulados ou controlados pelo governo. A validação pode exigir uma garantia por parte de uma entidade governamental com condições específicas para o processamento de dados.
 
 As entidades com dúvidas sobre a elegibilidade para o Power Automate US Government devem consultar a equipa da conta. A Microsoft valida novamente a elegibilidade quando renova os contratos do Power Automate US Government dos clientes.
 
@@ -121,9 +121,9 @@ O Power Automate US Government foi concebido para suportar a acreditação do F
 
 À medida que a Microsoft avança para atualizar os artefactos do FedRAMP como parte dos ciclos de auditoria padrão, o conteúdo vai ser atualizado em conformidade.
 
-O Power Automate US Government possui funcionalidades concebidas para suportar os requisitos da Política dos CJIS dos clientes para agências de aplicação da lei. Visite a página de produtos do Power Automate US Government no Centro de Fidedignidade para obter informações mais detalhadas relacionadas com as certificações e acreditações.
+O Power Automate US Government possui funcionalidades concebidas para suportar os requisitos da Política dos CJIS dos clientes para agências de aplicação da lei. Visite a página de produtos do Power Automate US Government no Centro de Fidedignidade para obter informações mais detalhadas relacionadas com as certificações e acreditações.
 
-A Microsoft concebeu esta plataforma e os seus procedimentos operacionais para cumprirem os requisitos referentes ao quadro de conformidade DISA SRG IL4. A Microsoft prevê que a base de clientes de contratantes do Departamento de Defesa dos EUA e outras Agências federais que atualmente utilizam o GCC High do Office 365 utilize a opção de implementação do GCC High do Power Automate US Government, o que permite e exige que os clientes utilizem o Azure Active Directory Governamental para as identidades dos clientes, em contraste com o GCC que utiliza o Azure Active Directory público. Para a base de clientes de contratantes do Departamento de Defesa dos EUA, a Microsoft opera o serviço de uma forma que permite a estes clientes cumprirem o compromisso do ITAR e os regulamentos de aquisição DFARS.
+A Microsoft concebeu esta plataforma e os seus procedimentos operacionais para cumprirem os requisitos referentes ao quadro de conformidade DISA SRG IL4. A Microsoft prevê que a base de clientes de contratantes do Departamento de Defesa dos EUA e outras Agências federais que atualmente utilizam o GCC High do Office 365 utilize a opção de implementação do GCC High do Power Automate US Government, o que permite e exige que os clientes utilizem o Azure AD Governamental para as identidades dos clientes, em contraste com o GCC que utiliza o Azure AD público. Para a base de clientes de contratantes do Departamento de Defesa dos EUA, a Microsoft opera o serviço de uma forma que permite a estes clientes cumprirem o compromisso do ITAR e os regulamentos de aquisição DFARS.
 
 ## <a name="power-automate-us-government-and-other-microsoft-services"></a>Power Automate US Government e outros serviços Microsoft
 
@@ -169,9 +169,9 @@ Utiliza um conjunto diferente de URLs para aceder aos ambientes do Power Automat
 
 Versão comercial | Versão US Government
 ------ | --------
-https://flow.microsoft.com | https://gov.flow.microsoft.us (GCC) e https://high.flow.microsoft.us (GCC High)
-https://admin.flow.microsoft.com | https://gov.admin.flow.microsoft.us (GCC) e https://high.admin.flow.microsoft.us (GCC High)
-https://flow.microsoft.com/connectors | https://gov.flow.microsoft.us/connectors (GCC) e https://high.flow.microsoft.us/connectors (GCC High)
+[https://flow.microsoft.com](https://flow.microsoft.com) | [https://gov.flow.microsoft.us (GCC)](https://gov.flow.microsoft.us) e [https://high.flow.microsoft.us (GCC High)](https://high.flow.microsoft.us)
+[https://admin.flow.microsoft.com](https://admin.flow.microsoft.com) | [https://gov.admin.flow.microsoft.us (GCC)](https://gov.admin.flow.microsoft.us) e [https://high.admin.flow.microsoft.us (GCC High)](https://high.admin.flow.microsoft.us)
+[https://flow.microsoft.com/connectors](https://flow.microsoft.com/connectors) | [https://gov.flow.microsoft.us/connectors (GCC)](https://gov.flow.microsoft.us/connectors) e [https://high.flow.microsoft.us/connectors (GCC High)](https://high.flow.microsoft.us/connectors)
 
 
 Para os clientes que implementam restrições de rede, confirme que o acesso aos seguintes domínios está disponível para os pontos de acesso dos utilizadores finais:
@@ -205,7 +205,7 @@ Veja os [Intervalos de IP](https://www.microsoft.com/download/confirmation.aspx?
 
 ## <a name="connectivity-between-power-automate-us-government-and-public-azure-cloud-services"></a>Conectividade entre os Serviços cloud do Power Automate US Government e do Azure Público
 
-O Azure é distribuído entre várias clouds. Por predefinição, os inquilinos podem abrir as regras de firewall para uma instância específica da cloud, mas a rede entre clouds é diferente e requer a abertura de regras de firewall específicas para comunicar entre os serviços. Se for um cliente do Power Automate e tiver instâncias do SQL Server existentes na cloud pública do Azure que precisam de acesso, terá de abrir portas específicas de firewall no SQL para o espaço de IP da Cloud do Azure Government, para os datacenters seguintes:
+O Azure é distribuído entre várias clouds. Por predefinição, os inquilinos podem abrir as regras de firewall para uma instância específica da cloud, mas a rede entre clouds é diferente e requer a abertura de regras de firewall específicas para comunicar entre os serviços. Se for um cliente do Power Automate e tiver instâncias do SQL Server existentes na cloud pública do Azure que precisam de acesso, terá de abrir portas específicas de firewall no SQL para o espaço de IP da Cloud do Azure Government, para os seguintes datacenters:
 
 - USGov Virginia
 - USGov Texas

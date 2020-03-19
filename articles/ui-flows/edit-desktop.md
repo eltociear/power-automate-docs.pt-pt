@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 0be3b3656cf9683b43d4ba22bc23b537ccc4e597
-ms.sourcegitcommit: 26cda5060446812f3725ccd4fe435839088f50fa
+ms.openlocfilehash: 49586e7035c4a1796ff624667b2562d2a64c576a
+ms.sourcegitcommit: ace3dbcbda208991201b770b9c707ec39faaa0d9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78244281"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79384594"
 ---
 # <a name="edit-desktop-ui-flows"></a>Editar fluxos de IU para computador
 
@@ -53,6 +53,7 @@ Os parâmetros avançados permitem-lhe alterar:
 
 -  O atraso depois de a ação ter sido executada. Por exemplo, pode adicionar um atraso de um segundo ao alterar PT0S para PT1S. Este atraso poderá ser útil quando a aplicação de destino tem um tempo de resposta lento, que não é concluído antes do próximo passo do fluxo de IU.
 -   O [seletor](edit-desktop.md#set-the-selector) do elemento da interface de utilizador de destino.
+
 
 ## <a name="add-a-recording"></a>Adicionar uma gravação
 
@@ -161,6 +162,26 @@ Pode capturar o **elementXPath** com o [Gravador de IU WinAppDriver](https://blo
 Remova o primeiro elemento (tudo antes de /Window) antes de utilizar o resultado no **elementXPath** do seletor.
 
 Teste o fluxo de IU para confirmar se o seletor funciona corretamente.
+
+## <a name="use-advanced-controls"></a>Utilizar controlos avançados
+
+Pode incorporar controlos avançados como **condições**, **alternar casos** e ações para **terminar** nos seus fluxos de IU.
+
+Pode realizar estas operações avançadas ao realizar os seguintes passos num fluxo de IU existente.
+
+1. Selecione o fluxo de IU que criou > **Mais comandos** (...) > **Editar**.
+
+1. Selecione **+**  > **Adicionar uma ação** na seta para baixo do passo do fluxo de IU ao qual pretende adicionar uma lógica.
+
+   ![Adicionar uma ação](../media/edit-desktop/add-action.png)
+
+1. Selecione **Incorporado** e, em seguida, selecione uma das ações de controlo disponíveis.
+
+   ![Incorporado](../media/edit-desktop/select-built-in.png)
+
+1. Complete a expressão que precisa de ser avaliada. Pode utilizar conteúdo dinâmico e expressões para avaliar a condição e alternar os controlos. Adicionalmente, pode utilizar qualquer saída que seja criada pelos passos anteriores do fluxo de IU.
+
+   ![Cartão de condição](../media/edit-desktop/condition-card.png)
 
 
 ## <a name="enable-coordinate-based-playback"></a>Ativar a reprodução baseada em coordenadas

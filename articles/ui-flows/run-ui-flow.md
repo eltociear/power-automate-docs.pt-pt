@@ -1,6 +1,6 @@
 ---
 title: Executar fluxos de IU a partir de outros fluxos | Microsoft Docs
-description: Executar fluxos de IU a partir de outros fluxos
+description: Executar fluxos de IU a partir de outros fluxos em modo assistido ou automático.
 services: ''
 suite: flow
 documentationcenter: na
@@ -13,21 +13,21 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/04/2019
+ms.date: 03/03/2020
 ms.author: DeonHe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 3feab8291a3dc14adab398f7619fd5b6141674ab
-ms.sourcegitcommit: 26cda5060446812f3725ccd4fe435839088f50fa
+ms.openlocfilehash: 0852e8b52f7b158d8fc97316b0f719f8e557a15f
+ms.sourcegitcommit: 14ea422c0b306f738757036cc0e240584dd810f5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78244225"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79188119"
 ---
-# <a name="run-ui-flows"></a>Executar fluxos de IU
+# <a name="run-attended-and-unattended-ui-flows"></a>Executar os fluxos de UI com e sem assistência
 
 [Este tópico é uma documentação de pré-lançamento e está sujeito a alterações.]
 
@@ -72,13 +72,11 @@ Neste exemplo, vamos utilizar um fluxo automatizado para acionar um fluxo de IU 
 
    Terá de fazer isto uma vez para cada dispositivo:
 
-    - **Nome da ligação**: escolha um nome para o dispositivo para a ligação de fluxo. Poderá ser diferente do nome do gateway.
-    - **Nome de utilizador**: indique a conta escolar ou profissional do dispositivo.
-    - **Tipo de autenticação**: selecione o Windows.
-    - **Palavra-passe**: a palavra-passe da conta escolar ou profissional.
-    - **Gateway**: selecione o gateway que criou durante a instalação.
+    - **Gateway**: Selecione o gateway que criou anteriormente ou utilize **Novo gateway** para criar um novo gateway.   
+    - **Domínio e Nome de utilizador**: apresenta a conta escolar ou profissional do dispositivo.
+    - **Palavra-passe**: forneça a palavra-passe da sua conta escolar ou profissional.
 
-      ![Definições de ligação](../media/run-ui-flow/connection-settings.png "Definições de ligação")
+      ![Definições de ligação](../media/run-ui-flow/uiflow-connection-card.png "Definições de ligação")
 
       >[!TIP]
       >Caso não veja o gateway, é possível que tenha de selecionar uma ligação diferente. Para o fazer, selecione **...** no canto superior direto do cartão **Executar um fluxo de IU para computador (pré-visualização)** e, em seguida, selecione a ligação que quer utilizar em **As minhas ligações**.
@@ -111,6 +109,97 @@ Quando define entradas e saídas num fluxo de IU, pode transmitir informações 
 
 1. Também pode utilizar saídas do fluxo de IU como entradas para ações que surgem posteriormente no fluxo. Para isso, selecione o campo de texto e, em seguida, selecione uma entrada no seletor de tokens.
 
+## <a name="run-ui-flows-unattended-or-attended"></a>Executar fluxos de IU automáticos ou assistidos
+
+Ao criar fluxos de IU, execute-os em modo **assistido** ou **automático**. O modo automático é melhor para aplicações que não necessitam de supervisão humana.
+
+Ao executar de forma automática, os fluxos de IU iniciam sessão automaticamente nos dispositivos de destino com o Windows 10, Windows Server 2016 ou Windows Server 2019. Quando a automatização for concluída, os fluxos de IU terminarão sessão no dispositivo e comunicarão a sua atividade no Power Automate.
+
+Ao serem executados de forma assistida, os fluxos de IU utilizarão uma sessão de utilizador do Windows existente.
+
+Os fluxos de IU utilizarão os modos assistidos ou automáticos consoante o estado da máquina, conforme descrito abaixo neste artigo.
+
+### <a name="unattended-mode"></a>Modo automático
+
+Para executar fluxos de IU automáticos, a máquina de destino tem de estar disponível, com todas as sessões de utilizadores terminadas. As sessões de utilizador do Windows bloqueadas impedem a execução dos fluxos de IU.
+
+Os fluxos de IU realizam o seguinte:
+1. Os fluxos de IU criam, gerem e depois disponibilizam a sessão de utilizador do Windows em dispositivos de destino.
+
+1. Os fluxos de IU automáticos serão executados em dispositivos com o ecrã bloqueado.
+
+1. Os dispositivos com o Windows 10 não podem ser executados de forma automática se existirem sessões de utilizador do Windows ativas no dispositivo (mesmo que estejam bloqueadas). Verá este erro: *Não é possível executar o fluxo de IU. Existe uma sessão de utilizador do Windows bloqueada ou inativa no dispositivo de destino*.
+
+1. No Windows Server, se tiver uma sessão de utilizador bloqueada do Windows aberta com o mesmo utilizador que o fluxo de IU é suposto executar, verá o mesmo erro: *Não é possível executar o fluxo de IU. Existe uma sessão de utilizador do Windows bloqueada ou inativa no dispositivo de destino*.
+
+### <a name="attended-mode"></a>Modo assistido
+Para executar um fluxo de IU assistido, é necessário ter uma sessão de utilizador do Windows ativa que corresponda ao nome do utilizador configurado para a sua ligação. A sessão não deve estar bloqueada.
+
+Quando um fluxo de IU assistido começar a ser executado na máquina de destino, recomendamos que evite interações com o seu dispositivo (por exemplo: movimentos com o rato) até que a execução esteja concluída.
+
+
+## <a name="schedule-multiple-ui-flows-on-the-same-device"></a>Agendar múltiplos fluxos de IU no mesmo dispositivo
+
+Pode agendar a execução de múltiplos fluxos de IU num ou mais dispositivos. Se for acionada a execução de mais de um fluxo de IU no mesmo dispositivo, o back-end dos fluxos de IU orquestrará as execuções ao seguir estas regras:
+
+1.  Envia o primeiro fluxo de IU para o dispositivo de destino.
+
+1.  Coloca outros fluxos de IU em fila e apresenta-os como **em espera** na página de detalhes dos fluxos de IU ou gateway.
+
+1.  Envia o seguinte fluxo de IU quando cada execução é concluída.
+
+>[!NOTE]
+>Estas regras de orquestração aplicam-se tanto aos fluxos de IU que são agendados pelo mesmo utilizador como por diferentes utilizadores no mesmo dispositivo.
+
+>[!IMPORTANT]
+>Se existirem demasiados fluxos de IU em fila de execução, o tempo pode ser excedido. O fluxo de IU falhará se não for executado 30 minutos após ser acionado.
+
+## <a name="rerun-failed-ui-flows"></a>Voltar a executar fluxos de IU com falhas
+
+Se a execução de um fluxo de IU falhar, pode tentar executá-lo depois de corrigir a causa dessa falha ou, em determinados casos, resolver a execução com falhas.
+
+1. Aceda à página de detalhes dos fluxos de IU e identifique a execução com falhas que pretende executar novamente.
+
+1. Selecione o fluxo principal da execução no qual tem interesse.
+
+   Isto irá levá-lo à execução de fluxo principal na qual o fluxo de IU falhou.
+
+1. Selecione o botão Voltar a submeter no menu Ação.
+
+## <a name="troubleshoot-failures"></a>Resolver falhas
+
+### <a name="failed-ui-flows"></a>Fluxos de IU com falhas
+
+1. Se o seu fluxo de IU falhar com a mensagem de erro **Não é possível criar uma nova sessão**, siga estes passos para resolver o problema:
+
+    1.  No Windows 10, confirme se não tem uma sessão de utilizador ativa bloqueada ou desbloqueada no seu dispositivo de destino.
+    1.  No Windows Server 2016 ou no Windows Server 2019, confirme se não atingiu o número máximo de sessões de utilizadores ativas configuradas para a sua máquina. Caso contrário, os fluxos de IU não poderão criar novas sessões para executar novos fluxos de IU.
+
+### <a name="ui-flows-app-status"></a>Estado da aplicação de fluxos de IU
+
+A aplicação de fluxos de IU é o software que instala na sua máquina local que gere e executa os Fluxos de IU. Permite que os nossos serviços cloud de Fluxo de IU comuniquem e orquestrem Fluxos de IU na sua máquina.
+
+Na lista de gateways e nas páginas de detalhes do gateway, pode ver o estado da aplicação de fluxos de IU atual para cada dispositivo.
+
+![Uma captura de ecrã a mostrar a lista de gateways](../media/run-ui-flow/gateway-list.png)
+
+A sua aplicação de fluxos de IU pode estar num dos seguintes estados:
+
+1. **Disponível**: a aplicação de fluxos de IU está online e pronta para executar fluxos de IU.
+
+1. **Em execução**: um ou mais fluxos de IU estão em execução na máquina. Todos os outros fluxos de IU que o back-end enviar para o dispositivo de destino serão colocados em fila para aguardar a sua execução.
+
+1. **Corrigir ligação para o gateway**: o serviço cloud de fluxo de IU não pode alcançar o dispositivo de destino, provavelmente porque existe um problema com a ligação do gateway. Para resolver este problema, aceda à ligação e confirme se as credenciais que utiliza estão corretas.
+
+1. **Desconhecido**: isto significa que o back-end não pode alcançar a aplicação de fluxos de IU.
+
+    1. Se o **estado do gateway** for **offline**, confirme se o dispositivo está ligado e ligado à Internet. Também pode [resolver problemas do gateway](https://docs.microsoft.com/data-integration/gateway/service-gateway-tshoot)
+
+    1. Se o **estado do gateway** for **online**, experimente as seguintes ações:
+
+        1. Confirmar se os serviços e a aplicação de fluxos de IU estão em execução no seu dispositivo.
+
+        1. Reiniciar o serviço de fluxo de IU no seu dispositivo.
 
 ## <a name="learn-more"></a>Saiba mais
 
