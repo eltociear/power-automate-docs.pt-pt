@@ -2,7 +2,7 @@
 title: Documentação do Power Automate
 summary: O Power Automate é um serviço que o ajuda a criar fluxos de trabalho automatizados entre as suas aplicações e serviços favoritos para sincronizar ficheiros, obter notificações, recolher dados e mais.
 metadata:
-  title: Página de destino do Power Automate
+  title: Documentação do Power Automate
   description: Concede acesso a áreas realçadas dentro da documentação do Power Automate
   services: service
   ms.service: flow
@@ -12,12 +12,12 @@ metadata:
   author: MSFTMAN
   ms.author: Deonhe
   ms.date: 01/18/2020
-  ms.openlocfilehash: b62daba1b1c41f8d9655ddbadae8210a9fbb4a49
-  ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+  ms.openlocfilehash: c3a46514627a133e6f90abd6476ecd3d914dcdf2
+  ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 03/12/2020
-  ms.locfileid: "79194813"
+  ms.lasthandoff: 03/21/2020
+  ms.locfileid: "80082133"
 landingContent:
 - title: Acerca do Power Automate
   linkLists:
