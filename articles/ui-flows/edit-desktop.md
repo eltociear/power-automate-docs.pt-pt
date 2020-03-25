@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 49586e7035c4a1796ff624667b2562d2a64c576a
-ms.sourcegitcommit: ace3dbcbda208991201b770b9c707ec39faaa0d9
+ms.openlocfilehash: e56c6559c78de3bed4dabddaffb9c02c8be49631
+ms.sourcegitcommit: c1c73952bb799a1fe48f2eb4f0c8dc7dd8614ff1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79384594"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79437238"
 ---
 # <a name="edit-desktop-ui-flows"></a>Editar fluxos de IU para computador
 
@@ -60,7 +60,7 @@ Os parâmetros avançados permitem-lhe alterar:
 Pode querer gravar o fluxo de IU em várias sessões. Depois de ter concluído a primeira gravação, pode proceder da seguinte forma:
 
 1. Inicie sessão no [Power Automate](https://flow.microsoft.com).
-1. Selecione **Os meus fluxos** > **Fluxos de IU (pré-visualização)** .
+1. Selecione **Os meus fluxos** > **Fluxos de IU (pré-visualização)**.
 1. Selecione o fluxo de IU que quer editar.
    ![](../media/edit-desktop/select-ui-flow.png)
 1. Selecione **Editar**. 
@@ -111,7 +111,7 @@ Depois de ter gravado uma aplicação com, pelo menos, uma ação, poderá adici
 Siga estes passos para adicionar uma ação manual:
 
 1. Inicie sessão no [Power Automate](https://flow.microsoft.com).
-1. Selecione **Os meus fluxos** > **Fluxos de IU (pré-visualização)** .
+1. Selecione **Os meus fluxos** > **Fluxos de IU (pré-visualização)**.
 1. Selecione o fluxo de IU que quer editar.
    ![](../media/edit-desktop/select-ui-flow.png)
 1. Selecione **Editar**. 
@@ -171,7 +171,7 @@ Pode realizar estas operações avançadas ao realizar os seguintes passos num f
 
 1. Selecione o fluxo de IU que criou > **Mais comandos** (...) > **Editar**.
 
-1. Selecione **+**  > **Adicionar uma ação** na seta para baixo do passo do fluxo de IU ao qual pretende adicionar uma lógica.
+1. Selecione **+** > **Adicionar uma ação** na seta para baixo do passo do fluxo de IU ao qual pretende adicionar uma lógica.
 
    ![Adicionar uma ação](../media/edit-desktop/add-action.png)
 
@@ -182,6 +182,45 @@ Pode realizar estas operações avançadas ao realizar os seguintes passos num f
 1. Complete a expressão que precisa de ser avaliada. Pode utilizar conteúdo dinâmico e expressões para avaliar a condição e alternar os controlos. Adicionalmente, pode utilizar qualquer saída que seja criada pelos passos anteriores do fluxo de IU.
 
    ![Cartão de condição](../media/edit-desktop/condition-card.png)
+
+
+## <a name="handle-error-conditions"></a>Lidar com condições de erro
+
+Podem surgir condições inesperadas durante a reprodução, provocando a falha dos seus fluxos de IU. Pode utilizar funcionalidades avançadas de processamento de erros para criar passos alternativos para quando surgirem condições inesperadas. 
+
+Eis os passos que tem de seguir para o fazer.
+
+1. Inicie sessão no [Power Automate](https://powerautomate.microsoft.com) com a sua conta escolar ou profissional.
+1. Selecione **Os meus fluxos** > **Fluxos de IU** para apresentar os seus fluxos de IU.
+1. Selecione **Mais comandos** (os três pontos verticais para o fluxo de IU que pretende editar).
+1. Selecione **Editar**.
+1. Selecione a seta para baixo que se encontra imediatamente antes do passo do fluxo de IU ao qual pretende adicionar processamento de erros e, em seguida, selecione **+** (Inserir novo passo).
+   
+   Na seguinte imagem, vamos inserir o novo passo antes do passo **PostElementText 1**. Isto significa que, se **PostElementText 1** falhar, serão executados os passos alternativos que definir a seguir.
+
+      ![Imagem a mostrar a introdução de um novo passo](../media/edit-desktop/insert-new-step.png) 
+
+1. Selecione **Adicionar um ramo paralelo**.
+
+    ![Imagem a mostrar a adição de um ramo paralelo e outras opções](../media/edit-desktop/add-parallel-branch.png)
+
+1. Selecione a ação que pretende executar no ramo paralelo caso exista uma falha quando o fluxo de IU for executado.
+
+   Pode selecionar **Gravar aplicação** para criar uma nova gravação para o ramo paralelo ou selecionar **Terminar** nas ações **Incorporadas** para simplesmente sair do fluxo de IU se ocorrer uma falha.
+
+    ![Imagem a mostrar as opções do ramo paralelo](../media/edit-desktop/add-parallel-branch.png)
+
+   >[!NOTE]
+   >Por predefinição, a ação que adicionar ao ramo paralelo será executada apenas se o passo anterior falhar. Pode selecionar **...** no ramo paralelo > **Configurar a execução posterior** para alterar o comportamento predefinido. 
+
+      ![Imagem a mostrar as opções, incluindo Configurar a execução posterior](../media/edit-desktop/configure-run-after.png)
+
+1.  A partir deste ecrã, pode selecionar a condição na qual pretende que o ramo paralelo seja executado. Pode selecionar uma das quatro opções disponíveis.
+
+    ![Imagem a mostrar as opções de execução posterior](../media/edit-desktop/run-after-options.png)
+
+    Nota: Não conseguirá guardar um fluxo de IU que tenha o ramo principal e o ramo paralelo definidos para serem executados na mesma condição.
+
 
 
 ## <a name="enable-coordinate-based-playback"></a>Ativar a reprodução baseada em coordenadas

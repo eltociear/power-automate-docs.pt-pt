@@ -14,12 +14,12 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 2c889d21336b632edf1f3746cc90846f469ecbd4
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: e74c8789975926600d4d17708a134cefb7fc0722
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195940"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80082175"
 ---
 # <a name="power-automate-us-government"></a>Power Automate para a Administração Pública dos Estados Unidos
 
@@ -169,9 +169,9 @@ Utiliza um conjunto diferente de URLs para aceder aos ambientes do Power Automat
 
 Versão comercial | Versão US Government
 ------ | --------
-[https://flow.microsoft.com](https://flow.microsoft.com) | [https://gov.flow.microsoft.us (GCC)](https://gov.flow.microsoft.us) e [https://high.flow.microsoft.us (GCC High)](https://high.flow.microsoft.us)
-[https://admin.flow.microsoft.com](https://admin.flow.microsoft.com) | [https://gov.admin.flow.microsoft.us (GCC)](https://gov.admin.flow.microsoft.us) e [https://high.admin.flow.microsoft.us (GCC High)](https://high.admin.flow.microsoft.us)
-[https://flow.microsoft.com/connectors](https://flow.microsoft.com/connectors) | [https://gov.flow.microsoft.us/connectors (GCC)](https://gov.flow.microsoft.us/connectors) e [https://high.flow.microsoft.us/connectors (GCC High)](https://high.flow.microsoft.us/connectors)
+[https://flow.microsoft.com](https://flow.microsoft.com) | [https://gov.flow.microsoft.us (GCC)](https://gov.flow.microsoft.us) e [https://high.flow.microsoft.us(GCC High)](https://high.flow.microsoft.us)
+[https://admin.flow.microsoft.com](https://admin.flow.microsoft.com) | [https://gov.admin.flow.microsoft.us (GCC)](https://gov.admin.flow.microsoft.us) e [https://high.admin.flow.microsoft.us(GCC High)](https://high.admin.flow.microsoft.us)
+[https://flow.microsoft.com/connectors](https://flow.microsoft.com/connectors) | [https://gov.flow.microsoft.us/connectors (GCC)](https://gov.flow.microsoft.us/connectors) e [https://high.flow.microsoft.us/connectors(GCC High)](https://high.flow.microsoft.us/connectors)
 
 
 Para os clientes que implementam restrições de rede, confirme que o acesso aos seguintes domínios está disponível para os pontos de acesso dos utilizadores finais:
@@ -225,6 +225,8 @@ Algumas das funcionalidades disponíveis na versão comercial do Flow não estã
 - Acionar o Power Automate US Government *a partir de* Listas do SharePoint
 
 - Acionar o Power Automate US Government *a partir do* GCC do Dynamics 365
+
+- O [AI Builder](https://docs.microsoft.com/ai-builder/) ainda não está disponível para os inquilinos do GCC e GCC High.
 
 - As [aprovações](./modern-approvals.md) ainda não estão disponíveis para os inquilinos do GCC e do GCC High.
 

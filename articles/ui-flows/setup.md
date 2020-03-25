@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 825ebceb042215c379340f1e1b7e2dae6f921c2c
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 96c93771129ab0454d03e721a36d429e6cc894d5
+ms.sourcegitcommit: c1c73952bb799a1fe48f2eb4f0c8dc7dd8614ff1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79196049"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79437162"
 ---
 # <a name="set-up-ui-flows"></a>Configurar fluxos de IU
 
@@ -87,6 +87,12 @@ Siga estes passos para instalar a aplicação de fluxos de IU:
 1. [Transfira o programa de instalação dos fluxos de IU](https://go.microsoft.com/fwlink/?linkid=2102613).
 1. Abra o ficheiro **Setup.Microsoft.Flow.UIflow.exe**. Este ficheiro encontra-se provavelmente na pasta **Transferências**, depois de o ter transferido no passo anterior.
 1. Siga as instruções do programa de instalação **Configuração de fluxos de IU (pré-visualização)** para concluir a instalação.
+
+### <a name="set-data-collection-options"></a>Definir opções de recolha de dados
+
+Durante a instalação, pode alterar as predefinições se não quiser enviar dados de utilização para a Microsoft. Para o fazer, desselecione a opção **Permitir que a Microsoft recolha dados de utilização para melhorar os fluxos de IU**.
+
+![Imagem a mostrar as opções de recolha de dados](../media/ui-flows-setup/data-collection-settings.png)
 
 > [!WARNING]
 > Tem de desinstalar a aplicação de fluxos de IU e, em seguida, reinstalá-la se precisar de alterar as definições de recolha de dados. Os fluxos de IU deixarão de funcionar se alterar as definições de recolha de dados sem desinstalar primeiro a aplicação de fluxos de IU.
