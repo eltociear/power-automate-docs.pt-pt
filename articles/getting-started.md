@@ -20,21 +20,21 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 7d4cd1523e19811eb4636d0197a347dbc86de9f8
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: e78ba6de412a067ae21eb4a11a5b1a7d5165448c
+ms.sourcegitcommit: c86134235a4e3a819800c77fbc50034cfd8714c2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79224383"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80329904"
 ---
 # <a name="get-started-with-power-automate"></a>Introdução ao Power Automate 
 
-
-
-<br>
-<iframe width="1129" height="635" src="https://www.youtube.com/embed/hCuxuUaGC6Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 Bem-vindo! O Power Automate é um serviço que o ajuda a criar fluxos de trabalho automatizados entre as suas aplicações e serviços favoritos para sincronizar ficheiros, obter notificações, recolher dados e mais.
+
+<br/>
+
+> [!VIDEO https://www.youtube.com/embed/hCuxuUaGC6Y]
+
 
 ## <a name="types-of-flows"></a>Tipos de fluxos
 

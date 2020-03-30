@@ -20,23 +20,23 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 8739d0a3227f74532039d09c0bba8cb18e27982a
-ms.sourcegitcommit: 26cda5060446812f3725ccd4fe435839088f50fa
+ms.openlocfilehash: d17e7884960af0fb4231eac785a17683c1dadd18
+ms.sourcegitcommit: c86134235a4e3a819800c77fbc50034cfd8714c2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78244202"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80329865"
 ---
 # <a name="preview-introduction-to-ui-flows"></a>Pré-visualização: Introdução aos fluxos de IU
 
 [Este tópico é uma documentação de pré-lançamento e está sujeito a alterações.]
 
-[!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
-
-<br>
-<iframe width="1129" height="635" src="https://www.youtube.com/embed/bZrrdoytTH0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 Os fluxos de IU fornecem capacidades de Automatização de Processos Robóticos (RPA) para o Power Automate. Pode utilizar os fluxos de IU para automatizar tarefas repetitivas no Windows e em aplicações Web. Os fluxos de IU registam e reproduzem ações da interface de utilizador (cliques, entradas do teclado, etc.) para aplicações que não tenham disponíveis APIs completas ou fáceis de utilizar.
+
+<br/>
+
+> [!VIDEO https://www.youtube.com/embed/bZrrdoytTH0]
+
 
 > [!IMPORTANT]
 > - Esta é uma funcionalidade em pré-visualização.
