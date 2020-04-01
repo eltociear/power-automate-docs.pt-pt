@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 06781496eecd33801cdd08768c698e2203b1f846
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 9c5180fc02a3aea9403dabe28a9f8767354bbe1c
+ms.sourcegitcommit: c86134235a4e3a819800c77fbc50034cfd8714c2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79194399"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80329875"
 ---
 # <a name="create-an-automated-flow-by-using-common-data-service"></a>Criar um fluxo automatizado com o Common Data Service
 
@@ -71,6 +71,9 @@ Este fluxo é acionado sempre que o nome próprio ou apelido do contacto que per
 
 > [!div class="mx-imgBorder"]
 > ![Atributos de filtro](./media/cds-connector/FilterAttributes.png)
+
+> [!IMPORTANT]
+> Não pode utilizar os [Conjuntos de Opções de Seleção Múltipla](/powerapps/maker/common-data-service/custom-picklists) num fluxo de trabalho. Se incluir algum, ocorrerá um erro a indicar um “campo obrigatório” em falta
 
 ## <a name="trigger-privileges"></a>Privilégios do acionador
 
