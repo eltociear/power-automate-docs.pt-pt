@@ -102,7 +102,7 @@
       href: custom-controls-business-process-flows.md
     - name: Melhores práticas para os atributos do fluxo do processo de negócio
       href: best-practices-entity-attributes.md
-- name: 'UI flows (preview) (Fluxos de IU [pré-visualização])'
+- name: Fluxos de IU
   items:
     - name: Introdução aos fluxos de IU
       href: ./ui-flows/overview.md
