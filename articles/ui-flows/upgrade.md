@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 617f61e1c08f7a4a51bb6916bcadf5e02691d46f
-ms.sourcegitcommit: f7d040ae93eabbc60ce922f497ab47977130d877
+ms.openlocfilehash: b73c550eb22948ea3c0e9ac14adf15674869da61
+ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79132941"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80525058"
 ---
 # <a name="upgrade-ui-flows-app-and-connections-from-previous-releases"></a>Atualizar a aplicação de fluxos de IU e ligações a partir de versões anteriores
 
@@ -42,16 +42,13 @@ Não é necessária qualquer ação até atualizar a aplicação de fluxos de IU
 1.  Para cada dispositivo em que instalou a aplicação de fluxos de IU:
 
     1. Inicie sessão no [Power Automate](https://powerautomate.microsoft.com).
-    1. Expanda **Dados** no lado esquerdo do ecrã.
+    1. Expanda a opção **Dados** no lado esquerdo do ecrã.
     1. Selecione **Ligações**.
     1. Edite as ligações de fluxos de IU com destino no seu dispositivo.
     1. Introduza as suas credenciais para as ligações e guarde-as.
 
     >[!IMPORTANT]
-    >Certifique-se de que utiliza as credenciais corretas conforme delineado no artigo [Configurar ligações de fluxos de IU e credenciais da máquina](setup.md). A utilização das credenciais corretas garante que a sua ligação atualiza e utiliza os caminhos de código para os fluxos de IU normalmente disponíveis.
-
- <!-- todo      1. See (Managing UI flows app (Install, update, versions…)) for more
-            details. -->
+    >Certifique-se de que utiliza as credenciais corretas conforme delineado no artigo [Configurar ligações de fluxos de IU e credenciais da máquina](setup.md#setup-ui-flows-connections-and-machine-credentials). A utilização das credenciais corretas garante que a sua ligação atualiza e utiliza os caminhos de código para os fluxos de IU normalmente disponíveis.
 
 ## <a name="next-steps"></a>Próximos passos
 

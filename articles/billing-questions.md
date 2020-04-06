@@ -20,12 +20,12 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 050d4bcd9bea03d41bbd403455ac6a7df9a0e1ff
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: d1c46c6521e3267f5a2b5b8562122c92647211c7
+ms.sourcegitcommit: 855ee8b55aebe7b8e202006c39debfff02df1d30
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79224268"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80627057"
 ---
 # <a name="billing-and-metering-questions"></a>Perguntas sobre faturação e medição
 
@@ -93,5 +93,4 @@ Pode contornar este problema, colocando todos os filtros de que necessita no aci
   * 250 fluxos.
   * 15 Conectores Personalizados.
   * 20 ligações por API e 100 ligações no total.
-* Só pode instalar um gateway no ambiente predefinido.
 * Determinados conectores externos, tais como o Twitter, implementam a limitação de ligação para controlarem a qualidade de serviço. Quando a limitação está em vigor, os seus fluxos irão falhar. Se os seus fluxos estão a falhar, reveja os detalhes da execução que falhou no histórico de execuções do fluxo.
