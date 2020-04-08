@@ -20,20 +20,16 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: f29873dff5ae842d2f7b86f4f6e3e5c31bf04712
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 74c323f844c6bdc0f4cb1ad3d1a37977070a0a26
+ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74371693"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80525160"
 ---
 # <a name="edit-web-ui-flows"></a>Editar fluxos de IU para a Web
 
-[Este tópico é uma documentação de pré-lançamento e está sujeito a alterações.]
-
-[!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
-
-Os fluxos de IU para a Web automatizam os sites em execução na [próxima versão do Microsoft Edge](https://www.microsoftedgeinsider.com/) ou no Google Chrome. Depois de ter [criado um fluxo de IU para a Web](create-web.md), poderá precisar de o editar. Siga os passos neste documento para saber como editar os fluxos de IU para a Web.
+Os fluxos de IU para a Web automatizam os sites em execução no [Microsoft Edge (versão 80 ou posterior)](https://www.microsoft.com/edge/) ou no Google Chrome. Depois de ter [criado um fluxo de IU para a Web](create-web.md), poderá precisar de o editar. Siga os passos neste documento para saber como editar os fluxos de IU para a Web.
 
 ## <a name="edit-in-selenium-ide"></a>Editar no IDE Selenium
 

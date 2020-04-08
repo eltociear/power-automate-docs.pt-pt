@@ -20,28 +20,24 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 90951e4244ef7caa75bedc522d1bb032e070dbef
-ms.sourcegitcommit: 26cda5060446812f3725ccd4fe435839088f50fa
+ms.openlocfilehash: fb0b3b2dcd615130764d7f4c206e04e191bb1eca
+ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78244269"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80524614"
 ---
 # <a name="create-and-test-your-web-ui-flows"></a>Criar e testar os fluxos de IU da Web
 
-[Este tópico é uma documentação de pré-lançamento e está sujeito a alterações.]
-
-[!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
-
-Siga estes passos para criar um fluxo de IU da Web simples:
+Siga estes passos para criar um fluxo de IU da Web simples.
 
 ## <a name="create-a-web-ui-flow"></a>Criar um fluxo de IU da Web
 
-1. Abra a [versão seguinte do Microsoft Edge](https://www.microsoftedgeinsider.com/) ou Google Chrome e, em seguida, navegue até [Power Automate](https://flow.microsoft.com/).
+1. Abra o [Microsoft Edge (versão 80 ou posterior)](https://www.microsoft.com/edge) ou o Google Chrome e, em seguida, navegue até [Power Automate](https://flow.microsoft.com/).
 
 1. Iniciar sessão com a sua conta escolar ou profissional, caso necessário.
 
-1. Selecione **Os meus fluxos** > **Fluxos de IU (pré-visualização)**  > **Novo**.
+1. Selecione **Os meus fluxos** > **Fluxos de IU** > **Novo**.
 
    ![Criar o novo fluxo de IU](../media/create-windows-ui-flow/create-new.png "Criar novo fluxo de IU")
 

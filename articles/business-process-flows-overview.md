@@ -21,12 +21,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 8f4a1fcf0feb893f3eca8ac12b6b7f725aceed10
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: a6e936b833f6b1e1d6cf6e050031969d41e40de6
+ms.sourcegitcommit: 31692af25f91af60cf77572edcb0c986602dc9a6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79194238"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80624852"
 ---
 # <a name="business-process-flows-overview"></a>Descrição geral dos fluxos de processos de negócio
 
@@ -190,6 +190,7 @@ Especificamente, os três comandos disponíveis para um fluxo do processo de neg
 
 - Atualmente, não pode criar formulários personalizados para entidades com base num fluxo de processo de negócio.
 - Se uma solução incluir uma entidade de fluxo de processo de negócio, essa entidade terá de ser adicionada manualmente à solução antes de a exportar. Caso contrário, a entidade de fluxo de processo de negócio não será incluída no pacote de solução. Mais informações: [Adicionar componentes da solução](/powerapps/maker/model-driven-apps/create-solution#add-solution-components)
+- A adição da entidade do processo a uma aplicação condicionada por modelo poderá limitar a funcionalidade. Saiba mais sobre a [criação e edição de fluxos de processos de negócio](https://docs.microsoft.com/power-automate/create-business-process-flow). 
 
 ### <a name="next-steps"></a>Próximos passos  
  [Veja um breve vídeo (4:49) sobre fluxos de processos de negócio](https://go.microsoft.com/fwlink/p/?linkid=842226)   

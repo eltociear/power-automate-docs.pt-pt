@@ -13,25 +13,21 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/03/2020
+ms.date: 03/24/2020
 ms.author: DeonHe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 0852e8b52f7b158d8fc97316b0f719f8e557a15f
-ms.sourcegitcommit: 14ea422c0b306f738757036cc0e240584dd810f5
+ms.openlocfilehash: 7d9142fa86b256ca816cf128f8b76bae7d1c5a90
+ms.sourcegitcommit: 855ee8b55aebe7b8e202006c39debfff02df1d30
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79188119"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80627066"
 ---
 # <a name="run-attended-and-unattended-ui-flows"></a>Executar os fluxos de UI com e sem assistência
-
-[Este tópico é uma documentação de pré-lançamento e está sujeito a alterações.]
-
-[!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
 
 Depois de ter criado e testado um fluxo de IU, poderá executá-lo a partir de um evento, agendamento ou botão. Para tornar isto possível, adicione o fluxo de IU a um [Fluxo automatizado](../get-started-logic-flow.md), um [Fluxo de botão](../introduction-to-button-flows.md), um [Fluxo agendado](../run-scheduled-tasks.md) ou um [fluxo de processo de negócio](../business-process-flows-overview.md).
 
@@ -60,7 +56,7 @@ Neste exemplo, vamos utilizar um fluxo automatizado para acionar um fluxo de IU 
 1. Dê um nome ao fluxo na caixa **Nome do fluxo**.
 1. Procure “novo e-mail” e, em seguida, selecione **Quando chega um novo e-mail (V3)** na lista de acionadores. 
     
-   ![Selecione um acionador](../media/run-ui-flow/2d4ec17d239169a46905cef1829fa3a1.png "Selecionar um acionador")
+   ![Selecione um acionador](../media/run-ui-flow/select-email-trigger.png "Selecionar um acionador")
 
 1. Selecione **Criar** e, em seguida, **Novo passo**.
 
@@ -74,12 +70,18 @@ Neste exemplo, vamos utilizar um fluxo automatizado para acionar um fluxo de IU 
 
     - **Gateway**: Selecione o gateway que criou anteriormente ou utilize **Novo gateway** para criar um novo gateway.   
     - **Domínio e Nome de utilizador**: apresenta a conta escolar ou profissional do dispositivo.
+       >[!Important]
+        >Certifique-se de que consegue iniciar sessão no dispositivo com estas credenciais.  
     - **Palavra-passe**: forneça a palavra-passe da sua conta escolar ou profissional.
 
       ![Definições de ligação](../media/run-ui-flow/uiflow-connection-card.png "Definições de ligação")
 
       >[!TIP]
-      >Caso não veja o gateway, é possível que tenha de selecionar uma ligação diferente. Para o fazer, selecione **...** no canto superior direto do cartão **Executar um fluxo de IU para computador (pré-visualização)** e, em seguida, selecione a ligação que quer utilizar em **As minhas ligações**.
+      >Se não vir o seu gateway, poderá estar num ambiente cuja região difere da região do gateway. Selecione **Resolução de problemas de um gateway em falta** na lista de nomes de gateway para saber mais. Também pode confirmar que as regiões do seu gateway e do Power Automate estão [mapeadas corretamente](../regions-overview.md#region-mappings-for-power-automate-and-gateways).
+
+      >[!TIP]
+      >Caso não veja o gateway, é possível que tenha de selecionar uma ligação diferente. Para o fazer, selecione **...** no canto superior direto do cartão **Executar um fluxo de IU para computador**  ou **Executar um fluxo de IU para a Web** e, em seguida, selecione a ligação em **As minhas ligações**.
+
 
       ![Selecionar uma nova ligação](../media/run-ui-flow/select-new-connection.png "Selecionar uma nova ligação")
 
@@ -88,8 +90,10 @@ Neste exemplo, vamos utilizar um fluxo automatizado para acionar um fluxo de IU 
    ![Selecionar fluxo de IU](../media/run-ui-flow/select-ui-flow.png "Selecionar fluxo de IU")
 
 1. Selecione **Guardar** para guardar o fluxo automatizado.
+ >[!TIP]
+ >Antes de testar, confirme que o seu gateway está online. Aceda a **Dados** > **Gateways** no painel de navegação, selecione o nome do gateway, clique em **...** , aceda a **Detalhes** e verifique se o **estado do gateway** apresentado é **online**. Se **o estado do gateway** apresentado for **offline**, confirme que o dispositivo está em funcionamento e ligado à Internet. 
 
-1. Teste o fluxo ao enviar um e-mail para o acionar. Verá o fluxo de IU reproduzir os passos que gravou. 
+1. Teste o fluxo ao enviar um e-mail para o acionar. Verá o fluxo de IU a reproduzir os passos que gravou. 
 
 ![Execução bem-sucedida que chama um fluxo de IU](../media/run-ui-flow/successful-run.png "Execução bem-sucedida que chama um fluxo de IU")
 
@@ -117,92 +121,110 @@ Ao executar de forma automática, os fluxos de IU iniciam sessão automaticament
 
 Ao serem executados de forma assistida, os fluxos de IU utilizarão uma sessão de utilizador do Windows existente.
 
-Os fluxos de IU utilizarão os modos assistidos ou automáticos consoante o estado da máquina, conforme descrito abaixo neste artigo.
+Quando adiciona um fluxo de IU a um fluxo, pode escolher se quer que o seu fluxo de IU seja assistido ou automático. Seguem-se algumas das principais diferenças entre execuções assistidas e automáticas.
 
 ### <a name="unattended-mode"></a>Modo automático
 
-Para executar fluxos de IU automáticos, a máquina de destino tem de estar disponível, com todas as sessões de utilizadores terminadas. As sessões de utilizador do Windows bloqueadas impedem a execução dos fluxos de IU.
+Para executar fluxos de IU automáticos, a máquina de destino tem de estar disponível, com todas as sessões de utilizadores terminadas. 
+
+>[!IMPORTANT]
+>As sessões de utilizador do Windows bloqueadas impedirão a execução dos fluxos de IU.
 
 Os fluxos de IU realizam o seguinte:
 1. Os fluxos de IU criam, gerem e depois disponibilizam a sessão de utilizador do Windows em dispositivos de destino.
 
-1. Os fluxos de IU automáticos serão executados em dispositivos com o ecrã bloqueado.
+1. Os fluxos de IU automáticos são executados em dispositivos com o ecrã bloqueado para que ninguém consiga ver o fluxo durante a execução do mesmo.
 
-1. Os dispositivos com o Windows 10 não podem ser executados de forma automática se existirem sessões de utilizador do Windows ativas no dispositivo (mesmo que estejam bloqueadas). Verá este erro: *Não é possível executar o fluxo de IU. Existe uma sessão de utilizador do Windows bloqueada ou inativa no dispositivo de destino*.
+1. Os dispositivos com o Windows 10 não podem ser executados de forma automática se existirem sessões de utilizador do Windows ativas (mesmo que estejam bloqueadas). Verá este erro: *Não é possível executar o fluxo de IU. Existe uma sessão de utilizador do Windows bloqueada ou inativa no dispositivo de destino*.
 
 1. No Windows Server, se tiver uma sessão de utilizador bloqueada do Windows aberta com o mesmo utilizador que o fluxo de IU é suposto executar, verá o mesmo erro: *Não é possível executar o fluxo de IU. Existe uma sessão de utilizador do Windows bloqueada ou inativa no dispositivo de destino*.
 
 ### <a name="attended-mode"></a>Modo assistido
 Para executar um fluxo de IU assistido, é necessário ter uma sessão de utilizador do Windows ativa que corresponda ao nome do utilizador configurado para a sua ligação. A sessão não deve estar bloqueada.
 
-Quando um fluxo de IU assistido começar a ser executado na máquina de destino, recomendamos que evite interações com o seu dispositivo (por exemplo: movimentos com o rato) até que a execução esteja concluída.
+Quando um fluxo de IU assistido começar na máquina de destino, recomendamos que evite interagir com o seu dispositivo até a execução terminar.
 
 
 ## <a name="schedule-multiple-ui-flows-on-the-same-device"></a>Agendar múltiplos fluxos de IU no mesmo dispositivo
 
-Pode agendar a execução de múltiplos fluxos de IU num ou mais dispositivos. Se for acionada a execução de mais de um fluxo de IU no mesmo dispositivo, o back-end dos fluxos de IU orquestrará as execuções ao seguir estas regras:
+Pode agendar a execução de múltiplos fluxos de IU num ou mais dispositivos. Se for acionado mais do que um fluxo de IU para ser executado no mesmo dispositivo, o Power Automate seguirá as regras abaixo.
 
-1.  Envia o primeiro fluxo de IU para o dispositivo de destino.
+1.  O primeiro fluxo de IU será executado no dispositivo de destino.
 
-1.  Coloca outros fluxos de IU em fila e apresenta-os como **em espera** na página de detalhes dos fluxos de IU ou gateway.
+1.  Coloca outros fluxos de IU em fila e apresenta-os como **Em espera** na página de detalhes dos fluxos de IU ou do gateway.
 
-1.  Envia o seguinte fluxo de IU quando cada execução é concluída.
+1.  Escolhe o fluxo de IU seguinte quando cada execução é concluída.
 
 >[!NOTE]
->Estas regras de orquestração aplicam-se tanto aos fluxos de IU que são agendados pelo mesmo utilizador como por diferentes utilizadores no mesmo dispositivo.
+>Estas regras de orquestração aplicam-se às execuções de fluxos de IU que são agendadas pelo mesmo utilizador ou por diferentes utilizadores no mesmo dispositivo.
 
 >[!IMPORTANT]
->Se existirem demasiados fluxos de IU em fila de execução, o tempo pode ser excedido. O fluxo de IU falhará se não for executado 30 minutos após ser acionado.
+>Se existirem demasiados fluxos de IU na fila de execução, o tempo pode ser excedido. A execução do fluxo de IU falhará se este não for executado 30 minutos após ser acionado.
+
+## <a name="load-balance-requests-across-gateways-in-a-cluster"></a>Pedidos de balanceamento de carga em vários gateways num cluster
+
+Pode optar por distribuir execuções de fluxo de IU de forma uniforme por vários gateways num cluster. Por predefinição, a seleção de um gateway durante o balanceamento de carga é aleatória.
+
+Siga [estes passos para adicionar um gateway para criar um cluster](https://docs.microsoft.com/data-integration/gateway/service-gateway-install#add-another-gateway-to-create-a-cluster).
+
+>[!NOTE]
+>Os membros de gateway offline dentro de um cluster afetarão negativamente o desempenho. Desative ou remova estes membros.
+
+Para proporcionar balanceamento de carga a partir da página de detalhes do gateway do Power Automate, navegue para **Dados** -> **Gateways** e, em seguida, selecione o seu cluster de gateways. 
+
+Na página de detalhes do gateway, ative "Executar em todos os gateways do cluster". Isto distribuirá as execuções de fluxos de IU em todos os gateways dentro desse cluster.
+
+   ![Distribuir uma execução de fluxo de IU no cluster de gateways](../media/run-ui-flow/gw_cluster.png "Distribuir uma execução de fluxo de IU no cluster de gateways")
+   
+>[!IMPORTANT]
+>Se estiver a utilizar contas Windows locais, todas as máquinas no cluster têm de ter a mesma conta local com a mesma palavra-passe. Utilize estas credenciais quando criar a ligação do fluxo de IU.
+>Se estiver a utilizar máquinas associadas ao Azure AD ou o Active Directory, confirme que a conta de utilizador que vai utilizar na ligação de fluxo de IU pode aceder a todas as máquinas no cluster.
+   
+## <a name="best-practices-to-avoid-timeouts-and-distribute-load-across-machines"></a>Melhores práticas para evitar tempos limite e distribuir carga por várias máquinas
+
+Se tencionar executar múltiplos fluxos de IU, há um conjunto de estratégias que pode adotar para distribuir carga e garantir que todos os seus fluxos de IU são executados com sucesso sem sobrecarregar a(s) máquina(s) de destino ou atingir tempos limite devido ao facto de haver múltiplos fluxos de IU em execução ao mesmo tempo. Pode:
+
+1. planear a execução dos seus fluxos de IU em diferentes horas do dia para distribuir a carga ao longo do tempo. Isto funciona melhor se tiver um conjunto único ou limitado de máquinas que podem executar cargas de trabalho e se conseguir controlar os acionadores (por exemplo, fluxos agendados) que iniciam os seus fluxos de IU;
+1. criar clusters de máquinas que consigam executar fluxos de IU com configurações idênticas em paralelo; 
+1. criar múltiplos fluxos que utilizem uma ligação separada para visar diferentes máquinas. 
+
+Se adotar estas estratégias, pode evitar que os fluxos de IU compitam entre si para serem executados no mesmo dispositivo e, em alguns casos, falhem devido à existência de tempos limite. 
+
+>[!NOTE]
+>Se estiver a executar fluxos de IU em modo automático, terá de prever o número de fluxos de IU que a sua organização tenciona executar em paralelo e, em seguida, comprar uma quantidade adequada de Suplementos Automáticos. 
+
 
 ## <a name="rerun-failed-ui-flows"></a>Voltar a executar fluxos de IU com falhas
 
-Se a execução de um fluxo de IU falhar, pode tentar executá-lo depois de corrigir a causa dessa falha ou, em determinados casos, resolver a execução com falhas.
+Se a execução de um fluxo de IU falhar, corrija o problema e, em seguida, experimente seguir os passos que se seguem para a voltar a executar: 
 
-1. Aceda à página de detalhes dos fluxos de IU e identifique a execução com falhas que pretende executar novamente.
+   1. Aceda à página de detalhes e identifique a execução que falhou.
 
-1. Selecione o fluxo principal da execução no qual tem interesse.
-
-   Isto irá levá-lo à execução de fluxo principal na qual o fluxo de IU falhou.
-
-1. Selecione o botão Voltar a submeter no menu Ação.
+   1. Selecione o botão **Voltar a submeter** no menu Ação.
 
 ## <a name="troubleshoot-failures"></a>Resolver falhas
 
-### <a name="failed-ui-flows"></a>Fluxos de IU com falhas
+1. Se o seu fluxo de IU automático falhar com a mensagem **Não é possível criar uma nova sessão**, siga estes passos para resolver o problema:
 
-1. Se o seu fluxo de IU falhar com a mensagem de erro **Não é possível criar uma nova sessão**, siga estes passos para resolver o problema:
+    - No Windows 10, confirme se não tem uma sessão de utilizador ativa bloqueada ou desbloqueada no seu dispositivo de destino.
+    - No Windows Server 2016 ou no Windows Server 2019, confirme que não atingiu o número máximo de sessões de utilizadores ativas configuradas para o seu dispositivo. Os fluxos de IU não serão executados se não for possível criar novas sessões.
 
-    1.  No Windows 10, confirme se não tem uma sessão de utilizador ativa bloqueada ou desbloqueada no seu dispositivo de destino.
-    1.  No Windows Server 2016 ou no Windows Server 2019, confirme se não atingiu o número máximo de sessões de utilizadores ativas configuradas para a sua máquina. Caso contrário, os fluxos de IU não poderão criar novas sessões para executar novos fluxos de IU.
+1. Se estiver a executar fluxos de IU num sistema operativo cujo idioma não seja o inglês e receber uma mensagem *502 - Pedido incorreto*, confirme que seguiu os [passos para atualizar os seus fluxos de IU a partir da pré-visualização](upgrade.md).
 
-### <a name="ui-flows-app-status"></a>Estado da aplicação de fluxos de IU
 
-A aplicação de fluxos de IU é o software que instala na sua máquina local que gere e executa os Fluxos de IU. Permite que os nossos serviços cloud de Fluxo de IU comuniquem e orquestrem Fluxos de IU na sua máquina.
+1. Se o **estado do gateway** for **offline**, confirme se o dispositivo está ligado e ligado à Internet. Também pode [resolver problemas do gateway](https://docs.microsoft.com/data-integration/gateway/service-gateway-tshoot).
 
-Na lista de gateways e nas páginas de detalhes do gateway, pode ver o estado da aplicação de fluxos de IU atual para cada dispositivo.
+1. Se o **estado do gateway** for **online**, experimente as seguintes ações:
 
-![Uma captura de ecrã a mostrar a lista de gateways](../media/run-ui-flow/gateway-list.png)
+   - Confirmar se os serviços e a aplicação de fluxos de IU estão em execução no seu dispositivo.
 
-A sua aplicação de fluxos de IU pode estar num dos seguintes estados:
-
-1. **Disponível**: a aplicação de fluxos de IU está online e pronta para executar fluxos de IU.
-
-1. **Em execução**: um ou mais fluxos de IU estão em execução na máquina. Todos os outros fluxos de IU que o back-end enviar para o dispositivo de destino serão colocados em fila para aguardar a sua execução.
-
-1. **Corrigir ligação para o gateway**: o serviço cloud de fluxo de IU não pode alcançar o dispositivo de destino, provavelmente porque existe um problema com a ligação do gateway. Para resolver este problema, aceda à ligação e confirme se as credenciais que utiliza estão corretas.
-
-1. **Desconhecido**: isto significa que o back-end não pode alcançar a aplicação de fluxos de IU.
-
-    1. Se o **estado do gateway** for **offline**, confirme se o dispositivo está ligado e ligado à Internet. Também pode [resolver problemas do gateway](https://docs.microsoft.com/data-integration/gateway/service-gateway-tshoot)
-
-    1. Se o **estado do gateway** for **online**, experimente as seguintes ações:
-
-        1. Confirmar se os serviços e a aplicação de fluxos de IU estão em execução no seu dispositivo.
-
-        1. Reiniciar o serviço de fluxo de IU no seu dispositivo.
+   - Reiniciar o serviço de fluxo de IU no seu dispositivo.
 
 ## <a name="learn-more"></a>Saiba mais
 
  - Instalar o [gateway de dados no local](https://docs.microsoft.com/data-integration/gateway/service-gateway-app).
  - Documentação para [utilizar a aplicação de gateway de dados no local](https://docs.microsoft.com/flow/gateway-manage).
  - [Resolução de problemas](https://docs.microsoft.com/data-integration/gateway/service-gateway-tshoot) do gateway de dados no local.
+
+
+

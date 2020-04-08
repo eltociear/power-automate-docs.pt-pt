@@ -13,25 +13,23 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/04/2019
+ms.date: 03/30/2020
 ms.author: DeonHe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 38b6ba7f8fe3ab7a386229b6c9c5ccc300a147de
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 8ea8301c1b50502995cc5081d960df44859458eb
+ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74371417"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80525026"
 ---
 # <a name="use-inputs-and-outputs-in-web-ui-flows"></a>Utilizar entradas e saídas em fluxos de IU para a Web
 
-[Este tópico é uma documentação de pré-lançamento e está sujeito a alterações.]
-
-[!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
+Pode definir entradas a transmitir para as suas aplicações automatizadas durante a reprodução. Também pode transmitir *saídas* das suas aplicações automatizadas para o seu fluxo.
 
 ## <a name="define-inputs-for-a-web-ui-flow"></a>Definir entradas para um fluxo de IU para a Web
 
@@ -43,11 +41,11 @@ Pode utilizar variáveis através da interpolação de cadeias, por exemplo, alt
 
 O comando **set window size** e o comando **type** presentes nas capturas de ecrã seguintes utilizam variáveis não inicializadas \${Width}, \${Height} e \${search}. Estas variáveis tornar-se-ão valores de entrada.
 
-![Set window size e type](../media/inputs-outputs-web/f05cb445dad212aaf395b66ba969622c.png "Set window size e type")
+![Set window size e type](../media/inputs-outputs-web/set-window-size.png "Set window size e type")
 
 Pode utilizar variáveis diretamente em alguns comandos, por exemplo, os campos target/value do comando forEach são variáveis; não precisa de os colocar entre “\${}”.
 
-Consulte a referência [Selenium commands](https://www.seleniumhq.org/selenium-ide/docs/en/api/commands/) (Comandos do Selenium) para determinar quais os comandos que assumem o nome da variável diretamente.
+Consulte a referência [Selenium commands](https://www.seleniumhq.org/selenium-ide/docs/en/api/commands/) (Comandos do Selenium) para determinar quais são os comandos que assumem nomes de variável diretamente.
 
 ## <a name="define-outputs-for-a-web-ui-flow"></a>Definir saídas para um fluxo de IU para a Web
 

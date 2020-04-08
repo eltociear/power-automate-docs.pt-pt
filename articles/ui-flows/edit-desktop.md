@@ -13,27 +13,23 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/04/2019
+ms.date: 03/24/2020
 ms.author: DeonHe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: e56c6559c78de3bed4dabddaffb9c02c8be49631
-ms.sourcegitcommit: c1c73952bb799a1fe48f2eb4f0c8dc7dd8614ff1
+ms.openlocfilehash: 8b0aebaa0e61758d6bc6ebeb3de7b71bde665edc
+ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79437238"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80525104"
 ---
 # <a name="edit-desktop-ui-flows"></a>Editar fluxos de IU para computador
 
-[Este tópico é uma documentação de pré-lançamento e está sujeito a alterações.]
-
-[!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
-
-Os fluxos de IU para computador automatizam as aplicações para computadores Windows. Veja os [Problemas conhecidos](create-desktop.md#known-issues-and-solutions) para saber mais acerca dos problemas que poderá encontrar, das soluções para esses problemas e dos cenários que não são suportados nesta versão de pré-visualização.
+Os fluxos de IU para computador automatizam as aplicações para computadores Windows. Veja os [Problemas conhecidos](create-desktop.md#known-issues-and-solutions) para saber mais acerca dos problemas que poderá encontrar, das soluções para esses problemas e dos cenários que não são suportados nesta versão.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 Um fluxo de IU para computador. [Crie um fluxo de IU para computador agora](create-desktop.md#create-and-test-desktop-ui-flows) se não tiver um para editar.
@@ -46,7 +42,7 @@ Pode editar a gravação para:
 
 -   Modificar o valor das ações que a suportem.
 -   Eliminar um passo.
--   Eliminar a gravação completa.
+-   Eliminar a gravação.
 -   Alterar a ordem das ações ao arrastar e largar. Tenha cuidado ao fazê-lo, uma vez que poderá interromper a consistência da gravação.
 
 Os parâmetros avançados permitem-lhe alterar:
@@ -60,7 +56,7 @@ Os parâmetros avançados permitem-lhe alterar:
 Pode querer gravar o fluxo de IU em várias sessões. Depois de ter concluído a primeira gravação, pode proceder da seguinte forma:
 
 1. Inicie sessão no [Power Automate](https://flow.microsoft.com).
-1. Selecione **Os meus fluxos** > **Fluxos de IU (pré-visualização)**.
+1. Selecione **Os meus fluxos** > **Fluxos de IU**.
 1. Selecione o fluxo de IU que quer editar.
    ![](../media/edit-desktop/select-ui-flow.png)
 1. Selecione **Editar**. 
@@ -111,7 +107,7 @@ Depois de ter gravado uma aplicação com, pelo menos, uma ação, poderá adici
 Siga estes passos para adicionar uma ação manual:
 
 1. Inicie sessão no [Power Automate](https://flow.microsoft.com).
-1. Selecione **Os meus fluxos** > **Fluxos de IU (pré-visualização)**.
+1. Selecione **Os meus fluxos** > **Fluxos de IU**.
 1. Selecione o fluxo de IU que quer editar.
    ![](../media/edit-desktop/select-ui-flow.png)
 1. Selecione **Editar**. 
@@ -171,7 +167,7 @@ Pode realizar estas operações avançadas ao realizar os seguintes passos num f
 
 1. Selecione o fluxo de IU que criou > **Mais comandos** (...) > **Editar**.
 
-1. Selecione **+** > **Adicionar uma ação** na seta para baixo do passo do fluxo de IU ao qual pretende adicionar uma lógica.
+1. Selecione **+**  > **Adicionar uma ação** na seta para baixo do passo do fluxo de IU ao qual pretende adicionar uma lógica.
 
    ![Adicionar uma ação](../media/edit-desktop/add-action.png)
 

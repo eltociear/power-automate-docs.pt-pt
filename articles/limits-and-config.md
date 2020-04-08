@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 959b7876426a78ae86bebe998332fc1846f7421e
-ms.sourcegitcommit: 7821cc858dc3fc51e3a44f1fc0c1f83962de8a2c
+ms.openlocfilehash: ebb723812a8a6805616a8e66deee13aa74618ce2
+ms.sourcegitcommit: 7d6c210192ce68ad0d0b27f67f581e307d5ef606
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "80375810"
+ms.lasthandoff: 04/05/2020
+ms.locfileid: "80669851"
 ---
 # <a name="limits-and-configuration-in-power-automate"></a>Limites e configuração no Power Automate
 
@@ -50,11 +50,11 @@ Estes são os limites de um único pedido de saída.
 
 ### <a name="retry-policy"></a>Política de repetição
 
-| Nome | Limite |
-| --- | --- |
-| Tentativas de repetição |90 | A predefinição é 4. Alterar as definições de ação de utilização predefinidas | 
-| Intervalo máx. de repetição |1 dia | |
-| Intervalo mín. de repetição |5 segundos | |
+| Nome | Limite |Notas|
+| --- | --- | --- |
+| Tentativas de repetição |90 | A predefinição é 2. Para alterar a predefinição, utilize as definições de ação. | 
+| Intervalo máx. de repetição |1 dia |  |
+| Intervalo mín. de repetição |5 segundos |  |
 
 ## <a name="run-duration-and-retention"></a>Duração da execução e retenção
 Estes são os limites de uma única execução de fluxo.

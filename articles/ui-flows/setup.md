@@ -13,28 +13,21 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/04/2020
+ms.date: 03/24/2020
 ms.author: DeonHe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 96c93771129ab0454d03e721a36d429e6cc894d5
-ms.sourcegitcommit: c1c73952bb799a1fe48f2eb4f0c8dc7dd8614ff1
+ms.openlocfilehash: 97456d637dd272a465559d4cee8fb1d17fe3de8d
+ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79437162"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80524676"
 ---
 # <a name="set-up-ui-flows"></a>Configurar fluxos de IU
-
-[Este tópico é uma documentação de pré-lançamento e está sujeito a alterações.]
-
-[!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
-
-> [!IMPORTANT]
-> A funcionalidade dos fluxos de IU está atualmente a ser implementada nas regiões. Se não vir esta funcionalidade no seu ambiente, não conseguirá criar fluxos de IU. Se obtiver um erro ao tentar executá-la num fluxo, tente novamente mais tarde.
 
 Para poder utilizar o dispositivo para criar fluxos de IU, terá de assegurar que o dispositivo cumpre os requisitos aqui descritos.
 
@@ -49,7 +42,7 @@ Para poder utilizar o dispositivo para criar fluxos de IU, terá de assegurar qu
 
 - Um dispositivo com o Windows 10 Pro, o Windows Server 2016 ou o Windows Server 2019.
 
-- O browser [Microsoft Edge](https://www.microsoftedgeinsider.com) ou Google Chrome.
+- O browser [Microsoft Edge](https://www.microsoft.com/edge/) (versão 80 ou posterior) ou Google Chrome.
 
 - Um [ambiente](https://docs.microsoft.com/power-platform/admin/environments-overview) com uma [base de dados do Common Data Service](https://docs.microsoft.com/power-platform/admin/create-database).
 
@@ -70,7 +63,7 @@ Não há suporte para o seguinte:
 
 -   Fluxos de IU para a Web
 
-    -   Clicar com o botão direito do rato
+    -   Clicar com o botão direito do rato.
     -   As informações das sessões dos utilizadores (por exemplo, cookies) não serão reutilizadas durante a reprodução. Terá de editar o script para incorporar as informações de início de sessão quando for solicitado pelos sites.
 
 Encontra as limitações específicas da funcionalidade incluídas na documentação de cada funcionalidade.
@@ -85,8 +78,8 @@ O programa de instalação de fluxos de IU contém todos os componentes necessá
 Siga estes passos para instalar a aplicação de fluxos de IU:
 
 1. [Transfira o programa de instalação dos fluxos de IU](https://go.microsoft.com/fwlink/?linkid=2102613).
-1. Abra o ficheiro **Setup.Microsoft.Flow.UIflow.exe**. Este ficheiro encontra-se provavelmente na pasta **Transferências**, depois de o ter transferido no passo anterior.
-1. Siga as instruções do programa de instalação **Configuração de fluxos de IU (pré-visualização)** para concluir a instalação.
+1. Abra o ficheiro **Setup.Microsoft.PowerAutomate.UIflow.exe**. Este ficheiro encontra-se provavelmente na pasta **Transferências**, depois de o ter transferido no passo anterior.
+1. Siga as instruções do programa de instalação **Configuração de fluxos de IU** para concluir a instalação.
 
 ### <a name="set-data-collection-options"></a>Definir opções de recolha de dados
 
@@ -94,19 +87,16 @@ Durante a instalação, pode alterar as predefinições se não quiser enviar da
 
 ![Imagem a mostrar as opções de recolha de dados](../media/ui-flows-setup/data-collection-settings.png)
 
-> [!WARNING]
-> Tem de desinstalar a aplicação de fluxos de IU e, em seguida, reinstalá-la se precisar de alterar as definições de recolha de dados. Os fluxos de IU deixarão de funcionar se alterar as definições de recolha de dados sem desinstalar primeiro a aplicação de fluxos de IU.
-
 ## <a name="activate-the-ui-flows-browser-extension"></a>Ativar a extensão do browser dos fluxos de IU 
 
 Depois de o programa de instalação dos fluxos de IU ter sido concluído, o browser vai pedir-lhe para ativar a extensão.
 
-- No Microsoft Edge, selecione cada ícone de aviso no canto superior direito do browser e, em seguida, selecione **Ativar extensão**.
+- No [Microsoft Edge](https://www.microsoft.com/edge/) (versão 80 ou posterior), selecione cada ícone de aviso no canto superior direito do browser e, em seguida, selecione **Ativar extensão**.
 -   No Google Chrome, selecione **Ativar extensão**, quando lhe for pedido.  
 
 > [!TIP]
 > Se não viu o pedido no browser, verifique o seguinte:
-> - Tem de utilizar o Microsoft Edge ou o Google Chrome.
+> - Tem de utilizar o [Microsoft Edge](https://www.microsoft.com/edge/) (versão 80 ou posterior) ou o Google Chrome.
 > - Pode ser necessário ativar a extensão manualmente. Com o Microsoft Edge, navegue para **edge://extensions** ou, com o Google Chrome, navegue para **chrome://extensions**.
 > - Se a extensão dos fluxos de IU do Power Automate não aparecer, poderá reinstalá-la com o [programa de instalação dos fluxos de IU](https://go.microsoft.com/fwlink/?linkid=2102613).
 
@@ -119,9 +109,9 @@ Com os fluxos de IU, pode executar scripts do IDE Selenium no Power Automate e m
 
 Siga estes passos para instalar o IDE Selenium:
 
-1. [Transfira e instale](https://go.microsoft.com/fwlink/?linkid=2107665) o IDE Selenium para a próxima versão do Microsoft Edge ou Google Chrome.
+1. [Transfira e instale](https://go.microsoft.com/fwlink/?linkid=2107665) o Selenium IDE para o [Microsoft Edge](https://www.microsoft.com/edge/) (versão 80 ou posterior) ou o Google Chrome.
 
-1. No Microsoft Edge, selecione **Permitir extensões de outras lojas** e selecione **Adicionar ao Chrome**.
+1. No Microsoft Edge (versão 80 ou posterior), selecione **Permitir extensões de outras lojas** e selecione **Adicionar ao Chrome**.
 
 ## <a name="install-the-on-premises-data-gateway"></a>Instalar o gateway de dados no local
 
@@ -131,6 +121,11 @@ Precisará do gateway para acionar o fluxo de IU de um [evento, agendamento ou f
 >O gateway não é necessário, caso pretenda apenas criar, editar e testar os fluxos de IU no dispositivo.
 
 [Instale o gateway de dados no local](https://docs.microsoft.com/data-integration/gateway/service-gateway-install), caso precise dele.
+
+
+>[!IMPORTANT]
+>Quando instalar o gateway, ele assume por predefinição a região que o Power Automate utiliza.
+
 
 ## <a name="setup-ui-flows-connections-and-machine-credentials"></a>Configurar ligações de fluxos de IU e credenciais da máquina
 
@@ -144,19 +139,26 @@ Precisará do gateway para acionar o fluxo de IU de um [evento, agendamento ou f
 
    ![Uma captura de ecrã a mostrar uma ligação](../media/ui-flows-setup/new-connection.png)
 
-1. Procure *fluxo de IU* e, em seguida, selecione **UI flows (preview) (Fluxos de IU [pré-visualização]).
+1. Procure *Fluxo de IU* e, em seguida, selecione **Fluxos de IU**.
 
    ![Uma captura de ecrã a mostrar a caixa de pesquisa](../media/ui-flows-setup/search-ui-flow.png)
 
-1. Forneça as informações do gateway e as credenciais do dispositivo para *cada* gateway: 
+1. Forneça as informações do gateway e as credenciais do dispositivo: 
 
     - **Domínio e Nome de utilizador**: forneça a sua conta do dispositivo. Pode utilizar uma conta local com o nome do utilizador (por exemplo, "NOMEDOCOMPUTADOR\\Utilizador" ou "local\\Utilizador") ou uma conta do Active Directory como "DOMÍNIO\\Utilizador".
     - **Palavra-passe**: a palavra-passe da sua conta.
-    - **Escolher um gateway**: selecione um dos gateways que pretende configurar.
+    - **Escolher um gateway**: Selecione o gateway que pretende utilizar.
 
       ![Uma captura de ecrã a mostrar onde introduzir as credenciais para a ligação](../media/ui-flows-setup/credentials-screen.png)
 
 1. Selecione **Criar**.
+
+## <a name="troubleshoot-missing-gateway"></a>Resolução de problemas de um gateway em falta
+
+Poderá não encontrar o gateway na lista durante a criação da ligação pelos motivos que se seguem:
+
+- O gateway poderá estar instalado numa região diferente da região do Power Automate. Para resolver este problema, desinstale o gateway do dispositivo e, em seguida, reinstale-o ao selecionar [a região correta do Power Automate](../regions-overview.md#region-mappings-for-power-automate-and-gateways).
+- O gateway foi eliminado pelo proprietário.
 
 ## <a name="supported-keyboard-layouts"></a>Esquemas de teclado suportados
 
@@ -201,7 +203,7 @@ Finlandês     |Coreano     |Sérvio (Latim, Sérvia)
 ## <a name="uninstall-ui-flows"></a>Desinstalar os fluxos de IU
 
 1. Abra o menu **iniciar** > **Definições** > **Aplicações**.
-1. Procure **Fluxos de IU (pré-visualização)** e selecione.
+1. Procure **Fluxos de IU** e selecione essa opção.
 1. Selecione **Desinstalar**.
 
 ## <a name="learn-more"></a>Saiba mais

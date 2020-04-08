@@ -20,14 +20,14 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 8470d927204f1ba40f801c806c34ca0c78336555
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 4c8b2b02cf87abb54a587d9358a4c1f462ceb724
+ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193847"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80524551"
 ---
-# <a name="faq-for-regions-in-power-automate"></a>FAQ sobre s regiões no Power Automate
+# <a name="faq-for-regions-in-power-automate"></a>FAQ sobre as regiões no Power Automate
 
 Este documento fornece uma lista de perguntas mais frequentes sobre o Power Automate.
 
@@ -56,11 +56,24 @@ Os ambientes podem ser criados em regiões diferentes e estão vinculados a essa
 
 Para um desempenho ideal, crie o seu ambiente na região que esteja mais próxima dos seus utilizadores. Por exemplo, se os seus utilizadores estiverem na Europa, crie os ambientes na região da Europa. Se os seus utilizadores estiverem nos Estados Unidos, crie os ambientes na região dos E.U.A.
 
-## <a name="gateways"></a>Gateways
-Os gateways são:
+## <a name="region-mappings-for-power-automate-and-gateways"></a>Mapeamentos de regiões do Power Automate e dos gateways
 
-* Não está disponível na região da Índia.
-* Suportado apenas no ambiente predefinido, não em ambientes personalizados.
+A região onde o gateway está instalado tem de mapear à sua região do Power Automate. Não são suportados limites entre diferentes áreas geográficas. 
+
+Seguem-se as informações de mapeamento:
+
+Região do Power Platform|Região de gateway
+-----|-----
+Estados Unidos, incluindo pré-visualização|E.U.A. Central, E.U.A. Leste 2, E.U.A. Leste, E.U.A Centro-Norte, E.U.A. Centro-Sul, E.U.A. Oeste 2, E.U.A. Centro-Oeste, E.U.A. Oeste
+Ásia|Ásia Leste, Ásia Sudeste
+Austrália|Leste da Austrália, Sudeste da Austrália
+Canadá|Canadá Central, Leste do Canadá
+Europa|Europa do Norte, Europa Ocidental
+França|França Central, Sul de França
+Índia|Índia Central, Sul da Índia, Oeste da Índia
+Japão|Leste do Japão, Oeste do Japão
+América do Sul|Sul do Brasil
+Reino Unido|Sul do Reino Unido, Oeste do Reino Unido
 
 ## <a name="is-power-automate-available-in-national-clouds"></a>O Power Automate está disponível nas clouds nacionais?
 Yes. [Saiba mais](./us-govt.md).

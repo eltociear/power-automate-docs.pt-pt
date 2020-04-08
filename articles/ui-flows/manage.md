@@ -20,25 +20,21 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: d07f2dc95432a81518fcb6445911f1c6430ce623
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: f780d18597989614aa0452c1723b805a753bd680
+ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74371371"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80525118"
 ---
 # <a name="manage-ui-flows"></a>Gerir fluxos de IU
 
-[Este tópico é uma documentação de pré-lançamento e está sujeito a alterações.]
-
-[!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
-
-Depois de criar os fluxos de IU, poderá ter de ver, editar ou simplesmente verificar o estado soa fluxos. Para o fazer, aceda ao separador **Fluxos de IU (pré-visualização)** .
+Depois de criar os fluxos de IU, poderá ter de ver, editar ou simplesmente verificar o estado soa fluxos. Para o fazer, aceda ao separador **Fluxos de IU**.
 
 ## <a name="list-of-ui-flows"></a>Lista de fluxos de IU
 
 1. Inicie sessão no Power Automate.
-1. Selecione **Os meus fluxos** > **Fluxos de IU (pré-visualização)** .
+1. Selecione **Os meus fluxos** > **Fluxos de IU**.
 
    ![Ver todos os fluxos de IU](../media/manage-ui-flows/view-all.png "Ver todos os fluxos de IU")
 
@@ -54,7 +50,7 @@ Em cada um dos fluxos de IU, poderá ver os detalhes correspondentes ao selecion
 Siga estes passos para ver os detalhes de um fluxo de IU:
 
 1. Inicie sessão no Power Automate.
-1. Selecione **Os meus fluxos** > **Fluxos de IU (pré-visualização)** .
+1. Selecione **Os meus fluxos** > **Fluxos de IU**.
 1. Selecione qualquer um dos fluxos de IU.
 
    ![Ver detalhes](../media/manage-ui-flows/view-details.png "Ver detalhes")

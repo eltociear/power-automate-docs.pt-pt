@@ -13,41 +13,34 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/28/2020
+ms.date: 03/28/2020
 ms.author: DeonHe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 254e92db3c02cac4294b92fc5a1deec4a23e341e
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 3705d825a2b659e19975b6deeeae215bb1fad3d5
+ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79224199"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80525070"
 ---
 # <a name="create-and-test-desktop-ui-flows"></a>Criar e testar fluxos de IU para computador
 
-[Este tópico é uma documentação de pré-lançamento e está sujeito a alterações.]
-
-[!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
-
-Veja os [Problemas conhecidos](create-desktop.md#known-issues-and-solutions) mais à frente neste tópico para saber mais acerca dos problemas que poderá encontrar, das soluções para esses problemas e dos cenários que não são suportados nesta versão de pré-visualização.
-
+Nos passos a seguir, vamos demonstrar como automatizar a aplicação de calculadora para somar dois números e, em seguida, armazenar o resultado para utilização posterior.
 
 ## <a name="create-a-desktop-ui-flow"></a>Criar um fluxo de IU para computador
-
-Nos passos a seguir, vamos demonstrar como automatizar a aplicação de calculadora para somar dois números e, em seguida, armazenar o resultado para utilização posterior.
 
 > [!TIP]
 > Pode automatizar outras aplicações de computador do Windows ao seguir um padrão semelhante.
 
-1. Verifique se o dispositivo [está pronto](setup.md) para criar fluxos de IU. <!--Todo: link to the prereqs section-->
+1. Verifique se o dispositivo [está pronto](setup.md#prerequisites) para criar fluxos de IU.
 
-1. Utilize a [versão Chromium do Microsoft Edge](https://www.microsoftedgeinsider.com) ou o Google Chrome para abrir o [Power Automate](https://flow.microsoft.com) e, em seguida, inicie sessão com a mesma conta escolar ou profissional que utiliza no dispositivo.
+1. Utilize o [Microsoft Edge (versão 80 ou posterior)](https://www.microsoftedgeinsider.com) ou o Google Chrome para abrir o [Power Automate](https://flow.microsoft.com) e, em seguida, inicie sessão com a mesma conta escolar ou profissional que utiliza no dispositivo.
 
-1. Selecione **Os meus fluxos** > **Fluxos de IU (pré-visualização)**  > **Novo**.
+1. Selecione **Os meus fluxos** > **Fluxos de IU** > **Novo**.
 
    ![Criar o novo fluxo de IU](../media/create-windows-ui-flow/create-new.png "Criar novo fluxo de IU")
 
@@ -62,19 +55,18 @@ Nos passos a seguir, vamos demonstrar como automatizar a aplicação de calculad
 1. Selecione **Seguinte** na parte inferior para ignorar o ecrã opcional **Configurar entradas**, uma vez que não estamos a utilizar entradas nestas instruções.
 
 1.  Selecione **Transferir pacote**.
-1.  Abra o ficheiro **Setup.Microsoft.Flow.UIflow.exe**. Este ficheiro encontra-se provavelmente na pasta **Transferências**, depois de o ter transferido no passo anterior.
-1.  Siga as instruções do programa de instalação Configuração de fluxos de IU (pré-visualização) para concluir a instalação.
+1.  Abra o ficheiro **Setup.Microsoft.PowerAutomate.UIflow.exe**. Este ficheiro encontra-se provavelmente na pasta **Transferências**, depois de o ter transferido no passo anterior.
+1.  Siga as instruções do programa de instalação Configuração de fluxos de IU para concluir a instalação.
 
     Depois de o programa de instalação dos fluxos de IU ser concluído, o browser irá pedir-lhe para ativar a extensão.
 
-1. No Microsoft Edge (Chromium), selecione cada ícone de aviso no canto superior direito do browser e, em seguida, selecione **Ativar extensão**.
+1. No Microsoft Edge (versão 80 ou posterior), selecione cada ícone de aviso no canto superior direito do browser e, em seguida, selecione **Ativar extensão**.
 1. No Google Chrome, selecione **Ativar extensão**, quando lhe for pedido.
 
    > [!TIP]
    > Se não vir o pedido no browser, verifique o seguinte:
-   > - Tem de utilizar o Microsoft Edge (Chromium) ou o Google Chrome.
-   > - Pode ser necessário ativar a extensão manualmente. Com o Microsoft Edge (Chromium), navegue para **edge://extensions** ou, com o Google Chrome, navegue para **chrome://extensions**.
-   > - Se a extensão dos fluxos de IU do Power Automate não aparecer, poderá reinstalá-la com o [programa de instalação dos fluxos de IU](https://go.microsoft.com/fwlink/?linkid=2102613).
+   > - Tem de utilizar o Microsoft Edge (versão 80 ou posterior) ou o Google Chrome.
+   > - Poderá ter de atualizar a extensão do [Microsoft Edge (versão 80 ou posterior)](https://www.microsoft.com/store/collections/edgeextensions/pc) ou do [Google Chrome](https://chrome.google.com/webstore/category/extensions).
 
    Continue após ter instalado a extensão.
 
@@ -88,7 +80,7 @@ Nos passos a seguir, vamos demonstrar como automatizar a aplicação de calculad
 
    O controlo do gravador é apresentado na parte superior do ecrã.
 
-   ![Controlo do gravador](../media/create-windows-ui-flow/recorder-control.png "Controlo do gravador")
+   ![O controlo do gravador](../media/create-windows-ui-flow/recorder-control.png "O controlo do gravador")
 
 1. Inicie a aplicação de calculadora.
 
@@ -147,8 +139,8 @@ Nos passos a seguir, vamos demonstrar como automatizar a aplicação de calculad
 
 - Interações no Windows (Explorador de ficheiros, menu de inicialização, barra de tarefas e etc.).
 
-- Browsers (Chrome, IE, Edge, Edge Chromium, Firefox, Mozilla e etc.).
-    Em alternativa, veja [Criar um fluxo de IU para a Web](edit-web.md) para automatizar os sites.
+- Browsers (Chrome, IE, Microsoft Edge, Firefox, Mozilla, etc.).
+    Em alternativa, veja [Criar um fluxo de IU para a Web](create-web.md) para automatizar os sites.
 
 -   Aplicações Java.
 
@@ -194,15 +186,15 @@ As seguintes ações não serão gravadas:
 
 -   Abrir aplicação antes da gravação.
 
-<!-- -   Closed app before playback starts. -->
 
 ## <a name="unreliable-behaviors-and-workarounds-for-microsoft-office-desktop"></a>Comportamentos não fiáveis e soluções para o Microsoft Office (ambiente de trabalho)
+
 - Afixe o friso antes de começar a reproduzir para evitar problemas que possam ocorrer caso o friso esteja definido para ser ocultado automaticamente durante a reprodução.
 - Não selecione itens através de clique e arraste. Por exemplo, não utilize shift-clique para selecionar células no Microsoft Excel e não selecione texto no Microsoft Word ou no Microsoft PowerPoint ao arrastar o rato.
-- Alguns elementos podem não funcionar corretamente nos fluxos de IU (pré-visualização) para aplicações de computador do Microsoft Word e Microsoft PowerPoint. Por exemplo, as opções no menu Ficheiro, como começar do zero, clicar com o botão direito do rato nos controlos, como adicionar um parágrafo no Microsoft Word, ou alterar o esquema dos diapositivos no Microsoft PowerPoint podem não funcionar.
+- Alguns elementos podem não funcionar corretamente nos fluxos de IU para aplicações de computador do Microsoft Word e Microsoft PowerPoint. Por exemplo, as opções no menu **Ficheiro**, tais como começar do zero ou clicar com o botão direito do rato nos controlos como adicionar um parágrafo no Microsoft Word ou alterar o esquema dos diapositivos no Microsoft PowerPoint, podem não funcionar.
 
 ## <a name="next-steps"></a>Próximos passos
 
 - Saiba como [acionar o fluxo de IU](run-ui-flow.md) que acabou de criar.
 
-- Se quiser fazer mais com os fluxos de IU, poderá também experimentar os fluxos de IU com parâmetros de [entrada e saída](inputs-outputs-web.md).
+- Se quiser fazer mais com os fluxos de IU, poderá também criar os fluxos de IU com parâmetros de [entrada e saída](inputs-outputs-web.md).
