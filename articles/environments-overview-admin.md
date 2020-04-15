@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/22/2017
+ms.date: 04/07/2020
 ms.author: sunayv
 search.app:
 - Flow
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 7a2ff7c0957e52f076ccc0cc7fdcb4d09109a404
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 0e0b312ce5e962052770eb44fd1a61c2f19c8e4f
+ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79194376"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80862705"
 ---
 # <a name="using-environments-within-power-automate"></a>Utilizar ambientes no Power Automate
 
@@ -54,7 +54,7 @@ Os ambientes oferecem as seguintes vantagens:
   * Crie uma Base de Dados SQL e, em seguida, armazene os dados nela.
   * Utilize o Common Data Service para armazenar os seus dados.
 
-    Cada ambiente pode ter, no máximo, uma base de dados para os seus fluxos no Common Data Service. O acesso ao Common Data Service depende da licença que comprou; o Common Data Service não está incluído na licença Gratuita.
+    Cada ambiente pode ter, no máximo, uma base de dados para os seus fluxos no Common Data Service. O acesso ao Common Data Service depende da licença que comprou. O Common Data Service não está incluído na licença Gratuita.
 
 ## <a name="limitations"></a>Limitações
 
@@ -173,17 +173,17 @@ A capacidade de criar e modificar um esquema de base de dados e de estabelecer l
 
 Sim. Os fluxos podem ser exportados de um ambiente e importados para outro ambiente.
 
-### <a name="which-license-includes-the-common-data-service"></a>Que licença inclui o Common Data Service?
+### <a name="which-license-includes-common-data-service"></a>Que licença inclui o Common Data Service?
 
-Apenas o Microsoft Power Apps Plano 2 inclui direitos para criar bases de dados com o Common Data Service. No entanto, todos os planos pagos (Power Automate planos 1 e 2 e Microsoft Power Apps planos 1 e 2) dispõem de direitos para utilizar o Common Data Service.
+Apenas o Plano 2 do Microsoft Power Apps inclui direitos para criar bases de dados com o Common Data Service. No entanto, todos os planos pagos (planos 1 e 2 do Power Automate e planos 1 e 2 do Microsoft Power Apps) dispõem de direitos para utilizar o Common Data Service.
 
 Escolha um plano adequado para si na página [Preços do Power Automate](https://flow.microsoft.com/pricing/).
 
 Veja o documento [Perguntas sobre faturação](billing-questions.md) para obter respostas a perguntas frequentes sobre faturação.
 
-### <a name="can-the-common-data-service-be-used-outside-of-an-environment"></a>O Common Data Service pode ser utilizado fora de um ambiente?
+### <a name="can-common-data-service-be-used-outside-of-an-environment"></a>O Common Data Service pode ser utilizado fora de um ambiente?
 
-Não. O Common Data Service precisa de um ambiente. [Leia mais](common-data-model-intro.md) sobre o Common Data Service.
+Não. O Common Data Service requer um ambiente. [Leia mais](common-data-model-intro.md) sobre o Common Data Service.
 
 ### <a name="what-regions-include-power-automate"></a>Que regiões inclui o Power Automate?
 

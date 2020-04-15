@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: MSFTMan
-manager: anneta
+manager: KVivek
 editor: ''
 tags: ''
 ms.service: flow
@@ -13,21 +13,21 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/28/2017
+ms.date: 04/07/2020
 ms.author: deonhe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 4c8b2b02cf87abb54a587d9358a4c1f462ceb724
-ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
+ms.openlocfilehash: a87845247f57e58edf7170dc3e8da721db7d275e
+ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "80524551"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80862521"
 ---
-# <a name="faq-for-regions-in-power-automate"></a>FAQ sobre as regiões no Power Automate
+# <a name="faq-for-regions-in-power-automate"></a>FAQ sobre s regiões no Power Automate
 
 Este documento fornece uma lista de perguntas mais frequentes sobre o Power Automate.
 
@@ -52,7 +52,8 @@ Para identificar a região, os administradores podem iniciar sessão no [centro 
 * França
 
 ## <a name="what-features-are-specific-to-a-given-region"></a>Quais são as funcionalidades específicas de uma determinada região?
-Os ambientes podem ser criados em regiões diferentes e estão vinculados a essa localização geográfica. Quando cria um fluxo num ambiente, esse fluxo é implementado em datacenters nessa localização geográfica. Isto aplica-se a todos os itens que criar nesse ambiente, incluindo modelo de dados comuns, fluxos, ligações, gateways, aplicações e conectores personalizados.
+
+Os ambientes podem ser criados em regiões diferentes e estão vinculados a essa localização geográfica. Quando cria um fluxo num ambiente, esse fluxo é implementado em datacenters nessa localização geográfica. Isto aplica-se a todos os itens que criar nesse ambiente, incluindo o Common Data Model, fluxos, ligações, gateways, aplicações e conectores personalizados.
 
 Para um desempenho ideal, crie o seu ambiente na região que esteja mais próxima dos seus utilizadores. Por exemplo, se os seus utilizadores estiverem na Europa, crie os ambientes na região da Europa. Se os seus utilizadores estiverem nos Estados Unidos, crie os ambientes na região dos E.U.A.
 

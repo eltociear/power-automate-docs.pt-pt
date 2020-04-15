@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
-manager: anneta
+manager: kvivek
 editor: ''
 tags: ''
 ms.service: flow
@@ -13,21 +13,21 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/22/2016
+ms.date: 04/07/2020
 ms.author: stepsic
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 333f5b92df92cc384b9517a9ccf1d6bb0164c07b
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: ac149bcd62da4ee737f23f894e1f99773f843ada
+ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79194307"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80862613"
 ---
-# <a name="create-a-flow-that-uses-the-common-data-service"></a>Criar um fluxo que utilize o Common Data Service
+# <a name="create-a-flow-that-uses-common-data-service"></a>Criar um fluxo que utilize o Common Data Service
 
 Melhore a eficiência operacional com uma vista unificada de dados de negócio ao criar um fluxo que utilize o [Common Data Service](https://powerapps.microsoft.com/tutorials/data-platform-intro/). Implemente esta base de dados de negócio segura que abrange as entidades de negócio padrão corretamente formado (por exemplo, Vendas, Compra, Suporte ao Cliente e Produtividade) na organização. Armazene dados organizacionais numa ou mais [entidades personalizadas](https://powerapps.microsoft.com/tutorials/data-platform-create-entity/), que oferecem vários benefícios no que respeita a origens de dados externas, tais como o Microsoft Excel e o Salesforce.
 
@@ -95,7 +95,7 @@ Por exemplo, tire partido do Common Data Service no Power Automate das seguintes
    
     ![Criar fluxo](./media/common-data-model-intro/create-flow.png)
 
-Agora, sempre que esse objeto for criado no sistema de origem, será importado para o Common Data Service. Se não conseguir encontrar um modelo que faça o que precisa, poderá [compilar um fluxo do zero](get-started-logic-flow.md) que funciona por cima do Common Data Service.
+Agora, sempre que esse objeto for criado no sistema de origem, será importado para o Common Data Service. Se não conseguir encontrar um modelo que faça o que precisa, pode [compilar um fluxo do zero](get-started-logic-flow.md) que funciona por cima do Common Data Service.
 
 Pode realizar ações sobre alterações na base de dados. Pode, por exemplo, enviar correio de notificação sempre que houver alteração dos dados.
 

@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: msftman
-manager: anneta
+manager: KVivek
 editor: ''
 tags: ''
 ms.service: flow
@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/27/2018
+ms.date: 04/07/2020
 ms.author: deonhe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: abf7be642e1c8e62db54bd7b5472ce29a330ad3a
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: b99d5433d159908bb136519107211b77b33e9228
+ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193548"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80862590"
 ---
 # <a name="create-an-approval-flow-that-requires-everyone-to-approve"></a>Criar um fluxo de aprovação que requer a aprovação de todas as pessoas
 
@@ -140,5 +140,5 @@ Eis um exemplo de uma resposta e um resumo da resposta depois de o fluxo ser exe
 * [Aprovações modernas com um único aprovador](modern-approvals.md)
 * [Aprovações modernas sequenciais](sequential-modern-approvals.md)
 * [Aprovações modernas paralelas](parallel-modern-approvals.md)
-* [Aprovações e o Microsoft Common Data Service](common-data-model-approve.md)
+* [Aprovações e o Common Data Service](common-data-model-approve.md)
 * [Aprovar pedidos em viagem](mobile-approvals.md)

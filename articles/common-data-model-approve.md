@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
-manager: anneta
+manager: kvivek
 editor: ''
 tags: ''
 ms.service: flow
@@ -13,21 +13,21 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/22/2016
+ms.date: 04/07/2020
 ms.author: stepsic
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 6346772d3eba6177577f7c5d7a151174f1a575f9
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 218e4fffd1ba86fec1c38a8322774f642ab64001
+ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193870"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80862774"
 ---
-# <a name="build-an-approval-loop-by-using-power-automate-and-the-microsoft-common-data-service"></a>Compilar um ciclo de aprovação através do Power Automate e do Microsoft Common Data Service
+# <a name="build-an-approval-loop-by-using-power-automate-and-common-data-service"></a>Compilar um ciclo de aprovação através do Power Automate e do Common Data Service
 
 O Common Data Service pode fornecer-lhe uma forma de compilar fluxos que tenham informações armazenadas numa base de dados independente de um fluxo. O melhor exemplo disso passa-se com as aprovações. Se armazenar o estado da aprovação numa entidade, o fluxo poderá trabalhar no topo dela.
 

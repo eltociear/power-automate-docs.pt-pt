@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
-manager: anneta
+manager: kvivek
 editor: ''
 tags: ''
 ms.service: flow
@@ -13,21 +13,24 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/31/2018
+ms.date: 04/07/2020
 ms.author: stepsic
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 51f8d56a7dd5c94a782c67569dea686f21f7c754
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 7f4da4123d5623348513d9b14a75d1f03b3e17dc
+ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193824"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80862751"
 ---
 # <a name="release-notes"></a>Release notes
+
+>[!NOTE]
+>Os planos de lançamento são agora controlados [aqui](https://docs.microsoft.com/dynamics365/release-plans/).
 
 ## <a name="top-questions"></a>Principais perguntas?
 1. O meu fluxo falhou. Como posso corrigi-lo?
@@ -131,7 +134,7 @@ O programa de Pré-visualização do Power Automate é a forma de aceder antecip
 ### <a name="release-2018-05-01"></a>Versão 2018-05-01
 
 - **Texto formatado nas mensagens de Aprovação** – utilize Markdown para formatar os detalhes de aprovação que envia.
-- **Botões com entradas de seleção múltipla**  – crie botões de fluxo que utilizem uma lista de seleção múltipla para recolher mais do que um valor de cada vez.
+- **Botões com entradas de seleção múltipla** – crie botões de fluxo que utilizem uma lista de seleção múltipla para recolher mais do que um valor de cada vez.
 - **Trabalhar com fluxos mais amplos** – a aplicação móvel do Power Automate agora suporta a vista horizontal e o estruturador Web tem uma barra de deslocamento horizontal.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/rich-approvals-text-and-multiselect/) sobre esta versão.
@@ -597,7 +600,7 @@ Agora, pode pré-visualizar a nova experiência de listas modernas do SharePoint
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/visual-studio-team-services-enhancements-to-sharepoint-and-o365-outlook-and-boolean-control/) sobre esta versão.
 
 ### <a name="release-2016-08-08"></a>Versão 2016-08-08
-Pré-visualização pública do Microsoft Common Data Service integrado no Power Automate. [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/flow-and-common-data-model/) sobre esta versão.
+Pré-visualização pública do Common Data Service integrado no Power Automate. [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/flow-and-common-data-model/) sobre esta versão.
 
 ### <a name="release-2016-08-05"></a>Versão 2016-08-05
 * **SharePoint no local** - Tal como no SharePoint Online, pode criar fluxos em torno das suas listas e bibliotecas de documentos do SharePoint no local, utilizando modelos predefinidos ou criando-os do zero.
@@ -654,6 +657,9 @@ Se tiver utilizado fluxos lógicos como parte do [Microsoft Power Apps](https://
 * Pode ver o histórico para cada verificação e execução do fluxo.
 * Quando guarda um fluxo, pode [vê-lo em ação imediatamente](see-a-flow-run.md) bastando apenas efetuar a ação do acionador.
 * Há uma [nova comunidade](https://go.microsoft.com/fwlink/?LinkID=787467) onde pode discutir fluxo ou [submeter as suas ideias](https://go.microsoft.com/fwlink/?LinkID=787474).
+
+>[!NOTE]
+>Os planos de lançamento são agora controlados [aqui](https://docs.microsoft.com/dynamics365/release-plans/).
 
 ## <a name="next-steps"></a>Próximos passos
 Se tiver quaisquer problemas que ainda não estejam abrangidos nestas notas de versão ou nas [FAQ](frequently-asked-questions.md), volte a [aderir à nossa comunidade](https://go.microsoft.com/fwlink/?LinkID=787467) para fazer perguntas, ou [contacte o suporte](https://go.microsoft.com/fwlink/?LinkID=787479).

@@ -14,18 +14,18 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/25/2019
+ms.date: 04/06/2020
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 7458b3cb08ca1ce3e29a9d0d29e1bec91d46f7ea
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 4b1c10fd0365f370f1cd408528f6555a14d8fbbf
+ms.sourcegitcommit: c43c98cc777780d42d15e287233c040771a6e147
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193203"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80801455"
 ---
 # <a name="create-flows-from-the-onedrive-for-business-launch-panel"></a>Criar fluxos a partir do painel de iniciação do OneDrive para Empresas
 
@@ -41,9 +41,9 @@ Nestas instruções, vamos criar um fluxo simples que utiliza um dos muitos [mod
 ## <a name="create-a-flow-that-requests-manager-approval-for-a-file-in-onedrive-for-business"></a>Criar um fluxo que pede a aprovação do gestor relativamente a um ficheiro no OneDrive para Empresas
 
 1. Inicie sessão no OneDrive para Empresas.
-1. Localize e selecione o ficheiro no qual quer criar o fluxo.
+1. Localize e, em seguida, selecione o ficheiro para o qual quer criar o fluxo.
 1. Selecione a ligação **Mostrar ações** (reticências).
-1. Selecione **Fluxo** > **Criar um fluxo**.
+1. Selecione **Automatizar** > **Power Automate** > **Criar um fluxo**.
 
      ![Criar fluxo](./media/onedrive-launch-panel/create-flow.png) 
 
@@ -69,7 +69,7 @@ Nestas instruções, vamos criar um fluxo simples que utiliza um dos muitos [mod
 
 
 >[!TIP]
->Apesar de estas instruções mostrarem como criar um fluxo a partir de um modelo, também é possível criar um fluxo do zero para utilizar qualquer um das centenas de conectores disponíveis no Power Automate.
+>Apesar de estas instruções mostrarem como criar um fluxo a partir de um modelo, também é possível criar um fluxo do zero para utilizar qualquer uma das centenas de conectores disponíveis no Power Automate.
 
 ## <a name="learn-more"></a>Saiba mais
 

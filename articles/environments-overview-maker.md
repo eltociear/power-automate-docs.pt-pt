@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: sunaysv
-manager: anneta
+manager: KVivek
 editor: ''
 tags: ''
 ms.service: flow
@@ -13,22 +13,21 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/27/2017
+ms.date: 04/07/2020
 ms.author: sunayv
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 7d62aa0870af1be0e05e0a3799d02cfdfe705e3c
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: b797fc6e4a2e7835a7322f9fc55d50c96d113031
+ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195434"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80862567"
 ---
 # <a name="choosing-an-environment"></a>Escolher um ambiente
-
 
 Este artigo apresenta os **ambientes** do Power Automate em que pode criar e isolar, de forma segura, os fluxos, os gateways, as ligações e outros recursos.
 
@@ -46,7 +45,7 @@ Quando cria um fluxo, pode escolher um ambiente no qual vai alojar o fluxo e os 
 
 Scenario|Recomendação
 -----|-----
-Pretende criar um fluxo que utiliza uma ligação para o Microsoft Common Data Service.|Coloque o fluxo e o Common Data Service residem no mesmo ambiente. Isto garante que todos os dados estão isolados nesse ambiente (limite de isolamento).
+Pretende criar um fluxo que utiliza uma ligação para o Common Data Service.|Coloque o fluxo e o Common Data Service no mesmo ambiente. Isto garante que todos os dados estão isolados nesse ambiente (limite de isolamento).
 Está a criar um fluxo para o departamento de Recursos Humanos. Pretende garantir que apenas os utilizadores do departamento de Recursos Humanos têm acesso ao fluxo.|Crie um ambiente e adicione apenas os utilizadores de RH ao mesmo. Coloque o fluxo e quaisquer outros recursos que o fluxo utiliza neste ambiente.
 Existem utilizadores na Europa que utilizam um fluxo para mostrar dados do SharePoint.|Crie um ambiente na Europa e, em seguida, crie o seu fluxo e a ligação do SharePoint ao mesmo. Este ambiente da Europa proporciona aos utilizadores europeus o melhor desempenho, uma vez que todos os recursos estão localizados na Europa (localidade de dados).
 
@@ -85,7 +84,7 @@ Antes de criar um fluxo, selecione o ambiente no qual irá adicionar o fluxo e o
 Ao escolher o ambiente no qual pretende alojar os seus fluxos, considere os seguintes fatores:
 
 * Pode criar apenas gateways no ambiente predefinido. Se pretender utilizar um gateway para ligar o seu fluxo a dados no local, terá de utilizar o ambiente predefinido.
-* As bases de dados do Microsoft Common Data Service estão associadas a um ambiente específico. Por isso, se pretender criar um fluxo que utiliza o Common Data Service, tem de criar o fluxo no ambiente que aloja a base de dados.
+* O Common Data Service está associado a um ambiente específico. Por isso, se pretender criar um fluxo que utiliza o Common Data Service, tem de criar o fluxo no ambiente que aloja a base de dados.
 * Irá ver todos os ambientes nos quais pode editar recursos. No entanto, terá de pedir a um administrador para o adicionar como um criador a todos os ambientes nos quais pretende criar fluxos.
 
 > [!NOTE]

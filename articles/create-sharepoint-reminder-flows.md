@@ -13,14 +13,14 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/30/2019
+ms.date: 04/06/2020
 ms.author: deonhe
-ms.openlocfilehash: 414c14b02b0543dc3992253192020b7453b9e2e0
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 75fa66b3be68ef86a78448b9b5868581cb0a9b0f
+ms.sourcegitcommit: c43c98cc777780d42d15e287233c040771a6e147
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79192904"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80801420"
 ---
 # <a name="sharepoint-remind-me"></a>Lembretes do SharePoint
 
@@ -35,9 +35,13 @@ As bibliotecas e listas do SharePoint permitem definir colunas de metadados pers
 ## <a name="create-a-reminder-flow"></a>Criar um fluxo de lembretes
 
  1. Crie uma [lista do SharePoint](https://support.office.com/article/Create-a-list-in-SharePoint-0D397414-D95F-41EB-ADDD-5E6EFF41B083) com, pelo menos, uma coluna DateTime na vista atual. 
- 1. Selecione **Fluxo** > **Definir um lembrete** > **Data desativada** (esta é a coluna com a instrução DateTime do lembrete).
+ 1. Selecione **Automatizar** > **Definir um lembrete** > **Data desativada** (esta é a coluna com a instrução DateTime do lembrete).
 
      ![Selecionar o fluxo do lembrete](media/create-sharepoint-reminder-flows/select-reminder-flow.png)
+
+1. Opcionalmente, pode ter de iniciar sessão nos serviços que este modelo do Power Automate utiliza.
+     
+1. Selecione **Continuar**.
 
 1. Introduza o **Nome do fluxo** e o número de dias anteriores à entrada da coluna DateTime para indicar quando quer receber o alerta do lembrete no cartão **Definir um lembrete**.
 

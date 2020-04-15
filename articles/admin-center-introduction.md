@@ -20,12 +20,12 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 0908540147d867b944101f01431a111e81adf33c
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 0d95fdb71366e0c065f790ad8709539a1f909e95
+ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193479"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80862728"
 ---
 # <a name="the-admin-center"></a>O Centro de Administração
 
@@ -36,7 +36,7 @@ O centro de administração é a localização central onde os administradores d
 
 ## <a name="access-the-admin-center"></a>Aceder ao Centro de administração
 
-* Navegue até https://admin.flow.microsoft.com para aceder ao centro de administração do Power Automate.
+* Navegue para o [centro de administração do Power Automate](https://admin.flow.microsoft.com).
 
 ## <a name="environments"></a>Ambientes
 

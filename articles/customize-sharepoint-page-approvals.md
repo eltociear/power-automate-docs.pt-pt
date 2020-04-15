@@ -13,14 +13,14 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/29/2019
+ms.date: 04/06/2020
 ms.author: deonhe
-ms.openlocfilehash: fee8eedddd39226d01ee4dde72bc66fcdfcdfda6
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 5fa6c10245c5fbc974ae96dd926c8e5b193aaab4
+ms.sourcegitcommit: c43c98cc777780d42d15e287233c040771a6e147
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79194192"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80801483"
 ---
 # <a name="manage-sharepoint-page-approvals-with-power-automate"></a>Gerir aprovações de páginas do SharePoint com o Power Automate
 
@@ -40,9 +40,15 @@ Tem de ser um administrador de sites do SharePoint para executar as atividades i
 
     ![Selecionar o fluxo de aprovação de páginas](media/customize-sharepoint-page-approvals/pages.png)
 
-1. Selecione **Fluxo** e, em seguida, selecione **Configurar o fluxo de aprovação de páginas**.
+1. Selecione **Automatizar** > **Power Automate** > **Configurar um fluxo de aprovação de páginas**.
     
     ![Selecionar o fluxo de aprovação de páginas](media/customize-sharepoint-page-approvals/select-page-approval-flow.png)
+
+1. Selecione **Criar fluxo**.
+
+1. Opcionalmente, pode ter de iniciar sessão nos serviços que este modelo do Power Automate utiliza.
+
+1. Selecione **Continuar**.
 
 1. Introduza um **Nome do fluxo**, pelo menos um nome na caixa **Aprovadores** e, em seguida, selecione **Criar**.
     

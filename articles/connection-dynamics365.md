@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: Mattp123
-manager: anneta
+manager: kvivek
 editor: ''
 tags: ''
 ms.service: flow
@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/06/2017
+ms.date: 04/06/2020
 ms.author: matp
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: f341adb319c20a201525bb6b7a8a0c54e2da5ea3
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 9f6f7554d73c0b14a26905ca1f3a706ab03797cd
+ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195043"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80862544"
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>Criar um fluxo com o Dynamics 365 (online)
 
@@ -34,7 +34,7 @@ Ao utilizar um conector do Dynamics 365, pode criar fluxos que são iniciados qu
 No Power Automate, pode configurar fluxos de trabalho automatizados entre os seus serviços e aplicações favoritos para sincronizar ficheiros, receber notificações, recolher dados e mais. Para obter mais informações, veja [Introdução ao Power Automate](getting-started.md).
 
 > [!IMPORTANT] 
-> Para invocar um acionador de fluxo, a entidade do Common Data Service utilizada com o fluxo deve ter o **Controlo de Alterações** ativado. Mais informações: [Ativar a monitorização de alterações para controlar a sincronização de dados](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization). 
+> Para invocar um acionador do Power Automate, a entidade do Common Data Service utilizada com o fluxo tem de ter o **Controlo de Alterações** ativado. Mais informações: [Ativar a monitorização de alterações para controlar a sincronização de dados](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization). 
 
 ## <a name="create-a-flow-from-a-template"></a>Criar um fluxo a partir de um modelo
 Pode utilizar um dos muitos modelos disponíveis para criar um fluxo, como, por exemplo:
