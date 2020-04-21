@@ -20,16 +20,14 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: d17e7884960af0fb4231eac785a17683c1dadd18
-ms.sourcegitcommit: c86134235a4e3a819800c77fbc50034cfd8714c2
+ms.openlocfilehash: cdd901c75e7245126760200cc94d28555dc4a33a
+ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80329865"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "80801536"
 ---
-# <a name="preview-introduction-to-ui-flows"></a>Pré-visualização: Introdução aos fluxos de IU
-
-[Este tópico é uma documentação de pré-lançamento e está sujeito a alterações.]
+# <a name="introduction-to-ui-flows"></a>Introdução aos fluxos de IU
 
 Os fluxos de IU fornecem capacidades de Automatização de Processos Robóticos (RPA) para o Power Automate. Pode utilizar os fluxos de IU para automatizar tarefas repetitivas no Windows e em aplicações Web. Os fluxos de IU registam e reproduzem ações da interface de utilizador (cliques, entradas do teclado, etc.) para aplicações que não tenham disponíveis APIs completas ou fáceis de utilizar.
 
@@ -37,11 +35,6 @@ Os fluxos de IU fornecem capacidades de Automatização de Processos Robóticos 
 
 > [!VIDEO https://www.youtube.com/embed/bZrrdoytTH0]
 
-
-> [!IMPORTANT]
-> - Esta é uma funcionalidade em pré-visualização.
-> - Uma funcionalidade em pré-visualização pode ter disponibilidade limitada e funcionalidade restrita. Uma funcionalidade de pré-visualização fica disponível antes de um lançamento oficial para que os clientes possam ter acesso antecipado e fornecer feedback.
-> - A funcionalidade dos fluxos de IU está atualmente a ser implementada nas regiões. Se não vir esta funcionalidade no seu ambiente, não conseguirá criar fluxos de IU. Se obtiver um erro ao tentar executá-la num fluxo, tente novamente mais tarde.
 
 Pode avançar diretamente para:
 
