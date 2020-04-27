@@ -14,12 +14,12 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: e74c8789975926600d4d17708a134cefb7fc0722
-ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
+ms.openlocfilehash: 78e90d05ba57cc73264a2914de06feb3be3dd640
+ms.sourcegitcommit: 5b1965a0c319c4294b7dc0c829120ed1f4f90444
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80082175"
+ms.lasthandoff: 04/25/2020
+ms.locfileid: "82153385"
 ---
 # <a name="power-automate-us-government"></a>Power Automate para a Administração Pública dos Estados Unidos
 
@@ -169,9 +169,9 @@ Utiliza um conjunto diferente de URLs para aceder aos ambientes do Power Automat
 
 Versão comercial | Versão US Government
 ------ | --------
-[https://flow.microsoft.com](https://flow.microsoft.com) | [https://gov.flow.microsoft.us (GCC)](https://gov.flow.microsoft.us) e [https://high.flow.microsoft.us(GCC High)](https://high.flow.microsoft.us)
-[https://admin.flow.microsoft.com](https://admin.flow.microsoft.com) | [https://gov.admin.flow.microsoft.us (GCC)](https://gov.admin.flow.microsoft.us) e [https://high.admin.flow.microsoft.us(GCC High)](https://high.admin.flow.microsoft.us)
-[https://flow.microsoft.com/connectors](https://flow.microsoft.com/connectors) | [https://gov.flow.microsoft.us/connectors (GCC)](https://gov.flow.microsoft.us/connectors) e [https://high.flow.microsoft.us/connectors(GCC High)](https://high.flow.microsoft.us/connectors)
+[https://flow.microsoft.com](https://flow.microsoft.com) | [https://gov.flow.microsoft.us (GCC)](https://gov.flow.microsoft.us) e [https://high.flow.microsoft.us (GCC High)](https://high.flow.microsoft.us)
+[https://admin.flow.microsoft.com](https://admin.flow.microsoft.com) | [https://gov.admin.flow.microsoft.us (GCC)](https://gov.admin.flow.microsoft.us) e [https://high.admin.flow.microsoft.us (GCC High)](https://high.admin.flow.microsoft.us)
+[https://flow.microsoft.com/connectors](https://flow.microsoft.com/connectors) | [https://gov.flow.microsoft.us/connectors (GCC)](https://gov.flow.microsoft.us/connectors) e [https://high.flow.microsoft.us/connectors (GCC High)](https://high.flow.microsoft.us/connectors)
 
 
 Para os clientes que implementam restrições de rede, confirme que o acesso aos seguintes domínios está disponível para os pontos de acesso dos utilizadores finais:
@@ -182,10 +182,10 @@ Para os clientes que implementam restrições de rede, confirme que o acesso aos
 * .azure.us
 * .usgovcloudapi.net
 * .microsoftonline.com
-* . microsoft.com
+* .microsoft.com
 * .windows.net
-* . azureedge.net
-* . azure.net
+* .azureedge.net
+* .azure.net
 * .crm9.dynamics.com
 
 Veja os [Intervalos de IP](https://www.microsoft.com/download/confirmation.aspx?id=57063) de AzureCloud.usgovtexas e AzureCloud.usgovvirginia para permitir o acesso às instâncias do Common Data Service que os utilizadores e administradores podem criar no Inquilino. 

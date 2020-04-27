@@ -19,12 +19,12 @@ helpviewer_keywords:
 author: msftman
 ms.author: deonhe
 manager: kvivek
-ms.openlocfilehash: 8a5fb3cc698f20f025089524e6198c158f710980
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: b9a4a2968a251efd360a043d23e837eaeb746e4e
+ms.sourcegitcommit: 71f9b72d551887324c92b122dadd1b4dd584bc4b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193962"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82081198"
 ---
 # <a name="best-practices-in-using-business-process-flow-attributes"></a>Melhores práticas para utilizar os atributos do fluxo do processo de negócio
 
@@ -45,7 +45,7 @@ Como o campo *Fase Ativa* (activestageid) foi preterido nas entidades relacionad
 Nas versões 9.0 e superiores, cada fluxo do processo de negócio cria a sua própria entidade do Common Data Service, normalmente com o mesmo nome do fluxo do processo de negócio. Para criar relatórios sobre o fluxo do processo de negócio, selecione a entidade do fluxo do processo de negócio para a qual pretende criar um relatório e, em seguida, crie vistas e gráficos, tal como fazia anteriormente.
 
 No nosso exemplo, siga estes passos para aceder à entidade **Processo de Vendas da Oportunidade Potencial**:
-1. Aceda a https://make.powerapps.com.
+1. Aceda a [https://make.powerapps.com](https://make.powerapps.com).
 1. Selecione **Dados**.
 1. Selecione **Entidades**.
 1. Defina o filtro como **Tudo**.
