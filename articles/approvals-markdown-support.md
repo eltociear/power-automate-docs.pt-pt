@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 4633df9687662c49757dd9cbb4d1d88892dfbe51
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 5b7ca2db5a4f04e60484eb758faaa3938fcc60c9
+ms.sourcegitcommit: 5b1965a0c319c4294b7dc0c829120ed1f4f90444
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193640"
+ms.lasthandoff: 04/25/2020
+ms.locfileid: "82153414"
 ---
 # <a name="use-markdown-in-power-automate-approval-requests"></a>Utilizar o Markdown em pedidos de aprovação do Power Automate
 
@@ -35,14 +35,16 @@ Este artigo mostra como utilizar a sintaxe de [Markdown](https://en.wikipedia.or
 > [!IMPORTANT]
 > Os e-mails de pedidos de aprovação são *mensagens acionáveis*. Se o [cliente do Microsoft Outlook](https://docs.microsoft.com/outlook/actionable-messages/#outlook-version-requirements-for-actionable-messages) não suportar mensagens acionáveis, apresentará os pedidos de aprovação no formato HTML. 
 
+> [!IMPORTANT]
+> Todos os compositores de Markdown têm diferenças de implementação. Reveja a secção [Suporte a Clientes](#client-support) para obter mais detalhes.
+
 ## <a name="headers"></a>Cabeçalhos
 
 Estruture os seus comentários com cabeçalhos. Os cabeçalhos segmentam comentários mais extensos, tornando mais fácil a sua leitura.
 
 Inicie uma linha com um caráter de hash `#` para definir um cabeçalho. Organize os seus comentários com subcabeçalhos ao iniciar uma linha com carateres de hash adicionais, por exemplo, `####`. São suportados até seis níveis de cabeçalhos.
 
-**Exemplo:**
-
+**Exemplo:**  
 ```Markdown
 # This is a H1 header
 ## This is a H2 header
@@ -51,33 +53,34 @@ Inicie uma linha com um caráter de hash `#` para definir um cabeçalho. Organiz
 ##### This is a H5 header
 ```
 
-**Resultado:**
-
+**Resultado:**  
 ![Exportar fluxo](./media/approvals-markdown-support/mrkdown-headers.png)
 
 ## <a name="paragraphs-and-line-breaks"></a>Parágrafos e quebras de linha
 
-Torne a leitura do texto mais fácil ao dividi-lo com parágrafos ou quebras de linha. Introduza dois espaços antes da quebra de linha para iniciar um novo parágrafo ou introduza duas quebras de linha consecutivamente para iniciar um novo parágrafo.   
+Torne a leitura do texto mais fácil ao dividi-lo com parágrafos ou quebras de linha. Introduza dois espaços antes da quebra de linha para forçar a maioria dos clientes a iniciar uma nova linha.  
    
-**Exemplo**
-
-Adicione linhas entre o texto com a tecla Enter.
-Esta ação dá um melhor espaçamento ao texto e faz com que seja mais fácil de ler.
+**Exemplo:**  
+```Markdown
+This is line 1.(space, space)
+Now text will appear on the next line.
+```
 
 **Resultado:**    
-Adicione linhas entre o texto com a tecla Enter.      
-Esta ação dá um melhor espaçamento ao texto e faz com que seja mais fácil de ler.
+esta é a linha 1.  
+Agora, o texto aparecerá na próxima linha. 
 
+**Exemplo 2**  
+```Markdown
+This is line 1.(space, space)  
 
-**Exemplo 2**
-
-Adicione dois espaços antes do final da linha. (Espaço, espaço)     
-Esta ação adiciona um espaço entre os parágrafos.
+Line 2 has extra space before it.
+```
 
 **Resultado:**  
-Adicione dois espaços antes do final da linha.   
+esta é a linha 1.  
 
-Esta ação adiciona um espaço entre os parágrafos.
+A linha 2 tem espaço extra antes.
   
 
 ## <a name="lists"></a>Listas
@@ -88,43 +91,36 @@ As listas ordenadas começam com um número seguido por um ponto final para cada
 
 ### <a name="ordered-or-numbered-lists"></a>Listas ordenadas ou numeradas
 
-**Exemplo:**
-
+**Exemplo:**  
 ```Markdown
 0. First item.
 0. Second item.
 0. Third item.
 ```
 
-**Resultado:**
-
+**Resultado:**  
 1. First item.
 2. Second item.
 3. Third item.
 
 ### <a name="bullet-lists"></a>Listas com marcas
 
-**Exemplo:**
-
-<pre>
-
+**Exemplo:**  
+```Markdown
 - Item 1
 - Item 2
 - Item 3
+```
 
-</pre>
-
-**Resultado:**
-
+**Resultado:**  
 - Item 1
 - Item 2
 - Item 3
 
 ### <a name="nested-lists"></a>Listas aninhadas
 
-**Exemplo:**
-<pre>
-
+**Exemplo:**  
+```Markdown
 1. First item.
    - Item 1
    - Item 2
@@ -133,11 +129,9 @@ As listas ordenadas começam com um número seguido por um ponto final para cada
    - Nested item 1
    - Nested item 2
    - Nested item 3
-
-</pre>
+```
 
 **Resultado:**  
-
 1. First item.
 
     - Item 1
@@ -159,37 +153,13 @@ Pode definir as hiperligações de texto do URL com a sintaxe de ligação de ma
 [Link Text](Link URL)
 ```
 
-**Exemplo:**
-<pre>
-&#91;Power Automate](https://flow.microsoft.com)
-</pre>
-
-**Resultado:**
-
+**Exemplo:**  
+```Markdown
 [Power Automate](https://flow.microsoft.com)
+```
 
-### <a name="anchor-links"></a>Ligações de âncora
-
-Os IDs de âncora são atribuídos a todos os cabeçalhos quando compostos como HTML. O ID é o texto do cabeçalho, com os espaços substituídos por traços (-) e todas as letras em minúsculas.
-
-**Exemplo:**
-
-<pre>
-###Link to a heading in the page
-</pre>
-
-<br/>
-
-**Resultado:**
-
-A sintaxe de uma ligação de âncora para uma secção...
-
-<pre>
-[Link to a heading in the page](#link-to-a-heading-in-the-page)
-</pre> 
-<br/>
-O ID é todo em minúsculas e a ligação é sensível às maiúsculas e minúsculas, pelo que não se esqueça de utilizar minúsculas, apesar de o próprio cabeçalho utilizar maiúsculas.
-
+**Resultado:**  
+[Power Automate](https://flow.microsoft.com)
 
 ## <a name="tables"></a>Tabelas
 
@@ -199,23 +169,18 @@ Organize os dados estruturados através de tabelas.
 - Separe as células da tabela com o caráter de pipe `|` 
 - As primeiras duas linhas de uma tabela definem os cabeçalhos das colunas e o alinhamento dos elementos na tabela
 - Utilize dois pontos (`:`) ao dividir o cabeçalho e o corpo de tabelas para especificar o alinhamento das colunas (à esquerda, ao centro, à direita) 
-- Para iniciar uma nova linha, utilize a etiqueta de quebra HTML (`<br/>`) (funciona apenas num Wiki)  
+- Para iniciar uma nova linha, utilize a etiqueta de quebra HTML (`<br/>`)
 - Confirme que termina cada linha com um CR ou LF. 
 
-**Exemplo:**
-
-```
+**Exemplo:**  
+```Markdown
 | Heading 1 | Heading 2 | Heading 3 |  
 |-----------|:-----------:|-----------:|  
 | Cell A1 | Cell A2 | Cell A3 |  
 | Cell B1 | Cell B2 | Cell B3<br/>second line of text |  
 ```
 
-
-
-
 **Resultado:**  
-
 | Heading 1 | Heading 2 | Heading 3 |  
 |-----------|:---------:|-----------:|  
 | Cell A1 | Cell A2 | Cell A3 |  
@@ -231,22 +196,17 @@ Pode realçar o texto ao aplicar negrito, itálico ou rasurado aos carateres:
 
 Combine estes elementos para aplicar várias ênfases no texto.    
 
-**Exemplo:**
-
-<pre>
+**Exemplo:**  
+```Markdown
 Use _emphasis_ in comments to express **strong** opinions and point out ~~corrections~~ 
 **_Bold, italicized text_**  
 **~~Bold, strike-through text~~**
-</pre>
+```
 
-<br/>
-
-**Resultado:**
-
+**Resultado:**  
 Use _emphasis_ in comments to express **strong** opinions and point out <s>corrections</s>   
 **_Bold, italicized text_**    
 **~~Bold, strike-through text~~**  
-
 
 ## <a name="special-characters"></a>Carateres especiais
 
@@ -289,3 +249,17 @@ Use _emphasis_ in comments to express **strong** opinions and point out <s>corre
 
 </tbody>
 </table>
+
+## <a name="client-support"></a>Suporte a Clientes
+
+Nem todos os clientes cumprem o mesmo markdown de forma idêntica ou de todo. A equipa Power Automate trabalha com os proprietários de clientes sempre que possível para resolver estas limitações, mas algumas não são possíveis de corrigir. Segue-se uma tabela que descreve as limitações conhecidas entre clientes.
+
+| Funcionalidade | Portal PA | Aplicação Móvel PA | Outlook Desktop | Outlook Web | Teams | Teams Mobile |  
+|---------|--------|---------------|-----------------|-------------|-------|--------------|
+| **Headers** (Cabeçalhos) | Sim | Sim | Sim | Sim | **_Não_** | **_Não_** |
+| **Listas Numeradas** | Sim | Sim | **_Não_** | Sim | Sim | Sim |
+| **Listas Numeradas Aninhadas** | Sim | Sim | **_Não_** | Sim | Sim | Sim |
+| **Tabelas** | Sim | Sim | Sim | Sim | **_Não_** | **_Não_** |
+| **Imagens** | **_Não_** | **_Não_** | **_Não_** | **_Não_** | **_Não_** | **_Não_** |
+| **Quebras de Linha Forçadas** | Sim | Sim | **_Não_** (utilizar uma linha em branco em alternativa) | Sim | Sim | Sim |
+| **Linhas Em Branco** | **_Não_** | **_Não_** | Sim | Sim | **_Não_** | Sim |

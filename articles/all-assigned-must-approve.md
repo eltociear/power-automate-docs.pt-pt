@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: b99d5433d159908bb136519107211b77b33e9228
-ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
+ms.openlocfilehash: 3f668d4462c06e061efe2a03b4e5e842364c4b6e
+ms.sourcegitcommit: 5b1965a0c319c4294b7dc0c829120ed1f4f90444
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80862590"
+ms.lasthandoff: 04/25/2020
+ms.locfileid: "82153429"
 ---
 # <a name="create-an-approval-flow-that-requires-everyone-to-approve"></a>Criar um fluxo de aprovação que requer a aprovação de todas as pessoas
 
@@ -65,29 +65,29 @@ Estas instruções utilizam tokens. Para apresentar a lista de tokens, toque ou 
 
 Inicie sessão no [Power Automate](https://flow.microsoft.com) e execute os seguintes passos para criar o fluxo.
 
-1. Selecione **Os meus fluxos** > **Criar do zero**, no canto superior direito do ecrã.
-1. Adicione o acionador **SharePoint - Quando um item é criado ou modificado**.
-1. Introduza o **Endereço do Site** do SharePoint que aloja a lista de pedidos de férias e selecione a lista em **Nome da Lista**.
-1. Adicione a ação **Utilizadores do Office 365 - Obter gestor V2**, selecione a caixa **Utilizador (UPN)** e, em seguida, adicione o token **Criado por E-mail** à mesma.
+1. Selecione **Os meus fluxos** > **Novo** > **Automatizado – do zero**, no canto superior esquerdo do ecrã.
+1. Dê um nome ao fluxo e, em seguida, adicione o acionador **SharePoint - Quando um item é criado ou modificado**.
+1. Introduza o **Endereço do Site** do site do SharePoint que aloja a lista de pedidos de férias e selecione uma lista de **Nome da Lista**.
+1. Selecione **Novo passo**, adicione a ação **Obter gestor (V2)** do Office 365, selecione a caixa **Utilizador (UPN)** e, em seguida, adicione o token **Criado por E-mail** à mesma.
 
     O token **Criado por E-mail** está localizado na categoria **Quando um item é criado ou modificado** da lista **Conteúdo dinâmico**. Este token fornece de forma dinâmica acesso a dados sobre o gestor à pessoa que criou o item no SharePoint.
 
-1. Adicione outra ação **Utilizadores do Office 365 - Obter gestor V2** e adicione o token **Correio** à caixa **Utilizador (UPN)** .
+1. Selecione **Novo passo**, adicione outra ação **Obter gestor V2** do Office 365 e, em seguida, adicione o token **Correio** à caixa **Utilizador (UPN)** .
 
-    O token **Correio** está localizado na categoria **Obter gestor V2 2** da lista **Conteúdo dinâmico**. Este token fornece de forma dinâmica acesso ao endereço de e-mail do gestor.
+    O token **Correio** está localizado na categoria **Obter gestor (V2)** da lista **Conteúdo dinâmico**. Este token fornece de forma dinâmica acesso ao endereço de e-mail do gestor.
 
-    Pode também mudar o nome do cartão **Obter gestor V2 2** para algo com significado, como "Ignorar nível do gestor".
-1. Adicione a ação **Iniciar uma aprovação** e selecione **Todos os utilizadores da lista atribuída** na lista **Tipo de aprovação**.
+    Pode também mudar o nome do cartão **Obter gestor (V2) 2** para algo com significado, como "Ignorar nível do gestor".
+1. Selecione **Novo passo**, adicione a ação **Iniciar e aguardar uma aprovação** e, em seguida, selecione **Aprovar/Rejeitar – Todos têm de aprovar** da lista **Tipo de aprovação**.
 
    > [!IMPORTANT]
    > Se qualquer um dos aprovadores rejeitar o pedido de aprovação, este é considerado rejeitado por todos os aprovadores.
    >
    >
-1. Utilize a tabela seguinte como guia para preencher o cartão **Iniciar aprovação**.
+1. Utilize a tabela seguinte como guia para preencher o cartão **Iniciar e aguardar uma aprovação**.
 
    | Campo | Descrição |
    | --- | --- |
-   |  Tipo de aprovação |Utilize **Qualquer pessoa da lista atribuída** para indicar que qualquer um dos aprovadores pode aprovar ou rejeitar o pedido. </p>Utilize **Todos os utilizadores da lista atribuída** para indicar que um pedido só é aprovado se todas as pessoas concordarem, e o pedido é negado se uma única pessoa o rejeitar. |
+   | Tipo de aprovação |Veja os [tipos de aprovação](#approval-types-and-their-behaviors). |
    |  Título |O título do pedido de aprovação. |
    |  Atribuído a |Os endereços de e-mail dos aprovadores. |
    |  Detalhes |Quaisquer informações adicionais que pretenda que sejam enviadas para os aprovadores listados no campo **Atribuído a**. |
@@ -95,37 +95,48 @@ Inicie sessão no [Power Automate](https://flow.microsoft.com) e execute os segu
    |  Descrição da hiperligação de item |Uma descrição de texto para a **Hiperligação de item**. |
 
    > [!TIP]
-   > A ação **Iniciar uma aprovação** fornece vários tokens, incluindo **Resposta** e **Resumo de resposta**. Utilize estes tokens no seu fluxo para a criação de relatórios avançados dos resultados da execução de um fluxo de pedido de aprovação.
+   > A ação **Iniciar e aguardar uma aprovação** fornece vários tokens, incluindo **Respostas** e **Resultado**. Utilize estes tokens no seu fluxo para a criação de relatórios avançados dos resultados da execução de um fluxo de pedido de aprovação.
    >
    >
 
-    O cartão **Iniciar uma aprovação** é um modelo para o pedido de aprovação que é enviado para os aprovadores. Configure-o de forma a ser útil para a sua organização. Eis um exemplo.
+    O cartão **Iniciar e aguardar uma aprovação** é um modelo para o pedido de aprovação que é enviado para os aprovadores. Configure-o de forma a ser útil para a sua organização. Eis um exemplo.
 
-    ![iniciar uma aprovação](media/all-assigned-must-approve/start-an-approval-card.png)
+    ![Iniciar e aguardar uma aprovação](media/all-assigned-must-approve/start-an-approval-card.png)
 
-1. Adicione a ação **Outlook do Office 365 - Enviar um e-mail** e configure-a para enviar um e-mail com os resultados do pedido.
+    Quando um fluxo com a ação **Iniciar e aguardar uma aprovação** é configurado com **Aprovar/Rejeitar – Todos têm de aprovar**, este aguarda até que todos os **Atribuído a** aprovem ou pelo menos um **Atribuído a** rejeite o pedido de aprovação.
 
-    Eis um exemplo de como o cartão **Enviar um e-mail** pode ser.
+    >[!TIP]
+    >Adicione um passo **Condição** se quiser que o seu fluxo verifique a resposta do pedido de aprovação e realize ações diferentes com base no **Resultado**. O **Resultado** pode ser **Aprovar** ou **Rejeitar**. 
+
+    Vamos continuar com o fluxo e enviar um e-mail quando uma decisão for tomada sobre o pedido de aprovação.
+
+1. Selecione **Novo Passo**, procure "enviar um e-mail", adicione a ação **Enviar um email (V2)** do Office 365 Outlook e, em seguida, configurar a ação para enviar um e-mail com os resultados do pedido para a pessoa que quer ir de férias.
+
+    Eis um exemplo de como o cartão **Enviar um e-mail (V2)** pode ser.
 
     ![enviar um e-mail](media/all-assigned-must-approve/send-an-email-card.png)
 
 > [!NOTE]
-> Qualquer ação após a ação **Iniciar uma aprovação** é executada com base na seleção da lista **Tipo de aprovação** do cartão **Iniciar uma aprovação**. A tabela seguinte lista o comportamento com base na sua seleção.
+> Qualquer ação após a ação **Iniciar e aguardar uma aprovação** é executada com base na seleção da lista **Tipo de aprovação** do cartão **Iniciar e aguardar uma aprovação**. A tabela seguinte lista o comportamento com base na sua seleção.
 >
 >
+
+### <a name="approval-types-and-their-behaviors"></a>Tipos de aprovação e respetivos comportamentos
 
 | Tipo de aprovação | Comportamento |
 | --- | --- |
-| Qualquer pessoa na lista atribuída |As ações após a ação **Iniciar uma aprovação** são executadas depois de qualquer um dos aprovadores decidir. |
-| Todos os utilizadores da lista atribuída |As ações após a ação **Iniciar uma aprovação** são executadas depois de um aprovador aceitar ou recusar o pedido. |
+| Aprovar/Rejeitar – Todos têm de aprovar | A aprovação ou rejeição é obrigatória por parte de **todos** os aprovadores para completar o pedido. </p> As ações que seguem a ação **Iniciar e aguardar uma aprovação** são executadas após **todos** os aprovadores terem aprovado ou quando se fizer uma única rejeição.|
+| Aprovar/Rejeitar – Primeiro a responder | A aprovação ou rejeição por qualquer aprovador completa o pedido.  </p> As ações após a ação **Iniciar e aguardar uma aprovação** são executadas depois de qualquer um dos aprovadores decidir.|
+| Respostas personalizadas – Aguardar todas as respostas | Todos os aprovadores têm de responder para completar o processo. |
+| Respostas personalizadas – Aguardar uma resposta | Uma resposta de qualquer aprovador completa o processo. |
 
-Na parte superior do ecrã, introduza um nome para o fluxo na caixa **Nome de fluxo** e selecione **Criar fluxo** para guardá-lo.
+Na parte superior do ecrã, selecione **Guardar** para guardar o seu fluxo.
 
 Parabéns, o fluxo está concluído! Se seguiu o procedimento, o fluxo é semelhante a esta imagem.
 
 ![imagem de fluxo geral](media/all-assigned-must-approve/overall-flow.png)
 
-Agora, sempre que um item da lista do SharePoint for adicionado, ou se um item for alterado, o fluxo aciona e envia pedidos de aprovação a todos os aprovadores que estão listados na caixa **Atribuído a** do cartão **Iniciar uma aprovação**. O fluxo envia pedidos de aprovação através da aplicação móvel do Power Automate e por e-mail. A pessoa que cria o item no SharePoint obtém uma mensagem de e-mail que resume os resultados, indicando claramente se o pedido foi aprovado ou rejeitado.
+Agora, sempre que um item da lista do SharePoint for adicionado, ou se um item for alterado, o fluxo aciona e envia pedidos de aprovação a todos os aprovadores que estão listados na caixa **Atribuído a** do cartão **Iniciar e aguardar uma aprovação**. O fluxo envia pedidos de aprovação através da aplicação móvel do Power Automate e por e-mail. A pessoa que cria o item no SharePoint obtém uma mensagem de e-mail que resume os resultados, indicando claramente se o pedido foi aprovado ou rejeitado.
 
 Eis um exemplo do pedido de aprovação que é enviado para cada aprovador.
 

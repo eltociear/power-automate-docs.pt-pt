@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/21/2017
+ms.date: 11/15/2019
 ms.author: deonhe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 697f41960a62c7da2eee9bc34bb174d39ed2c44b
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: b4479c2df6b8c7a1d5c269a8e0a48f15c1dda275
+ms.sourcegitcommit: 5b1965a0c319c4294b7dc0c829120ed1f4f90444
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195077"
+ms.lasthandoff: 04/25/2020
+ms.locfileid: "82153545"
 ---
 # <a name="create-team-flows"></a>Criar fluxos de equipa
 
@@ -55,7 +55,7 @@ Precisa de ter um [plano pago do Power Automate](https://flow.microsoft.com/pric
 Siga estes passos para criar um fluxo de equipa ou para adicionar mais proprietários a um fluxo de equipa.
 
 1. Inicie sessão no [Power Automate](https://flow.microsoft.com) e selecione **Os meus fluxos**.
-2. Selecione o ícone de pessoas do fluxo que quer modificar:
+2. Selecione **Mais comandos** e, em seguida, selecione **Partilhar** no fluxo que pretende partilhar:
    
     ![ícone da equipa](./media/create-team-flows/addowner1.png)
 3. Introduza o nome, o endereço de e-mail ou o nome do grupo da pessoa ou grupo que quer adicionar como proprietário:
@@ -86,18 +86,16 @@ Pode adicionar listas do SharePoint como coproprietário a um fluxo para que tod
 > 
 > 
 
-1. Selecione o ícone de pessoas do fluxo que quer modificar:
+1. Selecione **Mais comandos** e, em seguida, selecione **Partilhar** no fluxo que pretende partilhar:
    
-    ![selecione o ícone pessoas](./media/create-team-flows/removeowner1.png)
+    ![selecione o ícone pessoas](./media/create-team-flows/addowner1.png)
 2. Selecione o ícone **Eliminar** para o proprietário que quer remover:
    
     ![selecione eliminar](./media/create-team-flows/removeowner2.png)
 3. Na caixa de diálogo de confirmação, selecione **Remover este proprietário**:
    
     ![confirmar remoção](./media/create-team-flows/removeowner3.png)
-4. Parabéns &mdash; o utilizador ou grupo que removeu já não está listado como proprietário do fluxo:
-   
-    ![utilizador removido](./media/create-team-flows/removeowner4.png)
+4. Parabéns &mdash; o utilizador ou grupo que removeu já não está listado como proprietário do fluxo.
 
 
 ## <a name="update-connection-owner"></a>Atualizar proprietário da ligação

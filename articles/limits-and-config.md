@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: ebb723812a8a6805616a8e66deee13aa74618ce2
-ms.sourcegitcommit: 7d6c210192ce68ad0d0b27f67f581e307d5ef606
+ms.openlocfilehash: 478949c1d0579e399f4125e67c1e40103d889900
+ms.sourcegitcommit: e709e8c4a62df6fdb0ca06f3f8afb5c639c76632
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/05/2020
-ms.locfileid: "80669851"
+ms.lasthandoff: 04/26/2020
+ms.locfileid: "82159544"
 ---
 # <a name="limits-and-configuration-in-power-automate"></a>Limites e configuração no Power Automate
 
@@ -61,13 +61,16 @@ Estes são os limites de uma única execução de fluxo.
 
 | Nome | Limite | Notas |
 | --- | --- | --- |
-| Duração da execução |30 dias |Inclui os fluxos de trabalho com passos pendentes, como aprovações. Após 30 dias, todos os passos pendentes excedem o tempo limite. As aprovações cujo tempo limite foi excedido são removidas do centro de aprovações. Se alguém tentar aprovar um pedido cujo tempo limite foi excedido, receberá uma mensagem de erro. |
+| Duração da execução |30 dias |Inclui os fluxos de trabalho com passos pendentes, como aprovações. Após 30 dias, todos os passos pendentes excedem o tempo limite. |
 | Retenção de armazenamento |30 dias |Isto é a partir da hora de início da execução. |
 | Intervalo de periodicidade mínimo |1 minuto | |
 | Intervalo de periodicidade máximo |500 dias | |
 | Retenção máxima do histórico de execuções |28 dias, conforme regras do GDPR. | |
 |Intervalo mínimo de adiamento – Licença Gratuita e Plano 1|5 segundos||
 |Intervalo mínimo de adiamento – Licença Plano 2|1 segundo||
+
+>[!TIP]
+>Os conectores individuais também podem ter os seus próprios limites.
 
 ## <a name="looping-and-debatching-limits"></a>Ciclos e limites de anulação de lotes
 Estes são os limites de uma única execução de fluxo. Para saber os limites diários, veja [Requests limits and allocations](https://aka.ms/platformlimits) (Limites e alocações de pedidos).
