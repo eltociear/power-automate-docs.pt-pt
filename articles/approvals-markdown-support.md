@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 4/23/2018
+ms.date: 4/27/2020
 ms.author: gcorvera
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 5b7ca2db5a4f04e60484eb758faaa3938fcc60c9
-ms.sourcegitcommit: 5b1965a0c319c4294b7dc0c829120ed1f4f90444
+ms.openlocfilehash: 739d407df91661a6a82aa72f2891a3dac3bda3cf
+ms.sourcegitcommit: 28adfdffc00c149bc46fab85b7307e4e819000c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/25/2020
-ms.locfileid: "82153414"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "82189617"
 ---
 # <a name="use-markdown-in-power-automate-approval-requests"></a>Utilizar o Markdown em pedidos de aprovação do Power Automate
 
@@ -37,6 +37,20 @@ Este artigo mostra como utilizar a sintaxe de [Markdown](https://en.wikipedia.or
 
 > [!IMPORTANT]
 > Todos os compositores de Markdown têm diferenças de implementação. Reveja a secção [Suporte a Clientes](#client-support) para obter mais detalhes.
+
+## <a name="client-support"></a>Suporte a Clientes
+
+O suporte de markdown entre clientes é inconsistente. A equipa do Power Automate trabalha para resolver estas inconsistências, mas continuam a existir inconsistências. A seguinte tabela estabelece as limitações conhecidas entre os clientes suportados.
+
+| Funcionalidade | Power Automate | Aplicação móvel do Power Automate | Outlook para computador | Outlook Web | Teams | Aplicação móvel do Teams |  
+|---------|--------|---------------|-----------------|-------------|-------|--------------|
+| **Headers** (Cabeçalhos) | Sim | Sim | Sim | Sim | **_Não_** | **_Não_** |
+| **Listas Numeradas** | Sim | Sim | **_Não_** | Sim | Sim | Sim |
+| **Listas Numeradas Aninhadas** | Sim | Sim | **_Não_** | Sim | Sim | Sim |
+| **Tabelas** | Sim | Sim | Sim | Sim | **_Não_** | **_Não_** |
+| **Imagens** | **_Não_** | **_Não_** | **_Não_** | **_Não_** | **_Não_** | **_Não_** |
+| **Quebras de Linha Forçadas** | Sim | Sim | **_Não_** (utilizar uma linha em branco em alternativa) | Sim | Sim | Sim |
+| **Linhas Em Branco** | **_Não_** | **_Não_** | Sim | Sim | **_Não_** | Sim |
 
 ## <a name="headers"></a>Cabeçalhos
 
@@ -249,17 +263,3 @@ Use _emphasis_ in comments to express **strong** opinions and point out <s>corre
 
 </tbody>
 </table>
-
-## <a name="client-support"></a>Suporte a Clientes
-
-Nem todos os clientes cumprem o mesmo markdown de forma idêntica ou de todo. A equipa Power Automate trabalha com os proprietários de clientes sempre que possível para resolver estas limitações, mas algumas não são possíveis de corrigir. Segue-se uma tabela que descreve as limitações conhecidas entre clientes.
-
-| Funcionalidade | Portal PA | Aplicação Móvel PA | Outlook Desktop | Outlook Web | Teams | Teams Mobile |  
-|---------|--------|---------------|-----------------|-------------|-------|--------------|
-| **Headers** (Cabeçalhos) | Sim | Sim | Sim | Sim | **_Não_** | **_Não_** |
-| **Listas Numeradas** | Sim | Sim | **_Não_** | Sim | Sim | Sim |
-| **Listas Numeradas Aninhadas** | Sim | Sim | **_Não_** | Sim | Sim | Sim |
-| **Tabelas** | Sim | Sim | Sim | Sim | **_Não_** | **_Não_** |
-| **Imagens** | **_Não_** | **_Não_** | **_Não_** | **_Não_** | **_Não_** | **_Não_** |
-| **Quebras de Linha Forçadas** | Sim | Sim | **_Não_** (utilizar uma linha em branco em alternativa) | Sim | Sim | Sim |
-| **Linhas Em Branco** | **_Não_** | **_Não_** | Sim | Sim | **_Não_** | Sim |
