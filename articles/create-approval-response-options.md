@@ -20,12 +20,12 @@ search.app:
 - Powerplatform
 search.audienceType:
 - maker
-ms.openlocfilehash: ea98043ee9ab952cfd929a100cb76e42508b84bc
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: dc2eaf9ac0ffc0edb10f5cb096ee98dad6aac55d
+ms.sourcegitcommit: 9cca2a2fca8371ab883b12011c1c4485ceb9c761
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79194215"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "82200508"
 ---
 # <a name="create-custom-response-options-for-approval-flows"></a>Criar opções de respostas personalizadas para fluxos de aprovação
 
@@ -41,40 +41,39 @@ Vamos supor que quer enviar um pedido de aprovação sempre que um funcionário 
 ## <a name="create-approval-flow"></a>Criar um fluxo de aprovação
 1. Iniciar sessão no [Power Automate](https://flow.microsoft.com).
 1. Selecione **Os meus fluxos** na barra de navegação esquerda.
-1. Selecione **Novo** > **Criar do zero**.
+1. Selecione **Novo** > **Automatizado – do zero**.
 
     ![Opção Criar do zero](media/create-approval-response-options/create-approval-response-options.png)
 
-1. No ecrã apresentado, selecione **Criar do zero**. 
+1. No ecrã apresentado, indique um nome para o fluxo em **Nome do fluxo**. 
+  
+1. Procure **SharePoint** em **Escolher o seu acionador do fluxo**, selecione **Quando um item é criado** na lista de acionadores e, depois, selecione **Criar**.
 
-    ![Selecionar Criar do zero](media/create-approval-response-options/create-from-blank.png)
-
-1. Pesquise **sharepoint** e, em seguida, selecione **Quando um item é criado** na lista de acionadores. 
+   ![Selecionar Criar do zero](media/create-approval-response-options/create-from-blank.png)
 
 1. Introduza o **Endereço do Site**  do SharePoint e o **Nome da Lista**. 
 
-1. Selecione **Novo passo**, pesquise **Aprovação**e, em seguida, selecione **Iniciar e aguardar uma aprovação (V2)** .
+   >[!TIP]
+   >Selecione **Introduzir valor personalizado** no campo **Endereço do Site** antes de introduzir texto em **Endereço do Site**.
 
-1. No cartão **Iniciar e aguardar uma aprovação (V2)** , selecione a lista **Tipo de aprovação**.
+1. Selecione **Novo passo**, procure **Aprovação** e, em seguida, selecione **Iniciar e aguardar uma aprovação**.
+
+1. No cartão **Iniciar e aguardar uma aprovação**, selecione a lista **Tipo de aprovação**.
+
+1. Selecione **Respostas Personalizadas – Aguardar uma resposta**.
 
     ![Tipo de aprovação](media/create-approval-response-options/select-approval-type.png)
-
-1. Selecione **Respostas Personalizadas – Aguardar uma resposta (Premium)** .
-
-    ![Respostas personalizadas](media/create-approval-response-options/select-custom-responses.png)
 
     Em seguida, vai criar as respostas personalizadas que os aprovadores utilizarão quando responderem a um pedido de aprovação de despesas de um funcionário.
 
 
-1. Na caixa **Opções de resposta Item – 1**, introduza **Aceitar** e, em seguida, selecione **Adicionar novo item**. 
+1. Na caixa **Opções de resposta Item**, introduza **Aceitar** e, em seguida, selecione **Adicionar novo item**. 
 
     ![Resposta personalizada 1](media/create-approval-response-options/enter-response-1.png)
 
-1. Na caixa **Opções de resposta Item - 2**, introduza **Rejeitar** e, em seguida, selecione **Adicionar novo item**.
+1. Na caixa **Opções de resposta Item**, introduza **Rejeitar** e, em seguida, selecione **Adicionar novo item**.
 
-    ![Resposta personalizada 2](media/create-approval-response-options/enter-response-2.png)
-
-1. Na caixa **Opções de resposta Item – 3**, introduza **Precisa de mais informações**.
+1. Na caixa **Opções de resposta Item**, introduza **Precisa de mais informações**.
 
     ![Resposta personalizada 3](media/create-approval-response-options/enter-response-3.png)   
     

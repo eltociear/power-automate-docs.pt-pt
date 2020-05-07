@@ -13,23 +13,23 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/07/2020
+ms.date: 04/27/2020
 ms.author: stepsic
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: ac149bcd62da4ee737f23f894e1f99773f843ada
-ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
+ms.openlocfilehash: 7138d8f0aefc06799f5023204126e1a95494ba20
+ms.sourcegitcommit: e58c8e6954c8e666497a66dc945fdc16c7c845a9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80862613"
+ms.lasthandoff: 05/02/2020
+ms.locfileid: "82727956"
 ---
 # <a name="create-a-flow-that-uses-common-data-service"></a>Criar um fluxo que utilize o Common Data Service
 
-Melhore a eficiência operacional com uma vista unificada de dados de negócio ao criar um fluxo que utilize o [Common Data Service](https://powerapps.microsoft.com/tutorials/data-platform-intro/). Implemente esta base de dados de negócio segura que abrange as entidades de negócio padrão corretamente formado (por exemplo, Vendas, Compra, Suporte ao Cliente e Produtividade) na organização. Armazene dados organizacionais numa ou mais [entidades personalizadas](https://powerapps.microsoft.com/tutorials/data-platform-create-entity/), que oferecem vários benefícios no que respeita a origens de dados externas, tais como o Microsoft Excel e o Salesforce.
+Melhore a eficiência operacional com uma vista unificada de dados empresariais ao criar um fluxo que utilize o [Common Data Service](https://powerapps.microsoft.com/tutorials/data-platform-intro/). Implemente esta base de dados de negócio segura que abrange as entidades de negócio padrão corretamente formado (por exemplo, Vendas, Compra, Suporte ao Cliente e Produtividade) na organização. Armazene dados organizacionais numa ou mais [entidades personalizadas](https://powerapps.microsoft.com/tutorials/data-platform-create-entity/), que oferecem vários benefícios no que respeita a origens de dados externas, tais como o Microsoft Excel e o Salesforce.
 
 Por exemplo, tire partido do Common Data Service no Power Automate das seguintes formas:
 
@@ -48,7 +48,7 @@ Por exemplo, tire partido do Common Data Service no Power Automate das seguintes
 * Se ainda não utilizou o Common Data Service, abra o separador **Entidades** de [powerapps.com](https://web.powerapps.com/#/entities) e, em seguida, clique ou toque em **Criar a minha base de dados**.
 
 ## <a name="sign-in-to-your-environment"></a>Iniciar sessão no seu ambiente
-1. Abra o [portal do Power Automate](https://flow.microsoft.com) e clique ou toque em **Iniciar sessão** no canto superior direito.
+1. Abra o [Power Automate](https://flow.microsoft.com) e clique ou toque em **Iniciar sessão** no canto superior direito.
    
     **Nota**: Poderá ter de abrir o menu superior à esquerda para mostrar o botão **Iniciar sessão**.
    

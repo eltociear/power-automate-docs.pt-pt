@@ -13,24 +13,27 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/06/2020
+ms.date: 04/26/2020
 ms.author: Deonhe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 3fcf12f42f01d0777a5caeac6308e14b439da002
-ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
+ms.openlocfilehash: 18719ac34d84298dd813b0241d00b652ae172ef6
+ms.sourcegitcommit: e58c8e6954c8e666497a66dc945fdc16c7c845a9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80862659"
+ms.lasthandoff: 05/02/2020
+ms.locfileid: "82727913"
 ---
 # <a name="create-an-automated-flow-by-using-common-data-service"></a>Criar um fluxo automatizado com o Common Data Service
 
+>[!IMPORTANT]
+>Estão disponíveis três conectores para ligar ao Common Data Service. Utilize o [conector do Common Data Service (ambiente atual)](./connection-cds-native.md) recomendado. O **conector do Common Data Service**, abordado neste artigo, e o [conector do Dynamics 365](https://docs.microsoft.com/connectors/dynamicscrmonline/) estão disponíveis caso não consiga utilizar o conector recomendado.
 
-Com o conector do Common Data Service, pode criar fluxos que são iniciados ao criar e atualizar eventos na sua base de dados do Common Data Service. Além disso, pode realizar ações de criação, atualização, obtenção e eliminação em registos no Common Data Service.
+
+Com o conector do Common Data Service, pode criar fluxos que são iniciados ao criar e atualizar eventos no Common Data Service. Além disso, pode realizar ações de criação, atualização, obtenção e eliminação em registos no Common Data Service.
 
 ## <a name="initiate-a-flow-from-common-data-service"></a>Iniciar um fluxo a partir do Common Data Service
 
@@ -72,9 +75,6 @@ Este fluxo é acionado sempre que o nome próprio ou apelido do contacto que per
 > [!div class="mx-imgBorder"]
 > ![Atributos de filtro](./media/cds-connector/FilterAttributes.png)
 
-> [!IMPORTANT]
-> Não pode utilizar os [Conjuntos de Opções de Seleção Múltipla](/powerapps/maker/common-data-service/custom-picklists) num fluxo de trabalho. Se incluir algum, ocorrerá um erro a indicar um “campo obrigatório” em falta
-
 ## <a name="trigger-privileges"></a>Privilégios do acionador
 
 Para criar um fluxo que é acionado com base na criação, atualização ou eliminação de um registo, o utilizador tem de ter permissões de nível de utilizador para criar, ler, escrever e eliminar na entidade Callback Registration. Além disso, dependendo dos âmbitos definidos, o utilizador poderá precisar pelo menos desse nível de leitura na mesma entidade.  [Saiba mais](https://docs.microsoft.com/power-platform/admin/database-security) sobre segurança do ambiente.
@@ -115,11 +115,4 @@ Se tiver um acionador registado na atualização de um registo, o fluxo é execu
 > Se tiver duas atualizações que ocorrem com uma diferença de segundos entre si, o fluxo pode ser acionado mais do que uma vez com o conteúdo com a versão mais recente.
 
 As execuções do fluxo podem sofrer um atraso se existir um registo de tarefas de sistema pendentes no seu ambiente.  Se este atraso ocorrer, o seu fluxo é acionado quando a tarefa de sistema para invocar o fluxo é executada.
-
-### <a name="call-any-common-data-service-action"></a>Chamar uma ação do Common Data Service
-
-Os fluxos de trabalho automatizados podem chamar todas as ações no Common Data Service, o que inclui tudo, desde a concretização de uma ordem de venda à exportação de um ficheiro do Microsoft Excel.
-
- ![Todas as ações](./media/cds-connector/all-actions.png "todas as ações")
-
 
