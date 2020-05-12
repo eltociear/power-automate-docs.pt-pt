@@ -25,7 +25,7 @@ ms.sourcegitcommit: 855ee8b55aebe7b8e202006c39debfff02df1d30
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 04/03/2020
-ms.locfileid: "80627066"
+ms.locfileid: "3298930"
 ---
 # <a name="run-attended-and-unattended-ui-flows"></a>Executar os fluxos de UI com e sem assistência
 
@@ -46,7 +46,7 @@ Depois de ter criado e testado um fluxo de IU, poderá executá-lo a partir de u
 
 Neste exemplo, vamos utilizar um fluxo automatizado para acionar um fluxo de IU quando chega um novo e-mail.
 
-1. Aceda ao [Power Automate](https://flow.microsoft.com/).
+1. Navegue para [Power Automate](https://flow.microsoft.com/).
 1. Selecione **Os meus fluxos** na barra de navegação esquerda.
 1. Selecione **Novo** e, em seguida, **Automatizado – do zero**.
 
@@ -68,11 +68,11 @@ Neste exemplo, vamos utilizar um fluxo automatizado para acionar um fluxo de IU 
 
    Terá de fazer isto uma vez para cada dispositivo:
 
-    - **Gateway**: Selecione o gateway que criou anteriormente ou utilize **Novo gateway** para criar um novo gateway.   
-    - **Domínio e Nome de utilizador**: apresenta a conta escolar ou profissional do dispositivo.
+    - **Gateway**: selecione o gateway que criou anteriormente ou utilize **Novo gateway** para criar um novo gateway.   
+    - **Domínio e Nome de Utilizador**: apresenta a conta escolar ou profissional do dispositivo.
        >[!Important]
         >Certifique-se de que consegue iniciar sessão no dispositivo com estas credenciais.  
-    - **Palavra-passe**: forneça a palavra-passe da sua conta escolar ou profissional.
+    - **Palavra-passe**: forneça a palavra-passe da conta escolar ou profissional.
 
       ![Definições de ligação](../media/run-ui-flow/uiflow-connection-card.png "Definições de ligação")
 
@@ -80,7 +80,7 @@ Neste exemplo, vamos utilizar um fluxo automatizado para acionar um fluxo de IU 
       >Se não vir o seu gateway, poderá estar num ambiente cuja região difere da região do gateway. Selecione **Resolução de problemas de um gateway em falta** na lista de nomes de gateway para saber mais. Também pode confirmar que as regiões do seu gateway e do Power Automate estão [mapeadas corretamente](../regions-overview.md#region-mappings-for-power-automate-and-gateways).
 
       >[!TIP]
-      >Caso não veja o gateway, é possível que tenha de selecionar uma ligação diferente. Para o fazer, selecione **...** no canto superior direto do cartão **Executar um fluxo de IU para computador**  ou **Executar um fluxo de IU para a Web** e, em seguida, selecione a ligação em **As minhas ligações**.
+      >Caso não veja o gateway, é possível que tenha de selecionar uma ligação diferente. Para o fazer, selecione **...** no canto superior direto do cartão **Executar um fluxo de IU para computador** ou **Executar um fluxo de IU para a Web** e, em seguida, selecione a ligação em **As minhas ligações**.
 
 
       ![Selecionar uma nova ligação](../media/run-ui-flow/select-new-connection.png "Selecionar uma nova ligação")
@@ -91,7 +91,7 @@ Neste exemplo, vamos utilizar um fluxo automatizado para acionar um fluxo de IU 
 
 1. Selecione **Guardar** para guardar o fluxo automatizado.
  >[!TIP]
- >Antes de testar, confirme que o seu gateway está online. Aceda a **Dados** > **Gateways** no painel de navegação, selecione o nome do gateway, clique em **...** , aceda a **Detalhes** e verifique se o **estado do gateway** apresentado é **online**. Se **o estado do gateway** apresentado for **offline**, confirme que o dispositivo está em funcionamento e ligado à Internet. 
+ >Antes de testar, confirme que o seu gateway está online. Aceda a **Dados** > **Gateways** no painel de navegação, selecione o nome do gateway, clique em **...**, aceda a **Detalhes** e verifique se o **estado do gateway** apresentado é **online**. Se **o estado do gateway** apresentado for **offline**, confirme que o dispositivo está em funcionamento e ligado à Internet. 
 
 1. Teste o fluxo ao enviar um e-mail para o acionar. Verá o fluxo de IU a reproduzir os passos que gravou. 
 
@@ -135,9 +135,9 @@ Os fluxos de IU realizam o seguinte:
 
 1. Os fluxos de IU automáticos são executados em dispositivos com o ecrã bloqueado para que ninguém consiga ver o fluxo durante a execução do mesmo.
 
-1. Os dispositivos com o Windows 10 não podem ser executados de forma automática se existirem sessões de utilizador do Windows ativas (mesmo que estejam bloqueadas). Verá este erro: *Não é possível executar o fluxo de IU. Existe uma sessão de utilizador do Windows bloqueada ou inativa no dispositivo de destino*.
+1. Os dispositivos com o Windows 10 não podem ser executados de forma automática se existirem sessões de utilizador do Windows ativas (mesmo que estejam bloqueadas). Receberá este erro: *Não é possível executar o fluxo de IU. Existe uma sessão de utilizador do Windows bloqueada ou inativa no dispositivo de destino*.
 
-1. No Windows Server, se tiver uma sessão de utilizador bloqueada do Windows aberta com o mesmo utilizador que o fluxo de IU é suposto executar, verá o mesmo erro: *Não é possível executar o fluxo de IU. Existe uma sessão de utilizador do Windows bloqueada ou inativa no dispositivo de destino*.
+1. No Windows Server, se tiver uma sessão de utilizador do Windows bloqueada aberta com o mesmo utilizador como o fluxo de IU é suposto ser executado, receberá o mesmo erro: *Não é possível executar o fluxo de IU. Existe uma sessão de utilizador do Windows bloqueada ou inativa no dispositivo de destino*.
 
 ### <a name="attended-mode"></a>Modo assistido
 Para executar um fluxo de IU assistido, é necessário ter uma sessão de utilizador do Windows ativa que corresponda ao nome do utilizador configurado para a sua ligação. A sessão não deve estar bloqueada.
@@ -220,7 +220,7 @@ Se a execução de um fluxo de IU falhar, corrija o problema e, em seguida, expe
 
    - Reiniciar o serviço de fluxo de IU no seu dispositivo.
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Mais Informações
 
  - Instalar o [gateway de dados no local](https://docs.microsoft.com/data-integration/gateway/service-gateway-app).
  - Documentação para [utilizar a aplicação de gateway de dados no local](https://docs.microsoft.com/flow/gateway-manage).

@@ -21,11 +21,11 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: 9c7ed87d62ff6fc7370d5b57053239c8bfbeb591
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193456"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3296818"
 ---
 # <a name="sharing-and-connectors-admin-analytics-reports"></a>Relatórios de análise de partilha e conectores de administração
 
@@ -38,7 +38,7 @@ Numa perspectiva de partilha, pode saber quem são os melhores utilizadores da a
 
 ## <a name="view-shared-flows-reports"></a>Ver relatórios de fluxos partilhados
 
-1. Inicie sessão no [Centro de Administração do Power Platform](https://admin.powerplatform.microsoft.com/).
+1. Inicie sessão no [Centro de administração do Power Platform](https://admin.powerplatform.microsoft.com/).
 1. Selecione **Análise** na barra de navegação à esquerda.
 1. Selecione o separador **Partilhados** e veja a lista de fluxos partilhados na sua organização.
  
@@ -47,7 +47,7 @@ Numa perspectiva de partilha, pode saber quem são os melhores utilizadores da a
 
 ## <a name="view-connectors-report"></a>Ver o relatório de conectores
 
-1. Inicie sessão no [Centro de Administração do Power Platform](https://admin.powerplatform.microsoft.com/).
+1. Inicie sessão no [Centro de administração do Power Platform](https://admin.powerplatform.microsoft.com/).
 1. Selecione **Análise** na barra de navegação à esquerda.
 1. Selecione o separador **Conectores**e veja a lista de conectores em utilização na sua organização.
  
@@ -66,7 +66,7 @@ Os resultados nestes relatórios baseiam-se no ambiente que selecionou. Para alt
 
     ![Alterar filtros](media/admin-analytics-report/filters-detail.png)
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Mais Informações
 
 [Introdução ao Power Automate](getting-started.md)
 

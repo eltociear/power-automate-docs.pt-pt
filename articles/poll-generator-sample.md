@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: b19a5b58db4680786ade089731846f0f8000d164
-ms.sourcegitcommit: e3543e32e4e8e8163bef0565e27b657eabbdc741
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75868233"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297302"
 ---
 # <a name="create-a-poll-sample"></a>Criar um exemplo de sondagem
 
@@ -37,7 +37,7 @@ O exemplo para **criar uma sondagem** é um formulário de entrada de Cartão Ad
 
 | Nome do Token Dinâmico | Texto do Marcador de Posição | Notas:                                            |
 |--------------------|------------------|---------------------------------------------------|
-| Título              |                  | Texto a apresentar                                      |
+| Cargo              |                  | Texto a apresentar                                      |
 | acHeaderTagLine    |                  | Texto a apresentar                                      |
 | acHeader           |                  | Texto a apresentar                                      |
 | acPollQuestion     |                  | Texto a apresentar                                      |

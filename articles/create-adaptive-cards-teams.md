@@ -1,6 +1,6 @@
 ---
-title: Saiba como criar fluxos que publicam cartões ajustáveis no Microsoft Teams | Microsoft Docs
-description: Aprenda a criar fluxos para publicar conteúdos com formatação avançada com cartões ajustáveis no Microsoft Teams.
+title: Aprenda a criar fluxos que publicam cartões adaptáveis no Microsoft Teams | Microsoft Docs
+description: Aprenda a criar fluxos para publicar conteúdos com formatação avançada com cartões adaptáveis no Microsoft Teams.
 services: ''
 suite: flow
 documentationcenter: na
@@ -16,25 +16,25 @@ ms.workload: na
 ms.date: 04/29/2019
 ms.author: deonhe
 ms.openlocfilehash: 3ba5f24bf24f57242441fab2770bce881bc78b69
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79192123"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297390"
 ---
 <!--from editor: I notice that adaptive cards is capitalized on the page opened by the link in the first paragraph. But the screenshots in this file don't show it being capitalized. So I'm unsure if it should change.-->
 
 
-# <a name="use-adaptive-cards-in-microsoft-teams"></a>Utilizar os cartões ajustáveis no Microsoft Teams
+# <a name="use-adaptive-cards-in-microsoft-teams"></a>Utilizar cartões adaptáveis no Microsoft Teams
 
 
-Pode criar um fluxo que publica [cartões ajustáveis](https://adaptivecards.io) num canal do Microsoft Teams. Com os cartões ajustáveis, pode utilizar a formatação avançada para tornar as publicações mais claras, interativas e interessantes. Os cartões ajustáveis podem conter componentes como imagens, gráficos, texto com formatação avançada e muito mais.
+Pode criar um fluxo que publica [cartões adaptáveis](https://adaptivecards.io) num canal do Microsoft Teams. Com os cartões ajustáveis, pode utilizar a formatação avançada para tornar as publicações mais claras, interativas e interessantes. Os cartões ajustáveis podem conter componentes como imagens, gráficos, texto com formatação avançada e muito mais.
 
 ## <a name="create-a-flow-that-posts-adaptive-cards-to-a-team"></a>Criar um fluxo que publica cartões ajustáveis para uma equipa
 
 Siga estes passos para criar um fluxo que publica um cartão ajustável no canal geral da equipa de Estratégia e Planeamento. O fluxo que criamos utiliza a ação **Publicar o seu próprio cartão ajustável como o bot do Flow num canal (pré-visualização)** para publicar semanalmente o conteúdo do cartão ajustável no canal da equipa.
 
-1. Inicie sessão no Microsoft Teams.
+1. Iniciar sessão no Microsoft Teams.
 1. Selecione o ícone do **Teams** na barra de navegação à esquerda e, em seguida, selecione a equipa de **Estratégia e Planeamento**.
 
     ![Selecionar equipas](media/create-adaptive-cards-teams/select-teams-team.png)
@@ -50,7 +50,7 @@ Siga estes passos para criar um fluxo que publica um cartão ajustável no canal
     ![Cartão de periodicidade](media/create-adaptive-cards-teams/recurrence-card.png)
     
 1. Selecione **Novo passo**.
-1. Pesquise por **ajustável**, selecione **Microsoft Teams**e, em seguida, selecione a ação **Publicar o seu próprio cartão ajustável como o bot do Flow num canal (pré-visualização)** .
+1. Pesquise por **adaptável**, selecione **Microsoft Teams** e, em seguida, selecione a ação **Publicar o seu próprio cartão adaptável como o bot do Flow num canal (pré-visualização)**.
 
    ![Cartão ajustável](media/create-adaptive-cards-teams/select-adaptive-post-message-action.png)
 
@@ -139,7 +139,7 @@ Tenha em atenção que, depois de decorrido o tempo de periodicidade, o fluxo pu
 
 ![Executar o fluxo](media/create-adaptive-cards-teams/flow-run-result.png)
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Mais Informações
 
 - Comece a utilizar os [exemplos de cartão ajustável](https://adaptivecards.io/samples/).
 - Crie [conteúdos de cartão ajustável](https://adaptivecards.io) da forma mais fácil.

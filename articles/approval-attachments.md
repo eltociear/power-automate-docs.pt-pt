@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 1506902cdd6afe90d7e12a910e2e14519cae7554
-ms.sourcegitcommit: c6c4150daadbcc38ef1a33a5903df531b8461ace
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75943006"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3296950"
 ---
 # <a name="create-approval-flows-with-attachments"></a>Criar fluxos de aprovação com anexos
 
@@ -35,7 +35,7 @@ Neste artigo, vai aprender a criar um fluxo de aprovação que envia um anexo qu
 
 ## <a name="create-the-flow"></a>Criar o fluxo
 
-1. Inicie sessão no Power Automate.
+1. Iniciar sessão no Power Automate.
 1. Selecione **Os meus fluxos** > **Novo** > **Instantâneo a partir do zero**.
 
     ![Novo fluxo em branco instantâneo](./media/approval-attachments/new-instand-blank.png)
@@ -105,7 +105,7 @@ A pessoa a quem envia o pedido de aprovação recebe um e-mail, semelhante a est
 >[!TIP]
 >Os aprovadores também podem avaliar pedidos no centro de aprovações.
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Mais Informações
 
 Na maioria dos fluxos de aprovação, deve notificar a pessoa que solicita a aprovação da decisão. Siga o [artigo de aprovações modernas](modern-approvals.md#add-an-email-action-for-approvals) para saber como adicionar uma **condição** a um fluxo de aprovação para executar ações específicas com base no **resultado** do pedido.
 

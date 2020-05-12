@@ -25,12 +25,12 @@ ms.sourcegitcommit: c43c98cc777780d42d15e287233c040771a6e147
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 04/07/2020
-ms.locfileid: "80801455"
+ms.locfileid: "3298974"
 ---
 # <a name="create-flows-from-the-onedrive-for-business-launch-panel"></a>Criar fluxos a partir do painel de iniciação do OneDrive para Empresas
 
 
-À semelhança do [Painel de Iniciação do Power Automate no SharePoint](https://flow.microsoft.com/blog/introducing-flow-launch-panel-in-sharepoint-lists-and-libraries/), pode executar fluxos em ficheiros específicos no OneDrive para Empresas. 
+À semelhança do [Painel de Iniciação no SharePoint](https://flow.microsoft.com/blog/introducing-flow-launch-panel-in-sharepoint-lists-and-libraries/) do Power Automate, pode executar fluxos em ficheiros específicos no OneDrive para Empresas. 
 
 Esta funcionalidade permite que a pessoa que está a executar o fluxo utilize as suas próprias credenciais, o que se aplica especialmente aos fluxos que foram criados por um departamento de TI. 
 
@@ -43,7 +43,7 @@ Nestas instruções, vamos criar um fluxo simples que utiliza um dos muitos [mod
 1. Inicie sessão no OneDrive para Empresas.
 1. Localize e, em seguida, selecione o ficheiro para o qual quer criar o fluxo.
 1. Selecione a ligação **Mostrar ações** (reticências).
-1. Selecione **Automatizar** > **Power Automate** > **Criar um fluxo**.
+1. Selecione **Sutomatizar** > **Power Automate** > **Criar um fluxo**.
 
      ![Criar fluxo](./media/onedrive-launch-panel/create-flow.png) 
 
@@ -69,9 +69,9 @@ Nestas instruções, vamos criar um fluxo simples que utiliza um dos muitos [mod
 
 
 >[!TIP]
->Apesar de estas instruções mostrarem como criar um fluxo a partir de um modelo, também é possível criar um fluxo do zero para utilizar qualquer uma das centenas de conectores disponíveis no Power Automate.
+>Apesar de estas instruções mostrarem como criar um fluxo a partir de um modelo, também é possível criar um fluxo do zero para utilizar qualquer um das centenas de conectores disponíveis no Power Automate.
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Mais Informações
 
 - [Introdução ao Power Automate](getting-started.md) 
 - [Criar fluxos de vários passos](multi-step-logic-flow.md)

@@ -10,11 +10,11 @@ ms.sourcegitcommit: c86134235a4e3a819800c77fbc50034cfd8714c2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 03/27/2020
-ms.locfileid: "80330142"
+ms.locfileid: "3298578"
 ---
 # <a name="learning-catalog-for-power-automate"></a>Catálogo de aprendizagem para o Power Automate
 
-Encontre a formação online, os workshops presenciais e os eventos certos para si como utilizador do Power Apps.
+Encontre a formação online adequada, workshops presenciais e eventos para a sua função como utilizador do Power Apps.
 
 <!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
 
@@ -22,11 +22,11 @@ Encontre a formação online, os workshops presenciais e os eventos certos para 
     :::column:::
 <!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
 
-    ### <a name="business-and-technical-decision-makers"></a>Decisores Técnicos e Empresariais
+    ### <a name="business-and-technical-decision-makers"></a>Decisores Técnicos e de Negócios
 
     Cabe-lhe decidir se deve investir em novas tecnologias? 
 
-    [Catálogo de Aprendizagem de Decisores Técnicos e Empresariais](learning-catalog-bdm.md#)
+    [Catálogo de aprendizagem para decisores técnicos e de negócios](learning-catalog-bdm.md#)
 
         :::column-end:::
     :::column:::
@@ -61,7 +61,7 @@ Encontre a formação online, os workshops presenciais e os eventos certos para 
 
     Precisa de manter os sistemas e os fluxos de dados aprovisionados e seguros 24 horas por dia?
 
-    [Catálogo de Aprendizagem para Administradores](learning-catalog-administrator.md)
+    [Catálogo de aprendizagem para administradores](learning-catalog-administrator.md)
 
     :::column-end:::
 :::row-end:::
@@ -81,7 +81,7 @@ Encontre a formação online, os workshops presenciais e os eventos certos para 
 
     É especialista em implementação num domínio empresarial? 
 
-    [Catálogo de Aprendizagem para Consultores de Aplicações Funcionais](learning-catalog-functional-consultant.md)
+    [Catálogo de Aprendizagem dos Consultores Funcionais da Aplicação](learning-catalog-functional-consultant.md)
 
     [Introdução](learning-catalog-functional-consultant.md#get-started)
 

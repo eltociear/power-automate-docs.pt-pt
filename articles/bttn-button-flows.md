@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 4eaafb1a551cc3333cde2058aebc41076b0267bd
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79194169"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297148"
 ---
 # <a name="run-your-flows-with-physical-buttons-bttns-from-the-button-corporation-preview"></a>Executar fluxos com botões físicos (bttns) da The Button Corporation (Pré-visualização)
 
@@ -66,22 +66,22 @@ As definições do bttn devem assemelhar-se a este exemplo (do site bttn):
 Agora que registou e configurou o bttn, vamos começar a criar o fluxo.
 
 ### <a name="sign-in-and-select-a-template"></a>Iniciar sessão e selecionar um modelo
-1. Inicie sessão no [Power Automate](https://flow.microsoft.com).
+1. Iniciar sessão no [Power Automate](https://flow.microsoft.com).
    
     ![iniciar sessão](./media/bttn-button-flows/sign-into-flow.png)
    
     Nota: em alternativa, pode criar fluxos na aplicação móvel Power Automate para [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) ou [Windows Phone](https://aka.ms/flowmobilewindows).
 2. Introduza **bttn** na caixa de pesquisa e, em seguida, selecione o ícone de pesquisa.
    
-    ![pesquisar](./media/bttn-button-flows/bttn-search-template.png)
+    ![procurar](./media/bttn-button-flows/bttn-search-template.png)
    
     Depois de selecionar o ícone de pesquisa, são apresentados todos os modelos que pode utilizar com bttns.
 3. Selecione o modelo **Utilizar Bttn para convocar o suporte técnico para a sala de reuniões**.
    
     ![modelo de suporte](./media/bttn-button-flows/bttn-select-template.png)
 
-### <a name="authorize-power-automate-to-connect-to-your-bttn"></a>Autorizar o Power Automate a ligar-se ao bttn
-1. Se lhe for pedido, inicie sessão no bttn e nos serviços do Outlook do Office 365, o que irá ativar o botão **Continuar**.
+### <a name="authorize-power-automate-to-connect-to-your-bttn"></a>Autorizar a ligação do Power Automate ao bttn
+1. Se lhe for pedido, inicie sessão no bttn e nos serviços do Office 365 Outlook, o que irá ativar o botão **Continuar**.
    
     ![credenciais](./media/bttn-button-flows/bttn-provide-credentials.png)
 2. Ao iniciar sessão no serviço bttn, autorize o Power Automate a utilizar os bttns.
@@ -118,11 +118,11 @@ Agora que registou e configurou o bttn, vamos começar a criar o fluxo.
    
     ![](./media/bttn-button-flows/support-request-email.png)
 
-## <a name="troubleshooting"></a>Resolução de problemas
+## <a name="troubleshooting"></a>Resolução de Problemas
 * Se o fluxo não tiver sido acionado, inicie sessão no site da The Button Corporation e verifique se a atividade dos botões (toques) está a ser registada.
 * Também pode aprofundar o nível de detalhe da atividade de execução no site do Power Automate e verificar se existem mensagens de erro.
 
-## <a name="more-information"></a>Mais informações
+## <a name="more-information"></a>Mais Informações
 * [Partilhe fluxos de botões](share-buttons.md).
 * Saiba como utilizar [tokens de acionadores de botões](introduction-to-button-trigger-tokens.md) para enviar dados atuais quando os fluxos de botões são executados.
 * [Instalar a aplicação do Power Automate para Android](https://aka.ms/flowmobiledocsandroid).

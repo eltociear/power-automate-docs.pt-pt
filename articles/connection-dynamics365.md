@@ -1,6 +1,6 @@
 ---
-title: Criar um fluxo com o Dynamics 365 (online) | Microsoft Docs
-description: Criar fluxos de trabalho úteis com uma ligação do Dynamics 365 e do Power Automate
+title: Criar um fluxo de botão com o Dynamics 365 (online) | Microsoft Docs
+description: Criar fluxos de trabalho úteis com uma ligação do Dynamics 365 e do Power Automate
 services: ''
 suite: flow
 documentationcenter: na
@@ -25,23 +25,23 @@ ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 04/08/2020
-ms.locfileid: "80862544"
+ms.locfileid: "3299128"
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>Criar um fluxo com o Dynamics 365 (online)
 
 Ao utilizar um conector do Dynamics 365, pode criar fluxos que são iniciados quando ocorre um evento no Dynamics 365, ou noutro serviço qualquer, que, depois, realizam uma ação no Dynamics 365 ou nos outros serviços. 
 
-No Power Automate, pode configurar fluxos de trabalho automatizados entre os seus serviços e aplicações favoritos para sincronizar ficheiros, receber notificações, recolher dados e mais. Para obter mais informações, veja [Introdução ao Power Automate](getting-started.md).
+No Power Automate, pode configurar fluxos de trabalho automatizados entre as suas aplicações e serviços favoritos, para sincronizar ficheiros, obter notificações, recolher dados e muito mais. Para mais informações, consulte [Introdução ao marketing do Power Automate](getting-started.md).
 
 > [!IMPORTANT] 
-> Para invocar um acionador do Power Automate, a entidade do Common Data Service utilizada com o fluxo tem de ter o **Controlo de Alterações** ativado. Mais informações: [Ativar a monitorização de alterações para controlar a sincronização de dados](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization). 
+> Para invocar um acionador do Power Automate, a entidade do Common Data Service utilizada com o fluxo deve ter o **Controlo de Alterações** ativado. Para saber mais, veja: [Ativar a monitorização de alterações para controlar a sincronização de dados](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization). 
 
 ## <a name="create-a-flow-from-a-template"></a>Criar um fluxo a partir de um modelo
 Pode utilizar um dos muitos modelos disponíveis para criar um fluxo, como, por exemplo:
 
 * Quando é criado um objeto no Dynamics 365, crie um item de lista no SharePoint.
 * Crie registos de oportunidades potenciais do Dynamics 365 a partir de uma tabela do Excel.
-* Copie as contas do Dynamics 365 para os clientes no Dynamics 365 for Operations.
+* Copie contas Dynamics 365 para clientes no Dynamics 365 for Operations.
 
 Para criar um fluxo a partir de um modelo, siga estes passos.
 
@@ -49,7 +49,7 @@ Para criar um fluxo a partir de um modelo, siga estes passos.
 2. Clique ou toque em **Serviços** e, em seguida, clique ou toque em **Dynamics 365**.
 3. Estão disponíveis vários modelos. Para começar, selecione o modelo que pretende.
 
-## <a name="create-a-task-from-a-lead"></a>Criar uma tarefa a partir de uma oportunidade potencial
+## <a name="create-a-task-from-a-lead"></a>criar uma tarefa a partir de uma oportunidade potencial
 Se não estiver disponível nenhum modelo para aquilo de que precisa, crie um a partir do zero. Estas instruções mostram-lhe como criar uma tarefa no Dynamics 365 sempre que é criada uma oportunidade potencial no mesmo.
 
 1. Inicie sessão no [site do Power Automate](https://flow.microsoft.com/).
@@ -79,12 +79,12 @@ Se não estiver disponível nenhum modelo para aquilo de que precisa, crie um a 
     
     ![Tópico para adicionar fluxos](./media/connection-dynamics365/flow-addtopic.png)
     
-    > **Sugestão:** no painel de conteúdo dinâmico, clique ou toque em **Ver mais** para apresentar mais campos associados à entidade. Por exemplo, também pode preencher o campo **Assunto** da tarefa com o campo **Nome da Empresa**, **Cliente**, **Descrição** ou **E-mail** da oportunidade potencial.
+    > **Sugestão:** no painel conteúdo dinâmico, clique ou toque em **Ver mais** para apresentar mais campos que estão associados à entidade. Por exemplo, também pode preencher o campo **Assunto** da tarefa com o campo **Nome da Empresa**, **Cliente**, **Descrição** ou **E-mail** da oportunidade potencial.
     > 
     > 
 12. Clique ou toque em **Criar fluxo**.
 
-## <a name="create-a-wunderlist-task-from-a-dynamics-365-task"></a>Criar uma tarefa do Wunderlist a partir de uma tarefa do Dynamics 365
+## <a name="create-a-wunderlist-task-from-a-dynamics-365-task"></a>criar uma tarefa do Wunderlist a partir de uma tarefa do Dynamics 365
 Estas instruções mostram-lhe como criar uma tarefa no [Wunderlist](https://www.wunderlist.com) sempre que é criada uma tarefa no Dynamics 365. O Wunderlist é um serviço baseado na Internet que pode ser utilizado para criar listas de tarefas, adicionar lembretes ou acompanhar recados.
 
 1. Inicie sessão no [site do Power Automate](https://flow.microsoft.com/).
@@ -105,10 +105,10 @@ Acionadores como **Quando um registo é criado**, **Quando um registo é atualiz
 
 Quando o acionador é processado, o fluxo recebe uma notificação, embora seja executado de acordo com os dados existentes no momento da execução da ação.  Por exemplo, se o fluxo for acionado quando um novo registo for criado e o utilizador atualizar o registo duas vezes antes da execução do fluxo, este será executado apenas uma vez com os dados mais recentes.
 
-## <a name="specify-advanced-options"></a>Especificar opções avançadas
+## <a name="specify-advanced-options"></a>Especificar as opções avançadas
 Quando adiciona um passo a um fluxo, pode clicar ou tocar em **Mostrar opções avançadas** para adicionar uma consulta de filtro ou de “ordenar por” que controle a forma como os dados são filtrados nesse fluxo.
 
-Por exemplo, pode utilizar uma consulta de filtro para obter apenas contactos ativos, que pode ordenar por apelido. Para tal, introduza a consulta de filtro de OData **statuscode eq 1** e selecione **Apelido**, no painel de conteúdo dinâmico. Para obter mais informações sobre filtrar e ordenar por consultas, veja [MSDN: $filter](https://msdn.microsoft.com/library/gg309461.aspx#Anchor_1) e [MSDN: $orderby](https://msdn.microsoft.com/library/gg309461.aspx#Anchor_2).
+Por exemplo, pode utilizar uma consulta de filtro para obter apenas contactos ativos e pode ordená-los por apelido. Para tal, introduza a consulta de filtro de OData **statuscode eq 1** e selecione **Apelido**, no painel de conteúdo dinâmico. Para obter mais informações sobre filtrar e ordenar por consultas, veja [MSDN: $filter](https://msdn.microsoft.com/library/gg309461.aspx#Anchor_1) e [MSDN: $orderby](https://msdn.microsoft.com/library/gg309461.aspx#Anchor_2).
 
   ![Consulta orderby de fluxo](./media/connection-dynamics365/flow-orderby-query.png)
 
@@ -117,10 +117,10 @@ Quando adiciona um valor a um campo, tem de corresponder o tipo de campo, indepe
 
 | Tipo de campo | Como utilizar | Onde encontrar | Nome | Tipo de dados |
 | --- | --- | --- | --- | --- |
-| Campos de texto |Os campos de texto só requerem uma única linha de texto ou conteúdo dinâmico que seja um campo de tipo de texto. Os exemplos incluem os campos **Categoria** e **Subcategoria**. |**Definições** > **Personalizações** > **Personalizar o Sistema** > **Entidades** > **Tarefa** > **Campos** |**categoria** |**Linha de Texto Única** |
+| Campos de texto |Os campos de texto só requerem uma única linha de texto ou conteúdo dinâmico que seja um campo de tipo de texto. Os exemplos incluem os campos **Categoria** e **Subcategoria**. |**Definições** > **Personalizações** > **Personalizar o Sistema** > **Entidades** > **Tarefa** > **Campos** |**categoria** |**Uma Linha de Texto** |
 | Campos de número inteiro |Alguns campos requerem conteúdo de número inteiro ou dinâmico que seja um campo de tipo de número inteiro. Os exemplos incluem **Percentagem Concluída** e **Duração**. |**Definições** > **Personalizações** > **Personalizar o Sistema** > **Entidades** > **Tarefa** > **Campos** |**percentcomplete** |**Número Inteiro** |
 | Campos de data |Alguns campos requerem uma data introduzida no formato dd/mm/aaaa ou conteúdo dinâmico que seja um campo de tipo de data. Os exemplos incluem **Criado Em**, **Data de Início**, **Início Real**, **Último Tempo de Suspensão**, **Fim Real** e **Data para Conclusão**. |**Definições** > **Personalizações** > **Personalizar o Sistema** > **Entidades** > **Tarefa** > **Campos** |**createdon** |**Data e Hora** |
-| campos que requerem um ID de registo e um tipo de pesquisa |Alguns campos que fazem referência a outro registo de entidade requerem o ID do registo e o tipo de pesquisa. |**Definições** > **Personalizações** > **Personalizar o Sistema** > **Entidades** > **Conta** > **Campos** |**accountid** |**Chave Primária** |
+| campos que requerem um ID de registo e um tipo de pesquisa |Alguns campos que fazem referência a outro registo de entidade exigem o ID de registo e o tipo de pesquisa. |**Definições** > **Personalizações** > **Personalizar o sistema** > **Entidades** > **Conta** > **Campos** |**accountid** |**Chave Primária** |
 |Conjunto de Opções|Os campos do Conjunto de Opções requerem que um valor inteiro conhecido seja transmitido para este tipo de campo.  Na área de personalização do Dynamics 365, pode ver o campo do valor inteiro subjacente aos conjuntos de opções, bem como a respetiva etiqueta.|Definições > Personalização > Personalizar o Sistema > Entidades > Conta > Campos | Método de Contacto Preferencial| Número Inteiro|
 
 ### <a name="more-examples-of-fields-that-require-both-a-record-id-and-lookup-type"></a>Mais exemplos de campos que requerem um ID de registo e um tipo de pesquisa
@@ -149,7 +149,7 @@ Este exemplo também atribui a tarefa a um utilizador específico com base no ID
 
 Para localizar o ID de um registo, veja [Localizar o ID de registo](#find-the-records-id) mais adiante neste tópico.
 
-> **Importante:** os campos não deverão conter nenhum valor se tiverem a descrição “Apenas para utilização interna”. Estes campos incluem **Caminho percorrido**, **Parâmetros Adicionais** e **Número da Versão da Regra de Fuso Horário.**
+> **Importante:** os campos não devem conter qualquer valor se tiverem uma descrição de "Para utilização interna apenas". Estes campos incluem **Caminho percorrido**, **Parâmetros Adicionais** e **Número da Versão da Regra de Fuso Horário.**
 > 
 > 
 

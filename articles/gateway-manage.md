@@ -21,27 +21,27 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 33c2e0e6a3a35e23d0889cd19908a055cc7f5f5e
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193571"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297676"
 ---
 # <a name="manage-an-on-premises-data-gateway-in-power-automate"></a>Gerir um gateway de dados no local no Power Automate
 
 
-Instale e faça a gestão de um gateway de dados no local para integrar, de forma segura, uma variedade de aplicações baseadas na cloud com os dados e aplicações no local através do Power Automate.
+Instale e faça a gestão de um gateway de dados no local para integrar, de forma segura, uma variedade de aplicações baseadas na cloud com os seus dados no local e aplicações através do Power Automate.
 
-Com um gateway, pode ligar aos dados no local através destas ligações:
+Com um gateway, pode ligar a dados no local através destas ligações:
 
 * Apache Impala
 * Conectores personalizados que criou
 * DB2
 * Sistema de Ficheiros
-* HTTP com o Azure AD
+* Http com o Azure AD
 * Informix
 * MySQL
-* Oracle Database
+* Base de Dados Oracle
 * PostgreSQL
 * SharePoint
 * SQL Server
@@ -52,7 +52,7 @@ Com um gateway, pode ligar aos dados no local através destas ligações:
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-* O nome de utilizador e palavra-passe que utilizou para [se inscrever](sign-up-sign-in.md) no Power Automate.
+* O nome de utilizador e a palavra-passe que utilizou para [inscrever-se](sign-up-sign-in.md) no Power Automate.
 * Permissões administrativas num gateway.
 
   Tem estas permissões por predefinição para cada gateway que instalar. Além disso, um administrador de outro gateway pode conceder-lhe estas permissões para esse gateway.
@@ -63,7 +63,7 @@ Com um gateway, pode ligar aos dados no local através destas ligações:
 
 ## <a name="install-a-gateway"></a>Instalar um gateway
 
-Para instalar um gateway, siga os passos em [Instalar um gateway de dados no local](/data-integration/gateway/service-gateway-install). Instale o gateway no modo padrão. O _gateway de dados no local (modo pessoal)_ está disponível apenas para o Power BI.
+Para instalar um gateway, siga os passos em [Instalar um gateway de dados no local](/data-integration/gateway/service-gateway-install). Instale o gateway no modo padrão porque o _gateway de dados no local (modo pessoal)_ está disponível apenas para o Power BI.
 
 ## <a name="view-your-gateways"></a>Ver os gateways
 
@@ -72,7 +72,7 @@ No canto superior direito do [site do Power Automate](https://flow.microsoft.com
 ![Gateway em gestão][1]
 
 > [!NOTE]
-> Se tiver criado ou lhe tiver sido dado acesso a um gateway no Power Apps, esse gateway é apresentado na lista **Os meus gateways** no Power Automate.
+> Se tiver criado ou lhe tiver sido dado acesso a um gateway no Power Apps, esse gateway é apresentado na lista **Os meus gateways** no Power Automate.
 
 ## <a name="cluster-your-gateways"></a>Criar clusters dos gateways
 

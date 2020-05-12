@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 3be9b2414a0f30581763622de0c7d49cb694e3b3
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79224245"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3296686"
 ---
 # <a name="add-a-condition-to-a-flow"></a>Adicionar uma condição a um fluxo
 
@@ -80,6 +80,6 @@ Especifique que um fluxo efetua uma ou mais tarefas, apenas se uma condição fo
 
 Também pode selecionar **Editar em modo avançado** para escrever condições mais avançadas. Pode utilizar qualquer expressão da *Linguagem de definição do fluxo de trabalho* em modo avançado. Saiba mais sobre todas as [expressões](https://msdn.microsoft.com/library/azure/mt643789.aspx) disponíveis.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 Saiba como [utilizar expressões](use-expressions-in-conditions.md) em condições no modo avançado.

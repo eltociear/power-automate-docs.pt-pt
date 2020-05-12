@@ -21,13 +21,13 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 167f9321dba853e801102bed2ebe7e8902437d71
-ms.sourcegitcommit: 26cda5060446812f3725ccd4fe435839088f50fa
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78253186"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3298490"
 ---
-# <a name="use-input-method-editors-imes-in-ui-flows"></a>Utilizar Input Method Editors (IMEs) em fluxos de IU
+# <a name="use-input-method-editors-imes-in-ui-flows"></a>Use Input Method Editors (IMEs) in UI flows (Utilizar Input Method Editors [IMEs] em fluxos de IU)
 
 Pode utilizar a funcionalidade **Adicionar texto estático** para gravar as entradas de texto, em qualquer idioma, com IMEs ou teclados normais nos seus fluxos de IU. Utilize a opção **Adicionar texto estático** se quiser que a automatização insira o mesmo texto sempre que o seu fluxo de IU for executado. 
 
@@ -76,13 +76,13 @@ No estruturador, pode rever e editar as informações de gravação no formato [
 > [!NOTE]
 > Uma versão anterior do gravador de fluxos de IU utilizava as ações **SendKeys** e **PostElement**. Estas ações foram preteridas. Recomendamos que atualize para a versão mais recente do gravador de fluxos de IU e que volte a gravar os seus scripts para tirar vantagem das novas funcionalidades.
 
-## <a name="troubleshooting-tips"></a>Sugestões de resolução de problemas
+## <a name="troubleshooting-tips"></a>Dicas para resolução de problemas
 
 1. Se gravar ações de teclado com o modo **Repetir batimentos de tecla**, tem de se certificar de que o computador de reprodução está a utilizar o mesmo teclado no momento da gravação, já que, com teclados diferentes, as mesmas sequências de repetição de batimentos de tecla poderão resultar em valores diferentes.
 
 1. Só pode aplicar a ação **Utilizar entrada** a controlos do tipo de texto. Atualmente, a ação **Utilizar entrada** não consegue introduzir outros tipos de controlos, como caixa de combinação, menu pendente, ListView, etc.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 - Saiba como [configurar fluxos de IU](setup.md). 
 - Saiba mais sobre os [diferentes tipos de fluxos](..\getting-started.md#types-of-flows) que pode utilizar para automatizar os seus fluxos de trabalho.

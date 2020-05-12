@@ -11,32 +11,32 @@ ms.technology: ''
 ms.author: stepsic
 audience: Power user
 ms.openlocfilehash: f446b1b4147b8531ee808447a18058628c2ac0cf
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195779"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3298358"
 ---
 # <a name="power-automate-web-api"></a>API Web do Power Automate
 
 
-A partir de agora, todos os fluxos serão armazenados no Common Data Service e será utilizada a [API Web avançada](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/perform-operations-web-api).
+A partir de agora, todos os fluxos serão armazenados no Common Data Service e será utilizada [a API Web avançada](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/perform-operations-web-api).
 
-Este conteúdo aborda a gestão de fluxos incluídos no separador **Soluções** do Power Automate. Atualmente, os fluxos em **Os Meus Fluxos** não são suportados por estas APIs.
+Este conteúdo abrange a gestão de fluxos incluídos no separador **Soluções** no Power Automate. Atualmente, os fluxos em **Os Meus Fluxos** não são suportados por estas APIs.
 
 ## <a name="compose-http-requests"></a>Compor pedidos HTTP
 
 Para começar a criar pedidos, primeiro necessita de criar o URL. O formato do URL base na API Web do Power Automate é: `https://{Organization ID}.{Regional Subdomain}.dynamics.com/api/data/v9.1/`. Estes dois parâmetros são:
 
-- O **ID da Organização** é um nome exclusivo para o ambiente que armazena o seu fluxo. Pode ver o ID da Organização no comutador de ambientes no canto superior direito do Power Automate. Tenha em atenção que o **ID da Organização** é diferente do **ID do Ambiente** (que é o GUID apresentado no URL do fluxo).
+- O **ID da Organização** é um nome exclusivo para o ambiente que armazena o seu fluxo. Pode ver o ID da Organização no botão para alternar de ambiente no canto superior direito do Power Automate. Tenha em atenção que o **ID da Organização** é diferente do **ID do Ambiente** (que é o GUID apresentado no URL do fluxo).
 
      ![Alternador de ambiente](media/web-api/get-organization-id.png "Alternador de ambiente")
 
-- O **Subdomínio Regional** depende da localização do seu ambiente. Quando inicia sessão no Power Automate, pode ver a região do ambiente no URL da página Web. Utilize esse nome de região para encontrar o respetivo subdomínio na tabela seguinte:
+- O **Subdomínio Regional** depende da localização do seu ambiente. Quando inicia sessão no Power Automate, pode ver a região do seu ambiente no URL da página Web. Utilize esse nome de região para encontrar o respetivo subdomínio na tabela seguinte:
 
      ![URL do fluxo](media/web-api/get-region-name.png "URL do fluxo")
 
-     | Region         | Subdomínio   |
+     | Região         | Subdomínio   |
      | -------------- | ----------- |
      | Estados Unidos  | crm         |
      | América do Sul  | crm2        |
@@ -46,14 +46,14 @@ Para começar a criar pedidos, primeiro necessita de criar o URL. O formato do U
      | Austrália      | crm6        |
      | Japão          | crm7        |
      | Índia          | crm8        |
-     | Governo dos Estados Unidos  | crm9        |
+     |  US Government  | crm9        |
      | Reino Unido | crm11       |
 
 Também pode obter a lista de instâncias disponíveis através de programação com o método [Obter instâncias](https://docs.microsoft.com/rest/api/admin.services.crm.dynamics.com/instances/getinstances) na API de Gestão Online.
 
 Cada pedido da API Web tem de ter os cabeçalhos `Accept` e `Content-type` definidos como `application/json`.
 
-Por fim, preencha o cabeçalho `Authorization` com um token de portador do Azure AD. Pode [saber mais](https://docs.microsoft.com/powerapps/developer/common-data-service/authenticate-oauth) sobre como adquirir um token de portador do Azure AD para o Common Data Service. Por exemplo, este pedido:
+Por fim, preencha o cabeçalho `Authorization` com um token de portador do Azure AD. Pode [aprender](https://docs.microsoft.com/powerapps/developer/common-data-service/authenticate-oauth) a adquirir um token de portador do Azure AD para o Common Data Service. Por exemplo, este pedido:
 
 ```http
 GET https://org00000000.crm0.dynamics.com/api/data/v9.1/workflows
@@ -92,22 +92,22 @@ Conforme apresentado acima, pode obter a lista de fluxos de trabalho ao chamar `
 
 | Nome da propriedade     | Descrição                                              |
 | ----------------- | -------------------------------------------------------- |
-| category          | A categoria do fluxo. Os diferentes tipos são: 0 – fluxos de trabalho clássicos do Common Data Service, 1 – caixas de diálogo clássicas do Common Data Service, 2 – regras de negócio, 3 – ações clássicas do Common Data Service, 4 – fluxos de processos de negócio e 5 – fluxos automatizados, instantâneos ou agendados |
+| category          | A categoria do fluxo. Os diferentes tipos são: 0 – fluxos de trabalho do Common Data Service clássico, 1 – caixas de diálogo do Common Data Service clássico, 2 – regras de negócio, 3 – ações do Common Data Service clássico, 4 – fluxos de processo de negócio e 5 – fluxos automatizados, instantâneos ou agendados. |
 | statecode         | O estado do fluxo. O estado pode ser **0** – desativado ou **1** – ativado.|
 | workflowuniqueid  | O identificador exclusivo desta instalação do fluxo. |
 | workflowid        | O identificador exclusivo de um fluxo em todas as importações. |
 | createdon         | A data em que o fluxo foi criado. |
-| _ownerid_value    | O identificador exclusivo do utilizador ou equipa proprietário do fluxo. Este é um ID da entidade systemusers no Common Data Service. |
+| _ownerid_value    | O identificador exclusivo do utilizador ou equipa proprietário do fluxo. É um ID da entidade systemusers no Common Data Service. |
 | modifiedon        | A última vez que o fluxo foi atualizado. |
 | ismanaged         | Indica se o fluxo foi instalado através de uma solução gerida. |
-| name              | O nome a apresentar que deu ao fluxo. |
-| _modifiedby_value | O último utilizador que atualizou o fluxo. Este é um ID da entidade systemusers no Common Data Service. |
-| _createdby_value  | O utilizador que criou o fluxo. Este é um ID da entidade systemusers no Common Data Service. |
-| type              | Indica se o fluxo é um fluxo em execução ou um modelo que pode ser utilizado para criar fluxos adicionais. 1 - fluxo, 2 - ativação ou 3 - modelo. |
+| nome              | O nome a apresentar que deu ao fluxo. |
+| _modifiedby_value | O último utilizador que atualizou o fluxo. É um ID da entidade systemusers no Common Data Service. |
+| _createdby_value  | O utilizador que criou o fluxo. É um ID da entidade systemusers no Common Data Service. |
+| tipo              | Indica se o fluxo é um fluxo em execução ou um modelo que pode ser utilizado para criar fluxos adicionais. 1 - fluxo, 2 - ativação ou 3 - modelo. |
 | descrição       | A descrição inserida pelo utilizador do fluxo. |
 | clientdata        | Uma cadeia JSON codificada de um objeto que contém connectionReferences e a definição do fluxo. |
 
-Também pode pedir propriedades específicas, filtrar a lista de fluxos e mais, tal como descrito em [Documentação da API do Common Data Service para consultar dados](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/query-data-web-api). Por exemplo, esta consulta devolve apenas os fluxos automatizados, instantâneos ou agendados que estão atualmente ativos:
+Também pode pedir propriedades específicas, filtrar a lista de fluxos e muito mais, tal como descrito em [Documentação da API do Common Data Service para realizar consultas de dados](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/query-data-web-api). Por exemplo, esta consulta devolve apenas os fluxos automatizados, instantâneos ou agendados que estão atualmente ativos:
 
 ```http
 GET https://org00000000.crm0.dynamics.com/api/data/v9.1/workflows?$filter=category eq 5 and statecode eq 1
@@ -144,8 +144,8 @@ Existem três propriedades:
 | Nome da propriedade  | Descrição                                                 |
 | -------------- | ----------------------------------------------------------- |
 | connectionName | Identifica a ligação. Pode ver o connectionName ao aceder à página **Ligações** e, em seguida, copiá-lo do URL da ligação. |
-| source         | `Embedded` ou `Invoker`. `Invoker` é apenas válido para fluxos instantâneos (aqueles onde um utilizador seleciona um botão para executar o fluxo) e indica que o utilizador final irá fornecer a ligação. Neste caso, o connectionName é apenas utilizado na estruturação. Se a ligação for `Embedded`, significa que o connectionName que especificou é sempre utilizado. |
-| id             | O identificador do conector. O id começa sempre por `/providers/Microsoft.PowerApps/apis/` e, seguido pelo nome do conector, o qual pode copiar do URL da ligação ou ao selecionar o conector a partir da página **Conectores**. |
+| origem         | `Embedded` ou `Invoker`. `Invoker` é apenas válido para fluxos instantâneos (aqueles onde um utilizador seleciona um botão para executar o fluxo) e indica que o utilizador final irá fornecer a ligação. Neste caso, o connectionName é apenas utilizado na estruturação. Se a ligação for `Embedded`, significa que o connectionName que especificou é sempre utilizado. |
+| ID             | O identificador do conector. O id começa sempre por `/providers/Microsoft.PowerApps/apis/` e, seguido pelo nome do conector, o qual pode copiar do URL da ligação ou ao selecionar o conector a partir da página **Conectores**. |
 
 Uma vez executado o pedido `POST`, irá obter o cabeçalho `OData-EntityId`, que contém o `workflowid` do seu novo fluxo.
 
@@ -194,7 +194,7 @@ Authorization: Bearer ey...
 
 ## <a name="get-all-users-with-whom-a-flow-is-shared"></a>Obter todos os utilizadores com quem um fluxo foi partilhado
 
-Pode utilizar uma *função* no Common Data Service para obter uma lista de todos os utilizadores com acesso. Esta função utiliza um único parâmetro `Target`:
+Para listar os utilizadores com acesso utiliza uma *função* no Common Data Service. Esta função utiliza um único parâmetro `Target`:
 
 ```http
 GET https://org00000000.crm0.dynamics.com/api/data/v9.1/RetrieveSharedPrincipalsAndAccess(Target=@tid)?@tid={'@odata.id':'workflows(00000000-0000-0000-0000-000000000002)'}
@@ -311,8 +311,8 @@ Chame a ação `ImportSolution` para importar uma solução.
 
 | Nome da propriedade                    | Descrição                               |
 | -------------------------------- | ----------------------------------------- |
-| OverwriteUnmanagedCustomizations | Se existirem instâncias destes fluxos no Common Data Service, este sinalizador precisa de ser definido como `true` para os importar. Caso contrário, não serão substituídos. |
-| PublishWorkflows                 | Indica se os fluxos de trabalho clássicos do Common Data Service serão ativados na importação. Esta definição não é aplicável a outros tipos de fluxos. |
+| OverwriteUnmanagedCustomizations | Se existirem instâncias destes fluxos no Common Data Service, este sinalizador necessita de ser definido como `true` para importá-los. Caso contrário, não serão substituídos. |
+| PublishWorkflows                 | Indica se o Common Data Service clássico será ativado na importação. Esta definição não é aplicável a outros tipos de fluxos. |
 | ImportJobId                      | Fornece um novo GUID exclusivo para controlar a tarefa de importação. |
 | CustomizationFile                | Um ficheiro zip com codificação Base 64 que contém a solução. |
 
@@ -339,4 +339,4 @@ Authorization: Bearer ey...
 
 Esta chamada devolve o estado da operação de importação, incluindo `progress` (a percentagem de conclusão), `startedon` e `completedon` (se a importação tiver sido concluída).
 
-Assim que a importação tiver sido concluída com êxito, necessita de configurar as ligações para o fluxo, uma vez que o `connectionNames` será provavelmente diferente no ambiente de destino (se as ligações existirem). Se estiver a configurar novas ligações no ambiente de destino, o proprietário dos fluxos terá de as criar no estruturador do Power Automate. Se as ligações já estiverem configuradas no novo ambiente, então pode chamar `PATCH` no `clientData` do fluxo com os nomes das ligações.
+Assim que a importação tiver sido concluída com êxito, necessita de configurar as ligações para o fluxo, uma vez que o `connectionNames` será provavelmente diferente no ambiente de destino (se as ligações existirem). Se estiver a configurar novas ligações no ambiente de destino, o proprietário dos fluxos tem de criá-las no estruturador do Power Automate. Se as ligações já estiverem configuradas no novo ambiente, então pode chamar `PATCH` no `clientData` do fluxo com os nomes das ligações.

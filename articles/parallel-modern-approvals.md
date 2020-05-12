@@ -21,16 +21,16 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 9515fee127c1130803f075c6b6a08802a7c1eaea
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79192467"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3296994"
 ---
 # <a name="create-parallel-approval-workflows-with-power-automate"></a>Criar fluxos de trabalho de aprovação paralela com o Power Automate
 
 
-Num fluxo de trabalho de aprovação paralela, são necessárias múltiplas pessoas para aprovar itens, como faturas, ordens de compra, pedidos de férias, etc. A aprovação de cada pessoa é independente da aprovação de todos os outros aprovadores.
+Num fluxo de trabalho de aprovação paralelo, várias pessoas são necessárias para aprovar itens como faturas, encomendas de compra, pedidos de férias, etc. A aprovação de cada pessoa não depende de todos os outros aprovadores.
 
 Nestas instruções, utilizamos o Power Automate para criar um fluxo que automatiza um fluxo de trabalho de aprovação paralela. Este fluxo automatiza o processo de pedido de férias de um funcionário, que requer a aprovação de todas as pessoas (ou equipas) que o funcionário ajuda regularmente. Os funcionários utilizam uma [lista do SharePoint](https://support.office.com/article/Introduction-to-lists-0a1c3ace-def0-44af-b225-cfa8d92c52d7) para pedir férias. São necessárias aprovações de férias do gestor direto do funcionário, da equipa de Vendas e da equipa de Recursos Humanos. Cada pedido de férias é encaminhado para cada aprovador tendo em vista uma decisão. O fluxo envia um e-mail com as alterações de estado e, em seguida, atualiza o SharePoint com as decisões.
 
@@ -40,7 +40,7 @@ Nestas instruções, utilizamos o Power Automate para criar um fluxo que automat
 
 A lista do SharePoint Online que criar tem de incluir as seguintes colunas:
 
-   ![Colunas de listas do SharePoint](./media/parallel-modern-approvals/sharepoint-columns.png)
+   ![Coluna de lista do SharePoint](./media/parallel-modern-approvals/sharepoint-columns.png)
 
 Anote o nome e o URL da lista do SharePoint Online. Iremos utilizar estes itens mais tarde para configurar o acionador **SharePoint – Quando um novo item é criado**.
 
@@ -58,7 +58,7 @@ Anote o nome e o URL da lista do SharePoint Online. Iremos utilizar estes itens 
 
 [!INCLUDE [add-get-manager-action](includes/add-get-manager-action.md)]
 
-## <a name="name-and-save-your-flow"></a>Dar um nome e guardar o fluxo
+## <a name="name-and-save-your-flow"></a>Dar um nome ao fluxo e guardá-lo
 
 1. Dê um nome ao seu fluxo e, em seguida, selecione o ícone **Guardar** para guardar o trabalho feito até agora.
 
@@ -75,7 +75,7 @@ Anote o nome e o URL da lista do SharePoint Online. Iremos utilizar estes itens 
 [!INCLUDE [add-an-approval-action](includes/add-an-approval-action.md)]
 
 > [!IMPORTANT]
-> Esta ação envia o pedido de férias para o endereço de e-mail na caixa **Atribuído A**; por conseguinte, insira o token **E-mail** da lista **Obter gestor (v2)** .
+> Esta ação envia o pedido de férias para o endereço de e-mail na caixa **Atribuído A**; por conseguinte, insira o token **E-mail** da lista **Obter gestor (v2)**.
 > 
 > 
 
@@ -84,7 +84,7 @@ Anote o nome e o URL da lista do SharePoint Online. Iremos utilizar estes itens 
 1. Selecione a seta para baixo que está localizada entre o cartão **Obter gestor (v2)** e o cartão **Iniciar uma aprovação**.
 2. Selecione o sinal de adição que aparece na seta para baixo depois de a selecionar.
 3. Selecione **Adicionar um ramo paralelo**.
-4. Selecionar **Adicionar uma ação**.
+4. Selecione **Adicionar uma ação**.
 
     ![configuração de obter gestor](./media/parallel-modern-approvals/add-parallel-branch.png)
 5. Pesquise, selecione e, em seguida, configure uma ação **Iniciar uma aprovação**, que envia o pedido de férias à equipa de vendas. Veja os [passos utilizados para Adicionar uma ação de aprovação para o gestor imediato](parallel-modern-approvals.md#add-an-approval-action-for-immediate-manager), se não tiver a certeza como adicionar a ação **Iniciar uma aprovação**.

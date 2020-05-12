@@ -1,6 +1,6 @@
 ---
-title: Pedidos de Fecho de Conta de Titulares de Dados do RGPD no Power Automate para Contas Microsoft (MSA) | Microsoft Docs
-description: Saiba como utilizar o Power Automate para responder a Pedidos de Fecho de Conta de Titulares de Dados do RGPD para Contas Microsoft.
+title: Pedidos de Encerramento de Conta dos Titulares de Dados RGPD do Power Automate para Contas Microsoft (MSA) | Microsoft Docs
+description: Saiba como utilizar o Power Automate para responder a Pedidos de Encerramento de Conta dos Titulares dos Dados RGPD para Contas Microsoft.
 services: ''
 suite: flow
 documentationcenter: na
@@ -21,13 +21,13 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: 10f232e45a53cea30892f512b626246fec16deed
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195641"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297830"
 ---
-# <a name="responding-to-gdpr-data-subject-account-close-requests-for-power-automate"></a>Responder a Pedidos de Fecho de Conta de Titulares de Dados do RGPD no Power Automate
+# <a name="responding-to-gdpr-data-subject-account-close-requests-for-power-automate"></a>Responder aos Pedidos de Encerramento de Conta dos Titulares de Dados RGPD para o Power Automate
 
 
 O **direito de apagamento** de dados pessoais constitui uma proteção fundamental do RGPD. Este direito inclui remover todos os dados pessoais, exceto as informações dos registos de auditoria. Quando um utilizador decide fechar a Conta Microsoft (MSA), os dados subjacentes também serão eliminados.
@@ -64,7 +64,7 @@ Os seguintes passos descrevem como gerir pedidos de Fecho de Conta de forma aut�
 
     No fim deste período de 30 dias, é iniciado o processo para eliminar todos os recursos do Power Automate desta MSA.
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Mais Informações
 
 * Introdução ao [Power Automate](getting-started.md)
-* Conheça as [novidades](release-notes.md) do Power Automate
+* Conheça as [novidades ](release-notes.md) do Power Automate

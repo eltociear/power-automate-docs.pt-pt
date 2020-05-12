@@ -1,6 +1,6 @@
 ---
-title: Pedidos de Exportação de Titulares de Dados do RGPD no Power Automate | Microsoft Docs
-description: Saiba como utilizar o Power Automate para responder a Pedidos de Exportação de Titulares de Dados do RGPD.
+title: Pedidos de Exportação dos Titulares dos Dados RGPD do Power Automate | Microsoft Docs
+description: Saiba como utilizar o Power Automate para responder a Pedidos de Exportação dos Titulares dos Dados RGPD.
 services: ''
 suite: flow
 documentationcenter: na
@@ -21,13 +21,13 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: df82a2aa48a8e85c950757ef4f72a6f7ee88e071
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79192053"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3298028"
 ---
-# <a name="responding-to-gdpr-data-subject-export-requests-for-power-automate"></a>Responder a Pedidos de Exportação de Titulares de Dados do RGPD no Power Automate
+# <a name="responding-to-gdpr-data-subject-export-requests-for-power-automate"></a>Responder aos Pedidos de Exportação dos Titulares de Dados RGPD para o Power Automate
 
 
 Como parte do nosso compromisso para o ajudar no seu percurso de preparação para o Regulamento Geral sobre a Proteção de Dados (GDPR), desenvolvemos documentação de ajuda. A documentação não só descreve o que estamos a fazer para nos prepararmos para o RGPD, como também partilha exemplos de passos que pode seguir neste momento com a Microsoft para suportar a conformidade com o RGPD quando utilizar o Power Automate.
@@ -36,31 +36,31 @@ Como parte do nosso compromisso para o ajudar no seu percurso de preparação pa
 
 O *direito de portabilidade dos dados* permite que um titular dos dados solicite uma cópia dos seus dados pessoais num formato eletrónico (isto é, um “formato estruturado interoperável frequentemente utilizado e legível pelo computador”) que possa ser transmitido a outro responsável pelo tratamento de dados.
 
-O Power Automate permite as seguintes experiências de localização ou exportação dos dados pessoais de um utilizador específico:
+O Power Automate proporciona as seguintes experiências para localizar ou exportar dados pessoais para um utilizador específico:
 
 * **Acesso ao site:** inicie sessão no [Centro de Administração do Power Apps](https://admin.powerapps.com/) ou no [Centro de Administração do Power Automate](https://admin.flow.microsoft.com/).
 
-* **Acesso ao PowerShell:**  [Cmdlets do PowerShell para Administradores do Power Apps](https://go.microsoft.com/fwlink/?linkid=871804).
+* **Acesso ao PowerShell:**  [Cdmlets do PowerShell para Administradores do Power Apps](https://go.microsoft.com/fwlink/?linkid=871804).
 
 |**Dados do cliente**|**Acesso ao site**|**Acesso ao PowerShell**|
 |-----------------|------------------|-------------------|
-|Registos gerados pelo sistema|[Portal de Confiança do Serviço do Office 365](https://servicetrust.microsoft.com/)|
-|Histórico de execuções|Portal de Criadores do Power Automate||
-|Fluxos|Portal de Criadores do Power Automate||
-|Permissões dos fluxos| Portal de Criadores do Power Automate e Centro de Administração do Power Automate||
+|Registos gerados pelo sistema|[Portal de Confiança do Serviço do Office 365](https://servicetrust.microsoft.com/)|
+|Histórico de execuções|Portal do criador do Power Automate||
+|Fluxos|Portal do criador do Power Automate||
+|Permissões dos fluxos| Portal do Power Automate Maker e Centro de Administração do Power Automate||
 |Detalhes do utilizador||Cmdlets do Power Apps|
-|Ligações|Portal de Criadores do Power Automate|Cmdlets do Power Apps |
-|Permissões de ligação|Portal de Criadores do Power Automate|Cmdlets do Power Apps |
-|Conectores personalizados|Portal de Criadores do Power Automate|Cmdlets do Power Apps |
-|Permissões do conector personalizado|Portal de Criadores do Power Automate|Cmdlets do Power Apps |
-|Gateway|Portal de Criadores do Power Automate|Cmdlets do PowerShell do Gateway de Dados no local|
-|Permissões dos gateways|Portal de Criadores do Power Automate|Cmdlets do PowerShell do Gateway de Dados no local|
+|Ligações|Portal do criador do Power Automate|Cmdlets do Power Apps |
+|Permissões da ligação|Portal do criador do Power Automate|Cmdlets do Power Apps |
+|Conectores personalizados|Portal do criador do Power Automate|Cmdlets do Power Apps |
+|Permissões dos conectores personalizados|Portal do criador do Power Automate|Cmdlets do Power Apps |
+|Gateway|Portal do criador do Power Automate|Cmdlets do PowerShell do Gateway de Dados no local|
+|Permissões dos gateways|Portal do criador do Power Automate|Cmdlets do PowerShell do Gateway de Dados no local|
 
 ## <a name="export-a-flow"></a>Exportar um fluxo
 
 Um utilizador final ou um administrador, que tenha concedido para si próprio acesso ao fluxo, pode exportar o fluxo seguindo estes passos:
 
-1. Inicie sessão no [Power Automate](https://flow.microsoft.com/).
+1. Iniciar sessão no [Power Automate](https://flow.microsoft.com/).
 
 1. Selecione a ligação **Os meus fluxos** e, em seguida, o fluxo a exportar.
 
@@ -68,7 +68,7 @@ Um utilizador final ou um administrador, que tenha concedido para si próprio ac
 
     ![Exportar fluxo](./media/gdpr-dsr-export/export-flow.png)
 
-1. Selecione **Pacote (.zip)** .
+1. Selecione **Pacote (.zip)**.
 
 O fluxo estará agora disponível como um pacote zipado. Para obter mais informações, veja a mensagem de blogue sobre [como exportar e importar um fluxo](https://flow.microsoft.com/blog/import-export-bap-packages/).
 
@@ -78,7 +78,7 @@ O histórico de execuções inclui uma lista de todas as execuções ocorridas p
 
 Um utilizador final ou um administrador, ao qual tenha sido concedido acesso ao fluxo através do Centro de Administração do Power Automate, pode seguir estes passos para exportar esses dados:
 
-1. Inicie sessão no [Power Automate](https://flow.microsoft.com/).
+1. Iniciar sessão no [Power Automate](https://flow.microsoft.com/).
 1. Selecione a ligação **Os meus fluxos** e, em seguida, o fluxo cujo histórico de execuções pretende exportar.
 1. No painel **HISTÓRICO DE EXECUÇÕES**, selecione **Ver tudo**.
 
@@ -98,7 +98,7 @@ No [Power Automate](https://flow.microsoft.com/), o feed de atividades mostra o 
 
     ![Mostrar feed de atividades](./media/gdpr-dsr-export/show-activity-feed.png)
 
-1. No ecrã **Atividade**, copie os resultados e cole-os num editor de texto tal como o Microsoft Word.
+1. No ecrã **Atividade**, copie os resultados e cole-os num editor de documentos tal como o Microsoft Word.
 
     ![Mostrar feed de atividades](./media/gdpr-dsr-export/export-activity-feed.png)
 
@@ -109,9 +109,9 @@ As ligações permitem que os fluxos se liguem a APIs, a aplicações SaaS e a o
 1. Inicie sessão no [Power Automate](https://flow.microsoft.com/), selecione o ícone de engrenagem próximo do canto superior direito e, em seguida, selecione **Ligações**.
 
     ![Mostrar Ligações](./media/gdpr-dsr-export/show-connections.png)
-1. Copie os resultados e cole-os num editor de texto tal como o Microsoft Word.
+1. Copie os resultados e cole-os num editor de documentos tal como o Microsoft Word.
 
-Cmdlets do PowerShell para Administradores do Power Apps
+Power Apps Cmdlets do PowerShell para admin
 
 ```PowerShell
 Add-PowerAppsAccount
@@ -124,13 +124,13 @@ Get-AdminConnection -CreateBy $userId | ConvertTo-Json |Out-File -FilePath "User
 
 ## <a name="export-a-list-of-a-users-connection-permissions"></a>Exportar uma lista de permissões da ligação de um utilizador
 
-Um utilizador pode exportar as atribuições de funções de ligação para todas as ligações às quais tem acesso através da função de Get-ConnectionRoleAssignment nos [cdmlets do PowerShell do Power Apps ](https://go.microsoft.com/fwlink/?linkid=871804).
+Um utilizador pode exportar as atribuições de funções de ligação para todas as ligações às quais tem acesso através da função de Get-ConnectionRoleAssignment nos [cdmlets do PowerShell do Power Apps](https://go.microsoft.com/fwlink/?linkid=871804).
 
 ```PowerShell
 Add-PowerAppsAccount
 Get-ConnectionRoleAssignment | ConvertTo-Json | Out-File -FilePath "ConnectionPermissions.txt"
 ```
-Cmdlets do PowerShell para Administradores do Power Apps
+Power Apps Cmdlets do PowerShell para admin
 
 ```PowerShell
 Add-PowerAppsAccount
@@ -147,7 +147,7 @@ Os conectores personalizados complementam os conectores integrados e permitem a 
 
 Siga estes passos para exportar uma lista de conectores personalizados:
 
-1. Aceda ao [Power Automate](https://flow.microsoft.com).
+1. Navegue para [Power Automate](https://flow.microsoft.com).
 1. Selecione o ícone de **engrenagem** das definições.
 1. Selecione **Conectores Personalizados**.
 1. Copie e cole a lista de conectores personalizados num editor de texto tal como o Microsoft Word.
@@ -161,7 +161,7 @@ Add-PowerAppsAccount
 Get-Connector -FilterNonCustomConnectors | ConvertTo-Json | Out-File -FilePath "CustomConnectors.txt"
 ~~~~
 
-Cmdlets do PowerShell para Administradores do Power Apps
+Power Apps Cmdlets do PowerShell para admin
 
 ```PowerShell
 Add-PowerAppsAccount
@@ -181,7 +181,7 @@ Add-PowerAppsAccount
 Get-ConnectorRoleAssignment | ConvertTo-Json | Out-File -FilePath "CustomConnectorPermissions.txt"
 ```
 
-Cmdlets do PowerShell para Administradores do Power Apps
+Power Apps Cmdlets do PowerShell para admin
 
 ```PowerShell
 Add-PowerAppsAccount
@@ -207,7 +207,7 @@ O Histórico de Aprovações do Power Automate captura um registo histórico das
 ## <a name="export-user-details"></a>Exportar Detalhes do Utilizador
 Os detalhes do utilizador proporcionam uma ligação entre um utilizador e um inquilino específico. Um administrador pode exportar estas informações ao chamar o cmdlet **Get-AdminFlowUserDetails** e ao transmitir o ID do Objeto do utilizador.
 
-Cmdlets do PowerShell para Administradores do Power Apps
+Power Apps Cmdlets do PowerShell para admin
 
 ```PowerShell
 Add-PowerAppsAccount

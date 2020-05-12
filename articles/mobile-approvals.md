@@ -21,15 +21,15 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 513200d18ac2a845cd63a6d269513f3bcb45118c
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193985"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297632"
 ---
-# <a name="approve-requests-on-your-mobile-device-by-using-power-automate"></a>Aprovar pedidos no dispositivo móvel com o Power Automate
+# <a name="approve-requests-on-your-mobile-device-by-using-power-automate"></a>Aprovar pedidos no seu dispositivo móvel com o Power Automate
 
-Se um fluxo o identificar como um aprovador e se tiver instalado a aplicação móvel do Power Automate, receberá uma notificação push sempre que a sua aprovação for solicitada.
+Se um fluxo o identificar como um aprovador e tiver instalado a aplicação móvel do Power Automate, irá receber uma notificação push sempre que a sua aprovação for pedida.
 
 Este artigo explica alguns cenários comuns que poderá encontrar ao gerir pedidos de aprovação na aplicação móvel do Power Automate.
 
@@ -46,7 +46,7 @@ Para concluir estas instruções, precisa de:
 * Pedidos pendentes para aprovação.
 
 ## <a name="view-pending-requests"></a>Ver pedidos pendentes
-1. Abra a aplicação móvel do Power Automate.
+1. Abra a aplicação móvel para o Power Automate.
    
     ![inicie a aplicação móvel](./media/mobile-approvals/open-app.png)
 2. Selecione **APROVAÇÕES** no canto superior direito.
@@ -63,7 +63,7 @@ Se não tiver pedidos de aprovação pendentes, crie um [fluxo de aprovação](m
 2. Selecione **APROVAR** no pedido que quer aprovar.
    
     ![selecione aprovar](./media/mobile-approvals/select-approve.png)
-3. (Opcional) selecione **Adicionar comentário (opcional)** .
+3. (Opcional) selecione **Adicionar comentário (opcional)**.
    
     ![selecione adicionar um comentário](./media/mobile-approvals/select-add-comment.png)
    
@@ -81,6 +81,6 @@ Se não tiver pedidos de aprovação pendentes, crie um [fluxo de aprovação](m
 ## <a name="reject-requests-and-leave-an-optional-comment"></a>Rejeitar pedidos e deixar um comentário opcional
 Siga os [passos para aprovar um pedido](mobile-approvals.md#approve-requests-and-leave-an-optional-comment), mas selecione **REJEITAR** no segundo passo.
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Mais Informações
 [Criar fluxos de aprovação moderna](modern-approvals.md).
 

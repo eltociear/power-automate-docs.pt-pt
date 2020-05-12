@@ -16,11 +16,11 @@ ms.workload: na
 ms.date: 01/04/2020
 ms.author: deonhe
 ms.openlocfilehash: 902510ac5c2dd61fbcaae7c1dad771588e431873
-ms.sourcegitcommit: e3543e32e4e8e8163bef0565e27b657eabbdc741
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75868210"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297654"
 ---
 # <a name="metadata-update-card-sample"></a>Exemplo de cartão de atualização de metadados
 

@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 1df42c58cb02f8d62e016b071b3ce556b06a0efe
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195894"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3298402"
 ---
 # <a name="design-flows-in-microsoft-visio"></a>Criar fluxos no Microsoft Visio
 
@@ -43,7 +43,7 @@ O estruturador do Power Automate é uma ferramenta avançada na qual pode config
 
 ## <a name="design-a-workflow-in-visio"></a>Criar um fluxo de trabalho no Visio
 
-1. Inicie sessão no [Power Automate](https://flow.microsoft.com).
+1. Iniciar sessão no [Power Automate](https://flow.microsoft.com).
 1. Selecione **Modelos** no painel esquerdo.
 
      ![Selecionar modelos no painel esquerdo](./media/visio-flows/templates-from-left-panel.png)
@@ -70,7 +70,7 @@ O estruturador do Power Automate é uma ferramenta avançada na qual pode config
 
    ![Formas básicas BPMN](./media/visio-flows/bpmn-basic-shapes.png)
 
-## <a name="prepare-to-export-your-workflow-to-power-automate"></a>Preparar para exportar o fluxo de trabalho para o Power Automate
+## <a name="prepare-to-export-your-workflow-to-power-automate"></a>Preparar-se para exportar o fluxo de trabalho para o Power Automate
 
 Siga estes passos para preparar o fluxo de trabalho para o exportar para o Power Automate.
 
@@ -92,7 +92,7 @@ O fluxo de trabalho está pronto para ser exportado quando não existir nenhum p
 ![Não existem problemas](./media/visio-flows/prepare-export-no-issues.png) 
 
 ## <a name="export-your-workflow"></a>Exportar o fluxo de trabalho
-1. Selecione o botão **Exportar para Fluxo** para exportar o diagrama de fluxo de trabalho para o Power Automate.
+1. Selecione o botão **Exportar para Flow** para exportar o diagrama de fluxo de trabalho para o Power Automate.
 1. Dê um nome ao fluxo e, em seguida, selecione o botão **Criar fluxo**.
    
    ![Criar o fluxo](./media/visio-flows/export-create-flow.png)
@@ -106,7 +106,7 @@ Agora, pode executar ou fazer edições no fluxo a partir do estruturador do Pow
 >[!TIP]
 > Utilize as capacidades de partilha e comentários do Visio para colaborar com vários intervenientes e criar um fluxo de trabalho completo rapidamente.
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Mais Informações
 
 - [Introdução ao Power Automate](getting-started.md) 
 - [Criar fluxos de vários passos](multi-step-logic-flow.md)

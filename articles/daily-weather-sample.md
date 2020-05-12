@@ -16,11 +16,11 @@ ms.workload: na
 ms.date: 01/04/2020
 ms.author: deonhe
 ms.openlocfilehash: 8f7128104d3cb8aae361b6dd574822f503893e35
-ms.sourcegitcommit: e3543e32e4e8e8163bef0565e27b657eabbdc741
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75868187"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297082"
 ---
 # <a name="daily-weather-report-sample"></a>Exemplo de relatório meteorológico diário
 

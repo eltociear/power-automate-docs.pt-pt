@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 0d310eb96a69f66b8f45718554f36ba8b2a51989
-ms.sourcegitcommit: e3543e32e4e8e8163bef0565e27b657eabbdc741
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75868739"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297940"
 ---
 # <a name="image-share-sample"></a>Exemplo de partilha de imagens 
 

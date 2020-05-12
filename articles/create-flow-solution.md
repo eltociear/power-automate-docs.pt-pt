@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: d74cbdb6c03d65a7902a81194491ef67feda6bb2
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79192030"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297478"
 ---
 # <a name="create-a-flow-in-a-solution"></a>Criar um fluxo numa solução
 
@@ -38,7 +38,7 @@ Tem de ter, pelo menos, uma solução para poder criar um fluxo com suporte para
 
 ## <a name="create-the-flow"></a>Criar o fluxo 
 
-1. Inicie sessão no [Power Automate](https://flow.microsoft.com).
+1. Inicie sessão em [Power Automate](https://flow.microsoft.com).
 1. Selecione **Soluções** na barra de navegação.
 
    ![](./media/create-flow-solution/select-solutions-from-left-nav.png)
@@ -51,14 +51,14 @@ Tem de ter, pelo menos, uma solução para poder criar um fluxo com suporte para
 
    ![](./media/create-flow-solution/select-new-flow.png)
 
-   O Power Automate é apresentado.
+   A caixa Power Automate é aberta.
 
 1. Utilize os conectores e os acionadores disponíveis para criar o seu fluxo.
 
    Neste exemplo, vamos criar um fluxo simples que envia uma notificação quando recebe um e-mail na caixa de entrada.
-1. Procure o **Outlook do Office 365** e selecione-o.
-1. Selecione o acionador **Quando é recebido um novo e-mail** .
-1. Selecione **+Novo passo**.
+1. Procure e, em seguida, selecione **Office 365 Outlook**.
+1. Selecione o acionador **Quando é recebido um novo e-mail **.
+1. Selecione **+ Novo passo**.
 1. Selecione a ação**Enviar-me uma notificação por telemóvel**.
 1. Adicione o token dinâmico **Assunto** ao campo **Texto** na caixa **Enviar-me uma notificação por telemóvel**.
 1. Dê um nome ao fluxo e guarde-o.
@@ -71,7 +71,7 @@ Tem de ter, pelo menos, uma solução para poder criar um fluxo com suporte para
 
    ![](./media/create-flow-solution/new-flow-inside-solution.png)
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Mais Informações
 
 * [Criar uma solução](./overview-solution-flows.md)
 * [Exportar uma solução](./export-flow-solution.md)

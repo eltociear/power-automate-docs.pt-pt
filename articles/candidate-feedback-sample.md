@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 0d0157c4e0d392dd8493e5aeca4e97531c95213d
-ms.sourcegitcommit: e3543e32e4e8e8163bef0565e27b657eabbdc741
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75868164"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297280"
 ---
 # <a name="candidate-feedback-sample"></a>Exemplo de comentários de candidatos
 

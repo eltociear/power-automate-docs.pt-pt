@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: cd312fea655dfc652cf92a440801da2fdb17ebe4
-ms.sourcegitcommit: c6c4150daadbcc38ef1a33a5903df531b8461ace
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75942983"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297038"
 ---
 # <a name="use-custom-controls-in-business-process-flows"></a>Utilizar controlos personalizados em fluxos do processo de negócio
 
@@ -35,7 +35,7 @@ Os fluxos do processo de negócio proporcionam uma forma guiada para realizar o 
 
 Suponhamos que quer adicionar um botão radial ao passo **Orçamento Estimado** e um interruptor ao passo **Identificar Decisor** do processo de Vendas da Oportunidade Potencial. 
 
-![Descrição geral](./media/custom-controls/overview.png)
+![Descrição Geral](./media/custom-controls/overview.png)
 
 Aqui estão os passos que tem de seguir para adicionar controlos personalizados a um fluxo do processo de negócio:
 

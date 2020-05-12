@@ -21,13 +21,13 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: aa2b5eb13479f50f88ba7f723c5d1649746c74ec
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79196101"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3298226"
 ---
-# <a name="monitor-activity-in-power-automate-from-your-phone"></a>Monitorizar a atividade no Power Automate a partir do telemóvel
+# <a name="monitor-activity-in-power-automate-from-your-phone"></a>Monitorizar a atividade no Power Automate a partir do seu telemóvel
 
 Veja um resumo de quantas vezes cada fluxo foi concluído com êxito ou falhou hoje, ontem e nos dias anteriores. Explore os detalhes sobre cada execução, tal como quando foi executado, quanto tempo demorou cada passo e, em caso de falha, por que motivo.
 
@@ -55,7 +55,7 @@ Quando o fluxo é executado, envia uma notificação push personalizada para o t
 
 1. Se o fluxo não tiver sido executado antes, acione uma execução para gerar dados.
    
-    A apresentação dos dados na aplicação poderá demorar algum tempo.
+    Poderá demorar algum tempo para os dados serem apresentados na aplicação.
 2. Abra a aplicação móvel, que mostra o separador **Atividade** por predefinição.
    
     Este separador organiza os dados por dia, com os dados de hoje na parte superior.
@@ -66,24 +66,24 @@ Quando o fluxo é executado, envia uma notificação push personalizada para o t
    
     ![Nome e ícones para cada fluxo](./media/mobile-monitor-activity/activity-flow-name.png)
    
-    Se pelo menos uma execução de um fluxo tiver sido concluída com êxito durante um dia, uma entrada mostrará o número de êxitos e a hora da última conclusão com êxito. Se um fluxo tiver falhado, uma entrada diferente mostrará informações semelhantes.
+    Se pelo menos uma execução de um fluxo tiver sido concluída com êxito durante um dia, uma entrada mostrará o número de êxitos e a hora da última conclusão com êxito. Uma entrada diferente mostrará informações semelhantes se um fluxo tiver falhado.
    
     ![Resumo de êxitos ou falhas](./media/mobile-monitor-activity/activity-summary.png)
    
     Se um fluxo enviar uma notificação push, será apresentado o texto da notificação mais recente na parte inferior da entrada, no caso de execuções com êxito.
    
     ![Exemplo de notificação push](./media/mobile-monitor-activity/activity-notification.png)
-3. Se forem enviadas várias notificações push durante um dia, percorra a notificação para a esquerda para ver as notificações de até três execuções anteriores. Se forem enviadas mais de quatro notificações durante um dia, percorra para a esquerda até aparecer **Ver mais** e, em seguida, toque para ver uma lista de todas as notificações.
+3. Se foram enviadas várias notificações push num dia, percorra para a esquerda na notificação para ver as notificações de até três execuções anteriores. Se forem enviadas mais de quatro notificações durante um dia, percorra para a esquerda até aparecer **Ver mais** e, em seguida, toque para ver uma lista de todas as notificações.
    
     ![Exemplo de notificação push](./media/mobile-monitor-activity/activity-notification-list.png)
 4. Toque em **Anterior** para voltar ao resumo da atividade.
 5. Para filtrar o resumo da atividade, toque no ícone no canto superior direito.
    
-    Pode visualizar todas as entradas, apenas as entradas de falha ou apenas as entradas que incluam notificações push.
+    Pode mostrar todas as entradas, apenas as entradas com falhas ou apenas as entradas que incluem notificações push.
    
-    ![Visualizar todas as execuções, apenas falhas ou apenas notificações](./media/mobile-monitor-activity/activity-filter.png)
+    ![Mostrar todas as execuções, apenas as falhas ou apenas as notificações](./media/mobile-monitor-activity/activity-filter.png)
 
-## <a name="show-details-of-a-run"></a>Visualizar detalhes de uma execução
+## <a name="show-details-of-a-run"></a>Ver detalhes de uma execução
 1. No resumo da atividade, toque numa entrada para visualizar detalhes da execução mais recente.
    
      Cada evento e ação é apresentada com um ícone que indica se o evento ou ação foi concluída com êxito ou falhou. Se tiver sido concluída com êxito também será apresentado o tempo que demorou (em segundos).

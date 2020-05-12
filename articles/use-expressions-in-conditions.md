@@ -1,6 +1,6 @@
 ---
 title: Utilize expressões com condições. | Microsoft Docs
-description: Utilize expressões avançadas como “e”, “ou”, “vazio”, “menos” e “maior” com as Condições do Power Automate.
+description: Utilize expressões avançadas como "e", "ou", "vazio", "menos" e "maior" com as Condições do Power Automate.
 services: ''
 suite: flow
 documentationcenter: na
@@ -19,11 +19,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 3c1eb0f208f964f2a41e26ca831c60edef0d747c
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195980"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3298446"
 ---
 # <a name="use-expressions-in-conditions-to-check-multiple-values"></a>Utilize expressões nas condições para verificar valores múltiplos
 
@@ -33,14 +33,14 @@ Ao criar um fluxo, pode utilizar o cartão [**Condição**](add-condition.md#add
 
 Pode utilizar qualquer combinação das seguintes expressões lógicas nas suas condições.
 
-Expressão|Descrição|Exemplo
+Expression|Descrição|Exemplo
 --------|-----------|-------
-|[and](#use-the-and-expression)|Precisa de dois argumentos e devolve verdadeiro se ambos os valores forem verdadeiros.<br><b>Nota</b>: ambos os argumentos têm de ser Booleanos.|Esta expressão devolve falso: <br>and(greater(1,10),equals(0,0))
-|[or](#use-the-or-expression)|Recebe dois argumentos e devolve verdadeiro se um dos argumentos for verdadeiro. <br><b>Nota</b>: ambos os argumentos têm de ser Booleanos.|Esta expressão devolve verdadeiro:<br>or(greater(1,10),equals(0,0))
-|equals|Devolve verdadeiro se dois valores forem iguais.|Por exemplo, se parâmetro1 for someValue, esta expressão devolve verdadeiro:<br>equals(parameters('parameter1'), 'someValue')
-|[less](#use-the-less-expression)|Precisa de dois argumentos e devolve verdadeiro se o primeiro argumento for menor que o segundo argumento. <br><b>Nota</b>: os tipos suportados são números inteiros, flutuantes e cadeias.|Esta expressão devolve verdadeiro:<br>less(10,100)
+|[e a](#use-the-and-expression)|Precisa de dois argumentos e devolve verdadeiro se ambos os valores forem verdadeiros.<br><b>Nota</b>: ambos os argumentos têm de ser Booleanos.|Esta expressão devolve falso: <br>and(greater(1,10),equals(0,0))
+|[ou](#use-the-or-expression)|Recebe dois argumentos e devolve verdadeiro se um dos argumentos for verdadeiro. <br><b>Nota</b>: ambos os argumentos têm de ser Booleanos.|Esta expressão devolve verdadeiro:<br>or(greater(1,10),equals(0,0))
+|igual a|Devolve verdadeiro se dois valores forem iguais.|Por exemplo, se parâmetro1 for someValue, esta expressão devolve verdadeiro:<br>equals(parameters('parameter1'), 'someValue')
+|[menor que](#use-the-less-expression)|Precisa de dois argumentos e devolve verdadeiro se o primeiro argumento for menor que o segundo argumento. <br><b>Nota</b>: os tipos suportados são números inteiros, flutuantes e cadeias.|Esta expressão devolve verdadeiro:<br>less(10,100)
 |lessOrEquals|Precisa de dois argumentos e devolve verdadeiro se o primeiro argumento for menor ou igual ao segundo argumento. <br><b>Nota</b>: os tipos suportados são números inteiros, flutuantes e cadeias.|Esta expressão devolve verdadeiro:<br>lessOrEquals(10,10)
-|[greater](#use-the-greater-expression)|Recebe dois argumentos e devolve verdadeiro se o primeiro argumento for maior que o segundo argumento. <br><b>Nota</b>: os tipos suportados são números inteiros, flutuantes e cadeias.|Esta expressão devolve falso:<br>greater(10,10)
+|[maior que](#use-the-greater-expression)|Recebe dois argumentos e devolve verdadeiro se o primeiro argumento for maior que o segundo argumento. <br><b>Nota</b>: os tipos suportados são números inteiros, flutuantes e cadeias.|Esta expressão devolve falso:<br>greater(10,10)
 |greaterOrEquals|Recebe dois argumentos e devolve verdadeiro se o primeiro argumento for maior ou igual ao segundo argumento. <br><b>Nota</b>: os tipos suportados são números inteiros, flutuantes e cadeias.|Esta expressão devolve falso:<br>greaterOrEquals(10,100)
 |[empty](#use-the-empty-expression)|Devolve verdadeiro se o objeto, matriz ou cadeia estiverem vazios.|Esta expressão devolve verdadeiro:<br>empty('')
 |not|Devolve o oposto de um valor booleano. |Esta expressão devolve verdadeiro:<br>not(contains('200 Success','Fail'))
@@ -48,7 +48,7 @@ Expressão|Descrição|Exemplo
 
 ## <a name="prerequisites"></a>Pré-requisitos
 * Acesso ao Power Automate.
-* Uma folha de cálculo com as tabelas descritas mais tarde nestas instruções. Lembre-se de guardar a folha de cálculo numa localização como o Dropbox ou o Microsoft OneDrive para que o Power Automate possa aceder à mesma.
+* Uma folha de cálculo com as tabelas descritas mais tarde nestas instruções. Lembre-se de guardar a folha de cálculo numa localização como a Dropbox ou o Microsoft OneDrive para que o Power Automate possa aceder à mesma.
 * Microsoft Office 365 Outlook (apesar de utilizarmos o Office 365 Outlook, pode utilizar qualquer serviço de e-mail suportado nos seus fluxos).
 
 ## <a name="use-the-or-expression"></a>Utilize a expressão or
@@ -68,7 +68,7 @@ Tendo em conta a folha de cálculo anterior, deve utilizar o Power Automate para
 Vamos criar o fluxo.
 
 ### <a name="start-with-a-blank-flow"></a>Comece com um fluxo em branco
-1. Inicie sessão no [Power Automate](https://flow.microsoft.com).
+1. Iniciar sessão no [Power Automate](https://flow.microsoft.com).
 
     ![iniciar sessão](includes/media/modern-approvals/sign-in.png)
 2. Selecione o separador **Os meus fluxos**.
@@ -199,8 +199,8 @@ Utilize a expressão **and** juntamente com a expressão **less** uma vez que ex
 
 |          Condição a validar          | expressão a utilizar |                    Exemplo                     |
 |-----------------------------------------|-------------------|------------------------------------------------|
-|   A quantia total devida foi paga?    |      greater      |   @greater(item()?['Due'], item()?['Paid'])    |
-| A data de vencimento corresponde a menos de um dia da data atual? |       less        | @less(item()?['DueDate'], addDays(utcNow(),1)) |
+|   A quantia total devida foi paga?    |      maior que      |   @greater(item()?['Due'], item()?['Paid'])    |
+| A data de vencimento corresponde a menos de um dia da data atual? |       menor que        | @less(item()?['DueDate'], addDays(utcNow(),1)) |
 
 ## <a name="combine-the-greater-and-less-expressions-in-an-and-expression"></a>Combine as expressões greater e less numa expressão and
 Utilize a expressão **greater** para identificar os empregados que pagaram menos do que a quantia total devida e utilize a expressão **less** para determinar se a data de vencimento corresponde a menos de um dia da data atual. Pode, em seguida, utilizar a função **Enviar um e-mail** para enviar por e-mail um lembrete amigável a quem não tenha pago tudo e cuja data de vencimento corresponda a menos de um dia da data atual.

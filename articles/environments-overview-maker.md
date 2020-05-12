@@ -1,5 +1,5 @@
 ---
-title: Saiba mais sobre os ambientes do Power Automate | Microsoft Docs
+title: Tudo sobre ambientes do Power Automate | Microsoft Docs
 description: Saiba como utilizar ambientes para isolar os fluxos
 services: ''
 suite: flow
@@ -25,7 +25,7 @@ ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 04/08/2020
-ms.locfileid: "80862567"
+ms.locfileid: "3299062"
 ---
 # <a name="choosing-an-environment"></a>Escolher um ambiente
 
@@ -37,13 +37,13 @@ Irá aprender sobre:
 * Mudar entre ambientes.
 * Como criar um fluxo no ambiente certo.
 
-## <a name="environments-overview"></a>Descrição geral dos ambientes
+## <a name="environments-overview"></a>Descrição geral de ambientes
 
 Quando cria um fluxo, pode escolher um ambiente no qual vai alojar o fluxo e os recursos utilizados por esse fluxo. Pode utilizar ambientes em separado para diferentes cenários.
 
 ## <a name="here-are-a-few-scenarios-for-using-environments"></a>Seguem-se alguns cenários de utilização de ambientes
 
-Scenario|Recomendação
+Cenário|Recomendação
 -----|-----
 Pretende criar um fluxo que utiliza uma ligação para o Common Data Service.|Coloque o fluxo e o Common Data Service no mesmo ambiente. Isto garante que todos os dados estão isolados nesse ambiente (limite de isolamento).
 Está a criar um fluxo para o departamento de Recursos Humanos. Pretende garantir que apenas os utilizadores do departamento de Recursos Humanos têm acesso ao fluxo.|Crie um ambiente e adicione apenas os utilizadores de RH ao mesmo. Coloque o fluxo e quaisquer outros recursos que o fluxo utiliza neste ambiente.
@@ -53,7 +53,7 @@ Para criar ambientes, tem de ser um administrador do Power Automate. Os administ
 
 ## <a name="switching-environments"></a>Mudança de ambientes
 
-O Power Automate permite mudar de ambientes de forma bastante fácil. Quando mudar ambientes, são apresentados apenas os itens que são criados nesse ambiente específico; o utilizador não vê nem tem acesso aos itens em qualquer outro ambiente.
+O Power Automate permite alternar mais facilmente entre ambientes. Quando mudar ambientes, são apresentados apenas os itens que são criados nesse ambiente específico; o utilizador não vê nem tem acesso aos itens em qualquer outro ambiente.
 
 Eis um exemplo.
 
@@ -61,7 +61,7 @@ Criou um fluxo com o nome *NewEmployee* no ambiente *Recursos Humanos*. No [Powe
 
 Siga estes passos para mudar ambientes:
 
-1. Inicie sessão no [Power Automate](https://flow.microsoft.com).
+1. Iniciar sessão no [Power Automate](https://flow.microsoft.com).
 1. No canto superior direito, verá uma imagem que representa o seu perfil.
 
    ![imagem de perfil](./media/environments-overview-maker/default-environment.png)
@@ -84,13 +84,13 @@ Antes de criar um fluxo, selecione o ambiente no qual irá adicionar o fluxo e o
 Ao escolher o ambiente no qual pretende alojar os seus fluxos, considere os seguintes fatores:
 
 * Pode criar apenas gateways no ambiente predefinido. Se pretender utilizar um gateway para ligar o seu fluxo a dados no local, terá de utilizar o ambiente predefinido.
-* O Common Data Service está associado a um ambiente específico. Por isso, se pretender criar um fluxo que utiliza o Common Data Service, tem de criar o fluxo no ambiente que aloja a base de dados.
+* O Common Data Service está ligado a um ambiente específico. Por isso, se pretender criar um fluxo que utiliza o Common Data Service, tem de criar o fluxo no ambiente que aloja a base de dados.
 * Irá ver todos os ambientes nos quais pode editar recursos. No entanto, terá de pedir a um administrador para o adicionar como um criador a todos os ambientes nos quais pretende criar fluxos.
 
 > [!NOTE]
 > Poderá sempre criar fluxos no ambiente predefinido.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 * [Criar um fluxo a partir de um modelo](get-started-logic-template.md)
 * [Criar um fluxo](get-started-logic-flow.md)

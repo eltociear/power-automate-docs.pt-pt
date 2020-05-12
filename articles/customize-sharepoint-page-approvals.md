@@ -1,6 +1,6 @@
 ---
 title: Gerir aprovações de páginas do SharePoint com o Power Automate | Microsoft Docs
-description: Saiba como gerir aprovações de páginas do SharePoint com o Power Automate.
+description: Obter informações sobre como gerir as aprovações de página do SharePoint com o Power Automate.
 services: ''
 suite: flow
 documentationcenter: na
@@ -20,16 +20,16 @@ ms.sourcegitcommit: c43c98cc777780d42d15e287233c040771a6e147
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 04/07/2020
-ms.locfileid: "80801483"
+ms.locfileid: "3298996"
 ---
-# <a name="manage-sharepoint-page-approvals-with-power-automate"></a>Gerir aprovações de páginas do SharePoint com o Power Automate
+# <a name="manage-sharepoint-page-approvals-with-power-automate"></a>Gerir aprovações de página do SharePoint com o Power Automate
 
 
 Os administradores de sites do SharePoint podem utilizar o Power Automate para pedir a aprovação de páginas novas ou atualizadas antes de serem publicadas.
 
 Neste artigo, vai aprender a configurar o site do SharePoint de forma a este utilizar um fluxo que exige a aprovação das alterações ao site antes de se propagarem.
 
-## <a name="configure-sharepoint-for-page-approvals"></a>Configurar o SharePoint para aprovações de páginas
+## <a name="configure-sharepoint-for-page-approvals"></a>Configurar a aprovação de páginas do SharePoint
 
 ### <a name="prerequisites"></a>Pré-requisitos 
 
@@ -54,7 +54,7 @@ Tem de ser um administrador de sites do SharePoint para executar as atividades i
     
     ![Selecionar o fluxo de aprovação de páginas](media/customize-sharepoint-page-approvals/flow-name-approvers-create.png)
 
-Já está. Agora, sempre que uma página for adicionada ou modificada, é enviado um pedido de aprovação aos **Aprovadores** indicados no fluxo.
+Está feito! Agora, sempre que uma página for adicionada ou modificada, é enviado um pedido de aprovação aos **Aprovadores** indicados no fluxo.
 
 O fluxo de aprovação de páginas é como qualquer outro fluxo e por isso é apresentado no separador **Os meus fluxos**.
 
@@ -80,7 +80,7 @@ Os aprovadores recebem um e-mail sempre que houver um pedido de aprovação de p
 
 Como as aprovações de páginas utilizam o Power Automate em segundo plano, o fluxo de aprovação de páginas está disponível para os proprietários de sites modificarem e adicionarem qualquer lógica de negócio personalizada ao fluxo. Para modificar o fluxo, o proprietário do site pode selecionar **Fluxos** e, em seguida, selecionar **Ver os fluxos** na biblioteca de páginas para encontrar o fluxo de aprovação de páginas.
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Mais Informações
 
 - [Fluxo de aprovação de páginas](https://support.office.com/article/page-approval-flow-a8b2e689-d4a1-4639-8028-333c0ece30d9)
 - [Configurar a aprovação de páginas](https://support.office.com/article/configure-page-approval-14ce6976-a0a7-427b-b4ab-d28d344a5222)

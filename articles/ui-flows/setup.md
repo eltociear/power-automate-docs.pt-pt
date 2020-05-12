@@ -25,7 +25,7 @@ ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 04/01/2020
-ms.locfileid: "80524676"
+ms.locfileid: "3298776"
 ---
 # <a name="set-up-ui-flows"></a>Configurar fluxos de IU
 
@@ -40,7 +40,7 @@ Para poder utilizar o dispositivo para criar fluxos de IU, terá de assegurar qu
 
 - Uma conta escolar ou profissional para iniciar sessão no dispositivo Windows com privilégios de administrador e no Power Automate.
 
-- Um dispositivo com o Windows 10 Pro, o Windows Server 2016 ou o Windows Server 2019.
+- Um dispositivo que executa o Windows 10 Pro, Windows Server 2016 ou Windows Server 2019.
 
 - O browser [Microsoft Edge](https://www.microsoft.com/edge/) (versão 80 ou posterior) ou Google Chrome.
 
@@ -96,7 +96,7 @@ Depois de o programa de instalação dos fluxos de IU ter sido concluído, o bro
 
 > [!TIP]
 > Se não viu o pedido no browser, verifique o seguinte:
-> - Tem de utilizar o [Microsoft Edge](https://www.microsoft.com/edge/) (versão 80 ou posterior) ou o Google Chrome.
+> - Tem de utilizar o [Microsoft Edge](https://www.microsoft.com/edge/) (versão 80 ou posterior) ou Google Chrome.
 > - Pode ser necessário ativar a extensão manualmente. Com o Microsoft Edge, navegue para **edge://extensions** ou, com o Google Chrome, navegue para **chrome://extensions**.
 > - Se a extensão dos fluxos de IU do Power Automate não aparecer, poderá reinstalá-la com o [programa de instalação dos fluxos de IU](https://go.microsoft.com/fwlink/?linkid=2102613).
 
@@ -129,7 +129,7 @@ Precisará do gateway para acionar o fluxo de IU de um [evento, agendamento ou f
 
 ## <a name="setup-ui-flows-connections-and-machine-credentials"></a>Configurar ligações de fluxos de IU e credenciais da máquina
 
-1. Inicie sessão no [Power Automate](https://powerautomate.microsoft.com).
+1. Iniciar sessão no [Power Automate](https://powerautomate.microsoft.com).
 1. Expanda a opção **Dados** no lado esquerdo do ecrã.
 1. Selecione **Ligações**.
 
@@ -145,9 +145,9 @@ Precisará do gateway para acionar o fluxo de IU de um [evento, agendamento ou f
 
 1. Forneça as informações do gateway e as credenciais do dispositivo: 
 
-    - **Domínio e Nome de utilizador**: forneça a sua conta do dispositivo. Pode utilizar uma conta local com o nome do utilizador (por exemplo, "NOMEDOCOMPUTADOR\\Utilizador" ou "local\\Utilizador") ou uma conta do Active Directory como "DOMÍNIO\\Utilizador".
-    - **Palavra-passe**: a palavra-passe da sua conta.
-    - **Escolher um gateway**: Selecione o gateway que pretende utilizar.
+    - **Domínio e Nome de Utilizador**: forneça a conta do dispositivo. Pode utilizar uma conta local com o nome do utilizador (por exemplo, "NOMEDOCOMPUTADOR\\Utilizador" ou "local\\Utilizador") ou uma conta do Active Directory como "DOMÍNIO\\Utilizador".
+    - **Palavra-passe**: a palavra-passe da conta.
+    - **Escolher um gateway**: selecione o gateway que pretende utilizar.
 
       ![Uma captura de ecrã a mostrar onde introduzir as credenciais para a ligação](../media/ui-flows-setup/credentials-screen.png)
 
@@ -197,8 +197,8 @@ Croata    |   Húngaro   |   Português (Brasil) |   Turco
 Checo   |   Indonésio  |   Português (Portugal)       |Ucraniano
 Dinamarquês  |   Italiano |   Romeno    |   Vietnamita
 Neerlandês       |Japonês   |   Russo 
-Estónio    |Cazaque |   Sérvio (Cirílico, Sérvia)  
-Finlandês     |Coreano     |Sérvio (Latim, Sérvia)
+Estónio    |Cazaquistanês |   Sérvio (Cirílico, Sérvia e Montenegro)  
+Finlandês     |Coreano     |Sérvio (Latim, Sérvia e Montenegro)
 
 ## <a name="uninstall-ui-flows"></a>Desinstalar os fluxos de IU
 
@@ -206,7 +206,7 @@ Finlandês     |Coreano     |Sérvio (Latim, Sérvia)
 1. Procure **Fluxos de IU** e selecione essa opção.
 1. Selecione **Desinstalar**.
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Mais Informações
 
 - [Atualizar os seus fluxos de IU](upgrade.md) a partir de versões anteriores
 - Saiba como [criar fluxos de IU para computador](create-desktop.md).

@@ -21,13 +21,13 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 9b5671096bbecd9221d3849cd656548291acd4c9
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79194422"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3296928"
 ---
-# <a name="share-button-flows-in-power-automate"></a>Partilhar fluxos de botões no Power Automate
+# <a name="share-button-flows-in-power-automate"></a>Partilhe fluxos de botões no Power Automate
 
 Na aplicação móvel do Power Automate, pode partilhar [fluxos de botões](introduction-to-button-flows.md) (botões) com outros utilizadores ou grupos da organização. Quando partilha um botão, a pessoa ou o grupo com quem o partilha pode executar o botão da mesma forma que executam os seus próprios botões. Também pode [partilhar uma ligação](share-buttons.md#re-share-a-button) para botões que outra pessoa partilhou consigo. Pode [parar de partilhar](share-buttons.md#stop-sharing-a-button) os seus botões em qualquer altura.
 
@@ -38,15 +38,15 @@ Na aplicação móvel do Power Automate, pode partilhar [fluxos de botões](intr
 Siga [estes passos](share-buttons.md#use-shared-buttons) para utilizar um botão que alguém tenha partilhado consigo.
 
 ## <a name="prerequisites"></a>Pré-requisitos
-Para partilhar botões, precisa do seguinte:
+Para partilhar botões, precisa de:
 
-* Uma conta que tenha acesso ao [Power Automate](https://flow.microsoft.com).
+* Uma conta com acesso ao [Power Automate](https://flow.microsoft.com).
 * Um fluxo para partilhar.
 * Um dispositivo móvel com a aplicação móvel Power Automate para [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) ou [Windows Phone](https://aka.ms/flowmobilewindows).
 * Um grupo ou utilizador dentro da organização com quem partilhar o botão.
 
 ## <a name="share-a-button"></a>Partilhar um botão
-Pode partilhar um botão a partir do separador **Botões** da aplicação móvel Power Automate.
+Pode partilhar um botão a partir do separador **Botões** da aplicação móvel do Power Automate.
 
 1. Toque no pequeno ícone junto ao botão que quer partilhar.
    
@@ -64,9 +64,9 @@ Pode partilhar um botão a partir do separador **Botões** da aplicação móvel
    
     ![partilhar botão](./media/share-buttons/share-button-flows-invite-others-done.png)
 
-## <a name="require-users-to-use-their-own-connections"></a>Exigir que os utilizadores utilizem as suas próprias ligações
+## <a name="require-users-to-use-their-own-connections"></a>Exigir que os utilizadores utilizem as respetivas ligações
 > [!NOTE]
-> Quando partilha um botão, pode permitir que as pessoas com quem partilhou o botão utilizem todas as ligações utilizadas pelo mesmo. Pode também pedir-lhes que utilizem as suas próprias ligações. Se permitir que outras pessoas utilizem as suas ligações, elas não podem aceder às credenciais na sua ligação nem reutilizá-las em qualquer outro fluxo.
+> Quando partilha um botão, pode permitir que as pessoas com quem partilhou o botão utilizem todas as ligações utilizadas pelo mesmo. Também pode pedir-lhes para utilizar as respetivas ligações. Se permitir que outras pessoas utilizem as suas ligações, elas não podem aceder às credenciais na sua ligação nem reutilizá-las em qualquer outro fluxo.
 > 
 > 
 
@@ -106,11 +106,11 @@ Para parar de partilhar um botão, siga estes passos a partir do separador **Bot
    
     ![parar de partilhar um botão](./media/share-buttons/share-button-flows-remove-user-result.png)
 
-## <a name="monitor-the-run-history"></a>Monitorizar o histórico de execução
-O histórico de todas as execuções, incluindo as execuções iniciadas por uma pessoa com quem um botão foi partilhado, é apresentado apenas no separador **Atividade** da aplicação móvel do Power Automate do criador do botão.
+## <a name="monitor-the-run-history"></a>Monitorizar o histórico de execuções
+Todos os históricos de execução, incluindo as execuções iniciadas por uma pessoa com quem um botão foi partilhado, são apresentadas apenas no separador **Atividade** da aplicação móvel do Power Automate do criador do botão.
 
 ## <a name="use-shared-buttons"></a>Utilizar botões partilhados
-Antes de poder executar um botão que alguém tenha partilhado consigo, tem de adicionar o mesmo ao separador **Botões** a partir da página **Adicionar Botões**.
+Antes de poder executar um botão que alguém tenha partilhado consigo, tem de o adicionar ao seu separador **Botões** a partir da página **Adicionar botões**.
 
 1. Toque em **OBTER MAIS** (ou na faixa **Estão disponíveis novos botões**, caso a mesma seja apresentada) no separador **Botões**.
    
@@ -138,7 +138,7 @@ Se quiser deixar de utilizar um botão que tenha sido partilhado consigo, remova
     ![remover botão](./media/share-buttons/share-button-flows-added-shared-button.png)
 2. Toque em **Remover** no menu que aparece.
 
-Já está! O botão já não aparece no separador **Botões** da aplicação do Power Automate.
+Já está. O botão já não aparece no separador **Botões** da aplicação do Power Automate.
 
 > [!NOTE]
 > Depois de remover um botão partilhado, pode adicioná-lo novamente ao selecionar **OBTER MAIS** a partir do separador **Botões**.

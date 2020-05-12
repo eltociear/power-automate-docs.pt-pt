@@ -21,13 +21,13 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 56b90ebdf7f3655763b7e40c60b985f06604c47b
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79194031"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3298292"
 ---
-# <a name="overview"></a>Descrição geral
+# <a name="overview"></a>Descrição Geral
 
 
 Quando aloja os fluxos numa [solução](https://docs.microsoft.com/powerapps/maker/common-data-service/solutions-overview), estes tornam-se portáteis, o que os permite mover facilmente, junto com os seus componentes, de um ambiente para outro. Um caso de utilização típico será o de um fabricante independente de software (ISV) que desenvolve fluxos num ambiente de sandbox e, em seguida, move esses fluxos para um ambiente de teste. Depois de realizar os testes, o ISV pode, em seguida, migrar os fluxos para o ambiente de produção dos clientes que comprarem estes fluxos. Este processo é muito mais fácil quando cria os seus fluxos em soluções e, em seguida, move as soluções e os seus conteúdos.
@@ -44,13 +44,13 @@ Tem de ter os seguintes componentes para criar soluções e fluxos com suporte p
 - [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
 - Um ambiente com a versão 9.1.0.267 ou posterior.
 
-  Para verificar a versão, aceda ao [Centro de administração do Power Automate](https://admin.flow.microsoft.com), selecione **Ambientes**, selecione o ambiente que lhe interessa e, em seguida, selecione o separador **Detalhes**.
+  Para verificar a versão, aceda ao  [Centro de administração do Power Automate](https://admin.flow.microsoft.com), selecione **Ambientes**, selecione o ambiente que lhe interessa e, em seguida, selecione o separador **Detalhes**.
 
 ## <a name="create-a-solution"></a>Criar uma solução
 
 Siga estes passos para criar uma solução:
 
-1. Iniciar sessão no [Power Automate](https://flow.microsoft.com).
+1. Inicie sessão em [Power Automate](https://flow.microsoft.com).
 1. Selecione **Soluções** na barra de navegação.
 
    ![](./media/overview-solution-flows/select-solutions-from-left-nav.png)
@@ -74,7 +74,7 @@ Siga estes passos para criar uma solução:
    > [!TIP]
    > Se não for apresentada a nova solução, selecione **Soluções** para atualizar a lista de soluções.
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Mais Informações
 
 - [Criar um fluxo numa solução](./create-flow-solution.md)
 - [Exportar uma solução](./export-flow-solution.md)

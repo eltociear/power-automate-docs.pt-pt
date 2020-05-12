@@ -1,6 +1,6 @@
 ---
 title: Integrar o Power Automate em sites e aplicações | Microsoft Docs
-description: Incorpore as experiências do Power Automate no seu site ou aplicação.
+description: Incorporar as experiências do Power Automate no seu site ou aplicação.
 services: ''
 suite: flow
 documentationcenter: na
@@ -20,18 +20,18 @@ search.app:
 search.audienceType:
 - developer
 ms.openlocfilehash: 6ca077b6a7b0d04f184ddf8a716dd677713e0667
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74364632"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297698"
 ---
 # <a name="integrate-power-automate-with-websites-and-apps"></a>Integrar o Power Automate em sites e aplicações
 [!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
 
-Incorpore o Power Automate na sua aplicação ou site com *widgets de fluxo*  para proporcionar aos utilizadores uma forma simples de automatizar as tarefas pessoais ou profissionais.
+Incorpore o Power Automate na sua aplicação ou site com *widgets de fluxo* para fornecer aos utilizadores uma forma simples de automatizar as tarefas pessoais ou profissionais.
 
-Os widgets de fluxo são iframes localizados num documento anfitrião. Este documento aponta para uma página no estruturador do Power Automate. Estes widgets integram funcionalidades específicas do Power Automate na aplicação de terceiros.
+Os widgets de fluxo são iframes localizados num documento anfitrião. Este documento aponta para uma página no estruturador do Power Automate. Estes widgets integram funcionalidades específicas do Power Automate numa aplicação de terceiros.
 
 Os widgets podem ser simples. Por exemplo, um widget que apresenta uma lista de modelos sem comunicação entre o anfitrião e o iframe. Os widgets também podem ser complexos. Por exemplo, um widget que aprovisiona um fluxo a partir de um modelo e, em seguida, aciona o fluxo através de uma comunicação bidirecional entre o anfitrião e o widget.
 
@@ -58,10 +58,10 @@ Para começar, adicione este código para mostrar os modelos do Power Automate n
 | número de modelos |O número de modelos que pretende visualizar na vista. |
 | destino |A página que é aberta quando os utilizadores selecionam o modelo. Introduza `details` para mostrar os detalhes sobre o modelo ou introduza `new` para abrir o estruturador do Power Automate. |
 | category |Filtros para a categoria de modelo especificada. | 
-| parâmetros.{name} |Contexto adicional a transmitir o fluxo. |
+| parameters.{name} |Contexto adicional a transmitir o fluxo. |
 
 
-Se o parâmetro de destino for `new`, o estruturador do Power Automate será aberto quando os utilizadores selecionarem um modelo. Em seguida, os utilizadores podem criar um fluxo no estruturador. Se quiser ter a experiência completa do widget, veja a secção seguinte.
+Se o parâmetro de destino for `new`, o estruturador do Power Automate é aberto quando os utilizadores selecionam um modelo. Em seguida, os utilizadores podem criar um fluxo no estruturador. Se quiser ter a experiência completa do widget, veja a secção seguinte.
 
 ### <a name="passing-additional-parameters-to-the-flow-template"></a>Transmitir parâmetros adicionais ao modelo de fluxo
 
@@ -81,7 +81,7 @@ Para mostrar os quatro modelos principais do Wunderlist em alemão e para o util
 
 ## <a name="use-the-authenticated-flow-widgets"></a>Utilizar widgets de fluxo autenticados
 
-A seguinte tabela mostra a lista de widgets do Power Automate que suportam a experiência completa no widget através do token de acesso de autenticação de utilizador. Terá de utilizar o SDK do JS (Software Developer Kit do JavaScript) do Power Automate para incorporar os widgets e fornecer o token de acesso de utilizador necessário.
+A seguinte tabela mostra a lista de widgets do Power Automate que suportam a experiência completa no widget através do token de acesso de autenticação de utilizador. Terá de utilizar o SDK do JS (Software Development Kit do JavaScript) do Power Automate para incorporar os widgets e fornecer o token de acesso de utilizador necessário.
 
 | Tipo de widget    | Funcionalidade suportada                                                                                                                  | 
 |----------------|------------------------------------------------------------------------------------------------------------------------------------| 
@@ -89,9 +89,9 @@ A seguinte tabela mostra a lista de widgets do Power Automate que suportam a exp
 | flowCreation   | Cria um fluxo a partir de um ID de modelo que a aplicação anfitriã fornece.                                                                | 
 | runtime        | Aciona um fluxo de acionamento híbrido ou manual que a aplicação anfitriã fornece.                                                        | 
 | approvalCenter | Incorpora pedidos de aprovação e aprovações enviadas.                                                                                        | 
-| templates      | Mostra uma lista de modelos. O utilizador escolhe um para criar um novo fluxo.                                                                         | 
+| modelos      | Mostra uma lista de modelos. O utilizador escolhe um para criar um novo fluxo.                                                                         | 
 
-Utilize o SDK de Fluxo autenticado para permitir que os utilizadores criem e façam a gestão de fluxos diretamente a partir do site ou da aplicação (em vez de navegar para o Power Automate). Terá de iniciar a sessão do utilizador com a respetiva Conta Microsoft ou do Azure Active Directory para utilizar o SDK autenticado.
+Utilize o SDK de Fluxo autenticado para permitir que os utilizadores criem e façam a gestão de fluxos diretamente a partir do site ou aplicação (em vez de navegar para o Power Automate). Terá de iniciar a sessão do utilizador com a respetiva Conta Microsoft ou do Azure Active Directory para utilizar o SDK autenticado.
 
 > [!NOTE]
 > Não existe nenhuma forma de ocultar a imagem corporativa do Power Automate quando utiliza widgets.
@@ -104,7 +104,7 @@ Os widgets do Power Automate funcionam ao incorporar um iframe que faz referênc
 
 ### <a name="js-sdk-details"></a>Detalhes de SDK do JS
 
-A equipa do Power Automate fornece o SDK do JS para facilitar a integração de widgets do Flow em aplicações de terceiros. O SDK do JS do Flow está disponível como uma ligação pública no serviço Flow e permite que a aplicação anfitriã processe eventos do widget e interaja com a aplicação Flow ao enviar ações para o widget. Os eventos e ações de widgets são específicos ao tipo de widget.
+A equipa do Power Automate fornece o SDK do JS para facilitar a integração de widgets de fluxo em aplicações de terceiros. O SDK do JS do Flow está disponível como uma ligação pública no serviço Flow e permite que a aplicação anfitriã processe eventos do widget e interaja com a aplicação Flow ao enviar ações para o widget. Os eventos e ações de widgets são específicos ao tipo de widget.
 
 ### <a name="widget-initialization"></a>Inicialização de widget
 
@@ -125,11 +125,11 @@ var sdk = new MsFlowSdk({
 
 | Nome     | Obrigatório/Opcional | Descrição                                                    | 
 |----------|-------------------|----------------------------------------------------------------| 
-| `hostName` | Opcional          | Nome do anfitrião do Power Automate, por exemplo, https://flow.microsoft.com        | 
+| `hostName` | Opcional          | Nome do anfitrião do Power Automate, por exemplo https://flow.microsoft.com        | 
 | `locale`   | Opcional          | Região do cliente do widget (se não for especificada, a predefinição será `en-Us`) | 
 
 
-Assim que a instância do SDK do JS for criada, poderá inicializar e incorporar um widget do Power Automate num elemento principal na aplicação anfitriã. Para tal, adicione um div HTML:
+Assim que a instância do SDK do JS for criada, pode inicializar e incorporar um widget do Power Automate num elemento principal na aplicação anfitriã. Para tal, adicione um div HTML:
 
 ```html
 <div id="flowDiv" class="flowContainer"></div>
@@ -166,8 +166,8 @@ Estes são os parâmetros para `renderWidget()`:
 
 | Parâmetro        | Obrigatório/Opcional | Descrição                                                                                 | 
 |------------------|-------------------|---------------------------------------------------------------------------------------------| 
-| `container`        | Obrigatório          | ID de um elemento DIV na página anfitriã onde o widget será incorporado                   | 
-| `environmentId`    | Opcional          | Os widgets precisam de um ID de ambiente. Se não fornecer um ID, é utilizado um ambiente predefinido. | 
+| `container`        | Necessária          | ID de um elemento DIV na página anfitriã onde o widget será incorporado                   | 
+| `environmentId`    | Opcional          | Os widgets necessitam de um ID de ambiente. Se não fornecer um ID, é utilizado um ambiente predefinido. | 
 | `flowsSettings`    | Opcional          | Objeto de definições do Power Automate                                                                        | 
 | `templateSettings` | Opcional          | Objeto de definições do modelo                                                                    | 
 | `approvalSettings` | Opcional          | Objeto de definições de aprovação                                                                    | 
@@ -213,7 +213,7 @@ flowsSettings?: {
 
 | Parâmetro | Obrigatório/Opcional | Descrição | 
 |-----------|-------------------|-------------| 
-| `createFromBlankTemplateId` | Obrigatório | Utilize o GUID do modelo quando o utilizador seleciona o botão **Criar do zero** no widget do Flow | 
+| `createFromBlankTemplateId` | Necessária | Utilize o GUID do modelo quando o utilizador seleciona o botão **Criar do zero** no widget do Flow | 
 | `flowsFilter` | Opcional | O widget do Power Automate aplica o filtro fornecido ao indicar fluxos. Por exemplo, mostra fluxos que fazem referência a um site do SharePoint específico. <br /> ```flowFilter: "operations/any(operation: operation/sharepoint.site eq 'https://microsoft.sharepoint.com/teams/ProcessSimple' )"   ``` |                 
 | `tab` | Opcional | Predefine o separador ativo para mostrar no widget do Power Automate. <br /> Por exemplo, <br /> ```tab:'sharedFlows' ``` apresenta o separador Equipa<br /> e ``` tab:'myFlows' ``` apresenta o separador Os meus fluxos. |   
 
@@ -258,7 +258,7 @@ Aplica-se a widgets ApprovalCenter.
 |------------|-------------------|--------------| 
 | `hideLink`| Opcional | Quando está definido como `true`, o widget oculta as ligações de aprovação recebidas e enviadas | 
 | `autoNavigateToDetails`| Opcional | Quando está definido como `true`, o widget abre automaticamente os detalhes de aprovação quando existe apenas uma aprovação | 
-| `approvalsFilter`| Opcional | O widget de aprovação irá aplicar o filtro de aprovação especificado ao indicar as aprovações, por exemplo:    O widget de aprovação irá aplicar o filtro de aprovação especificado ao indicar as aprovações, por exemplo: <br/> ``` approvalsFilter: 'properties/itemlink eq \'https://microsoft.sharepoint.com/teams/ProcessSimple/_layouts/15/listform.aspx?PageType=4&ListId=737e30a6-5bc4-4e9c-bcdc-d34c5c57d938&ID=3&ContentTypeID=0x010010B708969A9C16408696FD23801531C6\'' ```  <br/> <br/>``` approvalsFilter: 'properties/itemlinkencoded eq \'{Your base64 encoded item link url} \'' ```|
+| `approvalsFilter`| Opcional | O widget de aprovação irá aplicar o filtro de aprovação especificado ao indicar as aprovações, por exemplo: <br/> ``` approvalsFilter: 'properties/itemlink eq \'https://microsoft.sharepoint.com/teams/ProcessSimple/_layouts/15/listform.aspx?PageType=4&ListId=737e30a6-5bc4-4e9c-bcdc-d34c5c57d938&ID=3&ContentTypeID=0x010010B708969A9C16408696FD23801531C6\'' ```  <br/> <br/>``` approvalsFilter: 'properties/itemlinkencoded eq \'{Your base64 encoded item link url} \'' ```|
 | `tab`| Opcional | Separador ativo predefinido para mostrar no widget do Flow. <br/> Valores válidos: "receivedApprovals", "sentApprovals" | 
 | `showSimpleEmptyPage`| Opcional | Mostra uma página vazia quando não existem aprovações | 
 | `hideInfoPaneCloseButton` | Opcional | Oculta o botão Fechar (ou o anfitrião já tem um botão Fechar) | 
@@ -267,9 +267,9 @@ Aplica-se a widgets ApprovalCenter.
 
 ## <a name="widget-events"></a>Eventos de widget
 
-O widget do Power Automate suporta eventos que permitem ao anfitrião escutar eventos de ciclo de vida do widget. O widget do Power Automate suporta dois tipos de eventos: eventos de notificação unidirecionais (por exemplo, Widget\_Ready) e eventos gerados a partir do widget para obter dados do anfitrião (Get\_Access\_Token). O anfitrião tem de utilizar o método widget.listen() para escutar eventos específicos gerados a partir do widget.
+O widget do Power Automate suporta eventos que permitem ao anfitrião escutar eventos de ciclo de vida do widget. O widget do Power Automate suporta tipos de eventos: eventos de notificação unidirecional (por exemplo, Widget\_Ready) e eventos gerados a partir do widget para obter dados do anfitrião (Get\_Access\_Token). O anfitrião tem de utilizar o método widget.listen() para escutar eventos específicos gerados a partir do widget.
 
-### <a name="usage"></a>Usage
+### <a name="usage"></a>Utilização
 
 ```javascript
 widget.listen("<WIDGET_EVENT>", function() {
@@ -381,7 +381,7 @@ widget.notify('triggerFlow', { flowName: flowName, implicitData:implicitData });
 
 ## <a name="configuring-your-client-application"></a>Configurar a aplicação cliente
 
-Terá de configurar a sua aplicação cliente com Âmbitos do Serviço Flow (Permissões Delegadas). Se a aplicação do Azure Active Directory (AAD) utilizada para a integração do widget utilizar um fluxo de autorização de “concessão de código”, a aplicação do ADD terá de ser pré-configurada com permissões delegadas que são suportadas pelo Power Automate. Esta ação fornece permissões delegadas que permitem que a aplicação:
+Terá de configurar a sua aplicação cliente com Âmbitos do Serviço Flow (Permissões Delegadas). Se a aplicação do Azure Active Directory (AAD) utilizada para a integração do widget utilizar um fluxo de autorização de "concessão de código", a aplicação do ADD tem de ser pré-configurada com permissões delegadas que são suportadas pelo Power Automate. Esta ação fornece permissões delegadas que permitem que a aplicação:
 
 -   Faça a gestão de aprovações
 -   Leia aprovações
@@ -391,7 +391,7 @@ Terá de configurar a sua aplicação cliente com Âmbitos do Serviço Flow (Per
 
 Siga estes passos para selecionar uma ou mais permissões delegadas:
 
-1.  Aceda a https://portal.azure.com. 
+1.  Aceder a https://portal.azure.com 
 2.  Selecione **Azure Active Directory**.
 3.  Selecione **Registos das aplicações** em **Gerir**.
 4.  Introduza a aplicação de terceiros a ser configurada para os âmbitos do serviço Flow.
@@ -401,7 +401,7 @@ Siga estes passos para selecionar uma ou mais permissões delegadas:
 7. Selecione **Adicionar**.
 8. Escolha **Selecionar uma API**.
       ![arquitetura do widget](../media/embed-flow-dev/AAD-App-Select-an-API.png)
-9. Procure o **serviço do Power Automate** e selecione-o. Nota: para poder ver o serviço do Power Automate, o inquilino tem de ter pelo menos um utilizador do AAD com sessão iniciada no portal do Flow (<https://flow.microsoft.com>)
+9. Procure por **serviço do Power Automate** e selecione-o. Nota: Antes de poder ver o serviço Power Automate, o inquilino tem de ter pelo menos um utilizador do AAD com sessão iniciada no portal do Flow (<https://flow.microsoft.com>)
 10. Selecione os âmbitos do Flow necessários para a aplicação e, em seguida, selecione **Guardar**.
       ![arquitetura do widget](../media/embed-flow-dev/AAD-App-DelegatedPermissions.png)
 
@@ -417,7 +417,7 @@ Uma Aplicação de Página Única (SPA) de JavaScript de exemplo é fornecida na
 2.  No painel de navegação esquerdo, selecione **Azure Active Directory** e, em seguida, selecione **Registos de aplicações** (Pré-visualização) \> Novo registo.
 3.  Quando a página **Registar uma aplicação** for apresentada, introduza um nome para a sua aplicação.
 4.  Em **Tipos de contas suportadas**, selecione **Contas** em qualquer diretório organizacional.
-5.  Na secção **URL de Redirecionamento**, selecione a plataforma Web e defina o valor para o URL da aplicação com base no servidor Web.  Configure este valor para http://localhost:30662/ para executar a aplicação de exemplo.
+5.  Na secção **URL de Redirecionamento**, selecione a plataforma Web e defina o valor para o URL da aplicação\' com base no servidor Web.  Configure este valor para http://localhost:30662/ para executar a aplicação de exemplo.
 6.  Selecione **Registar**.
 7.  Na página **Descrição geral** da aplicação, tenha em atenção o valor do ID da aplicação (cliente).
 8.  O exemplo requer que o [fluxo de concessão implícita](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-implicit-grant-flow) esteja ativado. No painel de navegação esquerdo da aplicação registada, selecione **Autenticação**.
@@ -465,7 +465,7 @@ Se a região inicializada não estiver indicada, o Flow utilizará por predefini
 | da-dk      | Dinamarquês (Dinamarca)           | 
 | de-de      | Alemão (Alemanha)           | 
 | el-gr      | Grego (Grécia)             | 
-| en-Us      | Inglês (Estados Unidos)    | 
+| en-Us      | Inglês (Estado Unidos)    | 
 | es-es      | Espanhol (Castelhano)        | 
 | et-ee      | Estónio (Estónia)         | 
 | eu-es      | Basco (Espanha)             | 
@@ -478,7 +478,7 @@ Se a região inicializada não estiver indicada, o Flow utilizará por predefini
 | id-Id      | Indonésio (Indonésia)     | 
 | it-It      | Italiano (Itália)            | 
 | jp-Jp      | Japonês (Japão)           | 
-| kk-kz      | Cazaque (Cazaquistão)        | 
+| kk-kz      | Cazaquistanês (Cazaquistão)        | 
 | ko-kr      | Coreano (Coreia)             | 
 | lt-LT      | Lituano (Lituânia)     | 
 | lv-lv      | Letão (Letónia)           | 
@@ -492,8 +492,8 @@ Se a região inicializada não estiver indicada, o Flow utilizará por predefini
 | ru-ru      | Russo (Rússia)           | 
 | sk-sk      | Eslovaco (Eslováquia)          | 
 | sl-si      | Esloveno (Eslovénia)       | 
-| sr-cyrl-rs | Sérvio (Cirílico, Sérvia) | 
-| sr-latn-rs | Sérvio (Latim, Sérvia)    | 
+| sr-cyrl-rs | Sérvio (Cirílico, Sérvia e Montenegro) | 
+| sr-latn-rs | Sérvio (Latim, Sérvia e Montenegro)    | 
 | sv-se      | Sueco (Suécia)           | 
 | th-th      | Tailandês (Tailândia)            | 
 | tr-tr      | Turco (Turquia)           | 

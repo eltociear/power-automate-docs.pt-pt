@@ -1,6 +1,6 @@
 ---
-title: Pedidos de Deteção de Titulares de Dados RGPD no Power Automate para Contas Microsoft (MSA) | Microsoft Docs
-description: Saiba como utilizar o Power Automate para responder a Pedidos de Deteção de Titulares de Dados RGPD para Contas Microsoft.
+title: Pedidos de Deteção dos Titulares de Dados RGPD do Power Automate para Contas Microsoft (MSA) | Microsoft Docs
+description: Saiba como utilizar o Power Automate para responder a Pedidos de Deteção dos Titulares dos Dados RGPD para Contas Microsoft.
 services: ''
 suite: flow
 documentationcenter: na
@@ -21,11 +21,11 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: 5e1dc452bdbe7aa65700d159cf9365812dc50bfb
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79194146"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3298006"
 ---
 # <a name="respond-to-gdpr-data-subject-discovery-requests"></a>Responder a Pedidos de Deteção de Titulares de Dados RGPD 
 

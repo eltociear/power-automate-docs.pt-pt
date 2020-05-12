@@ -19,13 +19,13 @@ search.app:
 search.audienceType:
 - developer
 ms.openlocfilehash: 4f7566c6d6430c9167c0d1b7cc082792d0939780
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74364724"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297764"
 ---
-# <a name="sample-work-with-business-process-flows"></a>Exemplo: Trabalhar com fluxos de processo de negócio
+# <a name="sample-work-with-business-process-flows"></a>Exemplo: trabalhar com fluxos de processo de negócio
 [!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
 
 Este exemplo demonstra como trabalhar programaticamente com fluxos de processo de negócio, tal como obter as instâncias do fluxo do processo de negócio de um registo de entidade, obter o caminho ativo de uma instância do fluxo do processo de negócio e as respetivas fases do processo e alterar a fase ativa. Para obter informações sobre estes conceitos, veja [Trabalhar com fluxos de processo de negócio através de código](business-process-flows-code.md)  
@@ -36,13 +36,13 @@ Este exemplo demonstra como trabalhar programaticamente com fluxos de processo d
 ## <a name="prerequisites"></a>Pré-requisitos  
  Antes de poder executar o exemplo:  
 
-1. Tem de ter acesso ao ambiente do Common Data Service.  
+1. Gerir o acesso a um ambiente do Common Data Service.  
 
 2. Tem de ter os privilégios adequados nas entidades Lead, Opportunity e Workflow, e os registos de entidade de definição do fluxo do processo de negócio utilizados neste exemplo.  
 
 3. Tem de ter o Visual Studio 2015 ou posterior para executar o exemplo.  
 
-4. Tem de ter ligação à Internet para transferir o projeto de exemplo e restaurar os pacotes NuGet utilizados no projeto de exemplo.  
+4. Ter uma ligação à Internet para transferir o projeto de exemplo e restaurar os pacotes do NuGet utilizados no projeto de exemplo.  
 
 <a name="BKMK_WhatThisSampleDoes"></a>   
 ## <a name="what-this-sample-does"></a>O que faz este exemplo  
@@ -71,7 +71,7 @@ Este exemplo demonstra como trabalhar programaticamente com fluxos de processo d
 
 2. Localize o ficheiro `WorkWithBPF.sln` na sua pasta extraída e abra-o no Visual Studio.  
 
-3. O projeto de exemplo utiliza pacotes NuGet que têm de ser restaurados antes de executar o exemplo. Certifique-se de que o restauro automático de pacotes NuGet está ativado no Visual Studio. Mais informações: [Enabling and disabling NuGet package restore](https://go.microsoft.com/fwlink/?linkid=846106) (Ativar e desativar o restauro de pacotes NuGet)  
+3. O projeto de exemplo utiliza pacotes NuGet que têm de ser restaurados antes de executar o exemplo. Certifique-se de que o restauro automático de pacotes NuGet está ativado no Visual Studio. Mais informações: [Ativar e desativar a restauração de pacotes NuGet](https://go.microsoft.com/fwlink/?linkid=846106)  
 
     Em alternativa, selecione **Projeto** > **Gerir Pacotes NuGet** e selecione **Restaurar** para restaurar manualmente os pacotes utilizados no exemplo.  
 
@@ -82,10 +82,10 @@ Este exemplo demonstra como trabalhar programaticamente com fluxos de processo d
 
    |                                 Pedido                                  |                                                                                             Descrição                                                                                             |
    |-------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |      Introduza um nome de servidor e uma porta do Dynamics 365 [crm.dynamics.com]       | Escreva o nome do seu servidor do Dynamics 365. A predefinição é o Dynamics 365 (online) (crm.dynamics.com) na América do Norte.<br /><br /> Por exemplo: <br />crm5.dynamics.com |
+   |      Introduza um nome de servidor e uma porta do Dynamics 365 [crm.dynamics.com]       | Escreva o nome do seu servidor do Dynamics 365. A predefinição é o Dynamics 365 (online) (crm.dynamics.com) na América do Norte.<br /><br /> Exemplo: <br />crm5.dynamics.com |
    | Esta organização é aprovisionada no Microsoft Online Services (y/n) [n] |                                                 Escreva **y** se esta for uma organização aprovisionada do Microsoft Online Services. Caso contrário, escreva **n**.                                                  |
    |                          Introduzir o domínio\nome de utilizador                          |                                                                                    Escreva a sua conta Microsoft.                                                                                     |
-   |                             Introduzir a palavra-passe                              |                      Escreva a sua palavra-passe. Os carateres serão apresentados como "\*" na janela. A sua palavra-passe é guardada em segurança no Gestor de Credenciais da Microsoft para reutilização posterior.                       |
+   |                             Introduzir palavra-passe                              |                      Escreva a sua palavra-passe. Os carateres serão apresentados como "\*" na janela. A sua palavra-passe é guardada em segurança no Gestor de Credenciais da Microsoft para reutilização posterior.                       |
    |                Especificar o número da organização (1-n) [1]                 |                      Na lista de organizações a que pertence, escreva o número correspondente. A predefinição é 1, indicando a primeira organização na lista.                       |
 
 

@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 28199ab8b2a2dbf18ef89b905b2bdd362ff9e82b
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79194100"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3298248"
 ---
 # <a name="manage-sequential-approvals-with-power-automate"></a>Gerir aprovações sequenciais com o Power Automate
 
@@ -43,9 +43,9 @@ O fluxo:
 1. Inicia quando um funcionário cria um pedido de férias numa [lista do SharePoint Online](https://support.office.com/article/Introduction-to-lists-0a1c3ace-def0-44af-b225-cfa8d92c52d7).
 2. Adiciona o pedido de férias ao centro de aprovação e, em seguida, envia o pedido por e-mail ao pré-aprovador.
 3. Envia a decisão de pré-aprovação por e-mail ao funcionário.
-4. Atualiza a lista do SharePoint Online com a decisão e os comentários do pré-aprovador.
+4. Atualiza a lista do SharePoint Online com os comentários e decisão do pré-aprovador.
    
-   Nota: se o pedido tiver sido pré-aprovado, o fluxo continuará com estes passos:
+   Nota: se o pedido tiver sido pré-aprovado, o fluxo continua com estes passos:
 5. Envia o pedido para o aprovador final.
 6. Envia a decisão final por e-mail ao funcionário.
 7. Atualiza a lista do SharePoint com a decisão final.
@@ -59,9 +59,9 @@ Esta imagem resume os passos anteriores:
 
 Para o efeito destas instruções, a lista do SharePoint Online que criar tem de incluir as seguintes colunas:
 
-   ![Colunas de listas do SharePoint](./media/sequential-modern-approvals/sharepoint-columns.png)
+   ![Coluna de lista do SharePoint](./media/sequential-modern-approvals/sharepoint-columns.png)
 
-Anote o nome e o URL da lista do SharePoint Online. Iremos utilizar estes itens mais tarde quando configurar o acionador **SharePoint - Quando um novo item é criado**.
+Anote o nome e o URL da lista do SharePoint Online. Utilizamos estes itens mais tarde quando configurar o acionador **SharePoint – Quando um item é criado**.
 
 ## <a name="create-your-flow-from-the-blank-template"></a>Criar o fluxo a partir do modelo em branco
 [!INCLUDE [sign-in-and-create-flow-from-blank-template](includes/sign-in-and-create-flow-from-blank-template.md)]
@@ -131,8 +131,8 @@ Nota: esta ação envia o pedido de pré-aprovação para o endereço de e-mail 
    
    ![modelo de e-mail de aprovação final](./media/sequential-modern-approvals/vacatioin-request-approved-email-template.png)
 
-## <a name="update-sharepoint-with-approval"></a>Atualizar o SharePoint com a aprovação
-1. Utilize os passos para [Adicionar uma ação de atualização para pedidos pré-aprovados](sequential-modern-approvals.md#add-an-update-action-for-pre-approved-requests) para adicionar e, em seguida, configure uma ação que atualize o SharePoint quando o pedido de férias for aprovado.
+## <a name="update-sharepoint-with-approval"></a>Atualizar o SharePoint com aprovação
+1. Utilize os passos em [Adicionar uma ação de atualização para pedidos pré-aprovados](sequential-modern-approvals.md#add-an-update-action-for-pre-approved-requests) para adicionar e, em seguida, configure uma ação que atualize o SharePoint quando o pedido de férias for aprovado.
 2. Quando tiver concluído, o cartão deve assemelhar-se a esta imagem:
    
     ![configuração da atualização do item](./media/sequential-modern-approvals/configure-update-item-approved.png)
@@ -152,13 +152,13 @@ Nota: esta ação tem de ser adicionada ao ramo **SE NÃO, NÃO FAZER NADA** aba
 ## <a name="send-email-with-final-rejection"></a>Enviar um e-mail com a rejeição final
 1. Utilize os passos para [Enviar um e-mail com a rejeição da pré-aprovação](sequential-modern-approvals.md#send-email-with-pre-approval-rejection) para adicionar e, em seguida, configure uma ação que envia um e-mail quando o pedido de férias é rejeitado pelo aprovador final.
    
-    Nota: esta ação tem de ser adicionada ao ramo **SE NÃO, NÃO FAZER NADA** abaixo do cartão **Condição 2**.
+    Nota: esta ação tem de ser adicionada ao ramo **SE NÃO, NÃO FAZER NADA** abaixo do cartão **Condição 2**.
 2. Quando tiver concluído, o cartão deve assemelhar-se a esta imagem:
    
    ![configuração para pedidos rejeitados](./media/sequential-modern-approvals/final-rejection-email-card.png)
 
 ## <a name="update-sharepoint-with-final-rejection"></a>Atualizar o SharePoint com a rejeição final
-1. Utilize os passo para [Atualizar o SharePoint com a rejeição da pré-aprovação](sequential-modern-approvals.md#update-sharepoint-with-pre-approval-rejection) para adicionar e, em seguida, configure uma ação que atualize o SharePoint se o aprovador final rejeitar o pedido de férias.
+1. Utilize os passo em [Atualizar o SharePoint com a rejeição da pré-aprovação](sequential-modern-approvals.md#update-sharepoint-with-pre-approval-rejection) para adicionar e, em seguida, configure uma ação que atualize o SharePoint se o aprovador final rejeitar o pedido de férias.
 2. Quando tiver concluído, o cartão deve assemelhar-se a esta imagem:
    
    ![cartão atualizar item](./media/sequential-modern-approvals/final-rejection-update-sharepoint.png)
@@ -193,6 +193,6 @@ Nota: o aprovador final obtém o pedido de férias apenas depois de o pedido ter
 ## <a name="reject-a-request"></a>Rejeitar um pedido
 [!INCLUDE [reject-a-request](includes/reject-a-request.md)]
 
-## <a name="more-information"></a>Mais informações
+## <a name="more-information"></a>Mais Informações
 [Instruções para aprovações modernas com um único aprovador](modern-approvals.md)
 

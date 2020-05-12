@@ -25,7 +25,7 @@ ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 04/01/2020
-ms.locfileid: "80524840"
+ms.locfileid: "3298798"
 ---
 # <a name="use-inputs-and-outputs-in-desktop-ui-flows"></a>Utilizar entradas e saídas em fluxos de IU para computador
 
@@ -111,7 +111,7 @@ A sua saída está agora disponível na área dedicada do assistente.
 Cada saída tem:
 
 -  Um nome de saída conforme definido durante a gravação.
--  Uma descrição: Este campo pode ser muito útil quando define várias saídas durante uma gravação e pretende identificá-las facilmente numa fase posterior.
+-  Uma descrição: este campo pode ser muito útil quando define várias saídas durante uma gravação e deseja identificá-las facilmente mais tarde.
 -  Um nome de ação: a ação na qual a saída está definida no fluxo de IU.
 
 ## <a name="delete-an-output-from-a-ui-flow"></a>Eliminar uma saída de um fluxo de IU
@@ -138,7 +138,7 @@ Testar fluxos de IU permite-lhe validar as alterações e o comportamento de rep
 
    ![Uma execução bem-sucedida](../media/inputs-outputs-desktop/successful-run.png)
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Mais Informações
 
 - Saiba como [acionar fluxos de IU](run-ui-flow.md).
 

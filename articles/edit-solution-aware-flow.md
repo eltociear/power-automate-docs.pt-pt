@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 38f81184ceacb04bd1a1fae54f79f1c674c9ba49
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79194261"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297852"
 ---
 # <a name="edit-a-solution-aware-flow"></a>Editar um fluxo com suporte para soluções
 
@@ -35,7 +35,7 @@ Siga estes passos para editar um fluxo com suporte para soluções.
 > [!IMPORTANT]
 > Pare o fluxo antes de o começar a editar ou poderá perder as suas alterações.
 
-1. Inicie sessão no Power Automate e selecione **Soluções** na barra de navegação superior.
+1. Inicie sessão no Power Automate e selecione **Soluções** na barra de navegação à esquerda.
 1. Selecione a solução que contém o fluxo que quer editar.
 
    ![](./media/edit-solution-aware-flow/new-flow-inside-solution.png)
@@ -48,7 +48,7 @@ Siga estes passos para editar um fluxo com suporte para soluções.
 1. Faça as suas edições no estruturador do Power Automate, teste as alterações e guarde o fluxo.
 1. Ative o fluxo se o quiser executar.
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Mais Informações
 
 * [Criar uma solução](./overview-solution-flows.md)
 * [Criar um fluxo numa solução](./create-flow-solution.md)

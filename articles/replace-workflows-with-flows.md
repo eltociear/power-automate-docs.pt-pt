@@ -1,5 +1,5 @@
 ---
-title: Substituir os fluxos de trabalho clássicos do Common Data Service pelo Power Automate | Microsoft Docs
+title: Substituir fluxos de trabalho clássicos do Common Data Service pelo Power Automate | Microsoft Docs
 description: Descreve as capacidades do Power Automate e os padrões recomendados para utilizar fluxo, em vez de um fluxo de trabalho clássico.
 author: MSFTMAN
 manager: KVIVEK
@@ -13,13 +13,13 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 6e3e6d1ca0a1700bbfaf6d8e8fb76cc888456c2c
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193749"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3296620"
 ---
-# <a name="replace-classic-common-data-service-workflows-with-flows"></a>Substituir os fluxos de trabalho clássicos do Common Data Service por fluxos
+# <a name="replace-classic-common-data-service-workflows-with-flows"></a>Substituir fluxos de trabalho clássicos do Common Data Service por fluxos
 
 
 Este tópico compara as capacidades do Power Automate com as de um fluxo de trabalho clássico.
@@ -32,11 +32,11 @@ Crie fluxos em vez de fluxos de trabalho do Common Data Service clássicos para 
 
 Esta tabela apresenta uma comparação entre as capacidades do Power Automate e dos fluxos de trabalho clássicos. 
 
-*Estamos sempre a adicionar novas capacidades ao Power Automate para que esteja ao nível (ou ainda melhor) do que as capacidades de fluxos de trabalho clássicos. Iremos atualizar as informações nesta tabela à medida que o Power Automate obtém mais capacidades; volte aqui frequência! Para obter informações sobre as capacidades de fluxo futuras que o ajudarão a substituir o fluxo de trabalho clássico pelo fluxo, veja [What's new and planned for Power Automate](https://docs.microsoft.com/business-applications-release-notes/April19/microsoft-flow/planned-features) (Novidades e planos para o Power Automate) nas Notas de Versão de abril de 2019!*
+*Estamos a adicionar continuamente novas capacidades ao Power Automate, para que se encontre a par e ainda melhor do que as capacidades clássicas de fluxo de trabalho clássico. Atualizaremos as informações desta tabela como ganhos de capacidades do Power Automate; volte a verificar com frequência! Para obter informações sobre capacidades de fluxo futuras que o ajudarão a substituir o fluxo de trabalho clássico com fluxo, consulte [Novidades e planos para o Power Automate](https://docs.microsoft.com/business-applications-release-notes/April19/microsoft-flow/planned-features) nas Notas de Versão de abril de 2019!*
 
 <table>
 <tr>
-<th colspan="2">Funcionalidade</th>
+<th colspan="2">Capacidade</th>
 <th>Power Automate</th>
 <th>Fluxo de trabalho clássico</th>
 </tr>
@@ -63,7 +63,7 @@ Esta tabela apresenta uma comparação entre as capacidades do Power Automate e 
                 </td>
                 <td>
                     
-   Não
+   No
                     
                 </td>
             </tr>
@@ -75,7 +75,7 @@ Esta tabela apresenta uma comparação entre as capacidades do Power Automate e 
                 </td>
                 <td>
                     
-   Não
+   No
                     
                 </td>
                 <td>
@@ -97,7 +97,7 @@ Esta tabela apresenta uma comparação entre as capacidades do Power Automate e 
                 </td>
                 <td>
                     
-   Não
+   No
                     
                 </td>
             </tr>
@@ -114,7 +114,7 @@ Esta tabela apresenta uma comparação entre as capacidades do Power Automate e 
                 </td>
                 <td>
                     
-   Não
+   No
                     
                 </td>
             </tr>
@@ -148,7 +148,7 @@ Esta tabela apresenta uma comparação entre as capacidades do Power Automate e 
                 </td>
                 <td>
                     
-   Não
+   No
                     
                 </td>
                 <td>
@@ -165,7 +165,7 @@ Esta tabela apresenta uma comparação entre as capacidades do Power Automate e 
                 </td>
                 <td>
                     
-   Não
+   No
                     
                 </td>
                 <td>
@@ -177,12 +177,12 @@ Esta tabela apresenta uma comparação entre as capacidades do Power Automate e 
             <tr>
                 <td>
                     
-   Executar ações do Common Data Service (incluindo as personalizadas)
+   Executar ações do Common Data Service (incluindo personalizadas)
                     
                 </td>
                 <td>
                     
-   Não
+   No
                     
                 </td>
                 <td>
@@ -199,7 +199,7 @@ Esta tabela apresenta uma comparação entre as capacidades do Power Automate e 
                 </td>
                 <td>
                     
-   Não
+   No
                     
                 </td>
                 <td>
@@ -221,7 +221,7 @@ Esta tabela apresenta uma comparação entre as capacidades do Power Automate e 
                 </td>
                 <td>
                     
-   Não
+   No
                     
                 </td>
             </tr>
@@ -238,7 +238,7 @@ Esta tabela apresenta uma comparação entre as capacidades do Power Automate e 
                 </td>
                 <td>
                     
-   Não
+   No
                     
                 </td>
             </tr>
@@ -272,24 +272,24 @@ Esta tabela apresenta uma comparação entre as capacidades do Power Automate e 
                 </td>
                 <td>
                     
-   Não
+   No
                     
                 </td>
                 <td>
                     
-   Não
+   No
                     
                 </td>
             </tr>
             <tr>
                 <td>
                     
-   Acionar em vários eventos de entidade do Common Data Service
+   Acionar em vários eventos de entidades do Common Data Service
                     
                 </td>
                 <td>
                     
-   Não
+   No
                     
                 </td>
                 <td>
@@ -346,7 +346,7 @@ Esta tabela apresenta uma comparação entre as capacidades do Power Automate e 
                 </td>
                 <td>
                     
-   Não
+   No
                     
                 </td>
             </tr>
@@ -358,7 +358,7 @@ Esta tabela apresenta uma comparação entre as capacidades do Power Automate e 
                 </td>
                 <td>
                     
-   Não
+   No
                     
                 </td>
                 <td>
@@ -402,7 +402,7 @@ Esta tabela apresenta uma comparação entre as capacidades do Power Automate e 
                 </td>
                 <td>
                     
-   Não
+   No
                     
                 </td>
             </tr>
@@ -441,14 +441,14 @@ Esta tabela apresenta uma comparação entre as capacidades do Power Automate e 
                 </td>
                 <td>
                     
-   Não
+   No
                     
                 </td>
             </tr>
             <tr>
 <td>Criação assistida por IA</td>
 <td>Sim</td>
-<td>Não</td>
+<td>No</td>
 </tr>
 </table>
 
@@ -456,11 +456,11 @@ Esta tabela apresenta uma comparação entre as capacidades do Power Automate e 
 
 Imagine um cenário de vendas em que elaborou uma proposta para um cliente e agora precisa de solicitar a aprovação da equipa de gestão antes de enviar a proposta ao cliente. Com os fluxos de trabalho clássicos, tal não seria fácil, e a maioria das soluções para esse efeito requer que um programador escreva atividades de fluxo de trabalho personalizadas para recuperar os itens de linha da proposta.
 
-Com os fluxos, isso será mais fácil de criar, conforme será demonstrado nas instruções mais à frente que incluem algumas das capacidades do Power Automate para apoiar este cenário. O que está incluído:
+Com os fluxos, isso será mais fácil de criar, conforme será demonstrado nas instruções mais à frente que incluem algumas das capacidades do Power Automate para apoiar este cenário. Isto inclui:
 
 -   Criar um fluxo executado a pedido
 
--   Obter uma lista de registos relacionados com um entidade do Common Data Service
+-   Obter uma lista de registos relacionados com uma entidade do Common Data Service
 
 -   Executar ciclos através de uma lista de registos
 
@@ -513,7 +513,7 @@ Quando executa este fluxo com a proposta, este resume os itens de linha dessa pr
 
     -   Em cenários em que um conector de que precisa não esteja pronto a utilizar, crie facilmente o seu próprio conector personalizado. Veja [Aprender a criar conectores personalizados](https://docs.microsoft.com/connectors/custom-connectors/define-blank).
 
-    -   Por fim, se houver cenários em que não pode acionar o fluxo através do conector do Common Data Service, utilize um dos conectores prontos a utilizar, crie um conector personalizado ou tire partido do [acionador Quando um pedido HTTP é recebido](https://docs.microsoft.com/azure/connectors/connectors-native-reqres#use-the-http-request-trigger) para invocar o fluxo.
+    -   Por fim, se houver cenários em que não pode acionar o fluxo através do conector do Common Data Service, utilize um dos conectores prontos a utilizar, crie um conector personalizado ou tire partido do [acionador Quando um pedido HTTP é recebido](https://docs.microsoft.com/azure/connectors/connectors-native-reqres#use-the-http-request-trigger) para invocar o fluxo
 
 -   **Fluxos de trabalho que são executados de forma recursiva**  
     
@@ -538,7 +538,7 @@ Quando executa este fluxo com a proposta, este resume os itens de linha dessa pr
 ## <a name="faqs"></a>FAQ
 
 
--   **Tenho uma licença do Dynamics 365. Posso utilizar o Power Automate?**
+-   **Tenho uma licença do Dynamics 365. Posso utilizar o Power Automate?**
 
     Todos os utilizadores do Dynamics 365 têm o direito de utilizar o Power Automate. Veja as nossas informações de licenciamento: <https://flow.microsoft.com/pricing/>
 
@@ -560,7 +560,7 @@ Quando executa este fluxo com a proposta, este resume os itens de linha dessa pr
     
     À semelhança dos fluxos de trabalho clássicos, pode criar fluxos em soluções para suportar o ciclo de vida completo da aplicação para processos.
 
--   **As dependências do Power Automate são controladas no Common Data Service?**  
+-   **As dependências do Power Automate são monitorizadas no Common Data Service?**  
     
     À semelhança de outros componentes numa solução, todas as dependências de fluxos em soluções são controladas no Common Data Service.
 
@@ -570,7 +570,7 @@ Quando executa este fluxo com a proposta, este resume os itens de linha dessa pr
 
 -   **Com o Power Automate, os meus dados irão permanecer na região (ou seja, na mesma região que o meu ambiente de Dynamics 365 ou Common Data Service)?**  
     
-    Sim, o Power Automate utiliza sempre a mesma região que o Common Data Service.
+    Sim, o Power Automate utiliza sempre a mesma região do Common Data Service.
 
 -   **É necessário fazer alterações no proxy ou na firewall?**  
     

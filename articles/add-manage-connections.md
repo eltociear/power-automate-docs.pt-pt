@@ -1,6 +1,6 @@
 ---
 title: Saiba como ligar aos seus dados através de ligações e gateways de dados no local | Microsoft Docs
-description: Adicione ou faça a gestão de ligações ao SharePoint, SQL Server, OneDrive para Empresas, Salesforce, Office 365, OneDrive, Dropbox, Twitter, Google Drive e muito mais
+description: Adicione ou faça a gestão de ligações ao SharePoint, SQL Server, OneDrive for Business, Salesforce, Office 365, OneDrive, Dropbox, Twitter, Google Drive e muito mais
 services: ''
 suite: flow
 documentationcenter: na
@@ -21,28 +21,28 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: b4e087855890d7ca94a8288793494ce1e81826b2
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193295"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3296730"
 ---
 # <a name="manage-connections-in-power-automate"></a>Gerir ligações no Power Automate
 
-Se criar uma ligação no Power Automate, poderá aceder facilmente aos seus dados durante a criação de fluxos. O Power Automate inclui ligações utilizadas habitualmente, incluindo SharePoint, SQL Server, Office 365, OneDrive para Empresas, Salesforce, Excel, Dropbox, Twitter e muito mais. As ligações são partilhadas com o Power Apps, para que, quando cria uma ligação num produto, a mesma apareça no outro.
+Se criar uma ligação no Power Automate, poderá aceder facilmente aos seus dados durante a criação de fluxos. O Power Automate inclui ligações utilizadas com frequência, incluindo o SharePoint, SQL Server, Office 365, OneDrive para Empresas, Salesforce, Excel, Dropbox, Twitter e muito mais. As ligações são partilhadas com o Power Apps, para que, quando cria uma ligação num produto, a mesma apareça no outro.
 
 Por exemplo, pode utilizar uma ligação para realizar estas tarefas:
 
-* Atualizar uma lista do SharePoint
+* Atualizar uma lista do SharePoint.
 * Obter dados de um ficheiro do Excel a partir da sua conta do OneDrive para Empresas ou do Dropbox.
-* Enviar e-mails no Office 365.
-* Enviar tweets.
+* Enviar e-mail no Office 365.
+* Envie um tweet.
 
 Pode criar ligações em vários cenários, tais como:
 
 * Criação de um [fluxo a partir de um modelo](get-started-logic-template.md)
 * Criação de um [fluxo a partir do valor em branco](get-started-logic-flow.md) ou atualizar um fluxo existente
-* Criação de uma ligação diretamente no [site do Power Automate][1]
+* Criar uma ligação diretamente no [site do Power Automate][1]
 
 Este tópico mostra como gerir ligações no [site do Power Automate][1].
 
@@ -66,7 +66,7 @@ Na data da elaboração deste documento, o SQL Server e o SharePoint Server supo
     ![Selecionar gateway](./media/add-manage-connections/select-gateway.png)
    
    > [!IMPORTANT]
-   > Os gateways de dados do Microsoft SharePoint suportam tráfego HTTP, mas não tráfego HTTPS.
+   > Os gateways de dados do Microsoft SharePoint suportam o tráfego HTTP, mas não o tráfego HTTPS.
    > 
    > 
 3. Indique as credenciais da ligação e selecione o gateway que pretende utilizar.
@@ -83,7 +83,7 @@ Na data da elaboração deste documento, o SQL Server e o SharePoint Server supo
    
     ![Confirmar a eliminação](./media/add-manage-connections/delete-confirmation.png)
 
-Quando elimina uma ligação, esta é removida do Power Apps e do Power Automate.
+Quando elimina uma ligação, esta é removida do Power Apps e do Power Automate.
 
 ## <a name="update-a-connection"></a>Atualizar uma ligação
 Pode atualizar ligações que não estejam a funcionar porque os detalhes da sua conta ou a sua palavra-passe foram alterados.
@@ -93,12 +93,12 @@ Pode atualizar ligações que não estejam a funcionar porque os detalhes da sua
     ![Verificar a palavra-passe](./media/add-manage-connections/verify-password.png)
 2. Quando lhe for pedido, atualize a ligação com novas credenciais.
 
-Quando atualiza uma ligação, esta é atualizada no Power Apps e no Power Automate.
+Quando atualiza uma ligação, esta é atualizada no Power Apps e no Power Automate.
 
 ## <a name="troubleshoot-a-connection"></a>Resolver problemas relacionados com ligações
-Dependendo das políticas da sua organização, poderá ter de utilizar a mesma conta para iniciar sessão no Power Automate e criar uma ligação para o SharePoint, o Office 365 ou o OneDrive para Empresas.
+Dependendo das políticas da sua organização, poderá ter de utilizar a mesma conta para iniciar sessão no Power Automate e criar uma ligação para o SharePoint, Office 365 ou o OneDrive para Empresas.
 
-Por exemplo, poderá iniciar sessão no Power Automate com *yourname@outlook.com* , mas ser bloqueado quando tenta ligar ao SharePoint com *yourname@contoso.com* . Em alternativa, pode iniciar sessão no Power Automate com *yourname@contoso.com* e conseguirá ligar ao SharePoint.
+Por exemplo, poderá iniciar sessão no Power Automate com *oseunome@outlook.com*, mas ser bloqueado quando tenta ligar ao SharePoint com *oseunome@contoso.com*. Em vez disso, pode iniciar sessão no Power Automate com o *oseunome@contoso.com* e poderá ligar ao SharePoint.
 
 <!--Reference links in article-->
 [1]: https://flow.microsoft.com

@@ -18,11 +18,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: bb8ca7efb83a863f3031dd18d0d9bd67ae3c5c07
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79194077"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297126"
 ---
 # <a name="add-an-on-demand-workflow-to-a-business-process-flow"></a>Adicionar um fluxo de trabalho a pedido a um fluxo de processo de negócio
 
@@ -41,7 +41,7 @@ Tenha em atenção os seguintes requisitos quando adicionar um fluxo de trabalho
 
 Para adicionar um fluxo de trabalho a pedido a partir do estruturador de fluxo do processo de negócio, tem de arrastar o componente de fluxo de trabalho para uma fase de processo ou para a secção dos fluxos de trabalho globais. 
 
-No site do [PowerApps](https://make.powerapps.com), selecione **Orientado por modelos** (no canto inferior esquerdo do painel de navegação). 
+No site do [PowerApps](https://make.powerapps.com), selecione **Condicionadas por modelo** (parte inferior esquerda do painel de navegação). 
 
 Abra o estruturador de fluxo do processo de negócio. Pode fazê-lo de duas formas.
 - Se o fluxo do processo de negócio já tiver sido adicionado a uma aplicação, aceda a **Aplicações**, junto à aplicação que pretende selecionar **...** e, em seguida, selecione **Editar**. No estruturador de aplicações, selecione o fluxo do processo de negócio e, em seguida, selecione ![Open business process flow designer](media/dynamics365-open-designer.PNG) (Abrir estruturador de fluxo do processo de negócio).  
@@ -62,11 +62,11 @@ No exemplo abaixo, há um fluxo de trabalho a pedido chamado **My on demand work
 4. No separador **Propriedades**, em **Acionador**, selecione **Entrada de Fase** ou **Saída de Fase**.  
     ![Selecionar o acionador de fluxo de trabalho](media/workflow-trigger.png)
    
-    Em alternativa, quando largar o fluxo de trabalho na secção **Fluxos de Trabalho Globais**, as opções do acionador são **Processo aplicado**, **Processo reativado**,  **Processo abandonado** e **Processo concluído**.
+    Em alternativa, quando largar o fluxo de trabalho na secção **Fluxos de Trabalho Globais**, as opções do acionador são **Processo aplicado**, **Processo reativado**, **Processo abandonado** e **Processo concluído**.
 
 5. Selecione **Atualizar** na barra de ferramentas do estruturador de fluxo do processo de negócio.
  
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [Use Workflow processes to automate processes that don't require user interaction](workflow-processes.md) (Utilizar processos de Fluxo de Trabalho para automatizar processos que não necessitam de interação do utilizador) <br/>
-[Tutorial: Criar um fluxo de processo de negócio para normalizar processos](create-business-process-flow.md) <br/>
+[Tutorial: criar um fluxo de processo de negócio para normalizar processos](create-business-process-flow.md) <br/>
 [Business process flow automation in Dynamics 365](https://blogs.msdn.microsoft.com/crm/2017/03/28/business-process-flow-automation-in-dynamics-365/) (Automatização de fluxos do processo de negócio no Dynamics 365)

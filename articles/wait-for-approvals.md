@@ -21,13 +21,13 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 34e17dbb8fdc1c3b3f6ba835b80c687504b9abd6
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195848"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3298380"
 ---
-# <a name="wait-for-approval-in-power-automate"></a>Aguardar a aprovação no Power Automate
+# <a name="wait-for-approval-in-power-automate"></a>Aguardar aprovação no Power Automate
 
 
 > [!VIDEO https://www.youtube.com/embed/W6oxcYRtW-8?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF]
@@ -46,9 +46,9 @@ Crie um fluxo que, caso crie um item no SharePoint, envia um e-mail de aprovaç�
 
 1. Inicie sessão no [Power Automate](https://flow.microsoft.com), selecione **Os meus fluxos** na barra de navegação superior e, em seguida, selecione **Criar do zero**.
 
-1. Selecione a caixa **Procurar entre centenas de conectores e acionadores**, introduza **novo item** e, em seguida, navegue até **SharePoint - Quando um item é criado**.
+1. Selecione a caixa **Procurar entre centenas de conectores e acionadores**, introduza **novo item** e, em seguida, navegue até **SharePoint – Quando um item é criado**.
 
-1. Se lhe for pedido, inicie sessão no SharePoint.
+1. Se solicitado, inicie sessão no SharePoint.
 1. Em **Endereço do Site**, introduza o URL do site do SharePoint que contém a sua lista.
 
 1. Em **Nome da Lista**, selecione a lista que criou anteriormente. Se estiver a acompanhar, o nome é **Controlador do Projeto**.
@@ -59,9 +59,9 @@ Crie um fluxo que, caso crie um item no SharePoint, envia um e-mail de aprovaç�
 
 1. Selecione o botão **Novo passo** e, em seguida, selecione **Adicionar uma ação.**
 
-1. Na caixa **Procurar todos os conectores e ações**, escreva ou cole **enviar e-mail** e, em seguida, selecione **Office 365 Outlook - enviar um e-mail com opções**.
+1. Na caixa **Pesquisar por todos os conectores e ações**, escreva ou cole **enviar e-mail** e, em seguida, selecione **Office 365 Outlook – Enviar um e-mail com opções**.
 
-1. Se lhe for pedido, inicie sessão no Outlook do Office 365.
+1. Se solicitado, inicie sessão no Office 365 Outlook.
 
 1. Selecione o campo **Para** e, em seguida, selecione o token **Atribuído ao E-Mail**.
 
@@ -84,7 +84,7 @@ Crie um fluxo que, caso crie um item no SharePoint, envia um e-mail de aprovaç�
 
 1. Na área **Se sim**, selecione **Adicionar uma ação**.
 
-1. Na caixa **Procurar todos os conectores e ações**, escreva ou cole **enviar e-mail**e, em seguida, selecione **Office 365 Outlook - enviar um e-mail**.
+1. Na caixa **Pesquisar por todos os conectores e ações**, escreva ou cole **enviar e-mail** e, em seguida, selecione **Office 365 Outlook – Enviar um e-mail**.
 
 1. No campo **Para**, introduza um destinatário tal como **Criado por E-mail**.
 
@@ -112,7 +112,7 @@ Crie um fluxo que, caso crie um item no SharePoint, envia um e-mail de aprovaç�
 
     É enviado um e-mail de aprovação ao destinatário que especificou. Quando o destinatário seleciona **Aprovar** ou **Rejeitar** nesse e-mail, recebe um e-mail a indicar a resposta.
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Mais Informações
 
 * [Instruções para aprovações modernas com um único aprovador](modern-approvals.md)
 * Criar [aprovações sequenciais](sequential-modern-approvals.md)

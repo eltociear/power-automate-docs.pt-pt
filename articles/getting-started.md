@@ -1,6 +1,6 @@
 ---
 title: Introdução | Microsoft Docs
-description: Comece a automatizar rapidamente o seu trabalho e a sua vida com o Power Automate.
+description: Comece a automatizar rapidamente o seu trabalho e a sua vida com o Power Automate
 services: ''
 suite: flow
 documentationcenter: na
@@ -25,11 +25,11 @@ ms.sourcegitcommit: c86134235a4e3a819800c77fbc50034cfd8714c2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 03/27/2020
-ms.locfileid: "80329904"
+ms.locfileid: "3298666"
 ---
 # <a name="get-started-with-power-automate"></a>Introdução ao Power Automate 
 
-Bem-vindo! O Power Automate é um serviço que o ajuda a criar fluxos de trabalho automatizados entre as suas aplicações e serviços favoritos para sincronizar ficheiros, obter notificações, recolher dados e mais.
+Bem-vindo! O Power Automate é um serviço que o ajuda a criar fluxos de trabalho automatizados entre as suas aplicações e serviços favoritos, para sincronizar ficheiros, obter notificações, recolher dados e muito mais.
 
 <br/>
 
@@ -40,12 +40,12 @@ Bem-vindo! O Power Automate é um serviço que o ajuda a criar fluxos de trabalh
 
 O Power Automate é um dos pilares do Power Platform. Fornece uma plataforma de código simples para automatização dos processos e dos fluxos de trabalho. Veja a seguir uma lista dos diferentes tipos de fluxos:
 
-| **Tipo de fluxo**                                                                       | **Caso de utilização**                                                                                  | **Finalidade**                                                                             |
+| **Tipo de fluxo**                                                                       | **Cenário de teste**                                                                                  | **Alvo**                                                                             |
 |-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [Fluxos automatizados](get-started-logic-flow.md)                 | Crie um fluxo que realize uma ou mais tarefas automaticamente depois de ser acionado por um evento. | [Conectores](https://docs.microsoft.com/connectors/) para serviços cloud ou no local. |
+| [Fluxos automatizados](get-started-logic-flow.md)                 | Crie um fluxo que efetue automaticamente uma ou mais tarefas depois de ser acionado por um evento. | [Conectores](https://docs.microsoft.com/connectors/) para serviços cloud ou no local. |
 | [Fluxos de botão](introduction-to-button-flows.md)              | Execute tarefas repetitivas a partir de qualquer lugar, a qualquer momento, através do dispositivo móvel.                        |                                                                                        |
 | [Fluxos agendados](run-scheduled-tasks.md)                    | Crie um fluxo que executa uma ou mais tarefas através de agendamento.             |                                                                                        |
-| [Fluxos de processo de negócio](business-process-flows-overview.md) | Defina um conjunto de passos que as pessoas deverão seguir para alcançarem um resultado pretendido.                 | Processos humanos                                                                        |
+| [Fluxos do processo de negócio](business-process-flows-overview.md) | Defina um conjunto de passos que as pessoas deverão seguir para alcançarem um resultado pretendido.                 | Processos humanos                                                                        |
 | [Fluxos de IU (Pré-visualização)](ui-flows/overview.md)                                                | Grave e automatize a reprodução dos passos manuais no software herdado.                    | Aplicações Web e de computador que não têm APIs disponíveis para automatização.    |
 
 Pode criar e gerir todos os fluxos no separador **Os meus fluxos** do Power Automate.
@@ -58,7 +58,7 @@ O primeiro passo é [inscrever-se](sign-up-sign-in.md) ou, se já tiver uma cont
 
 [Na página inicial](https://flow.microsoft.com) do Power Automate, pode [explorar um conjunto diversificado de modelos](https://flow.microsoft.com/templates) e saber mais sobre as funcionalidades essenciais do Power Automate. Pode ficar com uma noção rápida do que é possível fazer e de como o Power Automate pode ajudar a sua empresa e a sua vida.
 
-Com o Power Automate pode:
+Com a Power Automate, pode:
 
 - Pesquisar facilmente modelos e serviços.
 
@@ -74,7 +74,7 @@ Com o Power Automate pode:
 
 Cada modelo foi concebido para um fim específico. Por exemplo, existem modelos para lhe enviar uma mensagem SMS quando o seu chefe lhe enviar um e-mail, para adicionar leads do Twitter ao Dynamics 365 ou para fazer uma cópia de segurança dos seus ficheiros. Estes modelos são apenas a ponta do icebergue. Destinam-se a inspirá-lo a criar fluxos personalizados para os processos exatos de que precisa.
 
-## <a name="create-your-first-flow"></a>Criar o primeiro fluxo ##
+## <a name="create-your-first-flow"></a>Criar o seu primeiro fluxo ##
 
 1. Selecione um modelo que seja útil para si. Um modelo simples é [**Receber lembretes diários no E-mail**](https://flow.microsoft.com/galleries/public/templates/45a3399aa29345308f08b6db0a9c85b9/) :
 
@@ -97,7 +97,7 @@ Cada modelo foi concebido para um fim específico. Por exemplo, existem modelos 
 
 ## <a name="get-creative"></a>Ser criativo ##
 
-Agora que criou o primeiro fluxo a partir de um modelo, utilize qualquer uma das mais de [150 origens de dados](https://flow.microsoft.com/connectors/) que o Power Automate suporta para [criar os seus próprios fluxos do zero](get-started-logic-flow.md).
+Agora que criou o seu primeiro fluxo a partir de um modelo, utilize qualquer uma das mais de [150 origens de dados](https://flow.microsoft.com/connectors/) que o Power Automate suporta para [criar os seus próprios fluxos a partir do zero](get-started-logic-flow.md).
 
 ![Compilação de um fluxo](./media/getting-started/build-a-flow.png)
 
@@ -108,12 +108,12 @@ Quando criar um fluxo a partir do zero, controla todo o fluxo de trabalho. Aqui 
 - [Criar um fluxo de aprovação](wait-for-approvals.md).
 - [Observar um fluxo em ação](see-a-flow-run.md).
 - [Publicar um modelo](publish-a-template.md).
-- [Criar fluxos a partir de um modelo do Microsoft Teams](https://flow.microsoft.com/connectors/shared_teams/microsoft-teams/).
+- [Criar fluxo a partir de um modelo do Microsoft Teams](https://flow.microsoft.com/connectors/shared_teams/microsoft-teams/).
 
 
 ## <a name="peek-at-the-code"></a>Pré-visualização do código
 
-Não precisa de ser um programador para criar fluxos, embora o Power Automate disponibilize uma funcionalidade de **Código de pré-visualização** que permite que qualquer pessoa possa analisar o código que é gerado para todas as ações e acionadores num fluxo. Pré-visualizar o código pode proporcionar uma melhor compreensão dos dados que estão a ser utilizados por acionadores e ações. Siga estes passos para pré-visualizar o código que é gerado para os fluxos no estruturador do Power Automate: 
+Não precisa de ser um programador para criar fluxos, embora o Power Automate disponibilize uma funcionalidade de **Código de pré-visualização** que permite que qualquer pessoa possa analisar o código que é gerado para todas as ações e acionadores num fluxo. Pré-visualizar o código pode proporcionar uma melhor compreensão dos dados que estão a ser utilizados por acionadores e ações. Siga estes passos para pré-visualizar o código que é gerado para os seus fluxos no estruturador do Power Automate: 
 
 1. Selecione o item de menu **...** no canto superior direito de qualquer **ação** ou **acionador**. 
 1. Selecione **Código de pré-visualização**.
@@ -138,14 +138,14 @@ Quando as suas capacidades criativas começarem a *fluir*, poderá criar muitos 
 
 Utilize o Centro de notificações do Power Automate (localizado na parte superior direita do estruturador) para ver rapidamente uma lista dos fluxos que falharam recentemente. O centro de notificações apresenta um número que indica o número de fluxos que falharam recentemente.
 
-No centro de notificações, pode navegar para a página **Atividade** do Power Automate para ver todos os fluxos que recentemente foram executados, enviaram notificações ou falharam.
+No centro de notificação, pode navegar para a página **Atividade** do Power Automate para ver todos os fluxos que recentemente foram executados, enviaram notificações ou falharam.
 
 ![Centro de notificações](media/getting-started/notification-center.png)
 
 ## <a name="use-the-mobile-app"></a>Utilizar a aplicação móvel ##
 
-Transfira a aplicação móvel do Power Automate para [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) ou [Windows Phone](https://aka.ms/flowmobilewindows). Com esta aplicação, pode [monitorizar a atividade do fluxo](mobile-monitor-activity.md), [gerir os seus fluxos](mobile-manage-flows.md) e [criar fluxos a partir de modelos](mobile-create-flow.md).
+Transferir a aplicação móvel Power Automate para [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) ou [Windows Phone](https://aka.ms/flowmobilewindows). Com esta aplicação, pode [monitorizar a atividade do fluxo](mobile-monitor-activity.md), [gerir os seus fluxos](mobile-manage-flows.md) e [criar fluxos a partir de modelos](mobile-create-flow.md).
 
-## <a name="were-here-to-help"></a>Estamos aqui ajudar ##
+## <a name="were-here-to-help"></a>Estamos aqui para ajudar ##
 
 Estamos ansiosos por ver o que pode fazer com o Power Automate e queremos garantir que tem uma excelente experiência. Veja os nossos tutoriais de [aprendizagem guiada](https://flow.microsoft.com/guided-learning/) e [adira à nossa comunidade](https://go.microsoft.com/fwlink/?LinkID=787467) para colocar questões e partilhar as suas ideias. [Contacte o suporte](https://go.microsoft.com/fwlink/?LinkID=787479) caso se depare com quaisquer problemas.

@@ -21,18 +21,18 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 9b0d2986e33aa65f9c5a0abc06d3beda116dbdc1
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79192099"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3298094"
 ---
 # <a name="create-a-flow-in-power-automate"></a>Criar um fluxo no Power Automate
 
 
 > [!VIDEO https://www.youtube.com/embed/Gt3CMhLAQqE?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF]
 
-Crie um fluxo que realize uma ou mais tarefas automaticamente depois de ser acionado por um evento. Por exemplo, crie um fluxo que o notifique por e-mail quando alguém lhe enviar um tweet que contenha uma palavra-chave que especificar. Neste exemplo, enviar um tweet é o evento e enviar correio é a ação.
+Crie um fluxo que efetue automaticamente uma ou mais tarefas depois de ser acionado por um evento. Por exemplo, crie um fluxo que o notifique por e-mail quando alguém lhe enviar um tweet que contenha uma palavra-chave que especificar. Neste exemplo, enviar um tweet é o evento e enviar correio é a ação.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -40,7 +40,7 @@ Crie um fluxo que realize uma ou mais tarefas automaticamente depois de ser acio
 * Uma conta do Twitter
 * Credenciais do Office 365
 
-## <a name="specify-an-event-to-start-the-flow"></a>Especifique um evento para iniciar o fluxo
+## <a name="specify-an-event-to-start-the-flow"></a>Especificar um evento para iniciar o fluxo
 
 Em primeiro lugar, terá de selecionar qual o evento ou *acionador*, que inicia o fluxo.
 
@@ -52,9 +52,9 @@ Em primeiro lugar, terá de selecionar qual o evento ou *acionador*, que inicia 
     ![Evento do Twitter](./media/get-started-logic-flow/twitter-search.png)
 
    >[!TIP]
-   >Os conectores suportam vários tipos de autenticação. Por exemplo, o SQL Server suporta o Azure Active Directory, a autenticação do SQL Server, a autenticação do Windows e a cadeia de ligação do SQL. Os utilizadores escolhem que tipo de autenticação querem utilizar ao configurar um conector.
+   >Os conectores suportam vários tipos de autenticação. Por exemplo, o SQL Server suporta o Azure AD, a autenticação do SQL Server, a autenticação do Windows e a cadeia de ligação do SQL. Os utilizadores escolhem que tipo de autenticação querem utilizar ao configurar um conector.
 
-1. Se ainda não ligou a sua conta do Twitter ao Power Automate, selecione **Iniciar sessão no Twitter** e forneça as suas credenciais.
+1. Se ainda não ligou a conta do Twitter ao Power Automate, selecione **Iniciar sessão no Twitter**, e, em seguida, forneça as credenciais.
 
 1. Na caixa **Texto de consulta**, escreva a palavra-chave que pretende localizar.
 
@@ -62,11 +62,11 @@ Em primeiro lugar, terá de selecionar qual o evento ou *acionador*, que inicia 
 
 ## <a name="specify-an-action"></a>Especificar uma ação
 
-1. Selecione **Novo passo** e, em seguida, selecione **Adicionar uma ação**.
+1. Selecione **Novo passo** e, em seguida, **Adicionar uma ação**.
 
     ![Adicionar ação](./media/get-started-logic-flow/add-action-icon.png)
 
-1. Na caixa que mostra **Pesquisar por todos os conectores e ações**, escreva ou cole **enviar e-mail**e, em seguida, selecione**Office 365 Outlook - enviar um e-mail**.
+1. Na caixa que mostra **Pesquisar por todos os conectores e ações**, escreva ou cole **enviar e-mail** e, em seguida, selecione **Office 365 Outlook – Enviar um e-mail**.
 
     ![Lista de ações](./media/get-started-logic-flow/send-email.png)
 
@@ -75,7 +75,7 @@ Em primeiro lugar, terá de selecionar qual o evento ou *acionador*, que inicia 
 1. No formulário que aparece, escreva ou cole o seu endereço de e-mail na caixa **Para** e, em seguida, selecione o seu nome na lista de contactos que aparece.
 
     ![Mensagem de e-mail em branco](./media/get-started-logic-flow/blank-email.png)
-1. Na caixa de **Assunto**, escreva ou cole **Novo tweet a partir de:** , em seguida, escreva um espaço.
+1. Na caixa de **Assunto**, escreva ou cole **Novo tweet a partir de:**, em seguida, escreva um espaço.
 
     ![Linha do assunto com marcador de posição](./media/get-started-logic-flow/message-token.png)
 1. Na lista de tokens, selecione o token **Tweeted by** para adicionar um marcador de posição para o mesmo.
@@ -112,7 +112,7 @@ Em primeiro lugar, terá de selecionar qual o evento ou *acionador*, que inicia 
    * Para editar um fluxo, selecione o ícone de lápis que corresponde ao fluxo que pretende editar.
 
        ![Selecionar fluxo](./media/get-started-logic-flow/select-flow.png)
-   * Para eliminar um fluxo, selecione o ícone **...** , selecione **Eliminar**e, em seguida, selecione **Eliminar** na caixa de mensagem que é apresentada.
+   * Para eliminar um fluxo, selecione o ícone **...**, selecione **Eliminar**e, em seguida, selecione **Eliminar** na caixa de mensagem que é apresentada.
 
        ![Ícone eliminar](./media/get-started-logic-flow/delete-icon.png)
    * Para ver o histórico de execução de um fluxo, selecione o fluxo da página **Os meus fluxos** e, em seguida, veja o histórico na secção **HISTÓRICO DE EXECUÇÕES** da página que abre.
@@ -126,7 +126,7 @@ Em primeiro lugar, terá de selecionar qual o evento ou *acionador*, que inicia 
 >
 >
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 * [Adicione passos](multi-step-logic-flow.md), tais como diferentes formas de ser notificado, ao fluxo.
 * [Execute tarefas com base numa agenda](run-scheduled-tasks.md), quando pretender que uma ação ocorra diariamente, numa determinada data, ou após um determinado número de minutos.

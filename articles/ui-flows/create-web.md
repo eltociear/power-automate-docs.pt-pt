@@ -25,7 +25,7 @@ ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 04/01/2020
-ms.locfileid: "80524614"
+ms.locfileid: "3298842"
 ---
 # <a name="create-and-test-your-web-ui-flows"></a>Criar e testar os fluxos de IU da Web
 
@@ -33,7 +33,7 @@ Siga estes passos para criar um fluxo de IU da Web simples.
 
 ## <a name="create-a-web-ui-flow"></a>Criar um fluxo de IU da Web
 
-1. Abra o [Microsoft Edge (versão 80 ou posterior)](https://www.microsoft.com/edge) ou o Google Chrome e, em seguida, navegue até [Power Automate](https://flow.microsoft.com/).
+1. Abra o [Microsoft Edge (versão 80 ou posterior)](https://www.microsoft.com/edge) ou o Google Chrome e, em seguida, navegue para o [Power Automate](https://flow.microsoft.com/).
 
 1. Iniciar sessão com a sua conta escolar ou profissional, caso necessário.
 
@@ -54,7 +54,7 @@ Siga estes passos para criar um fluxo de IU da Web simples.
    O IDE Selenium é iniciado.
 
    >[!TIP] 
-   >Sugestão: pode registar ações em múltiplos sites HTTP ou HTTPS no mesmo separador.  
+   >Sugestão: pode registar ações em vários sites HTTP ou HTTPS no mesmo separador.  
 
 1. No IDE Selenium, selecione o botão vermelho **REC** no canto superior direito do ecrã para iniciar o gravador.
 
@@ -106,7 +106,7 @@ Para resolver este problema, o utilizador deve editar manualmente o script para 
 
 -   Não existe suporte para a Multi-Factor Authentication (MFA). Utilize um inquilino que não exija MFA.
 
--   Estes comandos do Selenium IDE não são suportados: Run, AnswerOnNextPrompt, ChooseCancelOnNextConfirmation, ChooseCancelOnNextPrompt, ChooseOkOnNextConfirmation, Debugger, ClickAt, DoubleClickAt, Echo, MouseOut, MouseUpAt e MouseDownAt.
+-   Estes comandos do IDE Selenium não são suportados: Run, AnswerOnNextPrompt, ChooseCancelOnNextConfirmation, ChooseCancelOnNextPrompt, ChooseOkOnNextConfirmation, Debugger, ClickAt, DoubleClickAt, Echo, MouseOut, MouseUpAt e MouseDownAt.
 
 -   O clique com o botão direito não é suportado. 
 
@@ -119,10 +119,10 @@ Para resolver este problema, o utilizador deve editar manualmente o script para 
 
 -   A reprodução diretamente no IDE Selenium pode não se comportar conforme o esperado. No entanto, a reprodução no runtime através da infraestrutura de fluxo de IU comporta-se corretamente.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 - Saiba como [executar fluxos de IU](run-ui-flow.md).
 
-- Se quiser fazer mais com os fluxos de IU, pode também experimentar fluxos de IU com parâmetros de [entrada e saída](inputs-outputs-web.md).
+- Se quiser fazer mais com os fluxos de IU, poderá também experimentar os fluxos de IU com parâmetros de [entrada e saída](inputs-outputs-web.md).
 
  

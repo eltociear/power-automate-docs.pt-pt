@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: e6a64f60802330857f8e17c9d4ea179426307633
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79224406"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297522"
 ---
 # <a name="add-multiple-actions-and-advanced-options-to-a-flow"></a>Adicionar várias ações e opções avançadas a um fluxo
 
@@ -39,7 +39,7 @@ Neste procedimento, terá de adicionar uma ação no meio do fluxo. Esta ação 
 
 1. No [flow.microsoft.com](https://flow.microsoft.com), selecione **Meus fluxos** na barra de navegação superior.
 2. Na lista de fluxos, selecione o fluxo que quer editar.
-3. Selecione **Novo passo** e, em seguida, selecione **Adicionar uma ação**.
+3. Selecione **Novo passo** e, em seguida, **Adicionar uma ação**.
    
     ![Adicionar fechado](./media/multi-step-logic-flow/add-action.png)
 4. Na lista de ações possíveis, procure **Criar ficheiro** e, em seguida, selecione **Dropbox - Criar ficheiro**.

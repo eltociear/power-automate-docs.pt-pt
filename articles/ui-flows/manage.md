@@ -25,7 +25,7 @@ ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 04/01/2020
-ms.locfileid: "80525118"
+ms.locfileid: "3298732"
 ---
 # <a name="manage-ui-flows"></a>Gerir fluxos de IU
 
@@ -33,7 +33,7 @@ Depois de criar os fluxos de IU, poderá ter de ver, editar ou simplesmente veri
 
 ## <a name="list-of-ui-flows"></a>Lista de fluxos de IU
 
-1. Inicie sessão no Power Automate.
+1. Iniciar sessão no Power Automate.
 1. Selecione **Os meus fluxos** > **Fluxos de IU**.
 
    ![Ver todos os fluxos de IU](../media/manage-ui-flows/view-all.png "Ver todos os fluxos de IU")
@@ -49,13 +49,13 @@ Em cada um dos fluxos de IU, poderá ver os detalhes correspondentes ao selecion
 
 Siga estes passos para ver os detalhes de um fluxo de IU:
 
-1. Inicie sessão no Power Automate.
+1. Iniciar sessão no Power Automate.
 1. Selecione **Os meus fluxos** > **Fluxos de IU**.
 1. Selecione qualquer um dos fluxos de IU.
 
    ![Ver detalhes](../media/manage-ui-flows/view-details.png "Ver detalhes")
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Mais Informações
 
 - Saiba como [criar fluxos de IU para computador](create-desktop.md).
 - Saiba como [criar fluxos de IU para a Web](create-web.md).

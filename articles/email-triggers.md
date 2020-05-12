@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: f7588a3ca1db5c62a4e60380575542671e8d408d
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79192322"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297874"
 ---
 # <a name="trigger-a-flow-based-on-email-properties"></a>Acionar um fluxo com base nas propriedades de e-mail
 
@@ -34,8 +34,8 @@ Utilize o acionador **Quando é recebida uma nova mensagem de e-mail** para cria
 | Propriedade | Quando utilizar |
 | --- | --- |
 | Pasta |Acionar um fluxo sempre que são recebidos e-mails numa pasta específica. Esta propriedade pode ser útil se tiver regras para encaminhar e-mails para pastas diferentes. |
-| Para |Acionar um fluxo com base no endereço para o qual foi enviado um e-mail. Esta propriedade pode ser útil se receber e-mails que foram enviados para diferentes endereços de e-mail na mesma caixa de entrada. |
-| A partir do |Acionar um fluxo com base no endereço de e-mail do remetente. |
+| A |Acionar um fluxo com base no endereço para o qual foi enviado um e-mail. Esta propriedade pode ser útil se receber e-mails que foram enviados para diferentes endereços de e-mail na mesma caixa de entrada. |
+| De |Acionar um fluxo com base no endereço de e-mail do remetente. |
 | Importância |Acionar um fluxo com base na importância de envio dos e-mails. Os e-mails podem ser enviados com prioridade alta, normal ou baixa. |
 | Tem Anexo |Acionar um fluxo com base na presença de anexos nos e-mails recebidos. |
 | Filtro de Assunto |Pesquisar a presença de palavras específicas no assunto de um e-mail. O fluxo executa então as *ações* com base nos resultados da pesquisa. |
@@ -50,8 +50,8 @@ Por exemplo, se marcar um endereço *de* um e-mail numa condição, cada execuç
 Nas instruções seguintes, marcamos todas as propriedades no acionador **Quando é recebida uma nova mensagem de e-mail**. Saiba mais ao consultar as [perguntas frequentes sobre faturação](billing-questions.md#what-counts-as-a-run) e a página de [preços](https://ms.flow.microsoft.com/pricing/).
 
 ## <a name="prerequisites"></a>Pré-requisitos
-* Uma conta que tenha acesso ao [Power Automate](https://flow.microsoft.com)
-* Uma conta do Outlook do Office 365
+* Uma conta com acesso ao [Power Automate](https://flow.microsoft.com)
+* Uma conta do Office 365 Outlook
 * A aplicação móvel do Power Automate para [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) ou [Windows Phone](https://aka.ms/flowmobilewindows)
 * Ligações ao Office, Outlook e ao serviço de notificações push
 
@@ -79,7 +79,7 @@ Bem, vamos começar:
 
     [!INCLUDE [add-mark-as-read-action](includes/add-mark-as-read-action.md)]
 
-1. Dê um nome ao seu fluxo. Em seguida, guarde-o ao selecionar **Criar fluxo** na parte superior da página.
+1. Atribua um nome ao seu fluxo. Em seguida, guarde-o ao selecionar **Criar fluxo** na parte superior da página.
    
     ![Guardar fluxo](./media/email-triggers/email-triggers-subject-notification.png)
 

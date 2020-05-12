@@ -15,11 +15,11 @@ search.app:
 search.audienceType:
 - developer
 ms.openlocfilehash: d65be1552c3e748e4910c4fb942a60322f6f1e19
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74363275"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3296576"
 ---
 # <a name="work-with-business-process-flows-using-code"></a>Trabalhar com fluxos do processo de negócio através de código
 [!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
@@ -47,7 +47,7 @@ Para ativar uma entidade para o fluxo do processo de negócio, defina a propried
 <a name="DefineBPF"></a>   
 ## <a name="define-business-process-flow"></a>Definir fluxos do processo de negócio
   
-Utilize o estruturador de fluxo do processo de negócio visual para definir um fluxo do processo de negócio. Mais informações: [Criar um fluxo de processo de negócio](../create-business-process-flow.md)
+Utilize o estruturador de fluxo do processo de negócio visual para definir um fluxo do processo de negócio. Mais informações: [Criar um fluxo do processo de negócio](../create-business-process-flow.md)
 
 Por predefinição, é criado um registo de fluxo do processo de negócio no estado `Draft`.  
 
@@ -55,14 +55,14 @@ Por predefinição, é criado um registo de fluxo do processo de negócio no est
   
 <a name="ActivateBPF"></a>   
 ## <a name="activate-business-process-flow"></a>Ativar fluxos do processo de negócio  
- Antes de poder utilizar o fluxo do processo, tem de o ativar. Para o ativar, tem de ter o privilégio `prvActivateBusinessProcessFlow` para a entidade `Workflow`. Utilize a mensagem <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> para definir o estado do registo de entidade `Workflow` para `Activated`. Mais informações: [Perform specialized operations using Update](/dynamics365/customer-engagement/developer/org-service/perform-specialized-operations-using-update) (Realizar operações especializadas com o método Update) 
+ Antes de poder utilizar o fluxo do processo, tem de o ativar. Para o ativar, tem de ter o privilégio `prvActivateBusinessProcessFlow` para a entidade `Workflow`. Utilize a mensagem <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> para definir o estado do registo de entidade `Workflow` para `Activated`. Mais informações: [Perform specialized operations using Update](/dynamics365/customer-engagement/developer/org-service/perform-specialized-operations-using-update) (Realizar operações especializadas com Atualização) 
 
  > [!NOTE]
  > Também pode utilizar o estruturador de fluxo do processo de negócio para ativar um fluxo do processo de negócio. 
 
 <a name="BPFEntity"></a>   
 ## <a name="business-process-flow-entity"></a>Entidade de fluxo do processo de negócio 
- Depois de ativar uma definição de fluxo do processo de negócio através da alteração do estado do registo de entidade `Workflow` correspondente ou com recurso ao estruturador de fluxo do processo de negócio, é automaticamente criada uma entidade personalizada com o seguinte nome, para armazenar as instâncias de fluxo do processo de negócio ativadas: " *\<prefixodasoluçãoativa>* _ *\<nomeexclusivo>* ", em que "nomeexclusivo" deriva do nome que especificar.  
+ Depois de ativar uma definição de fluxo do processo de negócio através da alteração do estado do registo de entidade `Workflow` correspondente ou com recurso ao estruturador de fluxo do processo de negócio, é automaticamente criada uma entidade personalizada com o seguinte nome, para armazenar as instâncias de fluxo do processo de negócio ativadas: "*\<prefixodasoluçãoativa>*_*\<nomeexclusivo>*", em que "nomeexclusivo" deriva do nome que especificar.  
   
  Por exemplo, se tiver atribuído o nome "My Custom BPF" à definição de fluxo do processo de negócio e estiver a utilizar o publicador predefinido (novo) para a sua solução ativa, o nome da entidade personalizada criada para armazenar instâncias do processo será "novo_mycustombpf".  
   
@@ -75,10 +75,10 @@ Por predefinição, é criado um registo de fluxo do processo de negócio no est
 
 Pode obter o nome da sua entidade de fluxo do processo de negócio de qualquer uma das seguintes formas:
 
-- **Através da IU** – utilize a IU de personalização para navegar para a sua entidade de fluxo do processo de negócio:
+- **Através da IU**: utilize a IU de personalização para navegar para a sua entidade de fluxo do processo de negócio:
 
     ![](media/bpf-entity-name.png)
-- **Através da Web API** – utilize o seguinte pedido:
+- **Através da API Web**: utilize o seguinte pedido:
 
     **Pedido**
 
@@ -86,7 +86,7 @@ Pode obter o nome da sua entidade de fluxo do processo de negócio de qualquer u
     GET [Organization URI]/api/data/v9.0/workflows?$filter=name eq 'My Custom BPF'&$select=uniquename HTTP/1.1
     ```
 
-    **Resposta**
+    **Response**
     ```
     {  
     "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#workflows(uniquename)",
@@ -99,7 +99,7 @@ Pode obter o nome da sua entidade de fluxo do processo de negócio de qualquer u
       ]
     }
     ```
-- **Através do Serviço de organização** – utilize o seguinte exemplo de código:
+- **Utilizar o serviço de Organização**: utilize o seguinte exemplo de código:
 
     ```c#
     QueryExpression query = new QueryExpression
@@ -143,7 +143,7 @@ A entidade personalizada do fluxo do processo de negócio possui um âmbito orga
 > [!IMPORTANT]
 > A mudança para outra instância de processo num registo de entidade é apenas suportada através de IU (cliente) ou através de programação com as informações disponíveis nesta secção. Já não pode utilizar a mensagem `SetProcess` (<xref href="Microsoft.Dynamics.CRM.SetProcess?text=SetProcess Action" /> ou <xref:Microsoft.Crm.Sdk.Messages.SetProcessRequest>) para alternar entre processos através de programação (definir outro fluxo de processo de negócio como a instância de processo ativa) no registo de entidade de destino. 
 
- Consideremos o seguinte exemplo onde temos um fluxo de processo de negócio entre entidades, "My Custom BPF", com 3 fases: F1: Conta, F2: Conta e F3: Contacto. 
+ Consideremos o seguinte exemplo onde temos um fluxo de processo de negócio entre entidades, “O Meu BPF Personalizado”, com 3 fases: F1:Conta, F2:Conta e F3:Contacto. 
 
  ![](media/sample-bpf.png)
  
@@ -175,7 +175,7 @@ Para criar um registo de entidade de fluxo do processo de negócio, tem de espec
     GET [Organization URI]/api/data/v9.0/processstages?$select=stagename&$filter=processid/workflowid eq 2669927e-8ad6-4f95-8a9a-f1008af6956f HTTP/1.1
     ```
 
-    **Resposta**
+    **Response**
 
     ```http
     {
@@ -200,7 +200,7 @@ Para criar um registo de entidade de fluxo do processo de negócio, tem de espec
     }
     ```
 
-Em seguida, utilize o seguinte pedido para criar uma instância da sua definição de fluxo do processo de negócio para um registo de conta (ID=a176be9e-9a68-e711-80e7-00155d41e206) e a fase ativa definida como a primeira fase da instância do processo, S1 (ID=9a9185f5-b75b-4bbb-9c2b-a6626683b99bb):
+Em seguida, utilize o seguinte pedido para criar uma instância da sua definição de fluxo do processo de negócio para um registo de conta (ID=a176be9e-9a68-e711-80e7-00155d41e206) e a fase ativa definida como a primeira fase da instância do processo, S1 (ID=9a9185f5-b75b-4bbb-9c2b-a6626683b99b):
 
 **Pedido**
 
@@ -217,7 +217,7 @@ Accept: application/json
 }
 ```
 
-**Resposta**
+**Response**
 
 ```http
 HTTP/1.1 204 No Content
@@ -225,7 +225,7 @@ OData-Version: 4.0
 OData-EntityId: [Organization URI]/api/data/v9.0/new_mycustombpfs(cc3f721b-026e-e811-80ff-00155d513100)
 ```
 
-Tenha em atenção que, se quiser criar uma instância da sua definição de fluxo do processo de negócio com a fase ativa definida como ***outra*** fase que não a primeira, também deve fornecer `traversedpath` no seu pedido. O caminho percorrido é a cadeia de carateres delimitada por vírgulas de IDs de fases do processo que representam as fases visitadas da instância do fluxo do processo de negócio. O seguinte pedido cria uma instância para um registo de conta (ID=679b2464-71b5-e711-80f5-00155d513100) e a fase ativa definida como a segunda fase, S2 (ID=19a11fc0-3398-4214-8522-cb2a97f66e4b).
+Tenha em atenção que, se quiser criar uma instância da sua definição de fluxo do processo de negócio com a fase ativa definida como ***outra*** fase que não a primeira, também deve fornecer `traversedpath` no seu pedido. O caminho percorrido é a cadeia de carateres delimitada por vírgulas de IDs de fases do processo que representam as fases visitadas da instância do fluxo do processo de negócio. O seguinte pedido cria uma instância para um registo de conta (ID=679b2464-71b5-e711-80f5-00155d513100) e a fase ativa definida como segunda fase, S2 (ID=19a11fc0-3398-4214-8522-cb2a97f66e4b).
 
 ```http
 POST [Organization URI]/api/data/v9.0/new_mycustombpfs HTTP/1.1 
@@ -265,22 +265,22 @@ OData-Version: 4.0
 }
 ```
 
-#### <a name="change-the-state-of-a-process-instance-abort-reactivate-or-finish"></a>Altere o estado de uma instância de processo: Abortar, Reativar ou Concluir 
+#### <a name="change-the-state-of-a-process-instance-abort-reactivate-or-finish"></a>Alterar o estado de uma instância do processo: abortar, reativar ou concluir 
 
 Uma instância do processo pode ter um dos seguintes estados: **Ativa**, **Concluída** ou **Abortada**. O estado é determinado pelos seguintes atributos no registo de instância do processo:
 
 - **statecode**: apresenta o estado da instância do processo.
 
-    |Valor|Etiqueta|
+    |valor|Etiqueta|
     |-----|-----|
-    |0    |Ativo|
-    |1    |Inativa|
+    |0    |Ativos|
+    |5    |Inativos|
 
 - **statuscode**: apresenta informações sobre o estado da instância do processo.
 
-    |Valor|Etiqueta|
+    |valor|Etiqueta|
     |-----|-----|
-    |1    |Ativo|
+    |5    |Ativos|
     |2    |Concluída|
     |3    |Abortada|
 
@@ -332,7 +332,7 @@ Utilize o seguinte pedido da API Web:
 DELETE [Organization URI]/api/data/v9.0/new_mycustombpfs(dc2ab599-306d-e811-80ff-00155d513100) HTTP/1.1
 ```  
 
-**Resposta**
+**Response**
 
 Se o registo existir, receberá uma resposta normal com o estado 204 para indicar que a eliminação foi bem-sucedida. Se a entidade não for encontrada, receberá uma resposta com o estado 404.
 
@@ -344,12 +344,12 @@ Cada registo de instância de fluxo do processo de negócio devolvido para um re
   
  Quando tiver a fase ativa e as informações do caminho ativo de uma instância de fluxo do processo de negócio, poderá utilizar as informações para navegar para uma fase anterior ou seguinte no caminho ativo. A navegação de avanço entre fases deve ser realizada sequencialmente, ou seja, só deve avançar para a próxima fase do caminho ativo.   
   
- Para ver o exemplo completo que demonstra a utilização desses dois métodos e da navegação entre fases com recurso ao [Serviço de organização](/dynamics365/customer-engagement/developer/org-service/use-organization-service-read-write-data-metadata), veja [Exemplo: trabalhar com fluxos de processo de negócio](sample-work-business-process-flows.md). 
+ Para ver o exemplo completo que demonstra a utilização desses dois métodos e da navegação entre fases com recurso ao [Serviço de organização](/dynamics365/customer-engagement/developer/org-service/use-organization-service-read-write-data-metadata), veja [Sample: Work with business process flows](sample-work-business-process-flows.md) (Exemplo: trabalhar com fluxos do processo de negócio). 
 
 <a name="ApplyBPF"></a>   
 ## <a name="apply-business-process-flow-while-creating-an-entity-record"></a>Aplicar um fluxo do processo de negócio durante a criação de um registo de entidade
 
-Esta secção fornece informações sobre o comportamento predefinido para aplicar automaticamente fluxos do processo de negócios em novos registos de entidade criados no Common Data Service, bem como sobre a forma como o pode substituir para aplicar um fluxo do processo de negócio da sua preferência a novos registos de entidade.
+Esta secção fornece informações sobre o comportamento predefinido para aplicar automaticamente fluxos do processo de negócios em novos registos de entidade criados no Common Data Service, bem como sobre a forma como pode substituí-lo para aplicar um fluxo do processo de negócio da sua preferência a novos registos de entidade.
 
 Por predefinição, no caso das entidades que têm múltiplos fluxos do processo de negócio definidos para as mesmas, o sistema aplica um fluxo do processo de negócio ao novo registo de entidade com recurso à seguinte lógica de vários passos:
 1. Identifique todos os fluxos do processo de negócio aplicáveis ao novo registo de entidade com base no atributo **Workflow.PrimaryEntity** dos registos de definição de fluxo do processo de negócio.
@@ -373,7 +373,7 @@ Se não definir um valor para o atributo **ProcessId** quando criar um novo regi
 
 Os atributos herdados relacionados com processos (tais como **ProcessId**, **StageId** e **TraversedPath**) em entidades ativadas para fluxos do processo de negócio já foram preteridos. A manipulação destes atributos herdados relacionados com processos para registos de entidade visados não garante a consistência do estado do fluxo do processo de negócio e ***não*** é um cenário suportado. É recomendado utilizar os atributos da entidade de fluxo do processo de negócio conforme explicado anteriormente na secção [Create, retrieve, update, and delete business process flow entity records (process instances)](#create-retrieve-update-and-delete-business-process-flow-entity-records-process-instances) (Criar, obter, atualizar e eliminar registos de entidade de fluxo do processo de negócio [instâncias do processo]).
 
-A única exceção consiste em modificar programaticamente o atributo **ProcessId** quando criar um registo de entidade para substituir a aplicação predefinida do fluxo do processo de negócio no novo registo conforme explicado na secção anterior: [Aplicar um fluxo do processo de negócio durante a criação de um registo de entidade](#ApplyBPF).
+A única exceção consiste em modificar programaticamente o atributo **ProcessId** quando criar um registo de entidade para substituir a aplicação predefinida do fluxo do processo de negócio no novo registo conforme explicado na secção anterior, [Aplicar um fluxo do processo de negócio durante a criação de um registo de entidade](#ApplyBPF).
 
 <a name="BKMK_clientSideScript"></a>   
 ## <a name="client-side-programmability-support-for-business-process-flows"></a>Suporte de programação do lado do cliente para fluxos do processo de negócio  

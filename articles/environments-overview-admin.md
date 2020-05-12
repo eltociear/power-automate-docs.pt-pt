@@ -25,21 +25,21 @@ ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 04/08/2020
-ms.locfileid: "80862705"
+ms.locfileid: "3299040"
 ---
 # <a name="using-environments-within-power-automate"></a>Utilizar ambientes no Power Automate
 
 
-## <a name="benefits"></a>Vantagens
+## <a name="benefits"></a>Benefícios
 
 Os ambientes oferecem as seguintes vantagens:
 
-* **Localidade dos dados**: os ambientes podem ser criados em regiões diferentes e estão vinculados a essa localização geográfica. Quando cria um fluxo num ambiente, esse fluxo é encaminhado para todos os datacenters nessa localização geográfica. Isto também proporciona vantagens em termos de desempenho.
+* **Localidade de dados**: os ambientes podem ser criados em regiões diferentes e estão vinculados a essa localização geográfica. Quando cria um fluxo num ambiente, esse fluxo é encaminhado para todos os datacenters nessa localização geográfica. Isto também proporciona vantagens em termos de desempenho.
 
-    Se os seus utilizadores estiverem na Europa, crie e utilize o ambiente na região da Europa. Se os seus utilizadores estiverem nos Estados Unidos, crie e utilize o ambiente na região dos EUA. 
+    Se os seus utilizadores estiverem na Europa, crie e utilize o ambiente na região da Europa. Se os seus utilizadores estiverem nos Estados Unidos, crie e utilize o ambiente nos EUA. 
 
     > [!IMPORTANT]
-    > Se eliminar o ambiente, todos os fluxos dentro desse ambiente serão eliminados também. Ou seja, aplica-se a todos os itens que criar nesse ambiente, incluindo ligações, gateways, Power Apps e muito mais.
+    > Se eliminar o ambiente, todos os fluxos dentro desse ambiente serão eliminados também. Isto aplica-se a todos os itens que criar nesse ambiente, incluindo ligações, gateways, Power Apps e muito mais.
 * **Prevenção de perda de dados**: como Administrador, não quer fluxos que obtenham dados de uma localização interna (como o *OneDrive para Empresas* ou uma lista do SharePoint que contenha informações salariais) e, em seguida, publiquem esses dados (tal como no *Twitter*). Utilize a prevenção de perda de dados para controlar quais são os serviços que podem partilhar dados dentro da implementação do Power Automate.
 
     Por exemplo, pode adicionar os serviços *SharePoint* e *OneDrive para Empresas* a uma política só de dados de negócio. Todos os fluxos criados neste ambiente podem utilizar os serviços *SharePoint* e *OneDrive para Empresas*. No entanto, não poderão partilhar os dados com outros serviços que não estão incluídos na política só de dados de negócio.
@@ -54,7 +54,7 @@ Os ambientes oferecem as seguintes vantagens:
   * Crie uma Base de Dados SQL e, em seguida, armazene os dados nela.
   * Utilize o Common Data Service para armazenar os seus dados.
 
-    Cada ambiente pode ter, no máximo, uma base de dados para os seus fluxos no Common Data Service. O acesso ao Common Data Service depende da licença que comprou. O Common Data Service não está incluído na licença Gratuita.
+    Cada ambiente pode ter, no máximo, uma base de dados para os seus fluxos no Common Data Service. O acesso ao Common Data Service depende da licença que adquiriu; o Common Data Service não está incluído com a licença Gratuita.
 
 ## <a name="limitations"></a>Limitações
 
@@ -71,15 +71,15 @@ O ambiente **predefinido** é partilhado por todos os utilizadores e qualquer ut
 
 Os administradores utilizam o centro de administração para criar e gerir ambientes. Existem duas formas de abrir o centro de administração:
 
-### <a name="option-1-select-settings"></a>Opção 1: Selecionar Definições
+### <a name="option-1-select-settings"></a>Opção 1: Selecionar Definições
 
-1. Inicie sessão em [flow.microsoft.com](https://flow.microsoft.com).
+1. Iniciar sessão em [flow.microsoft.com](https://flow.microsoft.com).
 1. Selecione o ícone de engrenagem de Definições e escolha **Centro de Administração** na lista:
 
    ![Definições e Portal de Administrador](./media/environments-overview-admin/settings.png)
 1. O centro de administrador abre.
 
-### <a name="option-2-open-adminflowmicrosoftcom"></a>Opção 2: Abrir o admin.flow.microsoft.com
+### <a name="option-2-open-adminflowmicrosoftcom"></a>Opção 2: Abrir admin.flow.microsoft.com
 
 Aceda a [admin.flow.microsoft.com](https://admin.flow.microsoft.com) e inicie sessão com a sua conta profissional.
 
@@ -92,7 +92,7 @@ Aceda a [admin.flow.microsoft.com](https://admin.flow.microsoft.com) e inicie se
    |     Propriedade     |                                                 Descrição                                                 |
    |------------------|-------------------------------------------------------------------------------------------------------------|
    | Nome do Ambiente |              Introduza o nome do ambiente, tal como `Human Resources` ou `Europe flows`.              |
-   |      Region      | Escolha a localização para alojar o ambiente. Para obter o melhor desempenho, utilize a região mais próxima dos utilizadores. |
+   |      Região      | Escolha a localização para alojar o seu ambiente. Para obter o melhor desempenho, utilize a região mais próxima dos utilizadores. |
    | Tipo de Ambiente |                  Escolha um tipo de ambiente com base na sua licença: Produção ou Avaliação.                   |
 
      ![definições de ambiente](./media/environments-overview-admin/new-environment-dialog.png)
@@ -158,37 +158,37 @@ Pode agora adicionar utilizadores ao ambiente.
    ![atribuir a função ao utilizador](./media/environments-overview-admin/D365-Assign-Role.png)
 
 > [!NOTE]
-> Os utilizadores ou os grupos atribuídos a estas funções de ambiente não recebem automaticamente acesso à base de dados do ambiente (se existir) e têm de ser atribuído separadamente por um proprietário da Base de Dados. 
+> Os utilizadores ou grupos atribuídos a estas funções de ambiente não recebem acesso automaticamente à base de dados do ambiente (se existir) e tem de ser dado acesso separadamente por um Proprietário de base de dados. 
 >
 >
 
-### <a name="database-security"></a>Segurança da base de dados
-A capacidade de criar e modificar um esquema de base de dados e de estabelecer ligação aos dados armazenados numa base de dados que está aprovisionada no seu ambiente é controlada pelas funções de utilizador e pelos conjuntos de permissões da base de dados. Pode gerir as funções de utilizador e os conjuntos de permissões da base de dados do seu ambiente na secção **Funções de utilizador** e **Conjuntos de permissões** do separador **Segurança**. 
+### <a name="database-security"></a>Segurança de base de dados
+A capacidade de criar e modificar um esquema de base de dados e de estabelecer ligação aos dados armazenados numa base de dados que está aprovisionada no seu ambiente é controlada pelas funções de utilizador e pelos conjuntos de permissões da base de dados. Pode gerir as funções de utilizador e os conjuntos de permissões da base de dados do seu ambiente a partir da secção **Funções de utilizador** e **Conjuntos de permissões** do separador **Segurança**. 
 
    ![atribuir a função ao utilizador](./media/environments-overview-admin/D365-Assign-Role.png)
 
-## <a name="frequently-asked-questions"></a>Perguntas frequentes
+## <a name="frequently-asked-questions"></a>Perguntas mais frequentes
 
 ### <a name="can-i-move-a-flow-between-environments"></a>Posso mover um fluxo entre ambientes?
 
 Sim. Os fluxos podem ser exportados de um ambiente e importados para outro ambiente.
 
-### <a name="which-license-includes-common-data-service"></a>Que licença inclui o Common Data Service?
+### <a name="which-license-includes-common-data-service"></a>Que licença inclui Common Data Service?
 
-Apenas o Plano 2 do Microsoft Power Apps inclui direitos para criar bases de dados com o Common Data Service. No entanto, todos os planos pagos (planos 1 e 2 do Power Automate e planos 1 e 2 do Microsoft Power Apps) dispõem de direitos para utilizar o Common Data Service.
+Apenas o Plano 2 do Microsoft Power Apps inclui direitos de criação de bases de dados com o Common Data Service. No entanto, todos os planos pagos (planos 1 e 2 do Power Automate, e planos 1 e 2 do Microsoft Power Apps) têm os direitos para utilizar o Common Data Service.
 
 Escolha um plano adequado para si na página [Preços do Power Automate](https://flow.microsoft.com/pricing/).
 
 Veja o documento [Perguntas sobre faturação](billing-questions.md) para obter respostas a perguntas frequentes sobre faturação.
 
-### <a name="can-common-data-service-be-used-outside-of-an-environment"></a>O Common Data Service pode ser utilizado fora de um ambiente?
+### <a name="can-common-data-service-be-used-outside-of-an-environment"></a>Pode o Common Data Service ser utilizado fora de um ambiente?
 
 Não. O Common Data Service requer um ambiente. [Leia mais](common-data-model-intro.md) sobre o Common Data Service.
 
-### <a name="what-regions-include-power-automate"></a>Que regiões inclui o Power Automate?
+### <a name="what-regions-include-power-automate"></a>Quais as regiões incluem o Power Automate?
 
-O Power Automate suporta a maioria das regiões que o Office 365 suporta; veja a [descrição geral das regiões](regions-overview.md) para obter mais detalhes.
+O Power Automate suporta a maioria das regiões que o Office 365 suporta; veja [a descrição geral das regiões](regions-overview.md) para obter mais detalhes.
 
 ### <a name="whats-needed-to-create-my-own-custom-environment"></a>Quais os elementos necessários para criar o meu próprio ambiente personalizado?
 
-Todos os utilizadores com a licença Power Automate Plano 2 podem criar os seus próprios ambientes. Todos os utilizadores do Power Automate podem utilizar os ambientes criados por administradores do Plano 2, mas não podem criar os seus próprios ambientes.
+Todos os utilizadores com a licença Power Automate Plano 2 podem criar os seus próprios ambientes. Todos os utilizadores do Power Automate podem utilizar os ambientes criados por administradores de Plano 2, mas não podem criar os seus próprios ambientes.

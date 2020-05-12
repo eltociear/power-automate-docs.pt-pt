@@ -1,5 +1,5 @@
 ---
-title: Descrição geral dos fluxos de processos de negócio | Microsoft Docs
+title: Descrição geral dos fluxos do processo de negócio | MicrosoftDocs
 ms.custom: ''
 ms.date: 12/12/2019
 ms.reviewer: ''
@@ -26,83 +26,83 @@ ms.sourcegitcommit: 31692af25f91af60cf77572edcb0c986602dc9a6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 04/03/2020
-ms.locfileid: "80624852"
+ms.locfileid: "3298886"
 ---
-# <a name="business-process-flows-overview"></a>Descrição geral dos fluxos de processos de negócio
+# <a name="business-process-flows-overview"></a>Descrição geral dos fluxos do processo de negócio
 
 
-Ao criar um fluxo de processo de negócio, pode ajudar a garantir que as pessoas introduzem os dados de forma consistente e seguem os mesmos passos sempre que trabalharem com um cliente. Por exemplo, é recomendado que crie um fluxo de processo de negócio para que todas as pessoas lidem com os pedidos de serviço de cliente da mesma forma ou para exigir que as pessoas obtenham aprovação para uma fatura antes de submeterem uma encomenda. Os fluxos de processos de negócio utilizam a mesma tecnologia subjacente a outros processos, mas as capacidades que proporcionam são muito diferentes de outras funcionalidades que utilizam processos. Para saber como criar ou editar um fluxo de processo de negócio, veja [Criar um fluxo do processo de negócio](create-business-process-flow.md).  
+Ao criar um processo de negócio, pode ajudar a assegurar que os utilizadores introduzem os dados de maneira consistente e seguem os mesmos passos sempre que trabalham com um cliente. Por exemplo, pode criar um fluxo de processo de negócio em que todos processem os pedidos do suporte ao cliente da mesma forma, ou solicitar aos utilizadores aprovação de uma fatura antes de submeter uma encomenda. Os fluxos de processos de negócio utilizam a mesma tecnologia subjacente que outros processos, mas as capacidades extremamente que fornecem são diferentes das outras funcionalidades que utilize processos. Para obter informações sobre como criar ou editar um fluxo do processo de negócio, consulte [Criar um fluxo do processo de negócio](create-business-process-flow.md).  
   
- [Veja um breve vídeo (4:49) sobre os fluxos de processos de negócio.](https://go.microsoft.com/fwlink/p/?linkid=842226)  
+ [Assista a um pequeno vídeo (4:49) sobre os fluxos do processo de negócio.](https://go.microsoft.com/fwlink/p/?linkid=842226)  
   
 <a name="BKMK_Why"></a>   
-## <a name="why-use-business-process-flows"></a>Porquê utilizar fluxos de processos de negócio?  
-Os fluxos de processos de negócio orientam as pessoas para que consigam realizar o respetivo trabalho. Proporcionam uma experiência de utilizador otimizada e orientam as pessoas ao longo dos processos que a organização delas definiu relativamente às interações que têm de avançar para se chegar a algum tipo de conclusão. Esta experiência de utilizador pode ser adaptada para que as pessoas com diferentes funções de segurança possam ter a experiência que melhor se adeque ao trabalho que desempenham.  
+## <a name="why-use-business-process-flows"></a>Porquê utilizar fluxos de processo de negócio?  
+Os fluxos de processos de negócio fornecem um guia para as pessoas que permitem o trabalho efectuado. Fornecnuma experiência de utilizador que otimizada oportunidade potencial pessoas com processos que a organização definiu para as interações que necessitam de ser avançadas a uma fim de qualquer tipo. Esta experiência de utilizador pode ser adaptada para os utilizadores com diferentes direitos de acesso poderem ter uma experiência mais adequada ao trabalho que fazem.  
   
- Utilize fluxos de processos de negócio para definir um conjunto de passos que as pessoas deverão seguir para alcançarem um resultado pretendido. Estes passos proporcionam um indicador visual que permite que as pessoas saibam em que fase do processo de negócio se encontram. Os fluxos de processos de negócio reduzem a necessidade de formação, uma vez que os novos utilizadores não precisam de se concentrar para saber a entidade que deveriam estar a utilizar. Podem deixar que o processo os oriente. Pode configurar fluxos de processos de negócio para suportarem metodologias de venda comuns que podem ajudar os seus grupos de vendas a alcançarem melhores resultados. No caso dos grupos de serviço, os fluxos de processos de negócio podem ajudar os novos colaboradores a manterem-se atualizados mais rapidamente e a evitarem erros que poderiam resultar na insatisfação dos clientes.  
+ Utilize fluxos de processos de negócio para definir um conjunto de passos para que os utilizadores sigam para a tomá-los resultado pretendido. Estes passos fornecnuma janela visual que indica as pessoas que estão no processo de negócio. Os fluxos de processos de negócio reduzem a necessidade de formação para os novos utilizadores não têm que afetam toda a organização que entidades têm de utilizar o. Pode informar o processo guiá-los. Pode configurar fluxos de processos de negócio para dar suporte a metodologias de vendas comuns que podem ajudar os grupos de vendas para obter melhores resultados. Para conjuntos de serviço, fluxos de processos empresariais podem ajudar o novo pessoal a mais rapidamente a velocidade acima-à- e a evitar erros que poderão originar aos clientes insatisfeitos.  
   
 <a name="BKMK_What"></a>   
-## <a name="what-can-business-process-flows-do"></a>O que é que os fluxos de processos de negócio conseguem fazer?  
- Com os fluxos de processos de negócio, pode definir um conjunto de *fases* e *passos* que são apresentados num controlo localizado na parte superior do formulário.  
+## <a name="what-can-business-process-flows-do"></a>O que podem fazer os fluxos do processo de negócio?  
+ Com fluxos de processos de negócio, pode definir um conjunto *de fases* e *passos* apresentados num controlo na parte superior do formulário.  
   
- ![Processo de negócio com fases](media/business-process-stages.png "Processo de negócio com fases")  
+ ![Processos de negócio com fases](media/business-process-stages.png "Processo de negócio com fases")  
   
- Cada fase contém um grupo de passos. Cada passo representa um campo onde é possível introduzir dados. As pessoas podem avançar para a próxima fase através do botão **Fase Seguinte**. Pode tornar um passo obrigatório para que as pessoas tenham de introduzir dados no campo correspondente antes de poderem avançar para a fase seguinte. Isto é frequentemente designado como "controlo de fases".  
+ Cada fase contém um conjunto de passos. Cada passo representa um campo nos dados possam ser introduzidos. Os utilizadores avançam para a fase seguinte utilizando o botão **A fase seguinte**. Pode efetuar um passo de necessária para que os utilizadores deveria introduzir dados para o campo correspondente para poder avançar para a fase seguinte. Isto é denominado fase- bloquear “não”.  
   
- Os fluxos de processos de negócio parecem ser relativamente simples em comparação com outros tipos de processos porque não fornecem nenhuma automatização ou lógica de negócio condicional – apenas proporcionam a experiência otimizada de introdução de dados e de controlo da entrada nas fases. No entanto, quando os combina com outros processos e personalizações, estes fluxos podem desempenhar um papel importante ao permitir que as pessoas poupem tempo, ao reduzir os custos de formação e ao aumentar a adoção por parte dos utilizadores.  
+ Os fluxos de processos de negócio aparecem relativamente simples que a outros tipos de processo porque não fornecernuma lógica ou condicional automatização de negócio para além de fornecer a experiência otimizada para a introdução de dados e controlar a entrada de dados em fases. Contudo, quando são corresponder a outros processos e personalizações, podem desempenhar um papel importante em tempo de pessoas a guardar, reduzir, custos de formação e aumentar a adoção de utilizador.  
 
 <a name="BKMK_BPFwithOtherCustomizations"></a>   
-### <a name="business-process-flows-integrated-with-other-customizations"></a>Fluxos de processos de negócio integrados com outras personalizações  
- Quando você, ou o seu utilizador, introduz dados com os fluxos de processos de negócio, as alterações aos dados também são aplicadas a campos de formulário para que a automatização proporcionada pelas regras de negócio ou pelos scripts de formulário possam ser aplicadas imediatamente. É possível adicionar passos que definem valores para campos que não estão presentes no formulário. Estes campos serão adicionados ao modelo de objeto `Xrm.Page` utilizado para scripts de formulário. Os fluxos de trabalho que são iniciados por alterações aos campos incluídos num fluxo de processo de negócio serão aplicados quando os dados presentes no formulário forem guardados. Se a automatização for aplicada por um fluxo de trabalho em tempo real, as alterações ficarão imediatamente visíveis para o utilizador quando os dados presentes no formulário forem atualizados depois de o registo ser guardado.  
+### <a name="business-process-flows-integrated-with-other-customizations"></a>Fluxos de processos de negócio integradas com outras personalizações  
+ Quando ou o utilizador introduza dados utilizando fluxos de processos de negócio, as alterações são aplicadas de dados também campos de formulário para que todas a automatização fornecida pelas regras de negócio ou por scripts de formulário pode ser aplicado imediatamente. Os passos que é possível adicionar valores definidos para campos que não estiverem presentes no formulário e destes campos serão adicionados ao modelo de objeto `Xrm.Page` utilizado para o formulário scripts. Todos os fluxos de trabalho que são iniciados por alterações aos campos incluídos num fluxo de processos de negócio serão aplicadas quando os dados no formulário guardada. Se a automatização é aplicada por um fluxo de trabalho em tempo real, as alterações serão imediatamente visíveis ao utilizador quando os dados no formulário são atualizados depois de guardar o registo.  
   
- Embora o controlo do fluxo de processo de negócio no formulário não proporcione nenhuma programação direta do lado do cliente, as alterações aplicadas por regras de negócio ou scripts de formulário são automaticamente aplicadas aos controlos de fluxo de processo de negócio. Se ocultar um campo num formulário, esse campo também ficará ocultado no controlo do fluxo de processo de negócio. Se definir um valor através de regras de negócio ou scripts de formulário, esse valor será definido dentro do fluxo de processo de negócio.  
+ Embora o fluxo de um controlo de processos de negócio no formulário não forneça algumas programmability direto do lado, as alterações aplicadas pelas regras de negócio ou por scripts de formulário são aplicadas automaticamente para controlo do fluxo de um processo de negócio. Se tiver esconde um campo num formulário, o campo poderá também oculto no fluxo de um controlo de processos de negócio. Se definir um valor a utilização de regras de negócio ou scripts de formulário, o valor é definido no fluxo de processos de negócio.  
   
-### <a name="concurrent-process-flows"></a>Fluxos de processos em simultâneo  
- Os fluxos de processos de negócio em simultâneo permitem que os personalizadores configurem múltiplos processos de negócio e os associem ao mesmo registo de partida. Os utilizadores podem alternar entre múltiplos processos de negócio que estejam a ser executados em simultâneo e retomar o respetivo trabalho na fase do processo em que se encontravam.  
+### <a name="concurrent-process-flows"></a>Fluxos do processo simultâneo  
+ Os fluxos do processo de negócio simultâneos permitem aos personalizadores configurar vários processos de negócio e associá-los ao mesmo registo inicial. Os utilizadores podem alternar entre vários processos de negócio em execução em simultâneo e retomar o respetivo trabalho na fase no processo em que estavam.  
   
 <a name="BKMK_SystemBPF"></a>   
-### <a name="system-business-process-flows"></a>Fluxos de processos de negócio do sistema  
- Estão incluídos os fluxos de processos de negócio que se seguem. Para compreender a forma como os fluxos de processos de negócio funcionam, reveja estes fluxos de processos de negócio do sistema:  
+### <a name="system-business-process-flows"></a>Fluxos do processo de negócio do sistema  
+ Estão incluídos os seguintes fluxos do processo de negócio. Para compreender como os fluxos de processos de negócio, leia estes funcionam fluxos de processos de negócio de sistema:  
   
 -   Processo de Vendas da Oportunidade Potencial  
   
 -   Processo de Vendas da Oportunidade  
   
--   Processo de Telefone para Incidente  
+-   Telefone para Processo de Incidente  
   
 <a name="BKMK_multipleEntities"></a>   
-## <a name="multiple-entities-in-business-process-flows"></a>Múltiplas entidades em fluxos de processos de negócio  
- Pode utilizar um fluxo do processo de negócio para uma entidade ou para múltiplas entidades. Por exemplo, poderá ter um processo que começa com uma oportunidade e que avança para uma proposta, uma encomenda e uma fatura, antes de finalmente fechar a oportunidade.  
+## <a name="multiple-entities-in-business-process-flows"></a>Várias entidades em fluxos do processo de negócio  
+ Pode utilizar um fluxo de processos de negócio para uma única entidade ou avaliar várias entidades. Por exemplo, pode ter um processo que comece a uma oportunidade, e continuar a uma proposta, encomenda e, na fatura por último, antes de reverter para fechar a oportunidade.  
   
- Pode estruturar fluxos de processos de negócio que reúnam os registos de, no máximo, cinco entidades diferentes num único processo para que os utilizadores da aplicação possam concentrar-se no fluxo do respetivo processo, em vez de na entidade na qual estão a trabalhar. Desta forma, os utilizadores podem navegar mais facilmente entre registos de entidade associados.  
+ Pode conceber os fluxos do processo de negócio que unem nos registos de até cinco entidades diferentes num único processo para as pessoas que utilizam a aplicação poderem concentrar-se no fluxo do respetivo processo em vez de na entidade em que estão a trabalhar. Podem navegar mais facilmente entre registos de entidade relacionados.  
   
 <a name="BKMK_MultipleBPF"></a>   
-## <a name="multiple-business-process-flows-are-available-per-entity"></a>Estão disponíveis múltiplos fluxos de processos de negócio por entidade  
- Nem todos os utilizadores numa organização poderão seguir o mesmo processo. Além disso, condições diferentes podem exigir a aplicação de um processo diferente. Pode ter até 10 fluxos de processos de negócio ativos por entidade para proporcionar processos adequados para diferentes situações.  
+## <a name="multiple-business-process-flows-are-available-per-entity"></a>Estão disponíveis vários fluxos do processo de negócio por entidade.  
+ Não cada utilizador numa organização pode monitorizar o mesmo processo e as circunstâncias diferentes poderão necessitar de um processo diferente que será aplicado. Poderá ter até 10 fluxos de processos ativos de negócio por entidade para fornecer processos adequado para situações diferentes.  
   
 <a name="BPF_controlsWhichBPF"></a>   
-### <a name="control-which-business-process-flow-will-be-applied"></a>Controlar o fluxo de processo de negócio que será aplicado  
- Pode associar fluxos de processo de negócio a funções de segurança para que apenas as pessoas com essas funções possam vê-los ou utilizá-los. Também pode definir a ordem dos fluxos de processos de negócio para que possa controlar o fluxo do processo de negócio que será predefinido. Este procedimento é igual ao da definição de múltiplos formulários para uma entidade.  
+### <a name="control-which-business-process-flow-will-be-applied"></a>Gerir que o fluxo de processos de negócio será aplicado  
+ Pode associar fluxos de processos de negócio com o direito de acesso para que apenas os utilizadores com direitos de acesso os podem ver ou utilizar o. Também pode definir a ordem dos fluxos de processos de negócio para que possa gerir que o fluxo de processos de negócio será a predefinição. Isto funciona da mesma forma que os vários formulários para uma entidade estão definidos.  
   
- Quando alguém cria um novo registo de entidade, a lista de definições de processos de negócio ativas e disponíveis é filtrada pela função de segurança do utilizador. A primeira definição de processo de negócio ativada que está disponível para a função de segurança do utilizador, de acordo com a lista da ordem do processo, é aplicada por predefinição. Se estiver disponível mais do que uma definição de processo de negócio ativa, os utilizadores podem carregar outro processo a partir da caixa de diálogo Mudar de Processo. Sempre que existir uma mudança de processo, o processo que está a ser composto atualmente vai para segundo plano e é substituído pelo que está selecionado, mas mantém o respetivo estado e pode ser mudado novamente. Cada registo pode ter múltiplas instâncias de processo associadas (cada uma para uma definição de fluxo de processo de negócio diferente, até um total de 10). Durante o carregamento de formulários, só é composto um fluxo de processo de negócio. Quando um utilizador aplicar um processo diferente, esse processo só poderá ser carregado, por predefinição, para esse utilizador específico.  
+ Quando alguém cria um novo registo de entidade, a lista de definição de processos de negócio ativos disponíveis é filtrada pelo direito de acesso do utilizador. A primeira definição de processo de negócio ativada disponível para o direito de acesso do utilizador de acordo com a lista de ordem de processo é a aplicada por predefinição. Se houver mais de uma definição de processo de negócio ativa, os utilizadores podem carregar outra na caixa de diálogo Mudar de Processo. Sempre que os processos são mudados, o processo atualmente composto passa para segundo plano e é substituído pelo selecionado, mas mantém o respetivo estado e podem ser ativado novamente. Cada registo pode ter várias instâncias do processo associadas (cada uma para uma definição de fluxo do processo de negócio diferente, até um total de 10). Durante o carregamento do formulário só é composto um fluxo do processo de negócio. Quando um utilizador aplica um processo diferente, esse processo só pode ser carregado por predefinição para esse utilizador específico.  
   
- Para se certificar de que um processo de negócio é carregado por predefinição para todos os utilizadores (comportamento equivalente à "afixação" do processo), pode adicionar uma API de Cliente personalizada (recurso Web) durante o carregamento do formulário que carrega especificamente uma instância existente do processo de negócio com base no ID da definição do processo de negócio. 
+ Para garantir que que um processo de negócio é carregado por predefinição para todos os utilizadores (comportamento equivalente a "afixar" o processo), é possível adicionar um script de API de cliente personalizado (recurso Web) durante o carregamento do formulário que carrega especificamente uma instância do processo de negócio existente com base no ID de definição de processo de negócio. 
  
   
 <a name="BKMK_Considerations"></a>   
 ## <a name="business-process-flow-considerations"></a>Considerações sobre fluxos de processo de negócio  
- Só pode definir fluxos de processos de negócio para as entidades os suportam. Também terá de ter em consideração os limites relativos ao número de processos, fases e passos que podem ser adicionados.  
+ Pode definir fluxos de processos de negócio apenas nas entidades do suporte. Também terá de ter em consideração os limites relativos ao número de processos, fases e passos que podem ser adicionados.  
   
 ### <a name="business-process-flows-that-call-a-workflow"></a>Fluxos de processos de negócio que chamam um fluxo de trabalho  
- Pode chamar fluxos de trabalho a pedido a partir de um fluxo de processo de negócio. Pode configurar isto a partir do novo estruturador de fluxos de processos de negócio ao arrastar um componente de fluxo de trabalho para uma fase do processo ou para a secção dos Fluxos de Trabalho Globais. Para obter mais informações sobre a utilização de fluxos de trabalho em fluxos do processo de negócio, veja [Blog: Business process flow automation in Dynamics 365](https://blogs.msdn.microsoft.com/crm/2017/03/28/business-process-flow-automation-in-dynamics-365/) (Blogue: Automatização de fluxos do processo de negócio no Dynamics 365).  
+ Pode chamar fluxos de trabalho a pedido a partir de um fluxo de processo de negócio. É possível configurar esta opção a partir do novo estruturador de fluxos do processo de negócio ao arrastar um componente do fluxo de trabalho para uma fase de processo ou para a secção Fluxos de Trabalho Globais. Para mais informações sobre como utilizar fluxos do processo de negócio, consulte [Blogue: automatização do fluxo do processo de negócio no Dynamics 365](https://blogs.msdn.microsoft.com/crm/2017/03/28/business-process-flow-automation-in-dynamics-365/).  
   
- Quando inclui um fluxo de trabalho que pretende acionar à Saída de Fase de uma fase do seu fluxo de processo de negócio e essa fase é a última do fluxo, o estruturador dá a impressão de que o fluxo de trabalho será acionado quando essa fase é concluída. No entanto, o fluxo de trabalho não será acionado porque não ocorre uma transição de fase. Não receberá um aviso ou erro que o impedirá de incluir o fluxo de trabalho na fase. Quando um utilizador interage com o fluxo de processo de negócio, a conclusão ou o abandono do processo não resulta numa transição de fase, pelo que o fluxo de trabalho não é acionado. Considere os seguintes exemplos:  
+ Quando inclui um fluxo de trabalho que pretende acionar na Saída de Fase de uma fase no seu fluxo do processo de negócio, e essa fase é a última no fluxo, o estruturador dá a impressão de que o fluxo de trabalho será acionado quando a fase for concluída. No entanto, o fluxo de trabalho não será acionado porque uma transição não ocorre. Não receberá um aviso ou um erro que impeça a inclusão do fluxo de trabalho na fase. Quando um utilizador interage com o fluxo do processo de negócio, concluir ou abandonar o processo não resulta numa transição de fase, pelo que o fluxo de trabalho não é acionado. Considere os seguintes exemplos:  
   
--   Cria um fluxo do processo de negócio com duas fases (a S1 liga à S2) com um fluxo de trabalho na fase S2 e define o acionador para a **Saída de Fase**.  
+-   Crie um fluxo do processo de negócio com duas fases, onde a S1 se liga à S2, com um fluxo de trabalho na fase S2, e defina o acionador para **Saída de Fase**.  
   
--   Cria um fluxo do processo de negócio com três fases: a S1 liga à S2 e esta última ramifica-se na S3. Inclui um fluxo de trabalho na S2 e define o acionador para a **Saída de Fase**.  
+-   Crie um fluxo do processo de negócio com três fases, onde S1 se liga à S2 e, em seguida, a S2 cria ramificações para a S3. Inclua um fluxo de trabalho na S2 e defina o acionador como **Saída de Fase**.  
   
- O fluxo de trabalho não será acionado em nenhum dos casos. Para contornar este problema, pode adicionar um Fluxo de Trabalho Global e adicionar o fluxo de trabalho para o qual pretende acionar para que o fluxo de trabalho seja acionado para o processo de negócio em vez de para uma fase do processo. Pode definir o acionador de um Fluxo de trabalho global para Processo Abandonado ou Processo Concluído de modo a que o fluxo de trabalho seja acionado quando um utilizador abandonar ou concluir o processo de negócio.  
+ O fluxo de trabalho não será acionado em qualquer caso. Para resolver este problema, poderá adicionar um Fluxo de Trabalho Global e adicionar-lhe o fluxo de trabalho que pretende acionar para o fluxo de trabalho ser acionado para o processo de negócio, em vez de uma fase do processo. Pode definir o acionador de um Fluxo de trabalho global para Processo Abandonado ou Processo Concluído de modo a que o fluxo de trabalho seja acionado quando um utilizador abandonar ou concluir o processo de negócio.  
   
 <a name="BKMK_Entities"></a>   
 ### <a name="entities-that-can-use-business-process-flows"></a>Entidades que podem utilizar fluxos de processos de negócio  
@@ -120,7 +120,7 @@ Os fluxos de processos de negócio orientam as pessoas para que consigam realiza
 -   Fax  
 -   Incidente  
 -   Fatura  
--   Cliente potencial  
+-   Oportunidade Potencial  
 -   Carta  
 -   Lista de Marketing  
 -   Oportunidade  
@@ -131,41 +131,41 @@ Os fluxos de processos de negócio orientam as pessoas para que consigam realiza
 -   Compromisso Periódico  
 -   Especificações  
 -   Atividade de Rede Social  
--   Encomenda  
+-   Ordem  
 -   Utilizador  
 -   Tarefa  
 -   Equipa  
   
- Para ativar uma entidade personalizada para fluxos de processos de negócio, selecione a caixa de verificação **Fluxos do processo de negócio (serão criados campos)** na definição da entidade. Tenha em atenção que não é possível anular esta ação.  
+ Para ativar uma entidade personalizada para fluxos de processos de negócio, selecione a caixa de verificação de **Fluxos de processos de negócio (os campos serão criados)** na definição da entidade. Note que não é possível anular esta ação.  
   
 > [!NOTE]
->  Se navegar para a fase do fluxo de processo de negócio que contém a entidade `Social Activity` e selecionar o botão **Fase Seguinte**, verá a opção **Criar**. Quando selecionar **Criar**, o formulário **Atividade de Rede Social** é carregado. No entanto, como a `Social Activity` não é válida para `Create` a partir da interface de utilizador da aplicação, não conseguirá guardar o formulário e verá a mensagem de erro: "Erro inesperado".  
+>  Se navega para a fase de fluxo de processos de negócio que contém a entidade de `Social Activity` e escolhe o botão **A fase seguinte** , verá a opção de **Criar** . Quando escolhe **Criar**, o formulário **Atividade de Rede Social** é carregado. No entanto, como `Social Activity` não é válido para `Create` a partir da interface de utilização da aplicação, não poderá guardar o formulário e será apresentada a mensagem de erro: “Erro inesperado”.  
   
 <a name="BPF_MaxNumbers"></a>   
-### <a name="maximum-number-of-processes-stages-and-steps"></a>Número máximo de processos, fases e passos  
- Para garantir um desempenho aceitável e a usabilidade da interface de utilizador, existem algumas limitações que tem de conhecer quando planear utilizar fluxos de processos de negócio:  
+### <a name="maximum-number-of-processes-stages-and-steps"></a>Número máximo de processos, e de fases de passos  
+ Para garantir o desempenho e aceitável a utilização da interface de utilizador, existem algumas restrições que tem de estar a par de quando planear utilizar fluxos de processos de negócio:  
   
--   Não podem existir mais do que 10 processos de fluxo de processo de negócio ativados por entidade.  
+-   Não pode ter mais de 10 processos de fluxo ativados de processos de negócio por entidade.  
   
--   Cada processo só pode conter até 30 fases.  
+-   Cada processo não pode conter mais de 30 fases.  
   
--   Os processos com múltiplas entidades só podem conter até cinco entidades.
+-   os processos de várias entidades não podem conter mais de cinco entidades.
   
 ## <a name="business-process-flow-entity-customization-support"></a>Suporte de personalização de entidades de fluxos de processo de negócio 
 
-As entidades de fluxos de processos de negócio, introduzidas na atualização relativa à versão 9.0 do Dynamics 365 (online), podem aparecer no sistema para que os dados de registos de entidade possam ser disponibilizados em grelhas, vistas, gráficos e dashboards. 
+Introduzido no Dynamics 365 (online), versão 9.0, as entidades de fluxo do processo de negócio podem aparecer no sistema para os dados de registo de entidade poderem ser disponibilizadas em grelhas, vistas, gráficos e dashboards. 
 
-### <a name="use-business-process-flow-entity-records-with-grids-views-charts-and-dashboards"></a>Utilizar registos de entidade de fluxos de processo de negócio com grelhas, vistas, gráficos e dashboards
+### <a name="use-business-process-flow-entity-records-with-grids-views-charts-and-dashboards"></a>Utilizar registos de entidade de fluxo do processo de negócio com grelhas, vistas, gráficos e dashboards
 
-Como agora os fluxos de processos de negócio estão disponíveis sob a forma de entidades, pode utilizar localizações, vistas, gráficos e dashboards avançados com origem em dados de fluxos de processos de negócio de uma determinada entidade, tal como de uma oportunidade potencial ou de uma oportunidade. Os administradores de sistema e personalizadores podem criar grelhas, vistas, gráficos e dashboards de fluxos de processos de negócio personalizados semelhantes aos criados com qualquer outra entidade.
+Com os fluxos de processos de negócio disponíveis como uma entidade, pode agora utilizar localizações avançadas, vistas, gráficos e dashboards com origem em dados do fluxo de processos de negócio para uma determinada entidade, tal como uma oportunidade potencial ou oportunidade. Os administradores de sistema e personalizadores podem criar dashboards, gráficos, vistas e grelhas do fluxo do processo de negócio personalizados e semelhantes aos criados com qualquer outra entidade.
 
 Os fluxos de processos de negócio, tais como **Processo de Vendas da Oportunidade Potencial**, aparecem sob a forma de uma entidade personalizável no explorador de soluções.
 
 ![Explorador de Soluções com a entidade de processo de vendas da oportunidade potencial](media/bpf-lead-solution-explorer.png)
 
-Para aceder a uma vista predefinida de fluxo de processo de negócio, abra o explorador de soluções, expanda **Entidades** > expanda o processo que pretende, tal como **Processo de Vendas da Oportunidade Potencial**, selecione **Vistas** e, em seguida, selecione a vista que pretende.
+Para aceder a uma vista do do fluxo do processo de negócio, abra o explorador de soluções, expanda **Entidades** > expanda o processo pretendido, tal como **Processo de Vendas da Oportunidade Potencial**, selecione **Vistas** e, em seguida, selecione a vista pretendida.
 
-Estão disponíveis várias vistas predefinidas que pode ver sob a forma de um gráfico, tal como a vista **Processo de Vendas da Oportunidade Ativo**. 
+Estão disponíveis várias vistas predefinidas que podem ser vistas como um gráfico, como a vista **Processo de Vendas da Oportunidade Ativo**. 
 
 ![Vista Processo de Vendas da Oportunidade Ativo](media/bpf-default-view.png)
 
@@ -177,7 +177,7 @@ Também pode interagir com entidades de fluxos de processo de negócio a partir 
 Pode utilizar fluxos do processo de negócio offline se as seguintes condições forem cumpridas:
 
 - O fluxo do processo de negócio é utilizado a partir de uma aplicação do Power Apps.
-- A aplicação do Power Apps está ativada para utilização offline.
+- A aplicação do Power Apps está ativado para utilização offline.
 - O fluxo do processo de negócio tem uma única entidade.
 
 Especificamente, os três comandos disponíveis para um fluxo do processo de negócio quando a aplicação do Power Apps está offline são:
@@ -189,11 +189,11 @@ Especificamente, os três comandos disponíveis para um fluxo do processo de neg
 ### <a name="limitations-of-using-business-process-flow-entities"></a>Limitações da utilização de entidades de fluxos de processo de negócio
 
 - Atualmente, não pode criar formulários personalizados para entidades com base num fluxo de processo de negócio.
-- Se uma solução incluir uma entidade de fluxo de processo de negócio, essa entidade terá de ser adicionada manualmente à solução antes de a exportar. Caso contrário, a entidade de fluxo de processo de negócio não será incluída no pacote de solução. Mais informações: [Adicionar componentes da solução](/powerapps/maker/model-driven-apps/create-solution#add-solution-components)
+- Se uma solução incluir uma entidade de fluxo de processo de negócio, essa entidade terá de ser adicionada manualmente à solução antes de a exportar. Caso contrário, a entidade de fluxo de processo de negócio não será incluída no pacote de solução. Mais informações: [Add solution components](/powerapps/maker/model-driven-apps/create-solution#add-solution-components) (Adicionar componentes da solução)
 - A adição da entidade do processo a uma aplicação condicionada por modelo poderá limitar a funcionalidade. Saiba mais sobre a [criação e edição de fluxos de processos de negócio](https://docs.microsoft.com/power-automate/create-business-process-flow). 
 
-### <a name="next-steps"></a>Próximos passos  
- [Veja um breve vídeo (4:49) sobre fluxos de processos de negócio](https://go.microsoft.com/fwlink/p/?linkid=842226)   
+### <a name="next-steps"></a>Passos seguintes  
+ [Assista a um pequeno vídeo (4:49) sobre os fluxos do processo de negócio](https://go.microsoft.com/fwlink/p/?linkid=842226)   
  [Criar um fluxo de processo de negócio](create-business-process-flow.md)   
  [Melhorar fluxos de processos de negócio com ramificação](enhance-business-process-flows-branching.md) <br/>
  [Whitepaper: Process Enablement with Dynamics 365](https://download.microsoft.com/download/C/3/B/C3B46E35-9445-43B9-800B-474E022EE352/Process%20Enablement%20with%20Microsoft%20Dynamics%20CRM%202013.pdf) (Documento Técnico: Ativação de Processos com o Dynamics 365)</br>

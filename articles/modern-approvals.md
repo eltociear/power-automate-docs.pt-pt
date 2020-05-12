@@ -21,20 +21,20 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 4892ac2806009a1ed33b8bfb019b551aec6fce70
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79224314"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297786"
 ---
 # <a name="create-and-test-an-approval-workflow-with-power-automate"></a>Criar e testar um fluxo de trabalho de aprovação com o Power Automate
 
 
-Com o Power Automate, pode gerir a aprovação de documentos ou processos em vários serviços, incluindo no SharePoint, Dynamics 365, Salesforce, OneDrive para Empresas, Zendesk ou WordPress.
+Com o Power Automate, pode gerir a aprovação de documentos ou processos em vários serviços, incluindo no SharePoint, Dynamics 365, Salesforce, OneDrive para Empresas, Zendesk ou WordPress.
 
 Para criar um fluxo de trabalho de aprovação, adicione a ação **Aprovações - iniciar uma aprovação** a qualquer fluxo. Depois de adicionar esta ação, o fluxo pode gerir a aprovação de documentos ou processos. Por exemplo, pode criar fluxos de aprovação de documentos que aprovam faturas, ordens de intervenção ou cotações de vendas. Também pode criar fluxos de aprovação de processos que aprovem pedidos de férias, horas extraordinárias ou planos de viagens.
 
-Os aprovadores podem responder a pedidos a partir da caixa de entrada do e-mail, do [centro de aprovações](https://flow.microsoft.com/manage/approvals/received/) no site do Power Automate ou da aplicação Power Automate.
+Os aprovadores podem responder a pedidos a partir da respetiva caixa de entrada do e-mail, do [centro de aprovação](https://flow.microsoft.com/manage/approvals/received/) no site do Power Automate ou da aplicação Power Automate.
 
 ## <a name="create-an-approval-flow"></a>Criar um fluxo de aprovação
 Eis uma descrição geral do fluxo que iremos criar e testar:
@@ -72,13 +72,13 @@ O **Endereço do Site** e o **Nome da Lista** são os itens que anotou anteriorm
 
 ## <a name="add-a-profile-action"></a>Adicionar uma ação de perfil
 
-1. Selecione **Novo passo** e, em seguida, selecione **Adicionar uma ação**.
+1. Selecione **Novo passo** e, em seguida, **Adicionar uma ação**.
    
     ![novo passo](./media/modern-approvals/select-sharepoint-add-action.png)
 2. Introduza **perfil** na caixa de pesquisa **Escolher uma ação**.
    
     ![pesquisar perfil](./media/modern-approvals/search-for-profile.png)
-3. Localize e, em seguida, selecione a ação **Utilizadores do Office 365 - Obter o meu perfil**.
+3. Localize e, em seguida, selecione a ação **Utilizadores do Office 365 – Obter o meu perfil**.
    
     ![selecionar utilizadores do office](./media/modern-approvals/select-my-profile.png)
 4. Dê um nome ao seu fluxo e, em seguida, selecione **Criar fluxo** para guardar o trabalho feito até agora.
@@ -151,7 +151,7 @@ Agora que criámos o fluxo, está na altura de o testar!
 
 ## <a name="create-long-running-approvals"></a>Criar aprovações de execução prolongada
 
-Se for provável que o fluxo seja executado durante mais de 30 dias, considere armazenar as aprovações no Common Data Service. Esta opção permite-lhe criar fluxos que agem em resposta a pedidos de aprovação, mesmo após a execução do fluxo original atingir o tempo limite. Para o fazer, utilize dois fluxos, um para enviar um pedido de aprovação e o outro para executar a lógica de negócio nas respostas ao pedido de aprovação, com base na ação **Criar uma aprovação (v2)** . Saiba mais sobre as [aprovações de execução prolongada](https://docs.microsoft.com/business-applications-release-notes/april19/microsoft-flow/long-lived-approvals-other-approval-improvements).
+Se for provável que o fluxo seja executado durante mais de 30 dias, considere armazenar as aprovações no Common Data Service. Isto permite-lhe criar fluxos que agem em respostas a pedidos de aprovação, mesmo após o tempo de execução do fluxo original ser excedido. Para o fazer, utilize dois fluxos, um para enviar um pedido de aprovação e o outro para executar a lógica de negócio nas respostas ao pedido de aprovação, com base na ação **Criar uma aprovação (v2)**. Saiba mais sobre as [aprovações de execução prolongada](https://docs.microsoft.com/business-applications-release-notes/april19/microsoft-flow/long-lived-approvals-other-approval-improvements).
 
 >[!TIP]
 > Se utilizar clientes de e-mail modernos, não precisará de ficar a pensar se um pedido ainda é necessário, dado que o Power Automate atualiza automaticamente o e-mail para indicar que a aprovação está concluída.
@@ -167,19 +167,19 @@ Por vezes, poderá querer cancelar um pedido de aprovação que enviou. Possivel
 >Pode sempre selecionar o separador **Histórico** para ver os pedidos de aprovação que cancelou.
 
 >[!NOTE]
-> A funcionalidade de cancelamento é suportada na ação **Criar uma aprovação (v2)** .
+> A funcionalidade de cancelamento é suportada na ação **Criar uma aprovação (v2)**.
 
 ## <a name="request-approvals-from-guest-users"></a>Pedir aprovações a utilizadores convidados
 
-Pode enviar pedidos de aprovações para pessoas fora da sua organização. Para o fazer, utilize os utilizadores convidados do Azure Active Directory (AAD). para tal, [convide os utilizadores de outros inquilinos como convidados](https://docs.microsoft.com/azure/active-directory/b2b/add-user-without-invite).
+Pode enviar pedidos de aprovações para pessoas fora da sua organização. Para o fazer, utilize os utilizadores convidados do Azure Active Directory (Azure AD) ao [convidar utilizadores de outros inquilinos como convidados](https://docs.microsoft.com/azure/active-directory/b2b/add-user-without-invite).
 
 Quando atribui uma função a um convidado, será concedida a permissão necessária ao convidado para participar no processo de aprovação.
 
 Agora que já criou e testou o fluxo, certifique-se de que permite que os outros utilizadores saibam como utilizá-lo.
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Mais Informações
 
 * Ver e gerir [pedidos de aprovação pendentes](approve-reject-requests.md)
 * Criar [fluxos de aprovação sequenciais.](sequential-modern-approvals.md)
 * Criar [fluxos de aprovação paralelos.](parallel-modern-approvals.md)
-* Instale a aplicação móvel do Power Automate para [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) ou [Windows Phone](https://aka.ms/flowmobilewindows)
+* Instalar a aplicação móvel Power Automate para [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) ou [Windows Phone](https://aka.ms/flowmobilewindows).

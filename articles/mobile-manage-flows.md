@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: ce9a943f50ef5c8cc69e5dbf8fde796a75e4cdf9
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195819"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3296752"
 ---
 # <a name="manage-flows-in-power-automate-from-your-phone"></a>Gerir fluxos no Power Automate a partir do telemóvel
 
@@ -33,7 +33,7 @@ Veja uma lista de todos os fluxos que criou e, para cada fluxo, veja os eventos 
 
 **Pré-requisitos**
 
-* Instale a aplicação móvel do Power Automate para [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) ou [Windows Phone](https://aka.ms/flowmobilewindows) num [dispositivo suportado](getting-started.md#use-the-mobile-app). Neste tópico, os gráficos refletem a versão da aplicação do iPhone, mas os gráficos do Android e Windows Phone são semelhantes.
+* Instale a aplicação móvel Power Automate para [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) ou [Windows Phone](https://aka.ms/flowmobilewindows) num [dispositivo suportado](getting-started.md#use-the-mobile-app). Neste tópico, os gráficos refletem a versão da aplicação do iPhone, mas os gráficos do Android e Windows Phone são semelhantes.
 * Se ainda não tiver um fluxo, crie um no [site do Power Automate](https://flow.microsoft.com/). Para um teste mais fácil, utilize um fluxo que possa acionar em vez de aguardar por um evento externo.
 
 O fluxo neste tutorial é executado quando receber correio de um endereço específico:
@@ -46,7 +46,7 @@ Quando o fluxo é executado, envia uma notificação push personalizada para o t
 
 ![Enviar mensagem para Slack](./media/mobile-manage-flows/create-event.png)
 
-**Nota**: também pode [monitorizar a atividade do fluxo](mobile-monitor-activity.md) a partir da aplicação móvel.
+**Nota**: também pode [Monitorizar atividade do fluxo](mobile-monitor-activity.md) a partir da aplicação móvel.
 
 ## <a name="manage-a-flow"></a>Gerir um fluxo
 1. Abra a aplicação móvel e, em seguida, toque em **Meus fluxos** na parte inferior do ecrã para listar todos os fluxos.

@@ -1,6 +1,6 @@
 ---
 title: Utilize a ação aplicar a cada um para percorrer uma matriz de itens. | Microsoft Docs
-description: Utilize o Power Automate para executar ciclos através de uma matriz de itens para verificar várias condições e realizar ações com base nessas condições.
+description: Utilize o Power Automate para percorrer uma matriz de itens para verificar várias condições e realizar ações com base nessas condições.
 services: ''
 suite: flow
 documentationcenter: na
@@ -21,19 +21,19 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 9eb1707da3f0aa365750cbed4e69715ce818aaff
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193778"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3296884"
 ---
-# <a name="use-the-apply-to-each-action-in-power-automate-to-process-a-list-of-items-periodically"></a>Utilizar a ação aplicar a cada um no Power Automate para processar uma lista de itens periodicamente
+# <a name="use-the-apply-to-each-action-in-power-automate-to-process-a-list-of-items-periodically"></a>Utilize a ação aplicar a cada um no Power Automate para processar uma lista de itens periodicamente
 
 Muitos acionadores podem iniciar um fluxo imediatamente com base num evento, como, por exemplo, quando um novo e-mail entra na sua caixa de entrada. Estes acionadores são ótimos, mas, por vezes, quer executar um fluxo que consulte uma origem de dados com base numa agenda predefinida, realizando determinadas ações com base nas propriedades dos itens na origem de dados. Para o efeito, pode iniciar o seu fluxo com base numa agenda (por exemplo, uma vez por dia) e utilizar uma ação de ciclo como **Aplicar a cada um** para processar uma lista de itens. Por exemplo, pode utilizar a ação **Aplicar a cada um** para atualizar os registos de uma base de dados ou uma lista de itens a partir do Microsoft SharePoint.
 
 Nestas instruções, vamos criar um fluxo que é executado a cada 15 minutos e que faz o seguinte:
 
-1. Obtém as últimas 10 mensagens não lidas na sua Caixa de Entrada do Outlook do Office 365.
+1. Obtém as últimas 10 mensagens não lidas na sua Caixa de Entrada do Office 365 Outlook.
 2. Verifica cada uma das 10 mensagens para confirmar se alguma delas tem **participar agora** no assunto.
 3. Verifica se o e-mail foi enviado pelo seu chefe ou se está marcado com importância alta.
 4. Envia uma notificação push e marca como lido todos os e-mails que tenham **participar agora** no assunto, sejam estes do seu chefe ou marcados com importância alta.
@@ -46,12 +46,12 @@ Este diagrama apresenta os detalhes do fluxo que vamos criar nestas instruções
 Eis os requisitos para realizar com êxito os passos nestas instruções:
 
 * Uma conta registada para utilizar o [Power Automate](https://flow.microsoft.com).
-* Uma conta do Outlook do Office 365.
+* Uma conta do Office 365 Outlook.
 * A aplicação móvel do Power Automate para [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) ou [Windows Phone](https://aka.ms/flowmobilewindows).
-* Ligações ao Outlook do Office 365 e o serviço de notificações push.
+* Ligações ao Office 365 Outlook e ao serviço de notificações push.
 
 ## <a name="create-a-flow"></a>Criar um fluxo
-1. Inicie sessão no [Power Automate](https://flow.microsoft.com):
+1. Iniciar sessão no [Power Automate](https://flow.microsoft.com):
 2. Selecione o separador **Os meus fluxos** e, em seguida, crie um fluxo a partir de um valor em branco:
    
     ![criar a partir de um valor em branco](./media/apply-to-each/foreach-1.png)
@@ -63,7 +63,7 @@ Eis os requisitos para realizar com êxito os passos nestas instruções:
    
     ![execuções da agenda](./media/apply-to-each/foreach-3.png)
 6. Selecione **+ Novo passo**, **Adicionar uma ação** e, em seguida, escreva **outlook** na caixa de pesquisa para procurar todas as ações relacionadas com o Microsoft Outlook.
-7. Selecione a ação **Outlook do Office 365 - Obter e-mails**:
+7. Selecione a ação **Office 365 Outlook – Obter e-mails**:
    
     ![selecionar a ação obter e-mails](./media/apply-to-each/foreach-4.png)
 8. Esta ação abre o cartão **Obter e-mails**. Configure o cartão **Obter e-mails** para selecionar os 10 principais e-mails não lidos na pasta Caixa de Entrada. Não inclua os anexos, pois estes não serão utilizados no fluxo:
@@ -108,7 +108,7 @@ Eis os requisitos para realizar com êxito os passos nestas instruções:
 8. No cartão **Enviar-me uma notificação por telemóvel**, forneça os detalhes da notificação push que será enviada se o assunto de um e-mail contiver "participar agora" e, em seguida, selecione **Adicionar uma ação**:
    
     ![configurar notificação](./media/apply-to-each/foreach-11.png)
-9. Introduza **lido** como termo de pesquisa e, em seguida, selecione a ação **Outlook do Office 365 - Marcar como lido**. Esta ação marca todos os e-mails como lidos após o envio da notificação push:
+9. Introduza **lido** como termo de pesquisa e, em seguida, selecione a ação **Office 365 Outlook – Marcar como lido**. Esta ação marca todos os e-mails como lidos após o envio da notificação push:
    
     ![adicionar ação marcar como lido](./media/apply-to-each/foreach-12.png)
 10. Adicione o token **ID da mensagem** na caixa **ID da mensagem** do cartão **Marcar como lido**. Poderá ter de selecionar **Ver mais** para encontrar o token **ID da mensagem**. Isto indica o ID da mensagem que será marcada como lida:
@@ -117,7 +117,7 @@ Eis os requisitos para realizar com êxito os passos nestas instruções:
 11. Volte ao cartão **Condição 2** e, no ramo, **SE NÃO, NÃO FAZER NADA**:
     
     * Selecione **Adicionar uma ação** e, em seguida, escreva **obter gestor** na caixa de pesquisa.
-    * Selecione a ação **Utilizadores do Office 365 - Obter gestor** na lista de resultados da pesquisa.
+    * Selecione a ação  **Utilizadores do Office 365 – Obter gestor** na lista de resultados da pesquisa.
     * Introduza o seu endereço de e-mail *completo* na caixa **Utilizador** do cartão **Obter Gestor**.
       
       ![adicionar e configurar a ação obter gestor](./media/apply-to-each/foreach-get-manager.png)
@@ -137,7 +137,7 @@ Eis os requisitos para realizar com êxito os passos nestas instruções:
 15. No cartão **Enviar-me uma notificação por telemóvel 2**, forneça os detalhes da notificação push que será enviada se o e-mail for do seu chefe e, em seguida, selecione **Adicionar uma ação**:
     
      ![configurar o cartão notificação](./media/apply-to-each/foreach-boss-notification.png)
-16. Adicione a ação **Outlook do Office 365 - Marcar como lido**. Esta ação marca todos os e-mails como lidos após o envio da notificação push:
+16. Adicione a ação **Office 365 Outlook – Marcar como lido**. Esta ação marca todos os e-mails como lidos após o envio da notificação push:
     
      ![adicionar ação marcar como lido](./media/apply-to-each/foreach-12.png)
 17. Adicione o token **ID da mensagem** ao cartão **Marcar como lido 2**. Poderá ter de selecionar **Ver mais** para encontrar o token **ID da mensagem**. Isto indica o ID da mensagem que será marcada como lida:
@@ -154,7 +154,7 @@ Se tiver seguido todos os passos, o fluxo deverá ter um aspeto semelhante a est
 ## <a name="run-the-flow"></a>Executar o fluxo
 1. Envie para si próprio um e-mail de importância alta que inclua **participar agora** no assunto (ou peça a alguém na sua organização para lhe enviar esse e-mail).
 2. Confirme que o e-mail está na sua caixa de entrada com o estado não lido.
-3. Inicie sessão no Power Automate, selecione **Os meus fluxos** e, em seguida, **Executar agora**:
+3. Inicie sessão no Power Automate, selecione **Os meus fluxos** e, em seguida, selecione **Executar agora**:
    
     ![executar agora](./media/apply-to-each/foreach-run-1.png)
 4. Selecione **Executar fluxo** para confirmar que quer realmente executar o fluxo:
@@ -167,7 +167,7 @@ Se tiver seguido todos os passos, o fluxo deverá ter um aspeto semelhante a est
 ## <a name="view-results-of-the-run"></a>Ver os resultados da execução
 Agora que executou o fluxo com êxito, deverá receber a notificação push no seu dispositivo móvel.
 
-1. Abra a aplicação do Power Automate no dispositivo móvel e selecione o separador **Atividade**. Verá a notificação push acerca da reunião:
+1. Abra a aplicação no Power Automate no seu dispositivo móvel e, em seguida, selecione o separador **Atividade**. Verá a notificação push acerca da reunião:
    
     ![selecionar o separador atividade](./media/apply-to-each/foreach-notification-1.png)
 2. Para ver o conteúdo completo da notificação, poderá ter de selecionar a notificação. Verá a notificação completa, semelhante a esta:

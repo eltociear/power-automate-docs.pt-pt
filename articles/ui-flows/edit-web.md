@@ -25,7 +25,7 @@ ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 04/01/2020
-ms.locfileid: "80525160"
+ms.locfileid: "3298754"
 ---
 # <a name="edit-web-ui-flows"></a>Editar fluxos de IU para a Web
 
@@ -50,7 +50,7 @@ Veja a seguir um exemplo de seletores possíveis que o Selenium IDE identificou:
 
 Esta capacidade avançada permite-lhe utilizar sintaxes como \${foo.bar} para aceder à propriedade bar do objeto foo. Também é possível escrever para a propriedade bar do foo ao utilizar foo. bar como a propriedade value num comando store. Também pode utilizar sintaxes como \${foo[0]} para aceder ao item no índice 0 na matriz foo.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 - [Criar os fluxos de IU para a Web](create-web.md)
 - [Executar fluxos de IU](run-ui-flow.md)

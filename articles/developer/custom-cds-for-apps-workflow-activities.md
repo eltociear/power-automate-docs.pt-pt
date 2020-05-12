@@ -1,5 +1,5 @@
 ---
-title: Atividades de fluxo de trabalho personalizadas do Common Data Service (assemblagens de fluxos de trabalho) | Microsoft Docs
+title: Atividades de fluxo de trabalho personalizadas (assemblagens de fluxo de trabalho) do Common Data Service | MicrosoftDocs
 description: Saiba mais sobre o registo e a execução de atividades de fluxo de trabalho personalizadas do Common Data Service, bem como sobre as atividades imediatas fornecidas pelo Windows Workflow Foundation.
 ms.custom: ''
 ms.date: 08/08/2018
@@ -16,16 +16,16 @@ search.app:
 search.audienceType:
 - developer
 ms.openlocfilehash: c858e342f9d1f2ea5960fd228c1cddcbec1eaf7b
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74364034"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297368"
 ---
-# <a name="custom-common-data-service-workflow-activities-workflow-assemblies"></a>Atividades de fluxo de trabalho personalizadas do Common Data Service (assemblagens de fluxos de trabalho)
+# <a name="custom-common-data-service-workflow-activities-workflow-assemblies"></a>Atividades de fluxo de trabalho personalizadas (assemblagens de fluxo de trabalho) do Common Data Service
 [!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
 
-O Common Data Service suporta o registo e a execução de atividades de fluxo de trabalho personalizadas, bem como as atividades imediatas fornecidas pelo [Windows Workflow Foundation](https://docs.microsoft.com/dotnet/framework/windows-workflow-foundation/). 
+O Common Data Service suporta o registo e a execução de atividades de fluxo de trabalho personalizadas, bem como sobre as atividades imediatas fornecidas pelo [Windows Workflow Foundation](https://docs.microsoft.com/dotnet/framework/windows-workflow-foundation/). 
 
 O Windows Workflow Foundation inclui uma biblioteca de atividades que disponibiliza atividades para fluxo de controlo, enviar e receber mensagens, realizar trabalho em paralelo e mais. No entanto, para criar aplicações que satisfaçam as suas necessidades comerciais, poderá necessitar de atividades que realizem tarefas específicas dessa aplicação. Para o possibilitar, o Windows Workflow Foundation suporta a criação de atividades de fluxo de trabalho personalizadas.
 
@@ -33,7 +33,7 @@ Mais informações: [Criar uma extensão do fluxo de trabalho](/powerapps/develo
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Descrição Geral Para Programadores do Common Data Service](/powerapps/developer/common-data-service/overview)
+[Descrição Geral para Programadores do Common Data Service](/powerapps/developer/common-data-service/overview)
   
 [Criar um plug-in](/powerapps/developer/common-data-service/apply-business-logic-with-code#create-a-plug-in) 
   

@@ -22,11 +22,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 8d3ce37fee1a4650454cc2c47af0d19fe37da96d
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193709"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3296708"
 ---
 # <a name="replace-dialogs-with-business-process-flows-or-canvas-apps"></a>Substituir diálogos por processos do fluxo de negócio ou aplicações baseadas em telas
 
@@ -41,18 +41,18 @@ Esta tabela lista o conjunto de capacidades dos diálogos e as capacidades equiv
 |Capacidade dos diálogos  | Capacidade em termos de fluxos de processo de negócio?  | Capacidade em termos de aplicações baseadas em telas?  |
 |---------|---------|---------|
 |Página     | Sim <br/> (fase do processo de negócio)    | Sim <br/> (ecrã da aplicação)        |
-|Apenas pedido   |  Não    |  Sim <br/> (etiquetas)        |
+|Apenas pedido   |  No    |  Sim <br/> (etiquetas)        |
 |Pedido e resposta     |  Sim <br/> (apenas atributos de entidade)    | Sim <br/> (etiquetas e campos de texto)    |
-|Argumentos de entrada     |  Limitado <br/> (passos na fase do processo de negócio)    | Sim <br/> (parâmetros de cadeia de consulta)     |
-|Variáveis   |  Não     |  Sim       |
-|Variáveis de consulta    |  Não     |  Sim     |
+|Argumentos de entrada     |  Limitada <br/> (passos na fase do processo de negócio)    | Sim <br/> (parâmetros de cadeia de consulta)     |
+|Variáveis   |  No     |  Sim       |
+|Variáveis de consulta    |  No     |  Sim     |
 |Lógica de ramificação condicional    |  Sim     | Sim <br/>  (navegar para qualquer ecrã na aplicação)    |
-|Reutilizar <br/> (iniciar como um diálogo subordinado)   |  Não     | Sim <br/> (navegar para qualquer ecrã na aplicação, iniciar outra aplicação numa nova janela)     |
-|Executar fluxos de trabalho no início/fim    |   Sim      |  Não <br/> (utilizar um fluxo como alternativa)  |
-|Executar fluxos de trabalho na entrada    | Sim    | Não <br/> (utilizar um fluxo como alternativa)   |
-|Executar fluxos de trabalho na transição de página   |  Sim       | Não <br/> (utilizar um fluxo como alternativa)    |
-|Começar a utilizar um URL  |   Não      |  Sim     |
-|Iniciar sessão    |  Sim       |  Não     |
+|Reutilizar <br/> (iniciar como um diálogo subordinado)   |  No     | Sim <br/> (navegar para qualquer ecrã na aplicação, iniciar outra aplicação numa nova janela)     |
+|Executar fluxos de trabalho no início/fim    |   Sim      |  No <br/> (utilizar um fluxo como alternativa)  |
+|Executar fluxos de trabalho na entrada    | Sim    | No <br/> (utilizar um fluxo como alternativa)   |
+|Executar fluxos de trabalho na transição de página   |  Sim       | No <br/> (utilizar um fluxo como alternativa)    |
+|Começar a utilizar um URL  |   No      |  Sim     |
+|Iniciar sessão    |  Sim       |  No     |
 |Suporte de SKDs   |  Sim     |  Sim     |
 
 ### <a name="additional-capabilities-with-business-process-flows"></a>Capacidades adicionais com fluxos de processo de negócio
@@ -85,7 +85,7 @@ Por fim, configure as fases e os passos do fluxo de processo de negócio, juntam
 
 Para disponibilizar este fluxo de processo de negócio aos utilizadores, certifique-se de que os utilizadores certos têm privilégios para o fluxo de processo de negócio e o ativam depois.
 
-Para obter mais informações sobre como criar um fluxo de processo de negócio, veja [Tutorial: Criar um fluxo de processo de negócio para normalizar processos](create-business-process-flow.md).
+Para obter mais informações sobre como criar um fluxo de processo de negócio, veja [Tutorial: criar um fluxo de processo de negócio para normalizar processos](create-business-process-flow.md).
 
 ## <a name="dialog-replacement-using-canvas-app-scenario"></a>Substituição de diálogos através de um cenário com uma aplicação baseada em telas
 
@@ -116,7 +116,7 @@ As dependências das aplicações baseadas em telas são controladas?
 - As dependências das aplicações de tela são controladas da mesma forma que as dependências nas aplicações do Dynamics 365.
 
 Posso iniciar uma aplicação baseada em telas como um item de pop-up a partir de um botão na barra de comando?
-- Yes. Para tal, basta definir o URL de destino para o URL da aplicação baseada em telas, obtido a partir da secção **Detalhes** da aplicação conforme descrito anteriormente.
+- Sim. Para tal, basta definir o URL de destino para o URL da aplicação baseada em telas, obtido a partir da secção **Detalhes** da aplicação conforme descrito anteriormente.
 
 Os fluxos de trabalho podem ser chamados a partir de uma aplicação baseada em telas?
 - Esta ação não é suportada. Como alternativa, recomendamos que utilize um fluxo. Mais informações: [Introdução aos fluxos de botões com entradas de utilizador](button-flow-with-user-input-tokens.md)
@@ -125,8 +125,8 @@ Posso converter automaticamente diálogos em fluxos de processo de negócio ou a
 - Não existe uma forma automatizada para converter diálogos em fluxos de processo de negócio ou aplicações baseadas em telas.
 
 
-## <a name="see-also"></a>Veja também
-[Tutorial: Criar um fluxo de processo de negócio para normalizar processos](create-business-process-flow.md) </br>
+## <a name="see-also"></a>Consulte também
+[Tutorial: criar um fluxo de processo de negócio para normalizar processos](create-business-process-flow.md) </br>
 [O que são aplicações de tela no Power Apps?](/powerapps/maker/canvas-apps/getting-started)
 
 

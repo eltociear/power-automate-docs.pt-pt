@@ -25,7 +25,7 @@ ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 04/01/2020
-ms.locfileid: "80525058"
+ms.locfileid: "3298688"
 ---
 # <a name="upgrade-ui-flows-app-and-connections-from-previous-releases"></a>Atualizar a aplicação de fluxos de IU e ligações a partir de versões anteriores
 
@@ -41,7 +41,7 @@ Não é necessária qualquer ação até atualizar a aplicação de fluxos de IU
 
 1.  Para cada dispositivo em que instalou a aplicação de fluxos de IU:
 
-    1. Inicie sessão no [Power Automate](https://powerautomate.microsoft.com).
+    1. Iniciar sessão no [Power Automate](https://powerautomate.microsoft.com).
     1. Expanda a opção **Dados** no lado esquerdo do ecrã.
     1. Selecione **Ligações**.
     1. Edite as ligações de fluxos de IU com destino no seu dispositivo.
@@ -50,7 +50,7 @@ Não é necessária qualquer ação até atualizar a aplicação de fluxos de IU
     >[!IMPORTANT]
     >Certifique-se de que utiliza as credenciais corretas conforme delineado no artigo [Configurar ligações de fluxos de IU e credenciais da máquina](setup.md#setup-ui-flows-connections-and-machine-credentials). A utilização das credenciais corretas garante que a sua ligação atualiza e utiliza os caminhos de código para os fluxos de IU normalmente disponíveis.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 - Saiba como [configurar fluxos de IU](setup.md). 
 - Saiba mais sobre os [diferentes tipos de fluxos](..\getting-started.md#types-of-flows) que pode utilizar para automatizar os seus fluxos de trabalho.

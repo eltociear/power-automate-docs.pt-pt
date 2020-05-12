@@ -21,17 +21,17 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 8ccb933188902b89fa45b65cfec0d3d0e96de4c8
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195710"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297808"
 ---
 # <a name="create-a-flow-from-a-template-in-power-automate"></a>Criar um fluxo a partir de um modelo no Power Automate
 
 Crie um fluxo a partir de um dos diversos modelos incorporados que podem, por exemplo, enviar-lhe uma mensagem Slack quando o gestor envia um e-mail no Office 365.
 
-**Nota:** [crie um fluxo do zero](get-started-logic-flow.md) se já tiver um processo em mente e não conseguir localizar um modelo para ele.
+**Nota:** [Cria um fluxo do zero](get-started-logic-flow.md) se já tiver um processo em mente e não conseguir localizar um modelo para ele.
 
 **Pré-requisitos**
 
@@ -71,9 +71,9 @@ Crie um fluxo a partir de um dos diversos modelos incorporados que podem, por ex
 
 Agora, quando o gestor envia um e-mail, irá receber uma mensagem do Slack que contém as informações que especificou.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 * [Ver o fluxo em ação](see-a-flow-run.md)
 * [Publicar o seu próprio modelo](publish-a-template.md)
-* [Utilizar um modelo do Common Data Service](common-data-model-intro.md)
+* [Utilizar um modelo para o Common Data Service](common-data-model-intro.md)
 * [Comece a trabalhar com fluxos de equipa](create-team-flows.md) e convide outras pessoas para colaborar consigo na criação de fluxos.
 

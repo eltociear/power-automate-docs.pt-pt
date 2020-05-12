@@ -25,7 +25,7 @@ ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 04/01/2020
-ms.locfileid: "80525104"
+ms.locfileid: "3298820"
 ---
 # <a name="edit-desktop-ui-flows"></a>Editar fluxos de IU para computador
 
@@ -55,7 +55,7 @@ Os parâmetros avançados permitem-lhe alterar:
 
 Pode querer gravar o fluxo de IU em várias sessões. Depois de ter concluído a primeira gravação, pode proceder da seguinte forma:
 
-1. Inicie sessão no [Power Automate](https://flow.microsoft.com).
+1. Iniciar sessão no [Power Automate](https://flow.microsoft.com).
 1. Selecione **Os meus fluxos** > **Fluxos de IU**.
 1. Selecione o fluxo de IU que quer editar.
    ![](../media/edit-desktop/select-ui-flow.png)
@@ -99,14 +99,14 @@ Depois de ter gravado uma aplicação com, pelo menos, uma ação, poderá adici
 | Enviar teclas           | Envie teclas e combinações de teclas, como CTRL + C.                             |
 | Clicar com o botão esquerdo do rato          |                                                                   |
 | Obter texto            | Leia o texto de um elemento da interface de utilizador e, em seguida, utilize-o como uma saída. |
-| Introduzir texto          |                                                                   |
+| Introduzir o texto          |                                                                   |
 | Obter elemento ativado | Verifique se um elemento da interface de utilizador está ativado ou desativado.         |
 | Limpar elemento       | Limpe o valor num elemento da interface de utilizador editável.             |
 | Aguardar alguns segundos    | Aguarde antes de continuar para o próximo passo.                           |
 
 Siga estes passos para adicionar uma ação manual:
 
-1. Inicie sessão no [Power Automate](https://flow.microsoft.com).
+1. Iniciar sessão no [Power Automate](https://flow.microsoft.com).
 1. Selecione **Os meus fluxos** > **Fluxos de IU**.
 1. Selecione o fluxo de IU que quer editar.
    ![](../media/edit-desktop/select-ui-flow.png)
@@ -167,20 +167,20 @@ Pode realizar estas operações avançadas ao realizar os seguintes passos num f
 
 1. Selecione o fluxo de IU que criou > **Mais comandos** (...) > **Editar**.
 
-1. Selecione **+**  > **Adicionar uma ação** na seta para baixo do passo do fluxo de IU ao qual pretende adicionar uma lógica.
+1. Selecione **+** > **Adicionar uma ação** na seta para baixo do passo do fluxo de IU ao qual pretende adicionar uma lógica.
 
    ![Adicionar uma ação](../media/edit-desktop/add-action.png)
 
 1. Selecione **Incorporado** e, em seguida, selecione uma das ações de controlo disponíveis.
 
-   ![Incorporado](../media/edit-desktop/select-built-in.png)
+   ![Incorporada](../media/edit-desktop/select-built-in.png)
 
 1. Complete a expressão que precisa de ser avaliada. Pode utilizar conteúdo dinâmico e expressões para avaliar a condição e alternar os controlos. Adicionalmente, pode utilizar qualquer saída que seja criada pelos passos anteriores do fluxo de IU.
 
    ![Cartão de condição](../media/edit-desktop/condition-card.png)
 
 
-## <a name="handle-error-conditions"></a>Lidar com condições de erro
+## <a name="handle-error-conditions"></a>Processar condições de erro
 
 Podem surgir condições inesperadas durante a reprodução, provocando a falha dos seus fluxos de IU. Pode utilizar funcionalidades avançadas de processamento de erros para criar passos alternativos para quando surgirem condições inesperadas. 
 
@@ -252,7 +252,7 @@ Siga estes passos após gravar um script de fluxo de IU:
 
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 - Saiba como [executar o fluxo de IU](run-ui-flow.md) que acabou de editar.
 

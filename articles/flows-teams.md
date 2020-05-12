@@ -1,6 +1,6 @@
 ---
 title: Aprender a criar e a gerir fluxos no Microsoft Teams | Microsoft Docs
-description: Crie e faça a gestão dos fluxos para publicar mensagens a pedido, @mention utilizadores e canais, publicar cartões com opções de resposta e muito mais.
+description: Crie e faça a gestão dos fluxos para publicar mensagens a pedido, utilizadores e canais @menção, publicar cartões com opções de resposta e muito mais.
 services: ''
 suite: flow
 documentationcenter: na
@@ -16,11 +16,11 @@ ms.workload: na
 ms.date: 04/29/2019
 ms.author: deonhe
 ms.openlocfilehash: 1fbd0c6b1f6a7cd453f6c1a336f5ce450e236c5e
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195664"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3296840"
 ---
 # <a name="power-automate-in-teams"></a>Power Automate no Teams
 
@@ -30,11 +30,11 @@ ms.locfileid: "79195664"
 1. Acesso ao Microsoft Teams.
 1. Acesso ao Power Automate.
 
-## <a name="install-the-power-automate-app-in-teams"></a>Instalar a aplicação do Power Automate no Teams
+## <a name="install-the-power-automate-app-in-teams"></a>Instalar a aplicação Power Automate no Teams
 
-Siga estes passos para instalar a aplicação do Power Automate no Microsoft Teams.
+Siga estes passos para instalar a aplicação Power Automate no Microsoft Teams.
 
-1. Inicie sessão no Microsoft Teams.
+1. Iniciar sessão no Microsoft Teams.
 
 1. Toque no ícone **Aplicações** na parte inferior esquerda da barra de navegação do Teams.
 
@@ -48,14 +48,14 @@ Siga estes passos para instalar a aplicação do Power Automate no Microsoft Tea
 
     ![Botão Instalar](media/flows-teams/select-install.png)
 
-1. O Power Automate está, agora, instalado.
+1. O Power Automate está agora instalado.
 
     ![Instalado](media/flows-teams/flow-installed.png)
 
 
 ## <a name="create-a-flow-in-teams"></a>Criar um fluxo no Teams
 
-1. Inicie sessão no Microsoft Teams.
+1. Iniciar sessão no Microsoft Teams.
 
 1. Selecione a ligação **Mais aplicações adicionadas** (...) na barra de navegação e, em seguida, selecione a aplicação **Flow**.
 
@@ -84,19 +84,19 @@ Siga estes passos para instalar a aplicação do Power Automate no Microsoft Tea
 
 ## <a name="manage-approvals"></a>Faça a gestão de aprovações
 
-Pode gerir [aprovações](modern-approvals.md) no Microsoft Teams, tal como faz no Power Automate. Siga estes passos para gerir as aprovações:
+Pode gerir [aprovações](modern-approvals.md) no Microsoft Teams, tal como faria no Power Automate. Siga estes passos para gerir as aprovações:
 
-1. Inicie sessão no Microsoft Teams.
+1. Iniciar sessão no Microsoft Teams.
 1. Selecione o separador **Aprovações**.
 
     ![Separador Aprovações](media/flows-teams/approvals-tab.png)
 
     Verá os seguintes subseparadores:
 
-    Separador|Objetivo
+    Tabulação|Objetivo
     ----|-----|
-    Recebidos|Apresenta uma lista de pedidos de aprovação que recebeu e que aguardam a sua ação.
-    Enviados|Apresenta uma lista de pedidos de aprovação que enviou e que aguardam a ação de outros utilizadores.
+    Recebido|Apresenta uma lista de pedidos de aprovação que recebeu e que aguardam a sua ação.
+    Enviada|Apresenta uma lista de pedidos de aprovação que enviou e que aguardam a ação de outros utilizadores.
     Histórico|Apresenta uma lista de pedidos de aprovação recebidos e enviados.
     Criar um fluxo de aprovação|Criar fluxos de aprovação.
 
@@ -115,7 +115,7 @@ Pode gerir [aprovações](modern-approvals.md) no Microsoft Teams, tal como faz 
 > [!TIP]
 > O bot lista e executa fluxos que são acionados por um agendamento ou acionados manualmente, sem intervenção do utilizador.
 
-1. Inicie sessão no Microsoft Teams.
+1. Iniciar sessão no Microsoft Teams.
 1. Selecione a ligação **Mais aplicações adicionadas** (...) na barra de navegação e, em seguida, selecione a aplicação **Flow**.
 
     ![Ícone de aplicações adicionadas](media/flows-teams/added-apps-icon.png)

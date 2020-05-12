@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 393ae5f6a86363610c26aea78a04748f34dc4f97
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193617"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3296774"
 ---
 # <a name="create-a-flow-from-your-phone-by-using-power-automate"></a>Criar um fluxo a partir do telemóvel com o Power Automate
 
@@ -34,8 +34,8 @@ Crie um fluxo a partir do telemóvel com um modelo, que pode localizar ao pesqui
 Se não estiver familiarizado com o Power Automate, [veja uma descrição geral](getting-started.md).
 
 ## <a name="prerequisites"></a>Pré-requisitos
-* Ter uma [conta do Power Automate](sign-up-sign-in.md).
-* A aplicação móvel do Power Automate para [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) ou [Windows Phone](https://aka.ms/flowmobilewindows) instalada num [dispositivo suportado](getting-started.md#use-the-mobile-app). Neste tópico, os gráficos refletem a versão da aplicação do iPhone, mas a interface de um Android ou Windows Phone é semelhante.
+* Uma [conta para o Power Automate](sign-up-sign-in.md).
+* A aplicação móvel Power Automate para [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) ou [Windows Phone](https://aka.ms/flowmobilewindows) num [dispositivo suportado](getting-started.md#use-the-mobile-app). Neste tópico, os gráficos refletem a versão da aplicação do iPhone, mas a interface de um Android ou Windows Phone é semelhante.
 * Para utilizar o modelo demonstrado neste tópico, também precisará de:
   
   * Credenciais do Office 365.
@@ -69,7 +69,7 @@ Se não estiver familiarizado com o Power Automate, [veja uma descrição geral]
     ![Confirmar modelo](./media/mobile-create-flow/confirm-template.png)
 
 ## <a name="finish-the-flow"></a>Concluir fluxo
-1. Se lhe for pedido, toque em **Iniciar sessão**, e forneça as credenciais para o Outlook do Office 365, Utilizadores do Office 365 ou ambas.
+1. Se lhe for pedido, toque em **Iniciar sessão**, e forneça as credenciais para o Office 365 Outlook, Utilizadores do Office 365 ou ambas.
    
     ![Iniciar sessão no Office 365](./media/mobile-create-flow/office-signin.png)
    
@@ -92,7 +92,7 @@ Se não estiver familiarizado com o Power Automate, [veja uma descrição geral]
    
     O fluxo é criado e irá verificar a existência de correio do gestor até colocar em pausa ou eliminar o fluxo.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 * [Monitorizar a atividade do fluxo](mobile-monitor-activity.md).
 * [Gerir as seus fluxos](mobile-manage-flows.md).
 

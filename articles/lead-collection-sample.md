@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 6ec875a8a3bf682b7a3d9b44a0cc1d3624bf7a70
-ms.sourcegitcommit: 0761c15339ba3de6036f7fe5251aa8ad9173ee8b
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75902213"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3298204"
 ---
 # <a name="lead-collection-sample"></a>Exemplo de recolha de oportunidades potenciais
 
@@ -37,7 +37,7 @@ O exemplo de **recolha de oportunidades potenciais** é um formulário de entrad
 
 | Nome do Token Dinâmico    | Texto do Marcador de Posição       | Notas                                                                                       |
 |-----------------------|------------------------|--------------------------------------|
-| Título                 |                        | Texto a apresentar                                                                                  |
+| Cargo                 |                        | Texto a apresentar                                                                                  |
 | acInstructions        |                        | Texto a apresentar                                                                                  |
 | acLeadFName           | {firstName}            | **Resultado** da resposta                                                                           |
 | acLeadLName           | {lastName}             | **Resultado** da resposta                                                                           |

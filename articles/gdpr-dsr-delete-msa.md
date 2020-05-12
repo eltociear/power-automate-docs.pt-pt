@@ -1,6 +1,6 @@
 ---
-title: Pedidos de Eliminação de Titulares de Dados DO RGPD no Power Automate para Contas Microsoft (MSA) | Microsoft Docs
-description: Saiba como utilizar o Power Automate para responder a Pedidos de Eliminação de Titulares de Dados DO RGPD para Contas Microsoft.
+title: Pedidos de Eliminação dos Titulares de Dados RGPD do Power Automate para Contas Microsoft (MSA) | Microsoft Docs
+description: Saiba como utilizar o Power Automate para responder a Pedidos de Eliminação dos Titulares dos Dados RGPD para Contas Microsoft.
 services: ''
 suite: flow
 documentationcenter: na
@@ -21,11 +21,11 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: 48aafe66584e42f3011b135ff8dbdc5fec69737f
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193939"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297962"
 ---
 # <a name="respond-to-gdpr-data-subject-delete-requests"></a>Responder a Pedidos de Eliminação de Titulares de Dados RGPD
 
@@ -63,9 +63,9 @@ Os passos abaixo descrevem como eliminar pedidos autonomamente, de acordo com o 
 
 ### <a name="list-and-delete-flows"></a>Ver e eliminar fluxos
 
-Um utilizador pode ver e eliminar os fluxos do [Power Automate](https://flow.microsoft.com) ao seguir estes passos:
+Um utilizador pode ver e eliminar os seus fluxos do [Power Automate](https://flow.microsoft.com) ao seguir estes passos:
 
-1. Inicie sessão no [Power Automate](https://flow.microsoft.com) e selecione **Os meus fluxos**.
+1. Inicie sessão no [Power Automate](https://flow.microsoft.com) e, em seguida, selecione **Os meus fluxos**.
 
 1. Selecione **...** junto ao fluxo que pretende eliminar e, em seguida, selecione **Eliminar**.
 
@@ -75,7 +75,7 @@ Um utilizador pode ver e eliminar os fluxos do [Power Automate](https://flow.mic
 
 Os conectores utilizam ligações para comunicar com sistemas SaaS e APIs. As ligações incluem referências para o utilizador que as cria. O utilizador pode eliminar estas referências em qualquer altura ao seguir estes passos:
 
-1. Inicie sessão no [Power Automate](https://flow.microsoft.com), selecione o ícone de engrenagem e, em seguida, **Ligações**.
+1. Inicie sessão no [Power Automate](https://flow.microsoft.com), selecione o ícone de engrenagem e, em seguida, selecione **Ligações**.
 
     ![Eliminar Evento](./media/gdpr-dsr-delete-msa/deleteconnections.png)
 
@@ -92,7 +92,7 @@ Os conectores utilizam ligações para comunicar com sistemas SaaS e APIs. As li
 >
 >
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Mais Informações
 
 * Introdução ao [Power Automate](getting-started.md)
-* Conheça as [novidades](release-notes.md) do Power Automate
+* Conheça as [novidades ](release-notes.md) do Power Automate

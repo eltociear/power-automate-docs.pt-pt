@@ -21,16 +21,16 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 2a0e2d3ff9fb39019ef4b8f37a7715229844c388
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79224360"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297742"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>O que é um gateway de dados no local?
 
 
-Um gateway de dados no local atua como uma ponte para permitir a transferência de dados rápida e segura entre dados no local (dados que não estão na cloud) e vários serviços cloud da Microsoft. Estes serviços cloud incluem o Power BI, Power Apps, Power Automate, Azure Analysis Services e Azure Logic Apps. Através da utilização de um gateway, as organizações conseguem manter bases de dados e outras origens de dados nas redes no local e, ainda assim, utilizar esses dados no local de forma segura em serviços cloud.
+Um gateway de dados no local atua como uma ponte para permitir a transferência de dados rápida e segura entre dados no local (dados que não estão na cloud) e vários serviços cloud da Microsoft. Estes Serviço Cloud incluem o Power BI, Power Apps, Power Automate, Azure Analysis Services, and Azure Logic Apps. Através da utilização de um gateway, as organizações conseguem manter bases de dados e outras origens de dados nas redes no local e, ainda assim, utilizar esses dados no local de forma segura em serviços cloud.
 
 ## <a name="how-the-gateway-works"></a>Como funciona o gateway
 
@@ -44,7 +44,7 @@ Existem dois tipos diferentes de gateway, cada um para um cenário diferente:
 
 - O **gateway de dados no local** permite que múltiplos utilizadores se liguem a múltiplas origens de dados no local. Pode utilizar um gateway de dados no local com todos os serviços suportados através de uma única instalação de gateway. Este gateway é adequado para cenários complexos com várias pessoas a acederem às várias origens de dados.
 
-- O **gateway de dados no local (modo pessoal)** permite que um utilizador se ligue a origens e não pode ser partilhado com outras pessoas. O gateway de dados no local (modo pessoal) só pode ser utilizado com o Power BI. Este gateway é adequado para cenários em que o utilizador é a única pessoa responsável pela criação de relatórios e não precisa de partilhar nenhuma origem de dados com outras pessoas.
+- O **gateway de dados no local (modo pessoal)** permite que um utilizador se ligue a origens e não pode ser partilhado com outras pessoas. O gateway de dados no local (modo pessoal) só pode ser utilizado com o Power BI. Este gateway é adequado para cenários em que o utilizador é a única pessoa responsável pela criação de relatórios e não precisa de partilhar nenhuma origem de dados com outras pessoas.
 
 ## <a name="use-a-gateway"></a>Utilizar um gateway
 
@@ -55,6 +55,6 @@ Existem quatro passos principais para utilizar um gateway.
 3. [Adicionar administradores de gateway](/data-integration/gateway/service-gateway-manage) que também consigam gerir e administrar outros requisitos de rede.
 4. [Resolver problemas](/data-integration/gateway/service-gateway-tshoot) relacionados com o gateway em caso de erros.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 - [Instalar o gateway de dados no local](/data-integration/gateway/service-gateway-install)

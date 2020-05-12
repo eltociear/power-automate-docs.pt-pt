@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: d2a7cbf1f3bb582853583a790e2bd26f319655d3
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195733"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297500"
 ---
 # <a name="get-started-with-button-trigger-tokens"></a>Introdução aos tokens de acionador de botão
 
@@ -39,25 +39,25 @@ Eis a lista dos tokens de acionador de botão que pode utilizar ao criar os seus
 
 | Parâmetro | Descrição |
 | --- | --- |
-| Cidade |A cidade em que se encontra o dispositivo que está a executar o fluxo. |
-| País/Região |O país/região em que se encontra o dispositivo que está a executar o fluxo. |
-| Endereço completo |O endereço completo em que se encontra o dispositivo que está a executar o fluxo. |
-| Latitude |A latitude em que se encontra o dispositivo que está a executar o fluxo. |
-| Longitude |A longitude em que se encontra o dispositivo que está a executar o fluxo. |
-| Código Postal |O código postal em que se encontra o dispositivo que está a executar o fluxo. |
-| Estado |O estado em que se encontra o dispositivo que está a executar o fluxo. |
-| Rua |A rua em que se encontra o dispositivo que está a executar o fluxo. |
-| Carimbo de data/hora |A hora na área em que se encontra o dispositivo que está a executar o fluxo. |
-| Data |A data na área em que se encontra o dispositivo que está a executar o fluxo. |
+| Localidade |A cidade onde se encontra o dispositivo que está a executar o fluxo. |
+| País/Região |O país/região onde se encontra o dispositivo que está a executar o fluxo. |
+| Endereço completo |O endereço completo do local onde se encontra o dispositivo que está a executar o fluxo. |
+| Latitude |A latitude do local onde se encontra o dispositivo que está a executar o fluxo. |
+| Longitude |A longitude do local onde se encontra o dispositivo que está a executar o fluxo. |
+| PostalCode |O código postal do local onde se encontra o dispositivo que está a executar o fluxo. |
+| Distrito |O estado onde se encontra o dispositivo que está a executar o fluxo. |
+| Rua |A rua onde se encontra o dispositivo que está a executar o fluxo. |
+| Carimbo de Data/Hora |A hora na área onde se encontra o dispositivo que está a executar o fluxo. |
+| Data |A data na área onde se encontra o dispositivo que está a executar o fluxo. |
 | Nome de utilizador |O nome de utilizador da pessoa com sessão iniciada no dispositivo que está a executar o fluxo. |
-| E-mail de utilizador |O e-mail de utilizador da pessoa com sessão iniciada no dispositivo que está a executar o fluxo. |
+| E-mail do utilizador |O e-mail de utilizador da pessoa com sessão iniciada no dispositivo que está a executar o fluxo. |
 
 ## <a name="create-a-button-flow-that-uses-trigger-tokens"></a>Criar um fluxo de botão que utilize tokens de acionador
 Quando cria um botão, pode utilizar tokens de acionador para adicionar funcionalidades avançadas ao botão.
 
 Nesta demonstração, vamos criar um fluxo de botão num dispositivo Android. O fluxo de botão irá utilizar tokens de acionador para enviar a data e o seu endereço completo num e-mail "**A trabalhar a partir de casa**" para o seu chefe.
 
-Nesta demonstração, verá capturas de ecrã de um dispositivo Android. No entanto, a experiência também é semelhante em dispositivos iOS ou Windows Phone.
+Nesta demonstração, verá capturas de ecrã de um dispositivo Android; no entanto, a experiência também é semelhante em dispositivos iOS ou Windows Phone.
 
 ### <a name="prerequisites"></a>Pré-requisitos
 * Um endereço de e-mail escolar ou profissional ou uma [Conta Microsoft](https://account.microsoft.com/about?refd=www.microsoft.com) com acesso ao Power Automate.
@@ -81,7 +81,7 @@ Vamos começar:
    ![token de acionador de botão](./media/introduction-to-button-trigger-tokens/7.png)  
 8. Toque no parâmetro **Endereço completo** e, em seguida, toque em **Criar**  
    ![token de acionador de botão](./media/introduction-to-button-trigger-tokens/8.png)  
-9. Toque em **Concluído**. Acabou de criar um fluxo do botão.  
+9. Toque em **Concluído**. Concluiu a criação do seu fluxo de botão.  
    ![token de acionador de botão](./media/introduction-to-button-trigger-tokens/9.png)  
 
 ## <a name="run-the-button-flow"></a>Executar o fluxo de botão
@@ -96,6 +96,6 @@ Vamos começar:
 
 Parabéns, acabou de criar um fluxo de botão que utiliza os tokens de acionador de data e de endereço completo. 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 * [Partilhar fluxos de botões](share-buttons.md)
 * [Saiba mais sobre fluxos de botão](introduction-to-button-flows.md)

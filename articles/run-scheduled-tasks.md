@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 4970554dee8e031a746cf604e2a628f41056b46c
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193686"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3296642"
 ---
 # <a name="run-flows-on-a-schedule"></a>Executar fluxos com base numa agenda
 
@@ -36,12 +36,12 @@ Crie um fluxo que realize uma ou mais tarefas (como enviar um relatório num e-m
 * após um número de dias, horas ou minutos que especificar
 
 ## <a name="create-a-recurring-flow"></a>Criar um fluxo periódico
-1. Inicie sessão no [Power Automate](https://flow.microsoft.com) e selecione **Os meus fluxos** na barra de navegação superior.
+1. Inicie sessão no [Power Automate](https://flow.microsoft.com) e, em seguida, selecione **Os meus fluxos** na barra de navegação superior.
    
     ![opção Os meus fluxos](./media/run-scheduled-tasks/create-flow.png)
 2. Selecione **Criar do zero**.
    
-    ![Criar um fluxo a partir do valor em branco](./media/run-scheduled-tasks/create-from-blank.png)
+    ![Criar um fluxo de trabalho a partir do zero](./media/run-scheduled-tasks/create-from-blank.png)
 3. Na caixa **Procurar todos os conectores e acionadores**, escreva **Periodicidade** e, em seguida, selecione **Agenda - Periodicidade**.
    
     ![Localizar acionador de periodicidade](./media/run-scheduled-tasks/select-recurrence.png)
@@ -51,7 +51,7 @@ Crie um fluxo que realize uma ou mais tarefas (como enviar um relatório num e-m
    
     ![Especificar periodicidade](./media/run-scheduled-tasks/specify-recurrence.png)
 
-## <a name="specify-advanced-options"></a>Especificar opções avançadas
+## <a name="specify-advanced-options"></a>Especificar as opções avançadas
 1. Siga os passos na secção anterior e, em seguida, selecione **Mostrar opções avançadas**.
    
     **Nota**: estas opções mudam com base nos valores para os quais **Intervalo** e **Frequência** estão definidos. Se o seu ecrã não corresponder ao gráfico abaixo, certifique-se de que **Intervalo** e **Frequência** estão definidos para os mesmos valores que o gráfico apresenta.
@@ -63,18 +63,18 @@ Crie um fluxo que realize uma ou mais tarefas (como enviar um relatório num e-m
    
     Por exemplo, configure as opções conforme apresentado para iniciar um fluxo não antes do meio-dia (Hora do Pacífico) na segunda-feira, 1 de Janeiro de 2018 e executá-lo de duas em duas semanas às terças-feiras às 17:30 (Hora do Pacífico).
    
-    ![Especificar opções avançadas](./media/run-scheduled-tasks/advanced-options.png)
+    ![Especificar as opções avançadas](./media/run-scheduled-tasks/advanced-options.png)
 6. Adicione a ação ou ações que pretende que o fluxo efetue, como descreve [Criar um fluxo do zero](get-started-logic-flow.md).
 
 ## <a name="delay-a-flow"></a>Atrasar um fluxo
-1. Inicie sessão no [Power Automate](https://flow.microsoft.com) e selecione **Os meus fluxos** na barra de navegação superior.
+1. Inicie sessão no [Power Automate](https://flow.microsoft.com) e, em seguida, selecione **Os meus fluxos** na barra de navegação superior.
    
-    ![Criar um fluxo a partir do valor em branco](./media/run-scheduled-tasks/create-flow.png)
+    ![Criar um fluxo de trabalho a partir do zero](./media/run-scheduled-tasks/create-flow.png)
 2. Selecione **Criar do zero**.
    
-    ![Criar um fluxo a partir do valor em branco](./media/run-scheduled-tasks/create-from-blank.png)
+    ![Criar um fluxo de trabalho a partir do zero](./media/run-scheduled-tasks/create-from-blank.png)
 3. Especifique um evento como descreve [Criar um fluxo do zero](get-started-logic-flow.md).
-4. Selecione **Novo passo** e, em seguida, selecione **Adicionar uma ação**.
+4. Selecione **Novo passo** e, em seguida, **Adicionar uma ação**.
    
     ![Opção para adicionar uma ação a um fluxo](./media/run-scheduled-tasks/add-action.png)
 5. Na lista de ações, efetue um dos seguintes procedimentos:
@@ -86,7 +86,7 @@ Crie um fluxo que realize uma ou mais tarefas (como enviar um relatório num e-m
      ![Especificar o atraso em unidades de tempo](./media/run-scheduled-tasks/delay.png)
      ![Especificar atraso até](./media/run-scheduled-tasks/delay-until.png)
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Mais Informações
 
 Saiba mais sobre as [opções avançadas](https://docs.microsoft.com/azure/connectors/connectors-native-recurrence) e como as configurar.
 

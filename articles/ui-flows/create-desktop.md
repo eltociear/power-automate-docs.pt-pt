@@ -25,7 +25,7 @@ ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 04/01/2020
-ms.locfileid: "80525070"
+ms.locfileid: "3298864"
 ---
 # <a name="create-and-test-desktop-ui-flows"></a>Criar e testar fluxos de IU para computador
 
@@ -65,7 +65,7 @@ Nos passos a seguir, vamos demonstrar como automatizar a aplicação de calculad
 
    > [!TIP]
    > Se não vir o pedido no browser, verifique o seguinte:
-   > - Tem de utilizar o Microsoft Edge (versão 80 ou posterior) ou o Google Chrome.
+   > - Tem de utilizar o browser Microsoft Edge (versão 80 ou posterior) ou Google Chrome.
    > - Poderá ter de atualizar a extensão do [Microsoft Edge (versão 80 ou posterior)](https://www.microsoft.com/store/collections/edgeextensions/pc) ou do [Google Chrome](https://chrome.google.com/webstore/category/extensions).
 
    Continue após ter instalado a extensão.
@@ -76,7 +76,7 @@ Nos passos a seguir, vamos demonstrar como automatizar a aplicação de calculad
 
 1. Selecione **Iniciar gravador**.
 
-   ![Selecionar Iniciar gravador](../media/create-windows-ui-flow/select-launch-recorder.png "Selecionar Iniciar gravador")
+   ![Selecionar Iniciar gravador](../media/create-windows-ui-flow/select-launch-recorder.png "Selecionar iniciar gravador")
 
    O controlo do gravador é apresentado na parte superior do ecrã.
 
@@ -90,7 +90,7 @@ Nos passos a seguir, vamos demonstrar como automatizar a aplicação de calculad
      >Se o realce azul não for apresentado em torno de um elemento, o mesmo poderá não ser gravado adequadamente.
 
 1. Selecione **Gravar** no controlo do gravador.
-1. Selecione o primeiro número, selecione **+** , selecione o segundo número e, em seguida, selecione **=** .
+1. Selecione o primeiro número, selecione **+**, selecione o segundo número e, em seguida, selecione **=**.
 
     ![Aplicação de calculadora](../media/create-windows-ui-flow/app-to-record.png "Aplicação de calculadora")
     
@@ -106,7 +106,7 @@ Nos passos a seguir, vamos demonstrar como automatizar a aplicação de calculad
 1. Selecione o cartão que começa por “Executar script <app name>” para ver as capturas de ecrã dos passos gravados.
 
      >[!TIP]
-     >Selecione **...**  > **Eliminar** para remover os passos duplicados.
+     >Selecione **...** > **Eliminar** para remover os passos duplicados.
 
     ![Mostrar os passos gravados](../media/create-windows-ui-flow/show-recorded-steps.png "Mostrar passos gravados")
 
@@ -128,7 +128,7 @@ Nos passos a seguir, vamos demonstrar como automatizar a aplicação de calculad
 
 - Poderá ser útil adicionar uma [ação **Fechar**](edit-desktop.md#add-a-manual-action) no final do fluxo de IU, porque os fluxos de IU iniciam uma nova instância das aplicações a cada teste ou execução.
 
-- Selecione **...**  > **Eliminar** no cartão de ações gravadas para remover as ações desnecessárias/duplicadas.
+- Selecione **...** > **Eliminar** no cartão de ações gravadas para remover as ações desnecessárias/duplicadas.
 
 - Os cliques com o botão direito podem não ser reproduzidos corretamente. Nesse caso, durante a gravação, clique com o botão esquerdo para focar os fluxos de IU no elemento da interface de utilizador de destino e, em seguida, clique com o botão direito.
 
@@ -148,9 +148,9 @@ Nos passos a seguir, vamos demonstrar como automatizar a aplicação de calculad
 
 -   Aplicações com uma vista Web, como as aplicações Electron.
 
--   Microsoft Office 2016 e versões anteriores. 
+-   Microsoft Office 2016 e anterior. 
 
--   Microsoft Office online.
+-   Microsoft Office Online.
 
 ### <a name="unsupported-configurations"></a>Configurações não suportadas
 
@@ -160,7 +160,7 @@ Nos passos a seguir, vamos demonstrar como automatizar a aplicação de calculad
 
 -   Várias instâncias de uma aplicação onde os títulos da janela principal são idênticos.
 
--   Aplicações do Windows com títulos idênticos, por exemplo, Microsoft Outlook com várias janelas de correio **Sem título – Mensagem (HTML)** ativas ao mesmo tempo.
+-   Janelas de aplicações com títulos idênticos, por exemplo, Microsoft Outlook com várias janelas de correio **Sem título – Mensagem (HTML)** ativas ao mesmo tempo.
 
 -   Sessões de gravação simultâneas num determinado dispositivo.
 
@@ -191,9 +191,9 @@ As seguintes ações não serão gravadas:
 
 - Afixe o friso antes de começar a reproduzir para evitar problemas que possam ocorrer caso o friso esteja definido para ser ocultado automaticamente durante a reprodução.
 - Não selecione itens através de clique e arraste. Por exemplo, não utilize shift-clique para selecionar células no Microsoft Excel e não selecione texto no Microsoft Word ou no Microsoft PowerPoint ao arrastar o rato.
-- Alguns elementos podem não funcionar corretamente nos fluxos de IU para aplicações de computador do Microsoft Word e Microsoft PowerPoint. Por exemplo, as opções no menu **Ficheiro**, tais como começar do zero ou clicar com o botão direito do rato nos controlos como adicionar um parágrafo no Microsoft Word ou alterar o esquema dos diapositivos no Microsoft PowerPoint, podem não funcionar.
+- Alguns elementos podem não funcionar corretamente nos fluxos de IU para aplicações de computador do Microsoft Word e Microsoft PowerPoint. Por exemplo, as opções no menu **Ficheiro**, como começar do zero, clicar com o botão direito do rato nos controlos, como adicionar um parágrafo no Microsoft Word, ou alterar o esquema dos diapositivos no Microsoft PowerPoint podem não funcionar.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 - Saiba como [acionar o fluxo de IU](run-ui-flow.md) que acabou de criar.
 

@@ -25,7 +25,7 @@ ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 04/01/2020
-ms.locfileid: "80525026"
+ms.locfileid: "3298710"
 ---
 # <a name="use-inputs-and-outputs-in-web-ui-flows"></a>Utilizar entradas e saídas em fluxos de IU para a Web
 
@@ -37,7 +37,7 @@ As entradas de um fluxo de IU permitem transmitir informações de uma origem ex
 
 Qualquer variável utilizada (lida) antes da inicialização (normalmente feita através de comandos **store**) será automaticamente tratada como uma variável de entrada e será apresentada no cartão da ação **Executar um fluxo de IU para a Web**.
 
-Pode utilizar variáveis através da interpolação de cadeias, por exemplo, altere o campo target do comando click para “id=\${elementId}”. Ou altere o campo value do comando type para “\${inputText}”.
+Pode utilizar variáveis através da interpolação de cadeias, por exemplo, altere o campo de destino do comando clique para "id=\${elementId}". Ou altere o campo de valor do tipo de comando para "\${inputText}".
 
 O comando **set window size** e o comando **type** presentes nas capturas de ecrã seguintes utilizam variáveis não inicializadas \${Width}, \${Height} e \${search}. Estas variáveis tornar-se-ão valores de entrada.
 
@@ -67,7 +67,7 @@ Qualquer variável definida no script do selenium torna-se automaticamente num v
 
 [Execute script](https://www.seleniumhq.org/selenium-ide/docs/en/api/commands/#execute-script) (adicione a sintaxe “return” para devolver o objeto que quer armazenar no fim do script)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 - Saiba como [criar fluxos de IU para a Web](create-web.md).
 - Saiba como [acionar fluxos de IU](run-ui-flow.md).

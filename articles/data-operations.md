@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 0541a89ad0fe5f8d7dae0acfc6f257be7532ef15
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195107"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297566"
 ---
 # <a name="use-data-operations-with-power-automate"></a>Utilizar operações de dados com o Power Automate
 
@@ -92,7 +92,7 @@ e gostaria de voltar a formar os dados de entrada ao mudar o nome de "primeiro" 
 
 ````[ { "FirstName": "Deon", "FamilyName": "Herb", "FullName": "Deon Herb" }, { "FirstName": "K", "FamilyName": "Herb", "FullName": "K Herb" } ]````.
 
-Para o fazer:
+Para tal:
 
 1. Adicione a ação **Pedido/Resposta – Resposta** (pedido) ao fluxo.
 2. Selecione **Utilizar payload de amostra para gerar o esquema** a partir do cartão **Pedido**.
@@ -146,7 +146,7 @@ Utilize a ação **Operações de Dados - Criar tabela CSV** (criar tabela csv) 
    
     ![configure a ação de criação de tabela csv](./media/data-operations/create-csv-table.png)
    
-    Nota: o token **Corpo** nesta imagem é proveniente de uma ação **Pedido/Resposta – Resposta**, no entanto, pode obter a entrada da ação **Criar tabela CSV** a partir da saída de qualquer ação anterior no seu fluxo ou pode introduzi-lo diretamente na caixa **De**.
+    Nota: O token **Corpo** nesta imagem é proveniente de uma ação **Pedido/Resposta – Resposta**, no entanto, pode obter a entrada da ação **Criar tabela CSV** a partir da saída de qualquer ação anterior no seu fluxo ou pode introduzi-lo diretamente para a caixa **De**.
 2. Guarde o fluxo e volte a executá-lo.
    
     Quando executa o fluxo, a saída **Criar tabela CSV** é semelhante a esta imagem:
