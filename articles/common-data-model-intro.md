@@ -25,30 +25,30 @@ ms.sourcegitcommit: e58c8e6954c8e666497a66dc945fdc16c7c845a9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/02/2020
-ms.locfileid: "82727956"
+ms.locfileid: "3331065"
 ---
-# <a name="create-a-flow-that-uses-common-data-service"></a>Criar um fluxo que utilize o Common Data Service
+# <a name="create-a-flow-that-uses-common-data-service"></a>Criar um fluxo que utiliza o Common Data Service
 
-Melhore a eficiência operacional com uma vista unificada de dados empresariais ao criar um fluxo que utilize o [Common Data Service](https://powerapps.microsoft.com/tutorials/data-platform-intro/). Implemente esta base de dados de negócio segura que abrange as entidades de negócio padrão corretamente formado (por exemplo, Vendas, Compra, Suporte ao Cliente e Produtividade) na organização. Armazene dados organizacionais numa ou mais [entidades personalizadas](https://powerapps.microsoft.com/tutorials/data-platform-create-entity/), que oferecem vários benefícios no que respeita a origens de dados externas, tais como o Microsoft Excel e o Salesforce.
+Melhore a eficiência operacional com uma vista unificada de dados de negócio ao criar um fluxo que utilize o [Common Data Service](https://powerapps.microsoft.com/tutorials/data-platform-intro/). Implemente esta base de dados de negócio segura que abrange as entidades de negócio padrão corretamente formado (por exemplo, Vendas, Compra, Suporte ao Cliente e Produtividade) na organização. Armazene dados organizacionais numa ou [mais entidades personalizadas](https://powerapps.microsoft.com/tutorials/data-platform-create-entity/), que oferecem vários benefícios no que respeita a origens de dados externas, tais como o Microsoft Excel e o Salesforce.
 
-Por exemplo, tire partido do Common Data Service no Power Automate das seguintes formas:
+Por exemplo, utilize o Common Data Service no Power Automate destas formas-chave:
 
 * Crie um fluxo para importar dados, exportar dados ou efetuar a ação na parte superior de dados (tal como enviar uma notificação). Tenha em atenção que esta abordagem não é um serviço de sincronização completa; permite-lhe unicamente mover os dados para dentro ou para fora por entidade.
   
     Para obter passos detalhados, veja os procedimentos mais adiante neste tópico.
 * Em vez de [criar um ciclo de aprovação através do e-mail](wait-for-approvals.md), crie um fluxo que armazene o estado de aprovação numa entidade e compile uma aplicação personalizada na qual os utilizadores possam aprovar ou rejeitar itens.
   
-    Para obter passos detalhados, veja [Compilar um ciclo de aprovação com o Common Data Service](common-data-model-approve.md).
+    Para obter passos detalhados, veja [Criar um ciclo de aprovação com o Common Data Service](common-data-model-approve.md).
 
 **Pré-requisitos**
 
-* Inscreva-se no [Power Automate](https://flow.microsoft.com) e no [Power Apps](https://make.powerapps.com).
+* Inscrição no [Power Automate](https://flow.microsoft.com) e no [Power Apps](https://make.powerapps.com).
   
     Se tiver problemas, verifique se o [Power Automate](sign-up-sign-in.md) e o [Power Apps](https://powerapps.microsoft.com/tutorials/signup-for-powerapps/) suportam o tipo de conta que tem e se a organização não bloqueou a inscrição.
 * Se ainda não utilizou o Common Data Service, abra o separador **Entidades** de [powerapps.com](https://web.powerapps.com/#/entities) e, em seguida, clique ou toque em **Criar a minha base de dados**.
 
 ## <a name="sign-in-to-your-environment"></a>Iniciar sessão no seu ambiente
-1. Abra o [Power Automate](https://flow.microsoft.com) e clique ou toque em **Iniciar sessão** no canto superior direito.
+1. Abra o portal do [Power Automate](https://flow.microsoft.com) e clique ou toque em **Iniciar sessão** no canto superior direito.
    
     **Nota**: Poderá ter de abrir o menu superior à esquerda para mostrar o botão **Iniciar sessão**.
    
@@ -57,7 +57,7 @@ Por exemplo, tire partido do Common Data Service no Power Automate das seguintes
    
     **Nota**: Se não selecionar o mesmo ambiente, não verá as suas entidades.
    
-    ![Selecionar o ambiente](./media/common-data-model-intro/select-environment.png)
+    ![Selecionar ambiente](./media/common-data-model-intro/select-environment.png)
 
 ## <a name="open-a-template"></a>Abrir um modelo
 1. Na caixa **Procurar modelos** na parte superior do ecrã, escreva ou cole **comuns**, e, em seguida, prima Enter.
@@ -86,16 +86,16 @@ Por exemplo, tire partido do Common Data Service no Power Automate das seguintes
     ![Especificar a instância do Dynamics 365](./media/common-data-model-intro/specify-instance.png)
 2. (opcional) Junto da parte superior do ecrã, especifique um nome diferente para o fluxo que está a criar.
    
-    **Nota**: se a janela do browser não estiver maximizada, a IU poderá parecer ligeiramente diferente.
+    **Nota**: se a janela do navegador não estiver maximizada, a IU poderá parecer ligeiramente diferente.
    
     ![Fluxo do nome](./media/common-data-model-intro/name-flow.png)
 3. Clique ou toque em **Criar fluxo**.
    
-    **Nota**: se a janela do browser não estiver maximizada, poderá aparecer apenas a marca de verificação.
+    **Nota**: se a janela do navegador não estiver maximizada, poderá aparecer apenas a marca de verificação.
    
     ![Criar fluxo](./media/common-data-model-intro/create-flow.png)
 
-Agora, sempre que esse objeto for criado no sistema de origem, será importado para o Common Data Service. Se não conseguir encontrar um modelo que faça o que precisa, pode [compilar um fluxo do zero](get-started-logic-flow.md) que funciona por cima do Common Data Service.
+Agora, sempre que esse objeto for criado no sistema de origem, será importado para o Common Data Service. Se não conseguir encontrar um modelo que faça o que precisa, pode [criar um fluxo do zero](get-started-logic-flow.md) que funciona por cima do Common Data Service.
 
 Pode realizar ações sobre alterações na base de dados. Pode, por exemplo, enviar correio de notificação sempre que houver alteração dos dados.
 

@@ -25,12 +25,12 @@ ms.sourcegitcommit: 9cca2a2fca8371ab883b12011c1c4485ceb9c761
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 04/28/2020
-ms.locfileid: "82200508"
+ms.locfileid: "3299436"
 ---
 # <a name="create-custom-response-options-for-approval-flows"></a>Criar opções de respostas personalizadas para fluxos de aprovação
 
 
-Vamos supor que quer enviar um pedido de aprovação sempre que um funcionário carregar um relatório de despesas para o SharePoint e, em seguida, permitir que o aprovador responda com uma das três opções: Aceitar, Precisa de mais informações ou Rejeitar.
+Vamos supor que quer enviar um pedido de aprovação sempre que um funcionário carregar um relatório de despesas para o SharePoint e, em seguida, permitir que o aprovador responda com uma das três opções: Aceitar, Necessárias mais informações ou Rejeitar.
 
 
 ## <a name="prerequisites"></a>Pré-requisitos
@@ -39,24 +39,24 @@ Vamos supor que quer enviar um pedido de aprovação sempre que um funcionário 
 - Uma lista do SharePoint para os funcionários introduzirem os relatórios de despesas.
 
 ## <a name="create-approval-flow"></a>Criar um fluxo de aprovação
-1. Iniciar sessão no [Power Automate](https://flow.microsoft.com).
+1. Inicie sessão em [Power Automate](https://flow.microsoft.com).
 1. Selecione **Os meus fluxos** na barra de navegação esquerda.
-1. Selecione **Novo** > **Automatizado – do zero**.
+1. Selecione **+ Novo** > **Automatizado a partir de em branco**.
 
     ![Opção Criar do zero](media/create-approval-response-options/create-approval-response-options.png)
 
-1. No ecrã apresentado, indique um nome para o fluxo em **Nome do fluxo**. 
+1. No ecrã que é aberto, forneça um nome para o fluxo em **Nome do fluxo**. 
   
-1. Procure **SharePoint** em **Escolher o seu acionador do fluxo**, selecione **Quando um item é criado** na lista de acionadores e, depois, selecione **Criar**.
+1. Procure por **SharePoint** em **Selecionar acionador do fluxo**, selecione **Quando um item é criado** a partir da lista de acionadores e, em seguida, selecione **Criar**.
 
    ![Selecionar Criar do zero](media/create-approval-response-options/create-from-blank.png)
 
-1. Introduza o **Endereço do Site**  do SharePoint e o **Nome da Lista**. 
+1. Introduza o **Endereço do Site** e o **Nome da Lista** do SharePoint. 
 
    >[!TIP]
-   >Selecione **Introduzir valor personalizado** no campo **Endereço do Site** antes de introduzir texto em **Endereço do Site**.
+   >Selecione **Introduzir valor personalizado** no campo **Endereço do Site** antes de introduzir texto no **Endereço do Site**.
 
-1. Selecione **Novo passo**, procure **Aprovação** e, em seguida, selecione **Iniciar e aguardar uma aprovação**.
+1. Selecione **Novo passo**, pesquise **Aprovação**e, em seguida, selecione **Iniciar e aguardar uma aprovação**.
 
 1. No cartão **Iniciar e aguardar uma aprovação**, selecione a lista **Tipo de aprovação**.
 
@@ -104,6 +104,6 @@ Os aprovadores recebem pedidos de aprovação por e-mail. Os pedidos também sã
 
 ![E-mail de pedido de aprovação](media/create-approval-response-options/approval-request-email.png)
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Mais Informações
 - Criar [fluxos de aprovador únicos](modern-approvals.md)
 - Criar [fluxos de aprovador sequenciais](sequential-modern-approvals.md)

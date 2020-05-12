@@ -1,6 +1,6 @@
 ---
-title: Utilizar o markdown para formatar aprovações do Power Automate | Microsoft Docs
-description: Saiba como utilizar o markdown para formatar pedidos de aprovação do Power Automate.
+title: Utilizar markdown para formatar aprovações do Power Automate | Microsoft Docs
+description: Saiba como utilizar markdown para formatar pedidos de aprovação do Power Automate.
 services: ''
 suite: flow
 documentationcenter: na
@@ -25,7 +25,7 @@ ms.sourcegitcommit: 28adfdffc00c149bc46fab85b7307e4e819000c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 04/28/2020
-ms.locfileid: "82189617"
+ms.locfileid: "3299392"
 ---
 # <a name="use-markdown-in-power-automate-approval-requests"></a>Utilizar o Markdown em pedidos de aprovação do Power Automate
 
@@ -36,21 +36,21 @@ Este artigo mostra como utilizar a sintaxe de [Markdown](https://en.wikipedia.or
 > Os e-mails de pedidos de aprovação são *mensagens acionáveis*. Se o [cliente do Microsoft Outlook](https://docs.microsoft.com/outlook/actionable-messages/#outlook-version-requirements-for-actionable-messages) não suportar mensagens acionáveis, apresentará os pedidos de aprovação no formato HTML. 
 
 > [!IMPORTANT]
-> Todos os compositores de Markdown têm diferenças de implementação. Reveja a secção [Suporte a Clientes](#client-support) para obter mais detalhes.
+> Todos os processadores de Markdown têm diferenças de implementação. Consulte a secção de [Suporte ao Cliente](#client-support) para obter mais detalhes.
 
-## <a name="client-support"></a>Suporte a Clientes
+## <a name="client-support"></a>Suporte ao Cliente
 
-O suporte de markdown entre clientes é inconsistente. A equipa do Power Automate trabalha para resolver estas inconsistências, mas continuam a existir inconsistências. A seguinte tabela estabelece as limitações conhecidas entre os clientes suportados.
+O suporte ao Markdown entre clientes é inconsistente. A equipa do Power Automate trabalha para resolver essas inconsistências, no entanto, as inconsistências permanecem. A tabela seguinte apresenta as limitações conhecidas entre os clientes suportados.
 
-| Funcionalidade | Power Automate | Aplicação móvel do Power Automate | Outlook para computador | Outlook Web | Teams | Aplicação móvel do Teams |  
+| Funcionalidade | Power Automate | Aplicação móvel Power Automate | Área de trabalho do Outlook | Outlook Web | Teams | Aplicação Teams mobile |  
 |---------|--------|---------------|-----------------|-------------|-------|--------------|
-| **Headers** (Cabeçalhos) | Sim | Sim | Sim | Sim | **_Não_** | **_Não_** |
+| **Cabeçalhos** | Sim | Sim | Sim | Sim | **_Não_** | **_Não_** |
 | **Listas Numeradas** | Sim | Sim | **_Não_** | Sim | Sim | Sim |
 | **Listas Numeradas Aninhadas** | Sim | Sim | **_Não_** | Sim | Sim | Sim |
 | **Tabelas** | Sim | Sim | Sim | Sim | **_Não_** | **_Não_** |
 | **Imagens** | **_Não_** | **_Não_** | **_Não_** | **_Não_** | **_Não_** | **_Não_** |
-| **Quebras de Linha Forçadas** | Sim | Sim | **_Não_** (utilizar uma linha em branco em alternativa) | Sim | Sim | Sim |
-| **Linhas Em Branco** | **_Não_** | **_Não_** | Sim | Sim | **_Não_** | Sim |
+| **Quebras de Linha Forçadas** | Sim | Sim | **_Não_** (utilize uma linha em branco em vez disso) | Sim | Sim | Sim |
+| **Linhas em Branco** | **_Não_** | **_Não_** | Sim | Sim | **_Não_** | Sim |
 
 ## <a name="headers"></a>Cabeçalhos
 
@@ -80,9 +80,9 @@ This is line 1.(space, space)
 Now text will appear on the next line.
 ```
 
-**Resultado:**    
-esta é a linha 1.  
-Agora, o texto aparecerá na próxima linha. 
+**Resultado:**   
+Esta é a linha 1.  
+Agora, o texto será apresentado na linha seguinte. 
 
 **Exemplo 2**  
 ```Markdown
@@ -92,9 +92,9 @@ Line 2 has extra space before it.
 ```
 
 **Resultado:**  
-esta é a linha 1.  
+Esta é a linha 1.  
 
-A linha 2 tem espaço extra antes.
+A linha 2 tem espaço extra antes da mesma.
   
 
 ## <a name="lists"></a>Listas
@@ -183,7 +183,7 @@ Organize os dados estruturados através de tabelas.
 - Separe as células da tabela com o caráter de pipe `|` 
 - As primeiras duas linhas de uma tabela definem os cabeçalhos das colunas e o alinhamento dos elementos na tabela
 - Utilize dois pontos (`:`) ao dividir o cabeçalho e o corpo de tabelas para especificar o alinhamento das colunas (à esquerda, ao centro, à direita) 
-- Para iniciar uma nova linha, utilize a etiqueta de quebra HTML (`<br/>`)
+- Para iniciar uma nova linha, utilize a marca de quebra HTML de (`<br/>`)
 - Confirme que termina cada linha com um CR ou LF. 
 
 **Exemplo:**  
@@ -195,7 +195,7 @@ Organize os dados estruturados através de tabelas.
 ```
 
 **Resultado:**  
-| Heading 1 | Heading 2 | Heading 3 |  
+| Cabeçalho 1 | Cabeçalho 2 | Cabeçalho 3 |  
 |-----------|:---------:|-----------:|  
 | Cell A1 | Cell A2 | Cell A3 |  
 | Cell B1 | Cell B2 | Cell B3<br/>second line of text |  
@@ -219,7 +219,7 @@ Use _emphasis_ in comments to express **strong** opinions and point out ~~correc
 
 **Resultado:**  
 Use _emphasis_ in comments to express **strong** opinions and point out <s>corrections</s>   
-**_Bold, italicized text_**    
+**_Bold, italicized text_**   
 **~~Bold, strike-through text~~**  
 
 ## <a name="special-characters"></a>Carateres especiais

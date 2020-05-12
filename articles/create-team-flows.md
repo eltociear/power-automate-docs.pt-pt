@@ -25,7 +25,7 @@ ms.sourcegitcommit: 5b1965a0c319c4294b7dc0c829120ed1f4f90444
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 04/25/2020
-ms.locfileid: "82153545"
+ms.locfileid: "3299326"
 ---
 # <a name="create-team-flows"></a>Criar fluxos de equipa
 
@@ -37,7 +37,7 @@ Crie um fluxo de equipa adicionado outras pessoas à organização como propriet
 * Adicionar e remover outros proprietários (mas não o criador do fluxo).
 * Eliminar o fluxo.
 
-Se for o criador ou um proprietário de um fluxo de equipa, poderá encontrá-lo na lista do separador **Fluxos de equipa** no [Power Automate](https://flow.microsoft.com).
+Se for o criador ou um proprietário de um fluxo de equipa, vai encontrá-lo listado no separador **Fluxos de equipa** no [Power Automate](https://flow.microsoft.com).
 
 ![separador fluxos de equipa](./media/create-team-flows/addowner5.png)
 
@@ -49,13 +49,13 @@ Se for o criador ou um proprietário de um fluxo de equipa, poderá encontrá-lo
 Os proprietários podem utilizar serviços num fluxo, mas não podem modificar as credenciais de uma ligação criada por outro proprietário.
 
 ## <a name="prerequisites"></a>Pré-requisitos
-Precisa de ter um [plano pago do Power Automate](https://flow.microsoft.com/pricing/). Além disso, deve ser o criador ou o proprietário para adicionar/remover os proprietários de um fluxo de equipa.
+Deve ter um plano [plano do Power Automate pago](https://flow.microsoft.com/pricing/) para criar um fluxo de equipa. Além disso, deve ser o criador ou o proprietário para adicionar/remover os proprietários de um fluxo de equipa.
 
 ## <a name="create-a-team-flow"></a>Criar um fluxo de equipa
 Siga estes passos para criar um fluxo de equipa ou para adicionar mais proprietários a um fluxo de equipa.
 
-1. Inicie sessão no [Power Automate](https://flow.microsoft.com) e selecione **Os meus fluxos**.
-2. Selecione **Mais comandos** e, em seguida, selecione **Partilhar** no fluxo que pretende partilhar:
+1. Inicie sessão no [Power Automate](https://flow.microsoft.com) e, em seguida, selecione **Os meus fluxos**.
+2. Selecione **Mais comandos** e, em seguida, selecione o botão **Partilhar** para o fluxo que pretende partilhar:
    
     ![ícone da equipa](./media/create-team-flows/addowner1.png)
 3. Introduza o nome, o endereço de e-mail ou o nome do grupo da pessoa ou grupo que quer adicionar como proprietário:
@@ -86,7 +86,7 @@ Pode adicionar listas do SharePoint como coproprietário a um fluxo para que tod
 > 
 > 
 
-1. Selecione **Mais comandos** e, em seguida, selecione **Partilhar** no fluxo que pretende partilhar:
+1. Selecione **Mais comandos** e, em seguida, selecione o botão **Partilhar** para o fluxo que pretende partilhar:
    
     ![selecione o ícone pessoas](./media/create-team-flows/addowner1.png)
 2. Selecione o ícone **Eliminar** para o proprietário que quer remover:
@@ -108,7 +108,7 @@ Poderá ter de alterar o proprietário de uma ligação num fluxo se remover o p
 1. Selecione **...** (mais comandos) na ligação selecionada e, em seguida, **Mudar de conta**.
 1. Siga os passos para utilizar uma conta diferente para a ligação.
 
-## <a name="embedded-and-other-connections"></a>Ligações incorporadas e outras
+## <a name="embedded-and-other-connections"></a>Ligações incorporadas e outras ligações
 
 As ligações utilizadas num fluxo abrangem duas categorias:
 

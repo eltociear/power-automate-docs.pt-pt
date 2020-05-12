@@ -1,6 +1,6 @@
 ---
 title: Introdução às políticas de prevenção de perda de dados (DLP). | Microsoft Docs
-description: Introdução às políticas de prevenção de perda de dados do Power Automate.
+description: Introdução às políticas de prevenção de perda de dados para o Power Automate.
 services: ''
 suite: flow
 documentationcenter: na
@@ -25,7 +25,7 @@ ms.sourcegitcommit: e709e8c4a62df6fdb0ca06f3f8afb5c639c76632
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 04/26/2020
-ms.locfileid: "82159567"
+ms.locfileid: "3299370"
 ---
 # <a name="data-loss-prevention-dlp-policies"></a>Políticas de prevenção de perda de dados (DLP)
 
@@ -34,11 +34,11 @@ Este documento apresenta-lhe políticas de prevenção de perda de dados, que aj
 
 ## <a name="whats-a-data-loss-prevention-policy"></a>O que é uma política de prevenção de perda de dados?
 
-Os dados de uma organização são essenciais para o seu sucesso. Os dados têm de estar prontamente disponíveis para tomada de decisões, mas têm de estar protegidos para não serem partilhados com pessoas que não devem ter acesso aos mesmos. Para proteger estes dados, o Power Automate permite-lhe criar e impor políticas que definem que conectores do consumidor conseguem aceder e partilhar os dados de negócio. Estas políticas que definem a forma como os dados podem ser partilhados são referidas como políticas de prevenção de perda de dados (DLP).
+Os dados de uma organização são essenciais para o seu sucesso. Esses dados têm de estar disponíveis para a tomada de decisões, mas têm de estar protegidos para que não sejam partilhados com audiências que não devem ter acesso aos mesmos. Para proteger estes dados, o Power Automate permite-lhe criar e impor políticas que definem que conectores do consumidor conseguem aceder e partilhar os dados de negócio. Estas políticas que definem a forma como os dados podem ser partilhados são referidas como políticas de prevenção de perda de dados (DLP).
 
 ## <a name="why-create-a-dlp-policy"></a>Por quê criar uma política DLP?
 
-Pode criar uma política DLP para definir claramente que conectores do consumidor podem aceder e partilhar os seus dados de negócio. Por exemplo, uma organização que utilize o Power Automate pode não querer que os dados empresariais no SharePoint sejam automaticamente publicados no feed do Twitter. Para evitar esta situação, pode criar uma política DLP que impeça que esses dados do SharePoint sejam utilizados como a origem de tweets.
+Pode criar uma política DLP para definir claramente que conectores do consumidor podem aceder e partilhar os seus dados de negócio. Por exemplo, uma organização que utilize o Power Automate pode não querer que os respetivos dados empresariais no SharePoint sejam automaticamente publicados no feed do Twitter. Para evitar esta situação, pode criar uma política DLP que impeça que esses dados do SharePoint sejam utilizados como a origem de tweets.
 
 ## <a name="benefits-of-a-dlp-policy"></a>Vantagens de uma política DLP
 
@@ -49,7 +49,7 @@ Pode criar uma política DLP para definir claramente que conectores do consumido
 
 ### <a name="prerequisites-for-managing-dlp-policies"></a>Pré-requisitos para gerir políticas DLP
 
-* Permissões de administração do inquilino ou administrador do ambiente.
+* Permissões de administrador de ambientes ou de administrador de inquilinos.
 
     Pode saber mais sobre as permissões no [artigo ambientes](environments-overview-admin.md).
 
@@ -62,7 +62,7 @@ Para criar uma política DLP, tem de ter permissões para, pelo menos, um ambien
 
 Siga estes passos para criar uma política DLP que impede que os dados no site do SharePoint da sua empresa sejam publicados no Twitter:
 
-1. Inicie sessão no [Centro de administração do Power Automate](https://admin.flow.microsoft.com) (Centro de administração).
+1. Inicie sessão no [Centro de Administração do Power Automate](https://admin.flow.microsoft.com) (Centro de administração).
 
 1. Selecione o separador Políticas de Dados e, em seguida, selecione a ligação **Nova política**:
 
@@ -80,7 +80,7 @@ Siga estes passos para criar uma política DLP que impede que os dados no site d
     >
     >
 
-    ![Selecionar o ambiente](./media/prevent-data-loss/create-policy-3.png)
+    ![Selecionar ambiente](./media/prevent-data-loss/create-policy-3.png)
 
 1. Selecione o separador **Grupos de dados**:
 
@@ -129,14 +129,14 @@ Se os seus utilizadores o contactarem devido a fluxos suspensos, considere os se
 
 ### <a name="admins"></a>Administradores
 
-Os administradores podem utilizar a funcionalidade de pesquisa do Centro de administração para localizar políticas DLP específicas.
+Os administradores podem utilizar a funcionalidade de pesquisa a partir do Centro de administração para localizar políticas DLP específicas.
 
 > [!NOTE]
 > Os administradores devem publicar todas as políticas DLP para que os utilizadores na organização estejam cientes das políticas antes de criarem fluxos.
 >
 >
 
-### <a name="makers"></a>Criadores
+### <a name="makers"></a>Fabricantes
 
 Se não tem permissões de administrador e quiser saber mais sobre as políticas DLP na sua organização, contacte o administrador. Também pode saber mais no artigo [ambientes de fabricantes](environments-overview-maker.md)
 
@@ -149,7 +149,7 @@ Se não tem permissões de administrador e quiser saber mais sobre as políticas
 
 1. Inicie o [Centro de administração](https://admin.flow.microsoft.com).
 
-1. No Centro de administração que é iniciado, selecione a ligação **Políticas de dados** no lado esquerdo.
+1. No Centro de administração que é iniciado, selecione a ligação **Políticas dos dados**, no lado esquerdo.
 
     ![selecionar políticas de dados](./media/prevent-data-loss/2.png)
 
@@ -206,7 +206,7 @@ Para adicionar os conectores HTTP a uma política existente através do [modelo]
 
 ## <a name="add-custom-and-http-connectors-with-powershell"></a>Adicionar conectores HTTP e personalizados com o PowerShell
 
-Para adicionar suporte para conectores personalizados e/ou conectores HTTP a uma política com o PowerShell, [transfira](https://docs.microsoft.com/powerapps/administrator/powerapps-powershell) e importe os scripts mais recentes do PowerShell do Power Apps e, em seguida, utilize estes cmdlets:  “New-AdminDlpPolicy”, “Set-AdminDlpPolicy”, “Add-CustomConnectorToPolicy” e “Remove-CustomConnectorFromPolicy” para modificar a política. Utilize o cmdlet “Get-Help -detailed” como referência.
+Para adicionar suporte para conectores personalizados e/ou conectores HTTP a uma política com o PowerShell, [transfira](https://docs.microsoft.com/powerapps/administrator/powerapps-powershell) e importe os scripts do PowerShell do Power Apps mais recentes e, em seguida, utilize estes cmdlets: “New-AdminDlpPolicy”, “Set-AdminDlpPolicy”, “Add-CustomConnectorToPolicy” e “Remove-CustomConnectorFromPolicy” para modificar a política. Utilize o cmdlet “Get-Help -detailed” como referência.
 
 
 > [!IMPORTANT]
@@ -214,9 +214,9 @@ Para adicionar suporte para conectores personalizados e/ou conectores HTTP a uma
 
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 * [Saiba mais sobre os ambientes](environments-overview-admin.md)
-* [Saiba mais sobre o Power Automate](getting-started.md)
+* [Mais informações sobre o Power Automate](getting-started.md)
 * [Saiba mais sobre o centro de administração](admin-center-introduction.md)
 * [Sabia mais sobre a integração de dados](https://docs.microsoft.com/common-data-service/entity-reference/dynamics-365-integration)

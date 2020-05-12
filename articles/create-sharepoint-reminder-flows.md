@@ -20,9 +20,9 @@ ms.sourcegitcommit: 71f9b72d551887324c92b122dadd1b4dd584bc4b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 04/23/2020
-ms.locfileid: "82081175"
+ms.locfileid: "3299282"
 ---
-# <a name="sharepoint-remind-me"></a>Lembretes do SharePoint
+# <a name="sharepoint-remind-me"></a>Lembrar-me em do SharePoint
 
 
 As bibliotecas e listas do SharePoint permitem definir colunas de metadados personalizadas para controlar as datas. Com a integração do Power Automate no SharePoint, pode criar facilmente fluxos de lembretes com base em colunas DateTime no SharePoint. Com os fluxos de lembretes, receberá um alerta pessoal por e-mail com um número de dias predeterminado de antecedência relativamente à data de qualquer documento ou item no SharePoint.
@@ -62,9 +62,9 @@ Receberá um lembrete por e-mail, com base na entrada **Relembrar-me vários dia
 
 O fluxo de lembretes é como qualquer outro fluxo e, como tal, pode aceder e editar o mesmo através do [Power Automate](https://flow.microsoft.com).
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Mais Informações
 
-- Introdução ao [Power Automate](https://flow.microsoft.com)
+- Começar a utilizar o [Power Automate](https://flow.microsoft.com).
 - Definir um [fluxo de lembrete](https://support.office.com/article/set-a-reminder-flow-23c0e172-1fc1-4ac8-a9db-cd0b81d634d8) no SharePoint.
 
 

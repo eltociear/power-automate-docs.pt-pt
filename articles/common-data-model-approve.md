@@ -1,5 +1,5 @@
 ---
-title: Compilar um ciclo de aprovação com o Common Data Service | Microsoft Docs
+title: Criar um ciclo de aprovação com o Common Data Service | Microsoft Docs
 description: Crie uma entidade, um fluxo e uma aplicação que funcionem em conjunto, para que os revisores possam aprovar ou rejeitar ficheiros adicionados ao Dropbox.
 services: ''
 suite: flow
@@ -25,9 +25,9 @@ ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 04/08/2020
-ms.locfileid: "80862774"
+ms.locfileid: "3299216"
 ---
-# <a name="build-an-approval-loop-by-using-power-automate-and-common-data-service"></a>Compilar um ciclo de aprovação através do Power Automate e do Common Data Service
+# <a name="build-an-approval-loop-by-using-power-automate-and-common-data-service"></a>Criar um ciclo de aprovação utilizando o Power Automate e o Common Data Service
 
 O Common Data Service pode fornecer-lhe uma forma de compilar fluxos que tenham informações armazenadas numa base de dados independente de um fluxo. O melhor exemplo disso passa-se com as aprovações. Se armazenar o estado da aprovação numa entidade, o fluxo poderá trabalhar no topo dela.
 
@@ -37,12 +37,12 @@ Ao seguir os passos nesta secção, irá compilar:
 
 * uma **entidade personalizada** que irá conter informações sobre cada ficheiro adicionado ao Dropbox e se o estado do ficheiro está aprovado, rejeitado, ou pendente.
 * um **fluxo** que adiciona informações à entidade personalizada quando um ficheiro é adicionado ao Dropbox, envia correio quando o ficheiro é aprovado ou rejeitado e elimina ficheiros rejeitados. Estes passos demonstram como compilar esse fluxo do zero, mas pode criar um fluxo semelhante a partir de um modelo.
-* uma **aplicação** na qual um revisor pode aprovar ou rejeitar ficheiros adicionados ao Dropbox. Vai utilizar o Power Apps para gerar esta aplicação automaticamente com base nos campos da entidade personalizada.
+* uma **aplicação** na qual um revisor pode aprovar ou rejeitar ficheiros adicionados ao Dropbox. Irá utilizar Power Apps para gerar esta aplicação automaticamente com base nos campos da entidade personalizada.
 
 **Pré-requisitos**
 
-* Inscreva-se no [Power Automate](sign-up-sign-in.md) e no [Power Apps](https://powerapps.microsoft.com/tutorials/signup-for-powerapps/).
-* Criar ligações para o Dropbox e Outlook do Office 365, como descreve o tópico [Gerir as suas ligações](https://powerapps.microsoft.com/tutorials/add-manage-connections/).
+* Inscrição no [Power Automate](sign-up-sign-in.md) e no [Power Apps](https://powerapps.microsoft.com/tutorials/signup-for-powerapps/).
+* Criar ligações para o Dropbox e Office 365 Outlook, como descreve o tópico [Gerir as suas ligações](https://powerapps.microsoft.com/tutorials/add-manage-connections/).
 
 ## <a name="build-the-entity"></a>Compilar a entidade
 1. Inicie sessão no [powerapps.com](https://make.powerapps.com).
@@ -52,7 +52,7 @@ Ao seguir os passos nesta secção, irá compilar:
 3. Na barra de navegação à esquerda, clique ou toque em **Gerir**, e, em seguida, clique ou toque em **Entidades**.
    
     ![Gerir entidades](./media/common-data-model-approve/manage-entities.png)
-4. Se lhe for solicitado, clique ou toque em **Criar a minha base de dados**.
+4. Se lhe for pedido, clique ou toque em **Criar a minha base de dados**.
    
     ![Criar base de dados](./media/common-data-model-approve/create-database.png)
 5. Junto ao canto superior direito, clique ou toque em **Nova entidade**.
@@ -92,7 +92,7 @@ Ao seguir os passos nesta secção, irá compilar:
    * Na coluna **Propriedades**, deixe o valor predefinido.
    * Na coluna **Obrigatório**, selecione a caixa de verificação.
      
-     ![Campo estado](./media/common-data-model-approve/status-field.png)
+     ![Campo de estado](./media/common-data-model-approve/status-field.png)
 4. Na linha seguinte, defina as propriedades de um campo **FileID**:
    
    * Na coluna **Nome a Apresentar**, escreva **Identificador do Ficheiro**.
@@ -112,10 +112,10 @@ Ao seguir os passos nesta secção, irá compilar:
 7. (opcional) Quando a lista de entidades voltar a aparecer, maximize a janela do navegador, se ainda não estiver maximizada e, em seguida, clique ou toque no cabeçalho da coluna **Tipo**. A lista é ordenada com as entidades personalizadas, tal como a que acabou de criar, que aparece na parte superior.
 
 ## <a name="sign-in-and-create-a-flow"></a>Iniciar sessão e criar um fluxo
-1. Abra o [portal do Power Automate](https://flow.microsoft.com).
+1. Abrir o [portal do Power Automate](https://flow.microsoft.com).
 2. Maximize a janela do navegador, caso ainda não esteja maximizada e, em seguida, clique ou toque em **Iniciar sessão** junto ao canto superior direito.
    
-    ![Botão de início de sessão do Power Automate](./media/common-data-model-approve/signin-flow.png)
+    ![Botão para iniciar sessão no Power Automate](./media/common-data-model-approve/signin-flow.png)
 3. No menu superior à direita, selecione o ambiente no qual criou a base de dados em powerapps.com.
    
     **Nota**: Se não selecionar o mesmo ambiente, não verá a entidade.
@@ -138,7 +138,7 @@ Ao seguir os passos nesta secção, irá compilar:
 1. Clique ou toque em **Novo passo**, e, em seguida, clique ou toque em **Adicionar uma ação**.
    
     ![Adicionar uma ação](./media/common-data-model-approve/add-action.png)
-2. Na caixa que contém **Pesquisar por mais ações**, escreva ou cole **Common Data Service** e, em seguida, clique ou toque em **Common Data Service - Criar objeto**.
+2. Na caixa que contém **Procurar mais ações**, escreva ou cole **Common Data Service** e, em seguida, clique ou toque em **Common Data Service – Criar objeto**.
    
     ![Criar um objeto no Common Data Service](./media/common-data-model-approve/cdm-create-object.png)
 3. Em **A entidade**, escreva ou cole **Rever**, e, em seguida, clique ou toque em **Rever ficheiros do Dropbox**.
@@ -167,7 +167,7 @@ Ao seguir os passos nesta secção, irá compilar:
    
     ![Escolher um valor](./media/common-data-model-approve/choose-value.png)
    
-    **Nota**: se a janela do browser não estiver maximizada, clique ou toque na caixa superior que contém **Escolher um valor**.
+    **Nota**: se a janela do navegador não estiver maximizada, clique ou toque na caixa superior que contém **Escolher um valor**.
 3. Em **Saídas de Criar objeto**, clique ou toque em **Estado** para adicionar esse token de parâmetro ao campo.
    
     ![Adicionar token de Estado](./media/common-data-model-approve/add-status.png)
@@ -178,11 +178,11 @@ Ao seguir os passos nesta secção, irá compilar:
    
     ![Especificar estado a observar](./media/common-data-model-approve/do-until-not-pending.png)
    
-    **Nota**: se a janela do browser não estiver maximizada, clique ou toque na caixa inferior que contém **Escolher um valor**.
+    **Nota**: se a janela do navegador não estiver maximizada, clique ou toque na caixa inferior que contém **Escolher um valor**.
 6. Perto da parte inferior da ação **Fazer até**, clique ou toque em **Adicionar uma ação**.
    
     ![Adicionar ação dentro de um fazer até](./media/common-data-model-approve/add-action-in-dountil.png)
-7. Na caixa que contém **Pesquisar por mais ações**, escreva **Common** e, em seguida, clique ou toque em **Common Data Service - Obter objeto**.
+7. Na caixa que contém **Procurar mais ações**, escreva **Common** e, em seguida, clique ou toque em **Common Data Service – Obter objeto**.
    
     ![Obter um objeto](./media/common-data-model-approve/get-object.png)
 8. Em **O espaço de nomes**, clique ou toque na base de dados.
@@ -201,7 +201,7 @@ Ao seguir os passos nesta secção, irá compilar:
    
     ![Canto superior esquerdo da condição](./media/common-data-model-approve/condition-upper-left.png)
    
-    **Nota**: se a janela do browser não estiver maximizada, clique ou toque na caixa superior que contém **Escolher um valor**.
+    **Nota**: se a janela do navegador não estiver maximizada, clique ou toque na caixa superior que contém **Escolher um valor**.
 3. Em **Saídas de Obter objeto**, clique ou toque no token de parâmetro **Estado** para adicionar o token ao campo.
    
     ![Adicionar estado a condição](./media/common-data-model-approve/add-status-to-condition.png)
@@ -209,13 +209,13 @@ Ao seguir os passos nesta secção, irá compilar:
    
     ![Verificar se o estado está definido como aprovado](./media/common-data-model-approve/status-equals-approved.png)
    
-    **Nota**: se a janela do browser não estiver maximizada, escreva ou cole **Aprovado** na caixa inferior que contém **Escolher um valor**.
+    **Nota**: se a janela do navegador não estiver maximizada, escreva ou cole **Aprovado** na caixa inferior que contém **Escolher um valor**.
 
 ## <a name="send-notification-mail"></a>Enviar e-mail de notificação
 1. Em **Se Sim, não fazer nada**, clique ou toque em **Adicionar uma ação**.
    
     ![Se sim, adicionar uma ação](./media/common-data-model-approve/if-yes-action.png)
-2. Na caixa que contém **Procurar mais ações**, escreva ou cole **enviar correio**, e, em seguida, clique ou toque em **Outlook do Office 365 - Enviar um e-mail**.
+2. Na caixa que contém **Procurar mais ações**, escreva ou cole **enviar correio**, e, em seguida, clique ou toque em **Office 365 Outlook – Enviar um e-mail**.
    
     ![Se sim, enviar correio](./media/common-data-model-approve/if-yes-send-mail.png)
 3. Em **Para**, escreva ou cole o endereço da pessoa que pretende notificar quando um item for aceite.
@@ -251,13 +251,13 @@ Ao seguir os passos nesta secção, irá compilar:
 2. Clique ou toque em **Fechar** e, em seguida, clique ou toque em **Concluído**.
 3. No Dropbox, adicionar, pelo menos, dois ficheiros à pasta que especificou: um para testar a aprovação e outro para testar a rejeição.
 
-## <a name="build-the-app"></a>Compilar a aplicação
+## <a name="build-the-app"></a>Criar a aplicação
 1. Inicie sessão no [powerapps.com](https://make.powerapps.com), e, em seguida, clique ou toque em **Nova aplicação** perto da parte inferior da barra de navegação à esquerda.
    
     ![Criar uma aplicação num navegador](./media/common-data-model-approve/new-app-button.png)
-2. Na caixa de diálogo apresentada, clique ou toque na opção para abrir o Power Apps Studio para o Windows ou o Power Apps Studio para a Web.
-3. Se abriu o Power Apps Studio para o Windows, clique ou toque em **Novo** na barra de navegação esquerda.
-4. Em **Criar uma aplicação a partir dos dados**, clique ou toque em **Esquema do Telefone** no mosaico **Common Data Service**.
+2. Na caixa de diálogo que aparece, clique ou toque na opção para abrir Power Apps Studio para o Windows ou Power Apps Studio para a Web.
+3. Se abriu o Power Apps Studio para o Windows, clique ou toque em **Novo** na barra de navegação à esquerda.
+4. Em **Criar uma aplicação a partir dos seus dados**, clique ou toque em **Esquema de telemóvel** no mosaico **Common Data Service**.
    
     ![Criar aplicação](./media/common-data-model-approve/afd-cdm.png)
 5. Na caixa **Procurar**, escreva ou cole **Rever**.
@@ -269,14 +269,14 @@ Ao seguir os passos nesta secção, irá compilar:
 7. Junto ao canto inferior direito, clique ou toque em **Ligar**.
    
     ![Botão Ligar](./media/common-data-model-approve/connect-button.png)
-8. Se aparecer o ecrã de abertura da visita guiada, faça a visita guiada para se familiarizar com o Power Apps (ou clique ou toque em **Ignorar**).
+8. Se aparecer o ecrã de abertura da visita guiada, faça a visita guiada para se familiarizar com Power Apps (ou clique ou toque em **Ignorar**).
    
     ![Visita guiada](./media/common-data-model-approve/quick-tour.png)
    
     Pode sempre efetuar a visita guiada mais tarde clicando ou tocando no ícone do ponto de interrogação junto ao canto superior esquerdo e, em seguida, clicar ou tocar em **Fazer a visita guiada**.
 9. (opcional) Perto da parte inferior do ecrã, arraste o controlo de deslize para aumentar a ampliação de modo a que seja mais fácil ver a aplicação.
    
-    ![Controlar aplicação de zoom](./media/common-data-model-approve/zoom-control.png)
+    ![Controlo de zoom](./media/common-data-model-approve/zoom-control.png)
 
 ## <a name="customize-the-app"></a>Personalizar a aplicação
 1. Na barra de navegação à direita, clique ou toque no esquema que inclui um cabeçalho e uma descrição.
@@ -296,7 +296,7 @@ Ao seguir os passos nesta secção, irá compilar:
     ![Definir dados do corpo](./media/common-data-model-approve/set-body.png)
 
 ## <a name="test-the-overall-solution"></a>Testar a solução global
-1. No Power Apps, abra o modo de Pré-visualização ao clicar ou tocar no botão reproduzir junto ao canto superior esquerdo.
+1. No Power Apps, abra o modo de Pré-visualização ao clicar ou tocar no botão reproduzir junto ao canto superior esquerdo.
    
     ![Abrir modo de Pré-visualização](./media/common-data-model-approve/open-preview.png)
 2. Para o primeiro ficheiro da lista, clique ou toque na seta para visualizar detalhes sobre esse ficheiro.
