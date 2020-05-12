@@ -1,4 +1,4 @@
-1. Selecione **Novo Passo** e, em seguida, selecione **Adicionar uma condição**.
+1. Selecione **Novo passo** e, em seguida, selecione **Adicionar uma condição**.
    
     ![adicionar condição](media/modern-approvals/add-response-condition.png)
 2. Selecione a caixa **Nome do Objeto** e, em seguida, introduza **resposta** na caixa de pesquisa do cartão **Adicionar conteúdo dinâmico a partir das aplicações e serviços utilizados neste fluxo**.

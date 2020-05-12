@@ -1,10 +1,10 @@
-- name: Documentação do Power Automate
+- name: Documentação Power Automate
   href: /power-automate/
-- name: Descrição geral
+- name: Descrição Geral
   items:
     - name: Inscrever-se
       href: sign-up-sign-in.md
-    - name: Introdução
+    - name: Começar
       href: getting-started.md
     - name: Aprendizagem guiada
       href: 'https://docs.microsoft.com/learn/paths/automate-process-using-flow'
@@ -14,7 +14,7 @@
       href: mobile-create-flow.md
     - name: Criar um fluxo de equipa
       href: create-team-flows.md
-    - name: Criar um fluxo que utilize o Common Data Service
+    - name: Criar um fluxo que utiliza o Common Data Service
       href: common-data-model-intro.md
     - name: Catálogo de Aprendizagem
       items:
@@ -22,7 +22,7 @@
           href: learning-catalog/learning-catalog.md
         - name: Criador de Aplicações
           href: learning-catalog/learning-catalog-app-maker.md
-        - name: Administrator
+        - name: Administrador
           href: learning-catalog/learning-catalog-administrator.md
         - name: Programador
           href: learning-catalog/learning-catalog-developer.md
@@ -44,13 +44,13 @@
       href: flows-teams.md
     - name: Criar fluxos de cartões adaptativos no Teams
       href: create-adaptive-cards-teams.md
-    - name: 'Create a flow with Common Data Service (current environment) (Criar um fluxo com o Common Data Service [ambiente atual])'
+    - name: Criar um fluxo com o Common Data Service (ambiente atual)
       href: connection-cds-native.md
     - name: Criar um fluxo com o Common Data Service
       href: connection-cds.md
     - name: Criar um fluxo com o Dynamics 365
       href: connection-dynamics365.md
-    - name: Create a flow with OneDrive for Business (Criar um fluxo com o OneDrive para Empresas)
+    - name: Criar um fluxo com o OneDrive para Empresas
       href: onedrive-business-launch-panel.md
     - name: Filtrar e copiar dados
       href: odata-filters.md
@@ -92,13 +92,13 @@
       href: approvals-markdown-support.md
     - name: Opções de respostas de aprovação personalizadas
       href: create-approval-response-options.md
-- name: Fluxos de processo de negócio
+- name: Fluxos do processo de negócio
   items:
-    - name: Descrição geral de fluxos de processo de negócio
+    - name: Descrição geral de fluxos do processo de negócio
       href: business-process-flows-overview.md
-    - name: Criar um fluxo de processo de negócio para normalizar processos
+    - name: Criar um fluxo do processo de negócio para normalizar processos
       href: create-business-process-flow.md
-    - name: Melhorar fluxos de processo de negócio com ramificação
+    - name: Melhorar fluxos do processo de negócio com ramificação
       href: enhance-business-process-flows-branching.md
     - name: Add custom controls to business process flows (Adicionar controlos personalizados a fluxos de processo de negócio)
       href: custom-controls-business-process-flows.md
@@ -133,7 +133,7 @@
       href: ./ui-flows/manage.md
 - name: Soluções
   items:
-    - name: Descrição geral
+    - name: Descrição Geral
       href: overview-solution-flows.md
     - name: Criar um fluxo numa solução
       href: create-flow-solution.md
@@ -149,7 +149,7 @@
   items:
     - name: Fluxos de trabalho clássicos do Common Data Service
       items:
-        - name: Descrição geral
+        - name: Descrição Geral
           href: workflow-processes.md
         - name: Configurar fases e passos do fluxo de trabalho
           href: configure-workflow-steps.md
@@ -161,7 +161,7 @@
           href: replace-workflows-with-flows.md
     - name: Ações clássicas do Common Data Service
       items:
-        - name: Use actions (Utilizar ações)
+        - name: Utilizar ações
           href: actions.md
         - name: Criar uma ação personalizada
           href: create-actions.md
@@ -181,9 +181,9 @@
           href: replace-dialogs.md
 - name: AI Builder
   items:
-    - name: Use AI Builder in Power Automate (Utilizar o AI Builder no Power Automate)
+    - name: Utilizar o AI Builder no Power Automate
       href: use-ai-builder.md
-- name: Procedimentos
+- name: Como
   items:
     - name: Adicionar uma ação
       href: multi-step-logic-flow.md
@@ -233,15 +233,15 @@
       href: fix-flow-failures.md
     - name: Detetar e corrigir erros com a verificação de erros
       href: error-checker.md
-- name: Ligar-se a dados
+- name: Ligar aos dados
   items:
     - name: Ligações disponíveis
       href: 'https://go.microsoft.com/fwlink/?linkid=832211'
-    - name: Gerir as ligações
+    - name: Gerir ligações
       href: add-manage-connections.md
-    - name: Gerir os gateways
+    - name: Gerir gateways
       href: gateway-manage.md
-    - name: Compreender os gateways
+    - name: Compreender gateways
       href: gateway-reference.md
 - name: Para programadores
   items:
@@ -249,16 +249,16 @@
       href: ./developer/dev-enterprise-intro.md
     - name: Criar e certificar conectores personalizados
       href: ./developer/register-custom-api.md
-    - name: Integrar com sites e outras tecnologias
+    - name: Integrar com Web sites e outras tecnologias
       href: ./developer/embed-flow-dev.md
     - name: Permitir aos clientes testar os fluxos
       href: ./developer/dev-appsource-test-drive.md
     - name: Trabalhar com fluxos do processo de negócio através de código
       href: ./developer/business-process-flows-code.md
       items:
-        - name: 'Exemplo: Trabalhar com fluxos de processo de negócio'
+        - name: 'Exemplo: trabalhar com fluxos de processo de negócio'
           href: ./developer/sample-work-business-process-flows.md
-    - name: Atividades do fluxo de trabalho personalizadas do Common Data Service
+    - name: Atividades de fluxo de trabalho personalizadas do Common Data Service
       href: ./developer/custom-cds-for-apps-workflow-activities.md
 - name: Administração
   items:
@@ -274,7 +274,7 @@
       href: prevent-data-loss.md
     - name: Suporte para o Intune nas aplicações móveis
       href: intune-support.md
-    - name: Introdução aos grupos de dados
+    - name: Introdução a grupos de dados
       href: introduction-to-data-groups.md
     - name: Ver relatórios de análise de partilha e conectores
       href: admin-analytics-report.md
@@ -300,7 +300,7 @@
           href: gdpr-dsr-delete-msa.md
         - name: Close requests (Pedidos de encerramento)
           href: gdpr-dsr-accountclose-msa.md
-    - name: Power Automate para a Administração Pública dos Estados Unidos
+    - name: Power Automate US Government
       href: us-govt.md
 - name: Referência
   items:
@@ -310,11 +310,11 @@
       href: limits-and-config.md
     - name: Release notes
       href: release-notes.md
-    - name: API Web do Power Automate
+    - name: API Web para Power Automate
       href: web-api.md
-    - name: Perguntas frequentes
+    - name: Perguntas mais frequentes
       href: frequently-asked-questions.md
-- name: Aprender com outras pessoas
+- name: Aprender com outros utilizadores
   items:
     - name: Webinars
       href: 'https://flow.microsoft.com/blog/category/webinars/'

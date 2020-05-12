@@ -1,0 +1,1 @@
+A Microsoft não oferece suporte para esta funcionalidade de pré-visualização. O Suporte Técnico do Microsoft Dynamics 365 não poderá ajudá-lo relativamente a problemas ou perguntas. As funcionalidades de pré-visualização não se destinam a utilização para produção e estão sujeitas a [termos de utilização suplementares ](https://go.microsoft.com/fwlink/p/?LinkId=511446) separados.

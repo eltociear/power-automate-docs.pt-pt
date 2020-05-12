@@ -2,7 +2,7 @@
    
     ![novo passo](media/modern-approvals/select-sharepoint-add-action.png)
 2. Introduza **obter gestor** na caixa de pesquisa **Escolher uma ação**.
-3. Localize e, em seguida, selecione a ação **Utilizadores do Office 365 - Obter gestor (V2)** .
+3. Localize e, em seguida, selecione a ação **Utilizadores do Office 365 - Obter gestor (V2)**.
 
     ![selecionar utilizadores do office](media/modern-approvals/add-get-manager-action.png)
 4. Insira o token **Criado por E-mail** na caixa **Utilizador (UPN)** do cartão **Obter gestor**.

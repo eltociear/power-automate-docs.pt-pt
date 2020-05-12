@@ -1,11 +1,11 @@
-* [Power Automate](https://flow.microsoft.com)
+* [Power Automate](https://flow.microsoft.com).
 * A uma lista do SharePoint Online.
-* A uma conta do Outlook do Office 365 e dos Utilizadores do Office 365.
+* Conta do Office 365 Outlook e de Utilizadores do Office 365.
 
 > [!NOTE]
-> Embora utilizemos o SharePoint Online e o Outlook do Office 365 nestas instruções, pode utilizar outros serviços, tais como o Zendesk, Salesforce ou Gmail.
+> Apesar de utilizarmos o SharePoint Online e o Office 365 Outlook nestas instruções, pode utilizar outros serviços como o Zendesk, o Salesforce ou o Gmail.
 > 
 > 
 
-Antes de criar o fluxo, crie uma [lista do SharePoint Online](https://support.office.com/article/Training-Create-and-set-up-a-list-1DDC1F5A-A908-478B-BB6D-608F34B71F94). Mais tarde, utilizaremos esta lista para pedir a aprovação de pedidos de férias.
+Antes de criar o fluxo, crie uma [lista do SharePoint Online](https://support.office.com/article/Training-Create-and-set-up-a-list-1DDC1F5A-A908-478B-BB6D-608F34B71F94). Mais tarde, iremos utilizar esta lista para pedir a aprovação de pedidos de férias.
 

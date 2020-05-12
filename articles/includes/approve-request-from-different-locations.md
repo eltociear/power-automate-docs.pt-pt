@@ -1,11 +1,11 @@
-Se for o aprovador num fluxo de aprovação, recebe um e-mail sempre que alguém cria um pedido. O pedido de aprovação também é enviado para o centro de aprovação. Em seguida, pode aprovar ou rejeitar pedidos a partir do e-mail, do centro de aprovação ou da aplicação do Power Automate.
+Se for o aprovador num fluxo de aprovação, recebe um e-mail sempre que alguém cria um pedido. O pedido de aprovação também é enviado para o centro de aprovação. Em seguida, pode aprovar ou rejeitar os pedidos a partir do e-mail, do Centro de Aprovações ou da aplicação do Power Automate.
 
 Para aprovar um pedido:
 
 ### <a name="from-email"></a>A partir do e-mail
 1. Selecione **Aprovar** no e-mail que recebe quando um item é adicionado à lista do SharePoint Online.
    
-     Nota: se estiver a utilizar um dispositivo móvel com a aplicação Power Automate instalada, esta aplicação será iniciada. Caso contrário, o centro de aprovação será aberto no seu browser.
+     Nota: se estiver a utilizar um telemóvel com a aplicação do Power Automate instalada, a aplicação do Power Automate é iniciada. Caso contrário, o Centro de Aprovações é aberto no browser.
    
     ![e-mail de pedido](media/modern-approvals/email-approval-request.png)
 2. Introduza um comentário e, em seguida, selecione o botão **Confirmar**.
@@ -13,7 +13,7 @@ Para aprovar um pedido:
     ![introduzir comentário](media/modern-approvals/request-in-approval-center.png)
 
 ### <a name="from-the-approvals-center"></a>A partir do centro de aprovação
-1. Iniciar sessão no [Power Automate](https://flow.microsoft.com).
+1. Inicie sessão em [Power Automate](https://flow.microsoft.com).
    
     ![iniciar sessão](media/modern-approvals/sign-in.png)
 2. Selecione o separador **Aprovações**.
@@ -35,5 +35,5 @@ Para aprovar um pedido:
    
     ![página de êxito](media/modern-approvals/mobile-approval-confirmation.png)
 
-Nota: os ecrãs no Android, iOS e Windows Phone poderão ser ligeiramente diferentes. No entanto, a funcionalidade é a mesma em ambos os dispositivos.
+Nota: os ecrãs no Android, iOS e Windows Phone poderão ser ligeiramente diferentes. No entanto, a funcionalidade é a mesma em todos os dispositivos.
 

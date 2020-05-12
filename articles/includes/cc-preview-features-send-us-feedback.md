@@ -1,0 +1,1 @@
+Estamos a disponibilizar esta pré-visualização para que a possa experimentar e dizer-nos a sua opinião. Os seus comentários irão ajudar-nos a priorizar o trabalho para incluir as capacidades de que necessita mais. Pedimos-lhe para nos enviar as suas sugestões e reportar problemas utilizando o nosso site de comentários publicamente disponível:

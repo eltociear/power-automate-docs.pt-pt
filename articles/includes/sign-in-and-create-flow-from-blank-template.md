@@ -1,4 +1,4 @@
-1. Iniciar sessão no [Power Automate](https://flow.microsoft.com).
+1. Inicie sessão em [Power Automate](https://flow.microsoft.com).
    
     ![iniciar sessão](media/modern-approvals/sign-in.png)
 2. Selecione o separador **Os meus fluxos**.

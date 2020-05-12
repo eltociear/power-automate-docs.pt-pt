@@ -1,5 +1,5 @@
 1. Selecione **Novo passo** > **Adicionar uma ação**.
-2. Pesquise “lidos” e, em seguida, selecione **Outlook do Office 365 - Marcar como lido** na lista de ações.
+2. Pesquise "lidas" e, em seguida, selecione **Office 365 Outlook - Marcar como lida** na lista de ações.
    
     ![Marcar como lida](media/email-triggers/email-triggers-5.png)
 3. No cartão **Marcar como lida**, adicione o token **ID da Mensagem** na caixa **ID da Mensagem**.

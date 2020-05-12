@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Documentação do Power Automate
-summary: O Power Automate é um serviço que o ajuda a criar fluxos de trabalho automatizados entre as suas aplicações e serviços favoritos para sincronizar ficheiros, obter notificações, recolher dados e mais.
+title: Documentação Power Automate
+summary: O Power Automate é um serviço que o ajuda a criar fluxos de trabalho automatizados entre as suas aplicações e serviços favoritos para sincronizar ficheiros, obter notificações, recolher dados e muito mais.
 metadata:
-  title: Documentação do Power Automate
-  description: Concede acesso a áreas realçadas dentro da documentação do Power Automate
+  title: Documentação Power Automate
+  description: Fornece acesso a áreas realçadas dentro da documentação do Power Automate
   services: service
   ms.service: flow
   ms.subservice: subservice
@@ -16,8 +16,8 @@ metadata:
   ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 03/21/2020
-  ms.locfileid: "80082133"
+  ms.lasthandoff: 03/26/2020
+  ms.locfileid: "3295871"
 landingContent:
 - title: Acerca do Power Automate
   linkLists:
@@ -25,17 +25,17 @@ landingContent:
     links:
     - text: O que é o Power Automate?
       url: /power-automate/getting-started
-    - text: Inscrever-se no Power Automate
+    - text: Inscrição para o Power Automate
       url: /power-automate/sign-up-sign-in
     - text: FAQs do Power Automate
       url: /power-automate/frequently-asked-questions
   - linkListType: learn
     links:
-    - text: Saber mais acerca do Power Automate
+    - text: Aprender Power Automate
       url: https://docs.microsoft.com/learn/browse/?products=power-automate&term=Power%20Automate
   - linkListType: video
     links:
-    - text: Descrição geral do Power Automate
+    - text: Descrição Geral do Power Automate
       url: https://www.youtube.com/watch?v=hCuxuUaGC6Y
   - linkListType: whats-new
     links:
@@ -53,7 +53,7 @@ landingContent:
       url: /power-automate/run-scheduled-tasks
     - text: Fluxos de aprovação
       url: /power-automate/modern-approvals
-    - text: Fluxos de processo de negócio
+    - text: Fluxos do processo de negócio
       url: /power-automate/business-process-flows-overview
   - linkListType: concept
     links:
@@ -119,13 +119,13 @@ landingContent:
     links:
     - text: Resolver problemas relacionados com um fluxo
       url: /power-automate/fix-flow-failures
-    - text: Utilizar a verificação do Power Automate
+    - text: Utilizar o verificador do Power Automate
       url: /power-automate/error-checker
-    - text: Comunidade Power Automate
+    - text: Comunidade do Power Automate
       url: https://powerusers.microsoft.com/t5/Microsoft-Power-Automate/ct-p/MPACommunity
     - text: Blogue do Power Automate
       url: https://flow.microsoft.com/en-us/blog/
     - text: Licenciamento do Power Automate
       url: /power-automate/billing-questions
-    - text: Planos do Power Automate US Government
+    - text: Planos do Governo dos E.U.A. para o Power Automate
       url: /power-automate/us-govt

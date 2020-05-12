@@ -1,0 +1,1 @@
+As funcionalidades de pré-visualização não se destinam à produção e poderão ter funcionalidades restritas. Estas funcionalidades estão disponíveis antes do lançamento oficial, para que os clientes possam ter acesso antecipadamente e enviar comentários.
