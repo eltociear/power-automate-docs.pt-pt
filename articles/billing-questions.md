@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/07/2020
+ms.date: 08/30/2019
 ms.author: deonhe
 search.app:
 - Flow
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: a8b4ee39a7d40df41a1c8012a33860a77a51a092
-ms.sourcegitcommit: 8714786a5b632dfd60099871629cf369a31c4125
+ms.openlocfilehash: d1c46c6521e3267f5a2b5b8562122c92647211c7
+ms.sourcegitcommit: 855ee8b55aebe7b8e202006c39debfff02df1d30
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "82895873"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3298908"
 ---
 # <a name="billing-and-metering-questions"></a>Perguntas sobre faturação e medição
 
@@ -33,7 +33,7 @@ ms.locfileid: "82895873"
 Este artigo responde às perguntas mais frequentes sobre a faturação e a medição no Power Automate.
 
 >[!NOTE]
-> O Power Apps e o Power Automate utilizarão um [novo modelo de licenciamento](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq) a partir de 1 de outubro de 2019. 
+> O Power Apps e o Power Automate utilizará um [novo modelo de licenciamento](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq) a partir de 1 de outubro de 2019. 
 
 ## <a name="where-can-i-find-out-what-pricing-plans-are-available"></a>Onde posso saber que planos de preços estão disponíveis?
 
@@ -45,7 +45,7 @@ Veja esta [página de subscrição](https://portal.office.com/account/#subscript
 
 ## <a name="how-do-i-switch-plans"></a>Como posso mudar de plano?
 
-No menu de navegação superior, selecione **Saber mais**> **Preços** e selecione o plano para o qual pretende mudar.
+No menu de navegação superior, selecione **Saber mais** > **Preços** e selecione o plano para o qual pretende mudar.
 
 ![Saber mais > Preços](./media/billing-questions/learn-pricing.png)
 
@@ -53,13 +53,13 @@ No menu de navegação superior, selecione **Saber mais**> **Preços** e selecio
 
 Se estiver num plano gratuito ou de avaliação, clique ou toque no ícone de engrenagem, na barra de navegação superior, para mostrar a utilização atual em relação ao seu plano. 
 
-![Botão Definições](./media/billing-questions/settings.png)
+![Botão de definições](./media/billing-questions/settings.png)
 
-Se estiver num plano pago, as execuções são obtidas de entre todos os utilizadores da sua organização. Estamos a trabalhar em funcionalidades que exponham a quota disponível e a utilização em toda a organização.
+Se estiver a utilizar um plano pago, as execuções serão agrupadas com base em todos os utilizadores na sua organização. Estamos a trabalhar em funcionalidades que exponham a quota disponível e a utilização em toda a organização.
 
 ## <a name="what-happens-if-my-usage-exceeds-the-limits"></a>O que acontece se a minha utilização exceder os limites?
 
-O Power Automate limitará as execuções de fluxos.
+O Power Automate acelera a execução do fluxo.
 
 ## <a name="where-can-i-find-more-information-regarding-the-usage-limits"></a>Onde posso encontrar mais informações sobre os limites de utilização?
 
@@ -71,11 +71,11 @@ O seu plano determina a frequência com que os seus fluxos são executados. Por 
 
 ## <a name="what-counts-as-a-run"></a>O que conta como uma execução?
 
-Sempre que um fluxo é acionado, através de um acionador automático ou iniciando-o manualmente, é considerado uma execução. As verificações de existência de novos dados não contam como execuções.
+Sempre que um fluxo é acionado, através de um acionador automático ou iniciando-o manualmente, é considerado uma execução. Uma verificação de novos dados não conta como uma execução.
 
 ## <a name="are-there-differences-between-microsoft-accounts-and-work-or-school-accounts-for-billing"></a>Existem diferenças entre Contas Microsoft e contas escolares ou profissionais para a faturação?
 
-Yes. Se iniciar sessão com uma Conta Microsoft (tal como uma conta que termine em @outlook.com ou em @gmail.com), só pode utilizar o plano gratuito. Para tirar partido das funcionalidades do plano pago, inicie sessão com um endereço de e-mail escolar ou profissional.
+Sim. Se iniciar sessão com uma Conta Microsoft (tal como uma conta que termine em @outlook.com ou em @gmail.com), só pode utilizar o plano gratuito. Para tirar partido das funcionalidades do plano pago, inicie sessão com um endereço de e-mail escolar ou profissional.
 
 ## <a name="im-trying-to-upgrade-but-im-told-my-account-isnt-eligible"></a>Estou a tentar fazer a atualização, mas foi-me dito que a minha conta não é elegível.
 
@@ -90,6 +90,7 @@ Pode contornar este problema, colocando todos os filtros de que necessita no aci
 ## <a name="other-limits-and-caveats"></a>Outros limites e advertências
 
 * Cada conta pode ter um máximo de:
+  * 250 fluxos.
   * 15 Conectores Personalizados.
   * 20 ligações por API e 100 ligações no total.
-* Determinados conectores externos, tais como o Twitter, implementam a limitação de ligação para controlarem a qualidade de serviço. Quando a limitação está em vigor, os seus fluxos irão falhar. Se os seus fluxos estão a falhar, reveja os detalhes da execução que falhou no histórico de execuções do fluxo.
+* Determinados conectores externos, tais como o Twitter, implementam a limitação de ligação para controlarem a qualidade de serviço. Quando a limitação está em vigor, os seus fluxos irão falhar. Se algum dos seus fluxos falhar, consulte os detalhes da execução que falhou no histórico de execuções do fluxo.
