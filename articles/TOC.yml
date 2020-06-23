@@ -78,7 +78,7 @@
   items:
     - name: Aprovações únicas
       href: modern-approvals.md
-    - name: Approvals with attachments (Aprovações com anexos)
+    - name: Aprovações com anexos
       href: approval-attachments.md
     - name: Aprovações sequenciais
       href: sequential-modern-approvals.md
@@ -100,7 +100,7 @@
       href: create-business-process-flow.md
     - name: Melhorar fluxos do processo de negócio com ramificação
       href: enhance-business-process-flows-branching.md
-    - name: Add custom controls to business process flows (Adicionar controlos personalizados a fluxos de processo de negócio)
+    - name: Adicionar controlos personalizados a fluxos de processo de negócio
       href: custom-controls-business-process-flows.md
     - name: Melhores práticas para os atributos do fluxo do processo de negócio
       href: best-practices-entity-attributes.md
@@ -119,15 +119,17 @@
     - name: Utilizar entradas e saídas em fluxos de IU para computador
       href: ./ui-flows/inputs-outputs-desktop.md
       items:
-        - name: 'Use Input Method Editors (IMEs) in UI flows (Utilizar Input Method Editors [IMEs] em fluxos de IU)'
+        - name: Utilizar Input Method Editors (IMEs) em fluxos de IU
           href: ./ui-flows/use-ime.md
     - name: Criar e testar fluxos de IU para a Web
       href: ./ui-flows/create-web.md
+    - name: Utilizar o WinAutomation com fluxos de IU
+      href: ./ui-flows/create-processes.md
     - name: Editar fluxos de IU para a Web
       href: ./ui-flows/edit-web.md
     - name: Utilizar entradas e saídas em fluxos de IU para a Web
       href: ./ui-flows/inputs-outputs-web.md
-    - name: Executar os fluxos de UI com e sem assistência
+    - name: Executar os fluxos de IU com e sem assistência
       href: ./ui-flows/run-ui-flow.md
     - name: Gerir fluxos de IU
       href: ./ui-flows/manage.md
@@ -191,11 +193,11 @@
       href: add-condition.md
     - name: Utilizar operações de dados
       href: data-operations.md
-    - name: Utilize expressões nas condições
+    - name: Utilizar expressões nas condições
       href: use-expressions-in-conditions.md
-    - name: Use Visio to model flows (Utilizar o Visio para modelar fluxos)
+    - name: Utilizar o Visio para modelar fluxos
       href: visio-flows.md
-    - name: 'Reference: Use functions in expressions (Referência: utilizar funções em expressões)'
+    - name: 'Referência: utilizar funções em expressões'
       href: 'https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference'
     - name: Utilizar cartões adaptáveis para modelar fluxos
       items:
@@ -203,19 +205,19 @@
           href: overview-adaptive-cards.md
         - name: Criar cartões adaptáveis do Teams
           href: create-adaptive-cards.md
-        - name: Sample - Candidate feedback (Exemplo – Feedback de candidatos)
+        - name: Exemplo – Feedback de candidatos
           href: candidate-feedback-sample.md
         - name: Exemplo – Partilha de imagens
           href: image-share-sample.md
-        - name: Sample - Lead collection (Exemplo – Recolha de oportunidades potenciais)
+        - name: Exemplo – Recolha de oportunidades potenciais
           href: lead-collection-sample.md
-        - name: Sample - Poll generator (Exemplo – Gerador de inquéritos)
+        - name: Exemplo – Gerador de inquéritos
           href: poll-generator-sample.md
         - name: Exemplo – Atualização de metadados
           href: metadata-update-sample.md
         - name: Exemplo – Meteorologia diária
           href: daily-weather-sample.md
-        - name: Sample - Acronym form (Exemplo – Formulário de acrónimos)
+        - name: Exemplo – Formulário de acrónimos
           href: acronym-sample.md
         - name: Exemplo – Geração de oportunidades potenciais
           href: lead-collection-sample.md
@@ -245,7 +247,7 @@
       href: gateway-reference.md
 - name: Para programadores
   items:
-    - name: 'Enterprise developers, partners, and ISVs (Programadores empresariais, parceiros e ISVs)'
+    - name: 'Programadores empresariais, parceiros e ISVs'
       href: ./developer/dev-enterprise-intro.md
     - name: Criar e certificar conectores personalizados
       href: ./developer/register-custom-api.md
@@ -298,7 +300,7 @@
           href: gdpr-dsr-export-msa.md
         - name: Pedidos de eliminação
           href: gdpr-dsr-delete-msa.md
-        - name: Close requests (Pedidos de encerramento)
+        - name: Pedidos de encerramento
           href: gdpr-dsr-accountclose-msa.md
     - name: Power Automate US Government
       href: us-govt.md
@@ -308,7 +310,7 @@
       href: regions-overview.md
     - name: Limites e configuração
       href: limits-and-config.md
-    - name: Release notes
+    - name: Notas de versão
       href: release-notes.md
     - name: API Web para Power Automate
       href: web-api.md

@@ -12,12 +12,12 @@ metadata:
   author: MSFTMAN
   ms.author: Deonhe
   ms.date: 01/18/2020
-  ms.openlocfilehash: c3a46514627a133e6f90abd6476ecd3d914dcdf2
-  ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
+  ms.openlocfilehash: 1db41def6d71c0aa64e255e3bdb36fa03a44862a
+  ms.sourcegitcommit: 26bd05fc4729481ba09681aea2b82ebbeef1e1ec
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 03/26/2020
-  ms.locfileid: "3295871"
+  ms.lasthandoff: 05/27/2020
+  ms.locfileid: "3407456"
 landingContent:
 - title: Acerca do Power Automate
   linkLists:
@@ -36,7 +36,7 @@ landingContent:
   - linkListType: video
     links:
     - text: Descrição Geral do Power Automate
-      url: https://www.youtube.com/watch?v=hCuxuUaGC6Y
+      url: https://www.youtube.com/channel/UCG98S4lL7nwlN8dxSF322bA
   - linkListType: whats-new
     links:
     - text: Planos de lançamento
@@ -73,6 +73,8 @@ landingContent:
       url: /power-automate/ui-flows/setup
     - text: Criar fluxos de IU para computador
       url: /power-automate/ui-flows/create-desktop
+    - text: Utilizar o WinAutomation da Softomotive (NOVO!)
+      url: /power-automate/ui-flows/create-processes
     - text: Criar fluxos de IU para Web
       url: /power-automate/ui-flows/create-web
     - text: Executar fluxos de IU
@@ -81,7 +83,7 @@ landingContent:
     links:
     - text: Vídeos dos fluxos de IU
       url: https://www.youtube.com/playlist?list=PLwh1E-0OEEGJQwqxCmNZYhJFzo_Eif9s8
-- title: ALM através de Soluções
+- title: ALM com Soluções
   linkLists:
   - linkListType: overview
     links:
@@ -99,7 +101,7 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Utilizar o AI Builder nos fluxos com recurso a IA
+    - text: Utilizar o AI Builder nos fluxos com recurso a IA
       url: /power-automate/use-ai-builder
     - text: Utilizar cartões adaptáveis
       url: /power-automate/overview-adaptive-cards
@@ -107,7 +109,7 @@ landingContent:
       url: /power-automate/data-operations
     - text: Utilizar expressões e funções
       url: /power-automate/use-expressions-in-conditions
-    - text: Use Visio to model flows (Utilizar o Visio para modelar fluxos)
+    - text: Utilizar o Visio para modelar fluxos
       url: /power-automate/visio-flows
   - linkListType: concept
     links:
@@ -127,5 +129,5 @@ landingContent:
       url: https://flow.microsoft.com/en-us/blog/
     - text: Licenciamento do Power Automate
       url: /power-automate/billing-questions
-    - text: Planos do Governo dos E.U.A. para o Power Automate
+    - text: Planos do Power Automate US Government
       url: /power-automate/us-govt
