@@ -13,29 +13,29 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/07/2020
+ms.date: 05/07/2020
 ms.author: stepsic
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 7f4da4123d5623348513d9b14a75d1f03b3e17dc
-ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
+ms.openlocfilehash: 82e175f463e9cbc264b6ac388e90eaa3433211b4
+ms.sourcegitcommit: 4b9261984a554dfccb0d0d77f3d5fdca60e26433
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3299194"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3340149"
 ---
-# <a name="release-notes"></a>Release notes
+# <a name="release-notes"></a>Notas de versão
 
 >[!NOTE]
->Os planos de lançamento são agora controlados [aqui](https://docs.microsoft.com/dynamics365/release-plans/).
+>Os planos de versão são agora controlados [aqui](https://docs.microsoft.com/dynamics365/release-plans/).
 
-## <a name="top-questions"></a>Principais perguntas?
+## <a name="top-questions"></a>Principais perguntas
 1. O meu fluxo falhou. Como posso corrigi-lo?
    
-   1. Identifique a falha. Comece por ir ao ícone de notificações na parte superior do portal Web ou por selecionar o separador **Atividade** na aplicação móvel. Deverá ver aí o seu fluxo e poderá selecioná-lo.
+   1. Identifique a falha. Comece por ir para o ícone de notificações na parte superior do portal Web ou selecionando o separador **Atividade** na aplicação móvel. Deverá ver aí o seu fluxo e poderá selecioná-lo.
    2. Agora, está a ver os detalhes do fluxo. Localize o passo com o ícone de exclamação vermelho para ver aí a mensagem de erro do seu fluxo.
    3. Dependendo da mensagem de erro, deverá conseguir **Editar** o fluxo e corrigi-lo. [Saiba mais sobre como corrigir falhas comuns do fluxo](fix-flow-failures.md).
 2. Como utilizo uma condição avançada ou uma expressão?
@@ -55,13 +55,13 @@ ms.locfileid: "3299194"
 ## <a name="whats-new"></a>Novidades
 
 Para obter informações sobre as novas funcionalidades lançadas do Power Automate, visite:
-- [Plano de lançamento da fase 1 de 2020](https://docs.microsoft.com/power-platform-release-plan/2020wave1/power-automate/planned-features) sobre as novas funcionalidades que serão lançadas nos próximos meses.
+- [Plano da versão da fase 1 de 2020](https://docs.microsoft.com/power-platform-release-plan/2020wave1/power-automate/planned-features) sobre as novas funcionalidades que serão lançadas nos próximos meses.
 - [Notas de versão semanais](https://docs.microsoft.com/business-applications-release-notes/powerplatform/released-versions/flow) das novas funcionalidades, correções e melhorias lançadas nas últimas semanas.
 
-### <a name="release-2018-09-24"></a>Versão de 24-09-2018
+### <a name="release-2018-09-24"></a>Versão 2018-09-24
 
 - **Acesso de administrador à ajuda e ao suporte** – abra pedidos de suporte para o Power Automate no centro de administração do Power Platform e indique detalhes adicionais sobre a falha do fluxo de trabalho.
-- **Comunidade do Flow reestruturada** – é agora mais fácil encontrar o que precisa na Comunidade do Flow.
+- **Comunidade do Power Automate reestruturada** – é agora mais fácil encontrar o que precisa na Comunidade do Power Automate.
 - **Melhoramentos no conector do Microsoft Teams** – novos acionadores para o Microsoft Teams para que possa executar um fluxo quando existirem novas mensagens num canal.
 - **Mais ações do SharePoint** – existem novas ações para mover ficheiros e mais no conector do SharePoint.
 - **Novos relatórios de análise de administrador** – análise ao nível do Ambiente e do Inquilino adicionada ao Centro de administração da Plataforma de Aplicações Empresariais.
@@ -144,7 +144,7 @@ O programa de Pré-visualização do Power Automate é a forma de aceder antecip
 - **Devolver dados de um fluxo para o Power Apps** – crie fluxos que possam ser chamados a partir de uma aplicação criada com o Power Apps e devolver os dados à aplicação. Utilize o estruturador de fluxos visual de arrastar e largar para criar a lógica de que precisa para as suas aplicações. 
 - **Adicionar múltiplos registos a entradas de matriz** – adicionámos um construtor de listas ao Power Automate que pode ser utilizado para adicionar múltiplos anexos a um e-mail, por exemplo.
 - **Testar fluxos com dados executados anteriormente** – adicionámos um novo botão Testar fluxo ao estruturador que lhe permite testar o seu fluxo com dados de acionador de execuções de fluxos anteriores.
-- **Novos campos workflow()** – agora pode aceder ao nome do ambiente e nome a apresentar do fluxo com a expressão workflow().
+- **Novos campos workflow** – agora pode aceder ao nome do ambiente e nome a apresentar do fluxo com a expressão workflow().
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/return-data-to-powerapps/) sobre esta versão.
 
@@ -222,8 +222,8 @@ O Power Automate Launch Panel está agora disponível em todas as regiões. Este
 ### <a name="release-2017-11-28"></a>Versão 2017-11-28
 
 - **Metadados Geridos** – leia dados e escreva em colunas no SharePoint que utilizam o tipo de Metadados Geridos (também conhecido como Taxonomia).
-- **Acrescentar a Matrizes** - adicione itens ao fim das matrizes com um novo Anexo à ação variável de matriz.
-- **Tago** - um novo conetor ao Tago, que oferece uma ligação simples dos dispositivos eletrónicos com dados externos para conduzir a decisões mais inteligentes com a análise contextual.
+- **Acrescentar a Matrizes** – adicione itens ao fim das matrizes com um novo Anexo à ação variável de matriz.
+- **Tago** – um novo conetor ao Tago, que oferece uma ligação simples dos dispositivos eletrónicos com dados externos para conduzir a decisões mais inteligentes com a análise contextual.
 - **iPhone X** – uma nova versão da aplicação Power Automate que utiliza o ecrã completo no iPhone X e que tem uma melhoria de velocidade para carregamentos de imagem.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/managed-metadata-tago/) sobre esta versão.
@@ -231,10 +231,10 @@ O Power Automate Launch Panel está agora disponível em todas as regiões. Este
 ### <a name="release-2017-11-09"></a>Versão 2017-11-09
 
 - **Integração do OneDrive para Empresas** – existe [agora um botão de fluxo no OneDrive para Empresas](https://flow.microsoft.com/blog/microsoft-flow-integration-in-one-drive-for-business-and-new-connector-actions/) que pode criar o acionar fluxos nos ficheiros e pastas selecionados.
-- **Acionadores do Planner** - comece fluxos quando é criada uma nova tarefa, quando uma tarefa está atribuída a si ou quando uma estiver concluída.
+- **Acionadores do Planner** – comece fluxos quando é criada uma nova tarefa, quando uma tarefa está atribuída a si ou quando uma estiver concluída.
 - **Anexos do SharePoint** – trabalhe com anexos em itens de lista do SharePoint: listar, transferir, adicionar ou eliminar anexos.
-- **Conector de gestão do fluxo** - crie fluxos que automatizam a gestão de outros fluxos no seu ambiente (por exemplo, adicionar permissões a fluxos automaticamente).
-- **Quatro novos conectores** - Serviço de Visão Personalizada do Azure, D&B Optimizer, Enadoc e Derdak SIGNL4 adicionados. 
+- **Conector de gestão do fluxo** – crie fluxos que automatizam a gestão de outros fluxos no seu ambiente (por exemplo, adicionar permissões a fluxos automaticamente).
+- **Quatro novos conectores** – Serviço de Visão Personalizada do Azure, D&B Optimizer, Enadoc e Derdak SIGNL4 adicionados. 
 - **Mais ações de conector** – execute consultas de SQL, obtenha acionadores de e-mail mais rápidos, utilize qualquer método com HTTP com o Azure AD e muito mais.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/planner-triggers-connector-improvements/) sobre esta versão.
@@ -242,53 +242,53 @@ O Power Automate Launch Panel está agora disponível em todas as regiões. Este
 ### <a name="release-2017-11-02"></a>Versão 2017-11-02
 
 - **Registo de Auditoria** – os eventos de auditoria do Power Automate estão agora disponíveis no Centro de Segurança e Conformidade do Office 365 para todos os inquilinos.
-- **Correções de widget de fluxo** - corrigiu um problema na aplicação móvel do Flow que fez com que os botões deixassem de carregar no widget.
+- **Correções de widget de fluxo** – corrigiu um problema na aplicação móvel do Power Automate que fez com que os botões deixassem de carregar no widget.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/security-and-compliance-center/) sobre esta versão.
 
 ### <a name="release-2017-10-19"></a>Versão 2017-10-19
 
 - **Aplicação aninhada em cada** – pode adicionar a aplicação a cada ação, filtrar e selecionar noutras aplicações a cada ação de contentor.
-- **Ações de Data/Hora** - novas ações para obter horas locais, adicionar, subtrair ou formatar horas.
-- **Quatro novos conectores** - Moderador de Conteúdo, Docparser, Microsoft Kaizala e Validação de Dados de Pitney Bowes adicionados.
+- **Ações de Data/Hora** – novas ações para obter horas locais, adicionar, subtrair ou formatar horas.
+- **Quatro novos conectores** – Moderador de Conteúdo, Docparser, Microsoft Kaizala e Validação de Dados de Pitney Bowes adicionados.
 - **Experiência de ligação melhorada** – notificações no portal do Power Automate quando uma ligação está quebrada e detalhes de ligação mais ricos.
-- **Coleção em qualquer lugar** - uma nova coleção de modelo para [trabalhadores sempre em movimento](https://flow.microsoft.com/collections/onthego/).
-- **Entradas de botão do endereço de e-mail** - recolhe endereços de e-mail dos utilizadores quando executam botões.
-- **Entradas de botão de ficheiros** - obter ficheiros carregados, como fotografias, dos utilizadores quando executam botões.
-- **Primeira execução e início de sessão automático** - experiências de primeira execução melhoradas na aplicação móvel, incluindo o início de sessão automático.
-- **Acionadores do Microsoft Forms mais rápidos** - o Forms vai acionar fluxos muito mais rapidamente do que antes (anteriormente uma vez por hora).
-- **Entradas de botão entre sessões** - os botões acionados no seu telemóvel irão lembrar-se das entradas anteriores.
-- **Feed de atividades móvel** - feed de atividades melhorado para incluir resumos de execução mais detalhados e detalhes de resolução de problemas.
+- **Coleção em qualquer lugar** – uma nova coleção de modelo para [trabalhadores sempre em movimento](https://flow.microsoft.com/collections/onthego/).
+- **Entradas de botão do endereço de e-mail** – recolhe endereços de e-mail dos utilizadores quando executam botões.
+- **Entradas de botão de ficheiros** – obter ficheiros carregados, como fotografias, dos utilizadores quando executam botões.
+- **Primeira execução e início de sessão automático** – experiências de primeira execução melhoradas na aplicação móvel, incluindo o início de sessão automático.
+- **Acionadores do Microsoft Forms mais rápidos** – o Forms vai acionar fluxos muito mais rapidamente do que antes (anteriormente uma vez por hora).
+- **Entradas de botão entre sessões** – os botões acionados no seu telemóvel irão lembrar-se das entradas anteriores.
+- **Feed de atividades móvel** – feed de atividades melhorado para incluir resumos de execução mais detalhados e detalhes de resolução de problemas.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/nested-apply-to-each/) sobre esta versão.
 
 ### <a name="release-2017-10-03"></a>Versão 2017-10-03
 
-- **Todos têm de aprovar** - necessita de um pedido de aprovação enviado para mais do que uma pessoa para que todas as pessoas que receberam o pedido aprovem.
+- **Todos têm de aprovar** – necessita de um pedido de aprovação enviado para mais do que uma pessoa para que todas as pessoas que receberam o pedido aprovem.
 - **Novas ações do OneDrive para Empresas** – gere PDFs para ficheiros armazenados no OneDrive para Empresas e quatro outras novas ações.
-- **Conector Apache Impala** - o Apache Impala (incubação) é a base de dados de open source e de análise nativa para o Apache Hadoop.
-- **Adicionar descrições de fluxo** - conceda descrições aos fluxos, para que, quando as partilha com os seus colegas, eles possam ver um resumo do que o fluxo faz.
+- **Conector Apache Impala** – o Apache Impala (incubação) é a base de dados de open source e de análise nativa para o Apache Hadoop.
+- **Adicionar descrições de fluxo** – conceda descrições aos fluxos, para que, quando as partilha com os seus colegas, eles possam ver um resumo do que o fluxo faz.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/all-must-approve-and-onedrive/) sobre esta versão.
 
 ### <a name="release-2017-09-25---q3-update-for-power-automate"></a>Versão 2017-09-25 – Atualização T3 para Power Automate
 
 - **Integração mais profunda do SharePoint na Primeira Versão** – existem novos envios internos para fluxos de revisão e um painel de Fluxo para recolher entradas quando executa um fluxo para inquilinos da primeira versão.
-- **Aplicações do Dynamics 365** – o Flow está agora integrado na IU das aplicações do Dynamics 365, como o Dynamics 365 for Sales e o Dynamics 365 for Customer Service.
+- **Aplicações do Dynamics 365** – o Power Automate está agora integrado na IU das aplicações do Dynamics 365, como o Dynamics 365 Sales e o Dynamics 365 Customer Service.
 - **Microsoft Trust Center** – o Power Automate está listado no Microsoft Trust Center, que mostra certificações, como HIPAA, ISO e SOC.
 - **Análise de utilização** – cada fluxo tem um dashboard incorporado do Power BI com análise de utilização básica.
 - **Registo de Auditoria na Primeira Versão** – todos os eventos de gestão de fluxo são registados no Centro de Segurança e Conformidade do Office 365 para inquilinos da primeira versão.
 - **Seis novos conectores** – LinkedIn, Grupos do Office 365, Skype para Empresas, Adobe Sign, Bizzy e Recolha de Dados do Azure Log Analytics adicionados.
-- **Acionadores SQL** - execute fluxos quando é adicionada uma nova linha ou uma linha é atualizada numa tabela SQL.
-- **Conectores personalizados no local** - os conectores personalizados podem agora utilizar o gateway de Dados no Local para estabelecer a ligação a pontos finais internos na sua rede.
+- **Acionadores SQL** – execute fluxos quando é adicionada uma nova linha ou uma linha é atualizada numa tabela SQL.
+- **Conectores personalizados no local** – os conectores personalizados podem agora utilizar o gateway de Dados no Local para estabelecer a ligação a pontos finais internos na sua rede.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/q3-2017-update/) sobre esta versão.
 
 ### <a name="release-2017-09-21"></a>Versão 2017-09-21
 
 - **Transferir o Histórico do Fluxo** – transfira o histórico de execuções de um fluxo como um ficheiro CSV para abrir no Excel.
-- **Periodicidade avançada** - crie agendamentos periódicos para acionar os fluxos, por exemplo, acionar apenas em dias da semana.
-- **IntelliSense** - quando escreve expressões, o IntelliSense irá apresentar sugestões para os parâmetros.
+- **Periodicidade avançada** – crie agendamentos periódicos para acionar os fluxos, por exemplo, acionar apenas em dias da semana.
+- **IntelliSense** – quando escreve expressões, o IntelliSense irá apresentar sugestões para os parâmetros.
 - **Quatro novos conectores** – conectores adicionados para serviços do Azure AD HTTP, Amazon Redshift, Azure Event Grid Publish e FlowForma adicionados.
 - **Ligações de partilha** – uma nova ação para gerar ligações partilháveis para ficheiros do OneDrive ou Azure Storage Blobs.
 
@@ -297,48 +297,48 @@ O Power Automate Launch Panel está agora disponível em todas as regiões. Este
 
 ### <a name="release-2017-08-25"></a>Versão 2017-08-25
 * **Propriedades do documento e muito mais do SharePoint** - [Leia e defina as propriedades da biblioteca de documentos do SharePoint](https://flow.microsoft.com/blog/support-for-sharepoint-document-library-properties/) e utilize campos adicionais, como ligações para o item do SharePoint.
-* **Coleções de fluxo** - coleções de fluxo são um conjunto de coleções de modelos organizados por função ou na vertical.
-* **"Repartilha" de botões** - quando partilha botões com os seus colegas e estes podem partilhá-los novamente com outras pessoas.
-* **Recolher listas de botões** - defina as listas pendentes de opções para os utilizadores à sua escolha quando estes tocam no botão.
-* **Sete novos conectores** - AWeber, Azure Log Analytics, Tabelas do Azure, DocFusion365, Azure Event Grid, Hubs de Eventos do Azure e StaffHub. 
-* **Melhorias do Slack e do MySQL** - crie ou adira a canais no Slack e pode escrever em bases de dados MySQL.
+* **Coleções de fluxo** – coleções de fluxo são um conjunto de coleções de modelos organizados por função ou na vertical.
+* **"Repartilha" de botões** – quando partilha botões com os seus colegas e estes podem partilhá-los novamente com outras pessoas.
+* **Recolher listas de botões** – defina as listas pendentes de opções para os utilizadores à sua escolha quando estes tocam no botão.
+* **Sete novos conectores** – AWeber, Azure Log Analytics, Tabelas do Azure, DocFusion365, Azure Event Grid, Hubs de Eventos do Azure e StaffHub. 
+* **Melhorias do Slack e do MySQL** – crie ou adira a canais no Slack e pode escrever em bases de dados MySQL.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/button-updates-seven-connectors/) sobre esta versão.
 
 ### <a name="release-2017-08-02"></a>Versão 2017-08-02
 * **Escrever para os campos Pessoa, Escolha e Pesquisa** – o item de Criação e Atualização do SharePoint suporta [agora a capacidade de](https://flow.microsoft.com/blog/setting-sharepoint-s-person-choice-and-lookup-fields/) definir os campos Pessoa, Escolha e Pesquisa.
-* **Mais definições de ação** - agora tem mais controlo sobre como os acionadores e as ações são executados, incluindo a configuração de políticas de repetição e paginação.
-* **Quatro novos conectores** - agora pode utilizar o Armazenamento de Ficheiros do Azure, os Formulários Elásticos, o Plivo e o Video Indexer.
+* **Mais definições de ação** – agora tem mais controlo sobre como os acionadores e as ações são executados, incluindo a configuração de políticas de repetição e paginação.
+* **Quatro novos conectores** – agora pode utilizar o Armazenamento de Ficheiros do Azure, os Formulários Elásticos, o Plivo e o Video Indexer.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/four-connector-action-settings/) sobre esta versão.
 
 ### <a name="release-2017-07-27---q2-update-for-power-automate"></a>Versão 2017-07-27 – Atualização T2 para Power Automate
-* **Importar e exportar** - soluções do fluxo de exportação e importação entre ambientes ou de teste para produção. 
-* **Utilizar expressões nas ações** - introduza expressões em qualquer ação e obtenha ajuda inline sobre como utilizá-los.
+* **Importar e exportar** – soluções do fluxo de exportação e importação entre ambientes ou de teste para produção. 
+* **Utilizar expressões nas ações** – introduza expressões em qualquer ação e obtenha ajuda inline sobre como utilizá-los.
 * **Aumentar para o Azure Logic Apps** – guarde os fluxos como recurso do Azure Logic App que podem ser implementados através do Visual Studio ou do portal do Azure.
 * **Visibilidade de admin** – transfira a utilização do Power Automate no seu inquilino para compreender exatamente onde e como os fluxos estão a ser utilizados.
 * **Fluxos no Dynamics 365** – Utilize fluxos dentro do Dynamics 365 for Operations & Financials, Business Edition.
-* **Encontrar cenários mais facilmente** - procure tudo o que esse conector pode fazer e, em seguida, utilize qualquer acionador como ponto de partida para a criação de fluxos.
+* **Encontrar cenários mais facilmente** – procure tudo o que esse conector pode fazer e, em seguida, utilize qualquer acionador como ponto de partida para a criação de fluxos.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/q2-2017-update/) sobre esta versão.
 
 ### <a name="release-2017-07-13"></a>Versão 2017-07-13
-* **Modelo de publicação melhorado** - publique qualquer fluxo criado por si, juntamente com as respetivas categorias, na galeria pública.
-* **Obter eventos no seu Calendário do Outlook** - uma nova ação para devolver todos os eventos entre duas vezes no seu calendário.
-* **Nova funcionalidade móvel** - execute fluxos a pedido e volte a submeter execuções com falhas na aplicação móvel.
-* **Menus suspensos dinâmicos em Conectores personalizados** - crie menus suspensos dinâmicos, acionadores de consultas e teste os seus conectores personalizados.
+* **Modelo de publicação melhorado** – publique qualquer fluxo criado por si, juntamente com as respetivas categorias, na galeria pública.
+* **Obter eventos no seu Calendário do Outlook** – uma nova ação para devolver todos os eventos entre duas vezes no seu calendário.
+* **Nova funcionalidade móvel** – execute fluxos a pedido e volte a submeter execuções com falhas na aplicação móvel.
+* **Menus suspensos dinâmicos em Conectores personalizados** – crie menus suspensos dinâmicos, acionadores de consultas e teste os seus conectores personalizados.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/publishing-and-custom-connectors/) sobre esta versão.
 
 ### <a name="release-2017-06-28"></a>Versão 2017-06-28
 * **Atualize as definições de idioma** – pode personalizar o Idioma e a Região que o Power Automate utiliza através do menu Definições.
-* **Cinco novos conectores** - foi adicionado suporte ao Adobe Creative Cloud, ao Bing Maps, ao Bing Search, ao JotForm e ao Freshservice.
-* **Configurar tempos limite** - alterar o tempo de ações de longa duração, como aprovações, antes de terminarem o tempo limite e o fluxo continuar.
-* **Incluir comentários no Outlook para aprovações** - quando recebe um pedido de aprovação pode deixar comentários sem sair do Outlook.
-* **Personalizar cores de marca do conetor** - já pode introduzir uma cor nos seus Conectores Personalizados que será utilizada nas imagens de fundo.
-* **Guardar Como para fluxos de equipa** -faça cópias de quaisquer fluxos, incluindo fluxos de Equipa
-* **Eliminar informações de fluxo** - quando eliminar um fluxo, será apresentada a lista de todas as execuções pendentes desse fluxo.
-* **Filtragem na página Conectores** -pesquise os conectores que pretende na página Conectores e filtre por tipo de conector.
+* **Cinco novos conectores** – foi adicionado suporte ao Adobe Creative Cloud, ao Bing Maps, ao Bing Search, ao JotForm e ao Freshservice.
+* **Configurar tempos limite** – alterar o tempo de ações de longa duração, como aprovações, antes de terminarem o tempo limite e o fluxo continuar.
+* **Incluir comentários no Outlook para aprovações** – quando recebe um pedido de aprovação pode deixar comentários sem sair do Outlook.
+* **Personalizar cores de marca do conetor** – já pode introduzir uma cor nos seus Conectores Personalizados que será utilizada nas imagens de fundo.
+* **Guardar Como para fluxos de equipa** – faça cópias de quaisquer fluxos, incluindo fluxos de Equipa
+* **Eliminar informações de fluxo** – quando eliminar um fluxo, será apresentada a lista de todas as execuções pendentes desse fluxo.
+* **Filtragem na página Conectores** – pesquise os conectores que pretende na página Conectores e filtre por tipo de conector.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/language-settings-3-connectors/) sobre esta versão.
 
@@ -348,39 +348,39 @@ Já pode ver o estado de todos os pedidos de aprovação pendente enviados. Alé
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/sent-requests-flow-mobile/) sobre esta versão.
 
 ### <a name="release-2017-06-15"></a>Versão 2017-06-15
-* **Conversão de conteúdo** - um novo conector pode converter conteúdo HTML para texto simples, útil para processar e-mails formatados em HTML.
-* **Três novos conectores de base de dados** - suporte só de leitura adicionado para MySQL, PostgreSQL e Teradata. Estes conectores ligam através do gateway de dados No local.
+* **Conversão de conteúdo** – um novo conector pode converter conteúdo HTML para texto simples, útil para processar e-mails formatados em HTML.
+* **Três novos conectores de base de dados** – suporte só de leitura adicionado para MySQL, PostgreSQL e Teradata. Estes conectores ligam através do gateway de dados No local.
 * **Três outros conectores** – ligue ao Azure Application Insights, ao Calendly e ao Teamwork Projects.
-* **Melhor visualização para processamento de erros** - os passos que são executados depois dos erros são agora apresentados com setas com pontos vermelhos para que os possa identificar facilmente.
-* **Execute o painel de detalhes** - quando um fluxo falha, existe agora um novo painel do lado direito que contém alguns passos úteis para saber como corrigir o fluxo.
+* **Melhor visualização para processamento de erros** – os passos que são executados depois dos erros são agora apresentados com setas com pontos vermelhos para que os possa identificar facilmente.
+* **Execute o painel de detalhes** – quando um fluxo falha, existe agora um novo painel do lado direito que contém alguns passos úteis para saber como corrigir o fluxo.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/seven-connectors-and-html/) sobre esta versão.
 
 ### <a name="release-2017-06-04"></a>Versão 2017-06-04
 * **GA para Windows Phone** - [A aplicação móvel do Power Automate foi lançada para Disponibilidade Geral para Windows Phone](https://flow.microsoft.com/blog/announcing-flow-windows-phone-app/).
-* **E-mails sobre falhas de fluxo** - seja notificado por e-mail quando tiver um fluxo que apresente falhas. Estes e-mails de falha serão apenas enviados uma vez por semana e podem ser ativados ou desativados pelo utilizador.
-* **Ação Selecionar para tabelas** - utilize a nova ação Selecionar para alterar o conjunto de colunas que será incluído nas tabelas.
+* **E-mails sobre falhas de fluxo** – seja notificado por e-mail quando tiver um fluxo que apresente falhas. Estes e-mails de falha serão apenas enviados uma vez por semana e podem ser ativados ou desativados pelo utilizador.
+* **Ação Selecionar para tabelas** – utilize a nova ação Selecionar para alterar o conjunto de colunas que será incluído nas tabelas.
 * **Conector do Microsoft Forms** – o Microsoft Forms é uma nova parte do Office 365 Education que permite aos professores e aos alunos criarem inquéritos personalizados de forma rápida e simples, inquéritos, questionários, registos e muito mais.
 * **Plano Office 365 Enterprise K1** – Power Apps e Power Automate estão agora incluídos no plano Office 365 Enterprise K1 com determinadas quotas.
-* **Os cabeçalhos HTTP são mais fáceis** - tal como a ação Selecionar, pode apresentar um nome e um valor do cabeçalho, basta preencher as caixas de texto na ação.
+* **Os cabeçalhos HTTP são mais fáceis** – tal como a ação Selecionar, pode apresentar um nome e um valor do cabeçalho, basta preencher as caixas de texto na ação.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/microsoft-forms-tables-flow-failures/) sobre esta versão.
 
 ### <a name="release-2017-05-23"></a>Versão 2017-05-23
 * **Conector Microsoft Teams** - [Microsoft Teams](https://flow.microsoft.com/blog/introducing-the-microsoft-teams-connector-for-flow/) é uma área de trabalho baseada em chat no Office 365 que junta pessoas, conversas e conteúdos, juntamente com as ferramentas de que as equipas precisam, de modo a que possam colaborar facilmente e obter mais resultados.
 * **Widgets em iOS e Android** – os widgets do Power Automate são atalhos de botões que proporcionam uma forma mais fácil e rápida de acionar botões diretamente no ecrã principal.
-* **Criar passos de "processamento de erros"** - defina um ou mais passos para execução após uma ação falhar. Por exemplo, receba uma notificação imediatamente se o seu fluxo não conseguir criar um registo no Dynamics 365.
-* **Variáveis de número inteiro e número de vírgula flutuante** - inicialize e aumente ou diminua os contadores dentro de execuções de fluxos para contar quantas vezes é que um determinado conjunto de lógica é executado.
-* **Página de detalhes de fluxo** - quando seleciona um fluxo na lista **Os meus fluxos**, verá uma página com detalhes acerca desse fluxo, como quem tem acesso e o histórico de execuções.
-* **Quotas de execução de fluxos para administradores** - os administradores podem agora monitorizar a utilização das execuções de fluxos numa organização relativamente à quota de execuções empresariais comum e obter uma análise detalhada da quota, para saberem que licenças contribuem para a quota das respetivas organizações.
-* **Melhoramentos ao acionador de pedidos HTTP** - utilize métodos HTTP diferentes e adicione segmentos de caminho ao acionador Pedido.
+* **Criar passos de "processamento de erros"** – defina um ou mais passos para execução após uma ação falhar. Por exemplo, receba uma notificação imediatamente se o seu fluxo não conseguir criar um registo no Dynamics 365.
+* **Variáveis de número inteiro e número de vírgula flutuante** – inicialize e aumente ou diminua os contadores dentro de execuções de fluxos para contar quantas vezes é que um determinado conjunto de lógica é executado.
+* **Página de detalhes de fluxo** – quando seleciona um fluxo na lista **Os meus fluxos**, verá uma página com detalhes acerca desse fluxo, como quem tem acesso e o histórico de execuções.
+* **Quotas de execução de fluxos para administradores** – os administradores podem agora monitorizar a utilização das execuções de fluxos numa organização relativamente à quota de execuções empresariais comum e obter uma análise detalhada da quota, para saberem que licenças contribuem para a quota das respetivas organizações.
+* **Melhoramentos ao acionador de pedidos HTTP** – utilize métodos HTTP diferentes e adicione segmentos de caminho ao acionador Pedido.
 * **Dois conectores de parceiros** – o Power Automate pode agora ser ligado ao Parserr, um serviço de análise de e-mails, e ao Cognito Forms, um serviço de formulários online.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/error-handling/) sobre esta versão.
 
 ### <a name="release-2017-05-12"></a>Versão 2017-05-12
 * **Integração de Bibliotecas de Documentos do SharePoint** – pode selecionar qualquer ficheiro numa biblioteca de documentos e iniciar um fluxo, por exemplo para enviá-la ao seu gestor para aprovação, [e muito mais](https://flow.microsoft.com/blog/flow-in-spo-document-libraries/).
-* **Conector do Microsoft Planner** - O Microsoft Planner permite-lhe reunir facilmente as equipas, tarefas, documentos, e conversas para obter melhores resultados.
+* **Conector do Microsoft Planner** – O Microsoft Planner permite-lhe reunir facilmente as equipas, tarefas, documentos, e conversas para obter melhores resultados.
 * **Vista de administração das licenças** – os administradores podem ver todas as licenças do Power Automate e Power Apps (versão de avaliação e paga) no Centro de Administração do Power Automate.
 * **Plano da Comunidade do Power Apps** – o plano da Comunidade do Power Apps é um plano gratuito para indivíduos que exploram, aprendem e criam competências para o Power Apps, Power Automate e Common Data Service.
 
@@ -398,35 +398,35 @@ Já pode ver o estado de todos os pedidos de aprovação pendente enviados. Alé
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/canada-mailboxes-aad) sobre esta versão.
 
 ### <a name="release-2017-04-27"></a>Versão 2017-04-27
-* **Construa fluxos com passos paralelos** - crie fluxos com execução paralela: o que significa que pode ter dois ou mais passos em execução exatamente ao mesmo tempo.
-* **Cinco novos serviços suportados** - cinco novos serviços: Approvals, Benchmark Email, Capsule CRM, LiveChat e Outlook Customer Manager.
+* **Construa fluxos com passos paralelos** – crie fluxos com execução paralela: o que significa que pode ter dois ou mais passos em execução exatamente ao mesmo tempo.
+* **Cinco novos serviços suportados** – cinco novos serviços: Approvals, Benchmark Email, Capsule CRM, LiveChat e Outlook Customer Manager.
 * **Monitorize as novas tentativas para ações** – o Power Automate vai tentar novamente quando ocorrerem falhas nos serviços. Agora pode ver quantas novas tentativas automáticas ocorreram e os detalhes do que aconteceu.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/parallel-actions/) sobre esta versão.
 
 ### <a name="release-2017-04-17---q1-update-for-power-automate"></a>Versão 2017-04-17 – Atualização T1 para Power Automate
 * **Experiência de aprovação moderna** – crie fluxos de trabalho em que os aprovadores podem aprovar em segurança, dentro da aplicação móvel do Power Automate, ou no centro de aprovações unificado no site do Power Automate.
-* **Disponibilidade geral dos fluxos de equipa**: várias pessoas podem ter e gerir um fluxo em conjunto com os fluxos de equipa, que agora estão geralmente disponíveis.
+* **Disponibilidade geral dos fluxos de equipa** – várias pessoas podem ter e gerir um fluxo em conjunto com os fluxos de equipa, que agora estão geralmente disponíveis.
 * **Crie conectores para o Power Automate** – qualquer pessoa pode enviar o seu conector do Power Automate gratuitamente para o resto do mundo.
-* **Um estruturador mais leve** - para determinados modelos, uma nova versão do estruturador apresenta apenas os campos que são necessários para criar um fluxo, o que simplifica a experiência.
+* **Um estruturador mais leve** – para determinados modelos, uma nova versão do estruturador apresenta apenas os campos que são necessários para criar um fluxo, o que simplifica a experiência.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/q1-2017-update/) sobre esta versão.
 
 ### <a name="release-2017-04-11"></a>Versão 2017-04-11
-* **Novas ações para criar tabelas e listas** - novas ações de criação de tabela HTML, criação de tabela CSV e associações que podem processar listas de itens (ao invés da anterior opção de apenas Aplicar a cada).
-* **Inserir passos em qualquer lugar** -agora pode inserir um novo passo em qualquer lado no fluxo de trabalho sem precisar de arrastar e largar.
-* **Quatro novos serviços** - o Flow agora suporta 10 to 8 Scheduling, Act!, Inoreader e a API de Imagem Digitalizada. Com a API de Imagem Digitalizada, pode processar imagens para obter o conteúdo do texto (conhecido como OCR), ou marcar automaticamente as imagens com base no seu conteúdo.
+* **Novas ações para criar tabelas e listas** – novas ações de criação de tabela HTML, criação de tabela CSV e associações que podem processar listas de itens (ao invés da anterior opção de apenas Aplicar a cada).
+* **Inserir passos em qualquer lugar** – agora pode inserir um novo passo em qualquer lado no fluxo de trabalho sem precisar de arrastar e largar.
+* **Quatro novos serviços** – o Power Automate agora suporta 10 to 8 Scheduling, Act!, Inoreader e a API de Imagem Digitalizada. Com a API de Imagem Digitalizada, pode processar imagens para obter o conteúdo do texto (conhecido como OCR), ou marcar automaticamente as imagens com base no seu conteúdo.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/html-tables-csvs-computer-vision/) sobre esta versão.
 
 ### <a name="release-2017-04-03"></a>Versão 2017-04-03
-* **Versão Beta do Windows Phone** - O programa beta da Aplicação do Windows Phone está disponível para que obtenha uma pré-visualização da aplicação no seu Windows Phone. [Saiba mais](https://flow.microsoft.com/blog/windows-phone-app-beta-is-now-available/).
-* **Muhimbi PDF** – Agora, pode converter ficheiros do Microsoft Word para PDF, adicionar marcas d’água, intercalar documentos e muito mais com o Muhimbi PDF. [Saiba mais](https://flow.microsoft.com/blog/convert-files-using-muhimbi/).
-* **Acionar fluxos a partir de botões físicos** - Anunciamos parcerias com dois dos principais produtos da área dos botões físicos: o Flic, da Shortcut Labs, e o Bttn, da The Button Corporation. [Mais informações](https://flow.microsoft.com/blog/physical-buttons/)
+* **Versão Beta do Windows Phone** – O programa beta da Aplicação do Windows Phone está disponível para que obtenha uma pré-visualização da aplicação no seu Windows Phone. [Leia mais](https://flow.microsoft.com/blog/windows-phone-app-beta-is-now-available/).
+* **Muhimbi PDF** – Agora, pode converter ficheiros do Microsoft Word para PDF, adicionar marcas d’água, intercalar documentos e muito mais com o Muhimbi PDF. [Leia mais](https://flow.microsoft.com/blog/convert-files-using-muhimbi/).
+* **Acionar fluxos a partir de botões físicos** – Anunciamos parcerias com dois dos principais produtos da área dos botões físicos: o Flic, da Shortcut Labs, e o Bttn, da The Button Corporation. [Mais informações](https://flow.microsoft.com/blog/physical-buttons/)
 
 ### <a name="release-2017-03-22"></a>Versão 2017-03-22
 * **Fazer uma cópia do seu fluxo** – Agora, pode fazer uma cópia do seu fluxo, para trabalhar em versões de rascunho, ou duplicar um fluxo que tenha criado no passado.
-* **Dois novos serviços** - Adicionámos suporte para Toodledo, para que faça a gestão da sua lista de tarefas ao criar e atualizar tarefas, e para Zendesk, que fornece um serviço de atendimento ao cliente e uma plataforma de pedidos de suporte.
+* **Dois novos serviços** – Adicionámos suporte para Toodledo, para que faça a gestão da sua lista de tarefas ao criar e atualizar tarefas, e para Zendesk, que fornece um serviço de atendimento ao cliente e uma plataforma de pedidos de suporte.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/make-a-copy/) sobre esta versão.
 
@@ -464,71 +464,71 @@ Já pode ver o estado de todos os pedidos de aprovação pendente enviados. Alé
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/managing-flow-resources-in-the-admin-center/) sobre esta versão.
 
 ### <a name="release-2017-02-06"></a>Versão 2017-02-06
-* **Fluxos de equipa** - Os fluxos de equipa permitem que várias pessoas sejam proprietárias e colaborem na gestão de um fluxo. Se alguém deixar uma organização, os fluxos que criaram podem continuar a ser executados.
+* **Fluxos de equipa** – Os fluxos de equipa permitem que várias pessoas sejam proprietárias e colaborem na gestão de um fluxo. Se alguém deixar uma organização, os fluxos que criaram podem continuar a ser executados.
 * **Partilhar conectores personalizados** – Os conectores personalizados, tal como os fluxos de equipa, podem ser partilhados e geridos coletivamente no âmbito de uma organização.
-* **Gmail e suporte para LUIS** -Ligue-se ao Gmail e ao Language Understanding Intelligent Service dos Serviços Cognitivos do Azure.
+* **Gmail e suporte para LUIS** – Ligue-se ao Gmail e ao Language Understanding Intelligent Service do Azure Cognitive Services.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/team-flows/) sobre esta versão.
 
 ### <a name="release-2017-01-30"></a>Versão 2017-01-30
-* **Introduções dos botões do fluxo** - Agora, os botões do fluxo podem receber introduções de utilizador durante o tempo de execução, pelo que os autores do fluxo podem definir informação transmitida quando alguém toca no botão.
-* **Tarefas do Outlook e HelloSign** - O serviço Tarefas do Outlook permite-lhe gerir tarefas, enquanto o HelloSign ativa assinaturas eletrónicas protegidas.
+* **Introduções dos botões do fluxo** – Agora, os botões do fluxo podem receber introduções de utilizador durante o tempo de execução, pelo que os autores do fluxo podem definir informação transmitida quando alguém toca no botão.
+* **Tarefas do Outlook e HelloSign** – O serviço Tarefas do Outlook permite-lhe gerir tarefas, enquanto o HelloSign ativa assinaturas eletrónicas protegidas.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/button-user-inputs/) sobre esta versão.
 
 ### <a name="release-2017-01-23"></a>Versão 2017-01-23
-* **Pesquisa por serviço** - pesquise por serviço quando adicionar um acionador ou uma ação para ver todas as ações de cada serviço.
-* **Maiúsculas/minúsculas** - adicione Blocos do comutador para ter vários ramos de lógica paralela.
+* **Pesquisa por serviço** – pesquise por serviço quando adicionar um acionador ou uma ação para ver todas as ações de cada serviço.
+* **Maiúsculas/minúsculas** – adicione Blocos do comutador para ter vários ramos de lógica paralela.
 * **Mais ações de e-mail** – nova funcionalidade nos serviços do Office 365 Outlook e do Outlook.com para trabalhar com e-mails sinalizados.
-* **Cinco novos serviços** - ligue a sistemas de ficheiros de rede ou local, a o serviço de pagamento Stripe, IBM Informix, IBM DB2 e UserVoice.
+* **Cinco novos serviços** – ligue a sistemas de ficheiros de rede ou local, a o serviço de pagamento Stripe, IBM Informix, IBM DB2 e UserVoice.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/search-by-service/) sobre esta versão.
 
 ### <a name="release-2017-01-14"></a>Versão 2017-01-14
-* **Submeter execuções novamente** - se um fluxo falhar e quiser corrigi-lo e executá-lo outra vez, pode submeter novamente a execução que falhou.
-* **Cancelar execuções** - quando um fluxo fica bloqueado, pode cancelar a execução explicitamente.
-* **Dois novos serviços** - suporte adicional para GoToTraining e GoToWebinar.
-* **Ligações móveis** - pode partilhar modelos diretamente a partir da aplicação móvel. Além disso, adicionámos uma ligação de transferência rápida para as aplicações na parte superior do site.
+* **Submeter execuções novamente** – se um fluxo falhar e quiser corrigi-lo e executá-lo outra vez, pode submeter novamente a execução que falhou.
+* **Cancelar execuções** – quando um fluxo fica bloqueado, pode cancelar a execução explicitamente.
+* **Dois novos serviços** – suporte adicional para GoToTraining e GoToWebinar.
+* **Ligações móveis** – pode partilhar modelos diretamente a partir da aplicação móvel. Além disso, adicionámos uma ligação de transferência rápida para as aplicações na parte superior do site.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/managing-runs/) sobre esta versão.
 
-### <a name="release-2016-12-29"></a>Versão de 2016-12-29
+### <a name="release-2016-12-29"></a>Versão 2016-12-29
 O Power Automate agora suporta DocuSign, para processar eSignatures e Gestão de Transação Digital; SurveyMonkey, para inquéritos baseados na web; e a aplicação de criação de notas do OneNote (apenas para contas de empresas).
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/final-2016-services/) sobre esta versão.
 
-### <a name="release-2016-12-20"></a>Versão de 2016-12-20
-* **Executar agora** -pode agora desativar um acionador periódico a pedido - por exemplo, se tiver um relatório agendado todos os dias, mas precisa que o relatório seja executado **agora** também.
-* **Seis novos serviços** - crie fluxos que estabelecem ligação ao MSN Meteorologia, Médio, Contactos do Google, Memória Intermédia, Harvest e TypeForm.
+### <a name="release-2016-12-20"></a>Versão 2016-12-20
+* **Executar agora** – pode agora desativar um acionador periódico a pedido - por exemplo, se tiver um relatório agendado todos os dias, mas precisa que o relatório seja executado **agora** também.
+* **Seis novos serviços** – crie fluxos que estabelecem ligação ao MSN Meteorologia, Médio, Contactos do Google, Memória Intermédia, Harvest e TypeForm.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/run-now-and-six-more-services/) sobre esta versão.
 
-### <a name="release-2016-12-14"></a>Versão de 2016-12-14
+### <a name="release-2016-12-14"></a>Versão 2016-12-14
 Agora pode aproveitar informações valiosas quando acionar um fluxo de botão, assim como de onde o botão foi acionado, por quem, em que o tempo e muito mais.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/button-trigger-tokens/) sobre esta versão.
 
 ### <a name="release-2016-12-06"></a>Versão 2016-12-06
 * **Introdução ao Aprendizagem Guiada** – Introdução a uma coleção sequenciada de cursos que combinam vídeos com documentação para ajudá-lo a compreender as capacidades extensas e poderosas do Power Automate.
-* **Dois novos serviços** - Agora os fluxos podem utilizar o Freshdesk, uma solução de suporte ao cliente e o GoToMeeting, uma ferramenta de reunião online.
-* **Suporte de HTTP Webhook** - Um fluxo pode agora ser um ponto final para webhooks que irá registar e anular o registo do próprio automaticamente.
+* **Dois novos serviços** – Agora os fluxos podem utilizar o Freshdesk, uma solução de suporte ao cliente e o GoToMeeting, uma ferramenta de reunião online.
+* **Suporte de HTTP Webhook** – Um fluxo pode agora ser um ponto final para webhooks que irá registar e anular o registo do próprio automaticamente.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/guided-learning-and-two-services/) sobre esta versão.
 
 ### <a name="release-2016-11-23"></a>Versão 2016-11-23
 * **Suporte de alerta do Power BI no Flow** – Transforme as informações em ação ao acionar fluxos a partir dos alertas de dados do Power BI.
-* **Melhoramentos de aplicações móveis** - Adicionada a capacidade para criar fluxos de raiz, para além da já existente experiência de criação a partir de modelos. Também melhorámos o desempenho ao ver execuções de fluxo.
+* **Melhoramentos de aplicações móveis** – Adicionada a capacidade para criar fluxos de raiz, para além da já existente experiência de criação a partir de modelos. Também melhorámos o desempenho ao ver execuções de fluxo.
 * **Oito novos serviços** – Agora pode ligar o Azure Resource Manager, as Filas do Azure, o Chatter, o Disqus, o Azure Cosmos DB, a API Face de Serviços Cognitivos, o HipChat e o Wordpress.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/power-bi-and-eight-other-services/) sobre esta versão.
 
 ### <a name="release-2016-11-15"></a>Versão 2016-11-15
 * **Programa de Parceiros do Power Automate** – o Power Automate tem agora um programa de parceiros certificado para efetuar ligações e tirar partido dos diferentes talentos da empresa e da experiência com o Power Automate em todo o mundo.
-* **Seis novos serviços** - serão lançados seis serviços esta semana: Asana, Campfire, EasyRedmine, JIRA, Redmine e Vimeo.
+* **Seis novos serviços** – serão lançados seis serviços esta semana: Asana, Campfire, EasyRedmine, JIRA, Redmine e Vimeo.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/partner-program-six-new-services/) sobre esta versão.
 
-### <a name="release-2016-10-31---general-availability"></a>Versão de 31-10-2016 – Disponibilidade Geral
+### <a name="release-2016-10-31---general-availability"></a>Versão 31-10-2016 – Disponibilidade Geral
 * **Preços e licenciamento** – agora disponíveis nos planos Gratuito e pago e incluídos no Office 365 e no Dynamics 365.
 * **Centro de Administração do Power Automate** – preparado para empresas com o novo Centro de Administração. No Centro de Administração, pode gerir os ambientes dentro da organização.
 * **Políticas de prevenção de perda de dados** – os administradores podem criar políticas de prevenção de perda de dados para controlar o fluxo de dados entre serviços.
@@ -537,7 +537,7 @@ Agora pode aproveitar informações valiosas quando acionar um fluxo de botão, 
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/announcing-ga/) sobre esta versão.
 
-### <a name="release-2016-10-26"></a>Versão de 26-10-2016
+### <a name="release-2016-10-26"></a>Versão 2016-10-26
 * **Fluxos de botões** – existem várias operações que desejaríamos acionar em qualquer altura e em qualquer lugar. Agora, com os Fluxos de Botões, pode aceder aos mesmos apenas com um clique de um botão, a partir do seu dispositivo móvel.
 * **Apresentar ambientes** – os ambientes são espaços distintos para armazenar e gerir os fluxos da sua organização. Os ambientes estão localizados geograficamente, o que significa que os fluxos, as aplicações e os dados de negócio que se encontram num ambiente estarão na região onde está localizado o ambiente.
 * **Seis novos serviços** – adicionar suporte para Bit.ly, Análise de Texto de Serviços Cognitivos, Dynamics NAV, Dynamics 365 for Financials, Instapaper e Pinterest.
@@ -546,8 +546,8 @@ Agora pode aproveitar informações valiosas quando acionar um fluxo de botão, 
 
 ### <a name="release-2016-10-16"></a>Versão 2016-10-16
 * **Os conectores personalizados suportam mais tipos de autenticação** – Os conectores personalizados suportam agora a autenticação de chave de API e podem autenticar qualquer serviços que suporte a especificação OAuth 2.0 completa.
-* **Três novos serviços suportados** - Adicionámos suporte para Basecamp 3, Blogger e PagerDuty.
-* **Melhoramentos no estruturador** - Com um desempenho melhorado, pode agora atualizar e reparar as suas ligações diretamente a partir do menu "…" para todas as ações e adicionámos um novo passo denominado Terminar que pode utilizar para terminar a execução de um fluxo.
+* **Três novos serviços suportados** – Adicionámos suporte para Basecamp 3, Blogger e PagerDuty.
+* **Melhoramentos no estruturador** – Com um desempenho melhorado, pode agora atualizar e reparar as suas ligações diretamente a partir do menu "…" para todas as ações e adicionámos um novo passo denominado Terminar que pode utilizar para terminar a execução de um fluxo.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/early-october-updates/) sobre esta versão.
 
@@ -557,14 +557,14 @@ Criação de fluxos agora disponível a partir do seu telemóvel. Navegue na nos
 ### <a name="release-2016-09-22"></a>Versão 2016-09-22
 * **Selecionador de pessoas do Microsoft Graph** – Um novo selecionador de pessoas do Microsoft Graph está integrado diretamente na IU do Power Automate para o ajudar a escolher o contacto ou endereço de e-mail certo.
 * **Suporte do Microsoft Dynamics AX** – A partir de dentro dos seus fluxos, pode agora realizar ações nos seus dados de operações do Dynamics AX Online, desde criar novos registos até consultar dados.
-* **Dois novos serviços de parceiros** - Utilize agora o appFigures ou o Insightly a partir dos seus fluxos.
+* **Dois novos serviços de parceiros** – Utilize agora o appFigures ou o Insightly a partir dos seus fluxos.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/more-september-updates/) sobre esta versão.
 
 ### <a name="release-2016-09-14"></a>Versão 2016-09-14
 * **Incorporação no seu site ou aplicação** – Os programadores podem agora incorporar o Power Automate diretamente nas suas aplicações ou sites para proporcionar aos utilizadores uma forma simples de automatizar as suas tarefas pessoais ou profissionais.
 * **Utilizar um fluxo como um ponto final de HTTP** – Agora, pode utilizar um fluxo como uma API de HTTP. Existe um acionador denominado Pedido dentro do fluxo e pode optar por responder ao pedido recebido, adicionando um cartão de resposta.
-* **Suporte de Todoist** - O Todoist dá-lhe uma perspetiva de todos os seus projetos, no trabalho e em casa.
+* **Suporte de Todoist** – O Todoist dá-lhe uma perspetiva de todos os seus projetos, no trabalho e em casa.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/extend-web-site-application/) sobre esta versão.
 
@@ -573,18 +573,18 @@ Power Automate agora disponível para todos – Inicialmente, abrimos a pré-vis
 
 ### <a name="release-2016-08-31"></a>Versão 2016-08-31
 * **Condicionais aninhadas** – Agora, pode adicionar uma segunda (ou terceira, etc.) condição dentro de outra.
-* **Apply to each** - Um ciclo «apply to each» torna possível controlar a lista que repete continuamente.
-* **Do-until** - Um ciclo «Do-until» permite repetir um passo até que uma determinada condição seja cumprida.
-* **Filtrar matrizes** - Existe um passo único de filtro nativo que pode garantir que todos os itens na lista correspondem a uma expressão que definir.
+* **Apply to each** – Um ciclo «apply to each» torna possível controlar a lista que repete continuamente.
+* **Do-until** – Um ciclo «Do-until» permite repetir um passo até que uma determinada condição seja cumprida.
+* **Filtrar matrizes** – Existe um passo único de filtro nativo que pode garantir que todos os itens na lista correspondem a uma expressão que definir.
 * **Compor variáveis de cadeia** – Agora, pode compor uma variável de cadeia.
-* **Âmbitos** - Os âmbitos são uma forma simples de agrupar duas ou mais ações.
+* **Âmbitos** – Os âmbitos são uma forma simples de agrupar duas ou mais ações.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/build-advanced-flows/) sobre esta versão.
 
 ### <a name="release-2016-08-27"></a>Versão 2016-08-27
-* **Comentários sobre passos** - Os comentários facilitam a anotação de cada ação individual com notas, para que possa lembrar-se facilmente do que o fluxo precisa
-* **Suporte de Smartsheet** - Esta semana, adicionámos suporte para ligação ao Smartsheet. O Smartsheet é um serviço que facilita a colaboração em folhas na nuvem.
-* **Refinamentos na IU durante a criação de fluxos** - Colocámos o nome do fluxo à frente e no centro e deslocámos o botão Guardar para o início da página para facilitar o acesso.
+* **Comentários sobre passos** – Os comentários facilitam a anotação de cada ação individual com notas, para que possa lembrar-se facilmente do que o fluxo precisa
+* **Suporte de Smartsheet** – Esta semana, adicionámos suporte para ligação ao Smartsheet. O Smartsheet é um serviço que facilita a colaboração em folhas na nuvem.
+* **Refinamentos na IU durante a criação de fluxos** – Colocámos o nome do fluxo à frente e no centro e deslocámos o botão Guardar para o início da página para facilitar o acesso.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/add-comments-smartsheet/) sobre esta versão.
 
@@ -592,10 +592,10 @@ Power Automate agora disponível para todos – Inicialmente, abrimos a pré-vis
 Agora, pode pré-visualizar a nova experiência de listas modernas do SharePoint Online, que inclui a integração do Power Automate. [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/microsoft-flow-integration-with-sharepoint-modern-lists-preview/) sobre esta versão.
 
 ### <a name="release-2016-08-13"></a>Versão 2016-08-13
-* **Visual Studio Team Services** – Com o Flow, pode agora ligar o VSTS a um amplo leque de serviços, como o O365 Email, Slack, Trello e Wunderlist.
+* **Visual Studio Team Services** – Com o Power Automate, pode agora ligar o VSTS a um amplo leque de serviços, como o O365 Email, Slack e Trello.
 * **Melhoramentos ao SharePoint** – As listas do SharePoint suportam uma variedade de tipos de dados a partir de objetos simples como Linhas individuais de texto e Data e hora para objetos complexos, tais como Pessoa ou Grupo, Pesquisa e Escolha.
 * **Testar as Ligações do O365 Outlook** – Sempre que cria uma nova ligação do O365 Outlook, iremos agora testá-la para garantir que está pronto a utilizá-lo.
-* **Controlo Booleano** - Também adicionámos um controlo booleano para esclarecer que valores deve introduzir para campos de entrada booleanos, tais como Tem Anexos no acionador Ao receber um novo e-mail.
+* **Controlo Booleano** – Também adicionámos um controlo booleano para esclarecer que valores deve introduzir para campos de entrada booleanos, tais como Tem Anexos no acionador Ao receber um novo e-mail.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/visual-studio-team-services-enhancements-to-sharepoint-and-o365-outlook-and-boolean-control/) sobre esta versão.
 
@@ -604,15 +604,15 @@ Pré-visualização pública do Common Data Service integrado no Power Automate.
 
 ### <a name="release-2016-08-05"></a>Versão 2016-08-05
 * **SharePoint no local** – Tal como no SharePoint Online, pode criar fluxos em torno das suas listas e bibliotecas de documentos do SharePoint no local, utilizando modelos predefinidos ou criando-os do zero.
-* **Bolhas de informação no estruturador** - Para explicar as funcionalidades de cada acionador e ação, adicionámos bolhas de informação acima de cada passo do seu fluxo.
+* **Bolhas de informação no estruturador** – Para explicar as funcionalidades de cada acionador e ação, adicionámos bolhas de informação acima de cada passo do seu fluxo.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/sharepoint-on-premises-and-info-bubbles-2/) sobre esta versão.
 
 ### <a name="release-2016-07-15"></a>Versão 2016-07-15
 * **Quatro novos serviços adicionados** – Ligue-se ao Calendário Google, ao Google Tarefas, ao YouTube e ao SparkPost.
-* **Mudar o nome das suas ações** - Agora, pode distinguir estas ações diferentes, mudando o nome das mesmas.
-* **Atraso para diferentes períodos de tempo** - Agora, pode selecionar qualquer número de Segundos, Minutos, Horas ou Dias.
-* **Mais fácil de utilizar o browser de pastas** - Simplificámos o browser de pastas. Agora, ao selecionar à esquerda escolherá essa pasta e selecionar à direita abrirá essa pasta para que possa escolher as subpastas no interior.
+* **Mudar o nome das suas ações** – Agora, pode distinguir estas ações diferentes, mudando o nome das mesmas.
+* **Atraso para diferentes períodos de tempo** – Agora, pode selecionar qualquer número de Segundos, Minutos, Horas ou Dias.
+* **Mais fácil de utilizar o browser de pastas** – Simplificámos o browser de pastas. Agora, ao selecionar à esquerda escolherá essa pasta e selecionar à direita abrirá essa pasta para que possa escolher as subpastas no interior.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/new-google-services-rename-more/) sobre esta versão.
 
@@ -620,8 +620,8 @@ Pré-visualização pública do Common Data Service integrado no Power Automate.
 Conectividade no local para o Power Automate com o gateway de dados no local. Permite-lhe estabelecer ligações seguras ao SQL Server e integrá-las nos seus fluxos. [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/on-premises-data-gateway/) sobre esta versão.
 
 ### <a name="release-2016-07-02"></a>Versão 2016-07-02
-* **Suporte do Google Sheets** - No passado, podíamos utilizar o Excel e o Google Drive, mas esta semana estamos a adicionar suporte nativo do Google Sheets.
-* **Comece a trabalhar mais rapidamente a partir de modelos** - Fizemos também algumas otimizações à forma como pode começar a partir de modelos. Agora, pode selecionar as contas que pretende utilizar para um modelo inline na página do modelo.
+* **Suporte do Google Sheets** – No passado, podíamos utilizar o Excel e o Google Drive, mas esta semana estamos a adicionar suporte nativo do Google Sheets.
+* **Comece a trabalhar mais rapidamente a partir de modelos** – Fizemos também algumas otimizações à forma como pode começar a partir de modelos. Agora, pode selecionar as contas que pretende utilizar para um modelo inline na página do modelo.
 * **Sem autorização a expirar para o SharePoint e o Office 365** – Agora, o Power Automate renovará automaticamente o acesso do utilizador aos serviços baseados no Azure Active Directory, para que todos os seus fluxos continuem a funcionar quando muda de palavra-passe.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/more-june-updates/) sobre esta versão.
@@ -634,32 +634,32 @@ Conectividade no local para o Power Automate com o gateway de dados no local. Pe
 
 ### <a name="release-2016-06-18"></a>Versão 2016-06-18
 * **Novo serviço de correio** – Agora, pode enviar mensagens de e-mail diretamente a partir do Power Automate, sem precisar de ligar às suas contas de e-mail pessoais ou profissionais dentro do Power Automate.
-* **Notificações no portal** - Agora, verá notificações na parte superior do portal sempre que houver algo de errado com os seus fluxos.
-* **Toda a atividade no portal** - Agora, pode ver a atividade de todos os fluxos ao clicar no novo separador Atividade no site do fluxo.
+* **Notificações no portal** – Agora, verá notificações na parte superior do portal sempre que houver algo de errado com os seus fluxos.
+* **Toda a atividade no portal** – Agora, pode ver a atividade de todos os fluxos ao clicar no novo separador Atividade no site do fluxo.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/mail-and-all-activity/) sobre esta versão.
 
 ### <a name="release-2016-05-27"></a>Versão 2016-05-27
-* **Procurar modelos por serviço** - Agora, há uma forma de ver todos os serviços que suportamos (sem ter de iniciar sessão). A partir desta página, pode ver uma descrição de cada um dos serviços e ver os modelos que temos para esse serviço.
+* **Procurar modelos por serviço** – Agora, há uma forma de ver todos os serviços que suportamos (sem ter de iniciar sessão). A partir desta página, pode ver uma descrição de cada um dos serviços e ver os modelos que temos para esse serviço.
 * **Criar e utilizar conectores personalizados** – Tal como pode criar conectores personalizados no Power Apps, também pode ligar-se às suas próprias APIs diretamente em flow.microsoft.com:
-* **Testar os fluxos antes de terminar** - Sempre que guardar um fluxo, pode agora ver os resultados da execução do fluxo em tempo real na página se executar a ação de início.
+* **Testar os fluxos antes de terminar** – Sempre que guardar um fluxo, pode agora ver os resultados da execução do fluxo em tempo real na página se executar a ação de início.
 
 [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/may-updates-to-microsoft-flow/) sobre esta versão.
 
 ### <a name="release-2016-05-07"></a>Versão 2016-05-07
 Adicionámos dois novos serviços: Microsoft Project Online e Mandrill da Mailchimp. [Leia mais informações e faça perguntas](https://flow.microsoft.com/blog/announcing-microsoft-flow-webinars/) sobre esta versão.
 
-### <a name="release-2016-04-27---public-preview"></a>Versão de 27-04-2016 – Pré-visualização Pública
+### <a name="release-2016-04-27---public-preview"></a>Versão 27-04-2016 – Pré-visualização Pública
 Se utilizou fluxos lógicos como parte da [Microsoft Power Apps](https://powerapps.microsoft.com), a versão de Pré-Visualização do Power Automate oferece várias funcionalidades novas:
 
 * Agora pode procurar uma galeria de dezenas de modelos e ordenar por Popularidade, Nome ou Data da publicação.
 * Pode [publicar os seus próprios modelos](publish-a-template.md) na galeria após personalizar um fluxo.
 * Pode ver o histórico para cada verificação e execução do fluxo.
 * Quando guarda um fluxo, pode [vê-lo em ação imediatamente](see-a-flow-run.md) bastando apenas efetuar a ação do acionador.
-* Há uma [nova comunidade](https://go.microsoft.com/fwlink/?LinkID=787467) onde pode discutir fluxo ou [submeter as suas ideias](https://go.microsoft.com/fwlink/?LinkID=787474).
+* Há uma [nova comunidade](https://go.microsoft.com/fwlink/?LinkID=787467) onde pode discutir o Power Automate ou [submeter as suas ideias](https://go.microsoft.com/fwlink/?LinkID=787474).
 
 >[!NOTE]
->Os planos de lançamento são agora controlados [aqui](https://docs.microsoft.com/dynamics365/release-plans/).
+>Os planos de versão são agora controlados [aqui](https://docs.microsoft.com/dynamics365/release-plans/).
 
 ## <a name="next-steps"></a>Passos seguintes
 Se tiver quaisquer problemas que ainda não estejam abrangidos nestas notas de versão ou nas [FAQ](frequently-asked-questions.md), volte a [aderir à nossa comunidade](https://go.microsoft.com/fwlink/?LinkID=787467) para fazer perguntas, ou [contacte o suporte](https://go.microsoft.com/fwlink/?LinkID=787479).

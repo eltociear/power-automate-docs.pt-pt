@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 0d310eb96a69f66b8f45718554f36ba8b2a51989
-ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
+ms.openlocfilehash: c804a65eee3b217dd2b6d66d54c7e39d87ef0eae
+ms.sourcegitcommit: 3f582a1e462124d44f63cef7d450fc94be148f3b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "3297940"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372790"
 ---
 # <a name="image-share-sample"></a>Exemplo de partilha de imagens 
 
@@ -38,7 +38,7 @@ O exemplo de **Formulário de Partilha de Imagens** é um Cartão Adaptável con
 | Nome do Token Dinâmico (entradas) | Texto do Marcador de Posição   | Notas                                              |
 |-----------------------------|--------------------|-----------------------------------------------------|
 | acphotoTitle                | {acphotoTitle}     | Texto a apresentar                                        |
-| acTimestamp                 | {acTimestamp]      | Data/hora a apresentar                                   |
+| acTimestamp                 | {acTimestamp}      | Data/hora a apresentar                                   |
 | acImageThumbnail            | {acImageThumbnail} | Imagem a apresentar <br>Deve ser substituído por um URL válido|
 | acAltText                   | {acAltText}        | Texto alternativo de acessibilidade                      |
 

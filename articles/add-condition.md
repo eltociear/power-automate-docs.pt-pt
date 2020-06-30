@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/17/2017
+ms.date: 06/08/2020
 ms.author: stepsic
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 3be9b2414a0f30581763622de0c7d49cb694e3b3
-ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
+ms.openlocfilehash: c717bfcb10fdae3da5d1a3642ece503ad3de4389
+ms.sourcegitcommit: 549224cf13fc761f473c880e8d0d8f2741cc7b0f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "3296686"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3434998"
 ---
 # <a name="add-a-condition-to-a-flow"></a>Adicionar uma condição a um fluxo
 
@@ -38,21 +38,19 @@ Especifique que um fluxo efetua uma ou mais tarefas, apenas se uma condição fo
 
 ## <a name="add-a-condition"></a>Adicionar uma condição
 
-1. No [Power Automate](https://flow.microsoft.com), selecione **Os meus fluxos** na barra de navegação superior.
+1. No [Power Automate](https://flow.microsoft.com), selecione **Os meus fluxos**.
 
     Poderá ter de iniciar sessão, se ainda não o tiver feito.
 
-1. Na lista de fluxos, selecione um dos fluxos que criou.
+1. Selecione um dos fluxos a partir de **Os meus fluxos** e, em seguida, selecione **Mais comandos** (os três pontos).
+
+   ![Selecionar Editar](./media/add-condition/select-edit.png)
 
     Este tutorial utiliza um exemplo com um acionador do Twitter e uma ação do SharePoint.
 
-1. Selecione **Editar fluxo**.
+1. Selecione **Editar**.
 
-1. Por baixo da última ação, selecione **Novo passo**.
-
-1. Selecione **Adicionar uma condição**.
-
-    ![Botão de condição](./media/add-condition/add-condition.png)
+1. Por baixo da última ação, selecione **Novo passo** > **Condição**.
 
 1. No cartão **Condição**, selecione uma área vazia na caixa à esquerda.
 
@@ -60,25 +58,31 @@ Especifique que um fluxo efetua uma ou mais tarefas, apenas se uma condição fo
 
 1. Selecione o parâmetro **Contagem de tweets reenviados** para adicioná-lo à caixa.
 
-1. Na caixa ao meio do cartão **Condição**, selecione **é maior do que ou igual a**.
+1. Na caixa ao meio do cartão **Condição**, selecione **é maior ou igual a**.
 
 1. Na caixa à direita, introduza **10**.
 
     ![A caixa OBJECT NAME com um parâmetro nela](./media/add-condition/specify-condition.png)
 
-1. Selecione o cabeçalho da ação que pretende utilizar dentro da condição (por exemplo, **Criar item**) e arraste-o sob o texto que indica **If yes**.
+    Agora que configurou a condição, continue com os seguintes passos para enviar um e-mail se a **Contagem de tweets reenviados** for superior a 10.
 
-    Quando soltar o cursor, a ação move-se para essa caixa.
+1. Selecione **Adicionar uma ação** no envio **Se sim** da condição. 
+1. Introduza **Enviar um e-mail** na caixa de pesquisa e selecione **Enviar um e-mail (V2)**.
 
-    ![Ação de arrastar](./media/add-condition/drag-action.png)
+   ![Procurar para enviar um e-mail](./media/add-condition/if-yes-condition.png)
 
-1. Configure a ação conforme necessário.
+1. Configure o cartão **Enviar um e-mail (V2)** ao seu gosto, indicando os conteúdos do e-mail que o fluxo envia se a **Contagem de tweets reenviados** for maior que 10.
+
+   Também pode configurar o lado **Se não** da condição se pretende um momento quando a **Contagem de tweets reenviados** for menor que 10.
 
 1. Guarde o fluxo.
 
-## <a name="edit-in-advanced-mode"></a>Editar no modo avançado
+>[!TIP]
+>Poderá criar condições complexas através do botão **Adicionar** no cartão de condição.
 
-Também pode selecionar **Editar em modo avançado** para escrever condições mais avançadas. Pode utilizar qualquer expressão da *Linguagem de definição do fluxo de trabalho* em modo avançado. Saiba mais sobre todas as [expressões](https://msdn.microsoft.com/library/azure/mt643789.aspx) disponíveis.
+![Adicionar condições complexas](./media/add-condition/add-complex-condition.png)
+
+Pode utilizar qualquer expressão da *Linguagem de definição do fluxo de trabalho* em modo avançado. Saiba mais sobre todas as [expressões](https://msdn.microsoft.com/library/azure/mt643789.aspx) disponíveis.
 
 ## <a name="next-steps"></a>Passos seguintes
 

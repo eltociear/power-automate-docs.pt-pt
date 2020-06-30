@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/30/2019
+ms.date: 05/07/2020
 ms.author: deonhe
 search.app:
 - Flow
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: d1c46c6521e3267f5a2b5b8562122c92647211c7
-ms.sourcegitcommit: 855ee8b55aebe7b8e202006c39debfff02df1d30
+ms.openlocfilehash: a8b4ee39a7d40df41a1c8012a33860a77a51a092
+ms.sourcegitcommit: 8714786a5b632dfd60099871629cf369a31c4125
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3298908"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346567"
 ---
 # <a name="billing-and-metering-questions"></a>Perguntas sobre faturação e medição
 
@@ -55,7 +55,7 @@ Se estiver num plano gratuito ou de avaliação, clique ou toque no ícone de en
 
 ![Botão de definições](./media/billing-questions/settings.png)
 
-Se estiver a utilizar um plano pago, as execuções serão agrupadas com base em todos os utilizadores na sua organização. Estamos a trabalhar em funcionalidades que exponham a quota disponível e a utilização em toda a organização.
+Se estiver num plano pago, as execuções são obtidas de entre todos os utilizadores da sua organização. Estamos a trabalhar em funcionalidades que exponham a quota disponível e a utilização em toda a organização.
 
 ## <a name="what-happens-if-my-usage-exceeds-the-limits"></a>O que acontece se a minha utilização exceder os limites?
 
@@ -71,7 +71,7 @@ O seu plano determina a frequência com que os seus fluxos são executados. Por 
 
 ## <a name="what-counts-as-a-run"></a>O que conta como uma execução?
 
-Sempre que um fluxo é acionado, através de um acionador automático ou iniciando-o manualmente, é considerado uma execução. Uma verificação de novos dados não conta como uma execução.
+Sempre que um fluxo é acionado, através de um acionador automático ou iniciando-o manualmente, é considerado uma execução. As verificações de existência de novos dados não contam como execuções.
 
 ## <a name="are-there-differences-between-microsoft-accounts-and-work-or-school-accounts-for-billing"></a>Existem diferenças entre Contas Microsoft e contas escolares ou profissionais para a faturação?
 
@@ -90,7 +90,6 @@ Pode contornar este problema, colocando todos os filtros de que necessita no aci
 ## <a name="other-limits-and-caveats"></a>Outros limites e advertências
 
 * Cada conta pode ter um máximo de:
-  * 250 fluxos.
   * 15 Conectores Personalizados.
   * 20 ligações por API e 100 ligações no total.
-* Determinados conectores externos, tais como o Twitter, implementam a limitação de ligação para controlarem a qualidade de serviço. Quando a limitação está em vigor, os seus fluxos irão falhar. Se algum dos seus fluxos falhar, consulte os detalhes da execução que falhou no histórico de execuções do fluxo.
+* Determinados conectores externos, tais como o Twitter, implementam a limitação de ligação para controlarem a qualidade de serviço. Quando a limitação está em vigor, os seus fluxos irão falhar. Se os seus fluxos estão a falhar, reveja os detalhes da execução que falhou no histórico de execuções do fluxo.

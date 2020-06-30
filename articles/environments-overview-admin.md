@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/07/2020
+ms.date: 05/07/2020
 ms.author: sunayv
 search.app:
 - Flow
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 0e0b312ce5e962052770eb44fd1a61c2f19c8e4f
-ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
+ms.openlocfilehash: e1c2a93fb011b6f20ecaf79fb0bf95212a2506d4
+ms.sourcegitcommit: 2c9cffb59ef2382648a80966ebbf0fe8eafebe64
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3299040"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "3354443"
 ---
 # <a name="using-environments-within-power-automate"></a>Utilizar ambientes no Power Automate
 
@@ -36,7 +36,7 @@ Os ambientes oferecem as seguintes vantagens:
 
 * **Localidade de dados**: os ambientes podem ser criados em regiões diferentes e estão vinculados a essa localização geográfica. Quando cria um fluxo num ambiente, esse fluxo é encaminhado para todos os datacenters nessa localização geográfica. Isto também proporciona vantagens em termos de desempenho.
 
-    Se os seus utilizadores estiverem na Europa, crie e utilize o ambiente na região da Europa. Se os seus utilizadores estiverem nos Estados Unidos, crie e utilize o ambiente nos EUA. 
+    Se os seus utilizadores estiverem na Europa, crie e utilize o ambiente na região da Europa. Se os seus utilizadores estiverem nos Estados Unidos, crie e utilize o ambiente nos E.U.A. 
 
     > [!IMPORTANT]
     > Se eliminar o ambiente, todos os fluxos dentro desse ambiente serão eliminados também. Isto aplica-se a todos os itens que criar nesse ambiente, incluindo ligações, gateways, Power Apps e muito mais.
@@ -113,7 +113,7 @@ Pode agora adicionar utilizadores ao ambiente.
 1. Selecione um ambiente para abrir as propriedades dele.
 1. Utilize o separador **Detalhes** para ver informações adicionais sobre um ambiente, incluindo quem criou o ambiente, a localização geográfica e muito mais:
 
-   ![separador de detalhes](./media/environments-overview-admin/open-environment.png)
+   ![detalhes do separador](./media/environments-overview-admin/open-environment.png)
 1. Selecione **Segurança**.
 
     Se não tiver selecionado **Criar Base de Dados** nos passos anteriores, existem duas opções em **Funções de ambiente**: **Administrador do Ambiente** e **Criador do Ambiente**:
@@ -142,7 +142,7 @@ Pode agora adicionar utilizadores ao ambiente.
     Selecione **Nova função** para criar uma nova função.
 1. Em **Segurança**, selecione **Conjuntos de Permissões**:
 
-    ![conjunto de permissões](./media/environments-overview-admin/security-permission-set.png)
+    ![definições de permissões](./media/environments-overview-admin/security-permission-set.png)
 
     Verá todos os conjuntos de permissões existentes e as opções para editar ou eliminar funções.
 
@@ -153,19 +153,19 @@ Pode agora adicionar utilizadores ao ambiente.
 1. Selecione o utilizador na lista de utilizadores no ambiente/instância.
   ![definições de segurança do Dynamics](./media/environments-overview-admin/D365-Select-User.png)
 
-1. Atribua a função ao utilizador.
+1. Atribuir função ao utilizador.
 
-   ![atribuir a função ao utilizador](./media/environments-overview-admin/D365-Assign-Role.png)
+   ![atribuir função a utilizador](./media/environments-overview-admin/D365-Assign-Role.png)
 
 > [!NOTE]
-> Os utilizadores ou grupos atribuídos a estas funções de ambiente não recebem acesso automaticamente à base de dados do ambiente (se existir) e tem de ser dado acesso separadamente por um Proprietário de base de dados. 
+> Os utilizadores ou grupos atribuídos a estas funções de ambiente não recebem automaticamente acesso à base de dados do ambiente (se existir) e têm de receber acesso separadamente por um proprietário da base de dados. 
 >
 >
 
-### <a name="database-security"></a>Segurança de base de dados
-A capacidade de criar e modificar um esquema de base de dados e de estabelecer ligação aos dados armazenados numa base de dados que está aprovisionada no seu ambiente é controlada pelas funções de utilizador e pelos conjuntos de permissões da base de dados. Pode gerir as funções de utilizador e os conjuntos de permissões da base de dados do seu ambiente a partir da secção **Funções de utilizador** e **Conjuntos de permissões** do separador **Segurança**. 
+### <a name="database-security"></a>Segurança da base de dados
+A capacidade de criar e modificar um esquema de base de dados e de ligar aos dados armazenados numa base de dados que é provisionada no ambiente é controlada pelas funções de utilizador e conjuntos de permissões da base de dados. Pode gerir as funções de utilizador e os conjuntos de permissões da base de dados do seu ambiente a partir da secção **Funções de utilizador** e **Conjuntos de permissões** do separador **Segurança**. 
 
-   ![atribuir a função ao utilizador](./media/environments-overview-admin/D365-Assign-Role.png)
+   ![atribuir função a utilizador](./media/environments-overview-admin/D365-Assign-Role.png)
 
 ## <a name="frequently-asked-questions"></a>Perguntas mais frequentes
 
@@ -175,15 +175,13 @@ Sim. Os fluxos podem ser exportados de um ambiente e importados para outro ambie
 
 ### <a name="which-license-includes-common-data-service"></a>Que licença inclui Common Data Service?
 
-Apenas o Plano 2 do Microsoft Power Apps inclui direitos de criação de bases de dados com o Common Data Service. No entanto, todos os planos pagos (planos 1 e 2 do Power Automate, e planos 1 e 2 do Microsoft Power Apps) têm os direitos para utilizar o Common Data Service.
-
-Escolha um plano adequado para si na página [Preços do Power Automate](https://flow.microsoft.com/pricing/).
+Pode aceder ao Common Data Service com qualquer uma das [licenças](https://flow.microsoft.com/pricing) do Power Automate.
 
 Veja o documento [Perguntas sobre faturação](billing-questions.md) para obter respostas a perguntas frequentes sobre faturação.
 
 ### <a name="can-common-data-service-be-used-outside-of-an-environment"></a>Pode o Common Data Service ser utilizado fora de um ambiente?
 
-Não. O Common Data Service requer um ambiente. [Leia mais](common-data-model-intro.md) sobre o Common Data Service.
+Não. O Common Data Service requer um ambiente. [Leia mais](common-data-model-intro.md) sobre ele.
 
 ### <a name="what-regions-include-power-automate"></a>Quais as regiões incluem o Power Automate?
 

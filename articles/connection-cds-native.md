@@ -20,17 +20,17 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 96b97fe3e6090a2810c0fa0e1dfae2d4b890da62
-ms.sourcegitcommit: e58c8e6954c8e666497a66dc945fdc16c7c845a9
+ms.openlocfilehash: ca3dc36827423bffaed53b4ce19c50b94e09df81
+ms.sourcegitcommit: 2284143cf147beb7d6071fd8005a41298e51e493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/02/2020
-ms.locfileid: "3331114"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "3384969"
 ---
 # <a name="create-an-automated-flow-by-using-common-data-service-current-environment"></a>Criar um fluxo automatizado com o Common Data Service (ambiente atual)
 
 >[!IMPORTANT]
->Existem três conectores disponíveis para ligar ao Common Data Service. Este artigo abrange o [conector do Common Data Service (ambiente atual)](./connection-cds.md) recomendado para ligar a um Common Data Service. O [conector do Common Data Service](./connection-cds.md) e o [Dynamics 365 Connector](https://docs.microsoft.com/connectors/dynamicscrmonline/) também estão disponíveis para utilização se não for possível utilizar o conector recomendado.
+>Existem três conectores disponíveis para ligar ao Common Data Service. Este artigo abrange o [Conector do Common Data Service (ambiente atual)](./connection-cds.md) recomendado para ligar ao Common Data Service. O [conector do Common Data Service](./connection-cds.md) e o [Dynamics 365 Connector](https://docs.microsoft.com/connectors/dynamicscrmonline/) também estão disponíveis para utilização se não for possível utilizar o conector recomendado.
 
 
 Tem de [criar fluxos com reconhecimento de soluções](./overview-solution-flows.md) para utilizar o conector do Common Data Service (ambiente atual). 
@@ -43,7 +43,7 @@ Além disso, pode realizar ações de criação, atualização, obtenção e eli
 
 Utilize o acionador **Quando um registo é criado, atualizado ou eliminado** para iniciar o fluxo:
 
-   ![Selecionar um acionador](./media/cds-connector-native/native-trigger.png)
+   ![Selecione um acionador](./media/cds-connector-native/native-trigger.png)
 
 Depois de selecionar um acionador, terá de configurar:
 
@@ -55,13 +55,13 @@ Depois de selecionar um acionador, terá de configurar:
 
 Pode adicionar qualquer uma destas condições para determinar precisamente quando o fluxo é acionado.
 
-   ![Selecionar um acionador](./media/cds-connector-native/trigger-conditions.png)
+   ![Selecione um acionador](./media/cds-connector-native/trigger-conditions.png)
 
 ### <a name="the-entity-name"></a>O nome da entidade
 
 Selecione uma das numerosas entidades disponíveis para indicar a entidade na qual o acionador opera.
 
-   ![Selecionar um acionador](./media/cds-connector-native/entity-names.png)
+   ![Selecione um acionador](./media/cds-connector-native/entity-names.png)
 
 ### <a name="scope"></a>Scope
 
@@ -75,8 +75,8 @@ Seguem-se os detalhes de cada âmbito.
 | --- | --- |
 |Unidade de Negócio|A ação é realizada num registo que pertence à sua unidade de negócio|
 |Organização|A ação é realizada por qualquer pessoa na organização ou base de dados|
-|Principal:unidade de negócio subordinada|A ação é realizada num registo que pertence à sua unidade de negócio ou a uma unidade de negócio subordinada|
-|Utilizador|A ação é realizada num registo que lhe pertence|
+|Principal: unidade de negócio subordinada|A ação é realizada num registo que pertence à sua unidade de negócio ou a uma unidade de negócio subordinada|
+|User|A ação é realizada num registo que lhe pertence|
 
 
 Os acionadores que são executados quando um registo é atualizado também podem utilizar atributos de filtragem. Isto garante que o fluxo só é executado quando um dos atributos definidos é atualizado.

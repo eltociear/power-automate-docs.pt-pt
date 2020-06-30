@@ -1,10 +1,10 @@
 ---
 title: Criar um fluxo de botão com o Dynamics 365 (online) | Microsoft Docs
-description: Criar fluxos de trabalho úteis com uma ligação do Dynamics 365 e do Power Automate
+description: O Dynamics 365 Connector foi preterido. Utilize em alternativa o conector do Common Data Service (Ambiente Atual) ou o conector do Common Data Service.
 services: ''
 suite: flow
 documentationcenter: na
-author: Mattp123
+author: JimDaly
 manager: kvivek
 editor: ''
 tags: ''
@@ -13,30 +13,43 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/06/2020
+ms.date: 05/31/2020
 ms.author: matp
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 9f6f7554d73c0b14a26905ca1f3a706ab03797cd
-ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
+ms.openlocfilehash: 59eb50914015ffa76607b377963b616cbcc00ded
+ms.sourcegitcommit: b77b16f15bceedc9caa948676bcd641bf0bcaf2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3299128"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3413431"
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>Criar um fluxo com o Dynamics 365 (online)
 
-Ao utilizar um conector do Dynamics 365, pode criar fluxos que são iniciados quando ocorre um evento no Dynamics 365, ou noutro serviço qualquer, que, depois, realizam uma ação no Dynamics 365 ou nos outros serviços. 
+> [!IMPORTANT]
+> As aplicações do Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing e Dynamics 365 Project Service Automation) utilizam o [Common Data Service](/powerapps/maker/common-data-service/data-platform-intro) como origem de dados.
+>
+> O [Dynamics 365 Connector](/connectors/dynamicscrmonline/) foi preterido, mas continua a funcionar até ser removido.
+> Para mais informações, consulte [O Dynamics 365 Connector foi preterido.](/power-platform/important-changes-coming#dynamics-365-connector-is-deprecated).
+> 
+> Não utilize o Dynamics 365 Connector para novos fluxos. Utilize o [Conector do Common Data Service (ambiente atual)](/connectors/commondataserviceforapps/) sempre que puder.
+> Se o conector do Common Data Service (ambiente atual) não se adequar às suas necessidades, utilize o [Conector do Common Data Service](/connectors/commondataservice/).
+>
+> O [Conector do Common Data Service (ambiente atual)](/connectors/commondataserviceforapps/) deve ser a sua primeira escolha porque oferece mais funcionalidades e um melhor desempenho. No entanto, atualmente não oferece determinadas funcionalidades que os conectores do Dynamics 365 e do Common Data Service oferecem, como a capacidade para ligar a vários ambientes. O [Conector do Common Data Service](/connectors/commondataservice/) fornece as mesmas funcionalidades que o Dynamics 365 Connector, mas também oferece melhorarias substanciais de fiabilidade.
+
+
+Ao utilizar um Dynamics 365 Connector, pode criar fluxos que são iniciados quando ocorre um evento no Dynamics 365, ou noutro serviço qualquer, que, depois, realizam uma ação no Dynamics 365 ou nos outros serviços. 
 
 No Power Automate, pode configurar fluxos de trabalho automatizados entre as suas aplicações e serviços favoritos, para sincronizar ficheiros, obter notificações, recolher dados e muito mais. Para mais informações, consulte [Introdução ao marketing do Power Automate](getting-started.md).
 
 > [!IMPORTANT] 
-> Para invocar um acionador do Power Automate, a entidade do Common Data Service utilizada com o fluxo deve ter o **Controlo de Alterações** ativado. Para saber mais, veja: [Ativar a monitorização de alterações para controlar a sincronização de dados](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization). 
+> Para invocar um acionador do Power Automate, a entidade do Common Data Service utilizada com o fluxo deve ter o **Controlo de Alterações** ativado. Para saber mais, veja: [Ativar a monitorização de alterações para controlar a sincronização de dados](/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization) 
 
 ## <a name="create-a-flow-from-a-template"></a>Criar um fluxo a partir de um modelo
+
 Pode utilizar um dos muitos modelos disponíveis para criar um fluxo, como, por exemplo:
 
 * Quando é criado um objeto no Dynamics 365, crie um item de lista no SharePoint.
@@ -49,7 +62,8 @@ Para criar um fluxo a partir de um modelo, siga estes passos.
 2. Clique ou toque em **Serviços** e, em seguida, clique ou toque em **Dynamics 365**.
 3. Estão disponíveis vários modelos. Para começar, selecione o modelo que pretende.
 
-## <a name="create-a-task-from-a-lead"></a>criar uma tarefa a partir de uma oportunidade potencial
+## <a name="create-a-task-from-a-lead"></a>Criar uma tarefa a partir de uma oportunidade potencial
+
 Se não estiver disponível nenhum modelo para aquilo de que precisa, crie um a partir do zero. Estas instruções mostram-lhe como criar uma tarefa no Dynamics 365 sempre que é criada uma oportunidade potencial no mesmo.
 
 1. Inicie sessão no [site do Power Automate](https://flow.microsoft.com/).
@@ -62,7 +76,7 @@ Se não estiver disponível nenhum modelo para aquilo de que precisa, crie um a 
      Nestas instruções, selecione **Oportunidades potenciais**.
    
     ![Detalhes do fluxo](./media/connection-dynamics365/flow-details.png)
-    > [IMPORTANTE] Para que o fluxo seja acionado na entidade do Dynamics 365, a definição da entidade tem de ter o **Controlo de Alterações** ativado. Veja [Ativar a monitorização de alterações para controlar a sincronização de dados](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization).
+    > [IMPORTANTE] Para que o fluxo seja acionado na entidade do Dynamics 365, a definição da entidade tem de ter o **Controlo de Alterações** ativado. Consulte [Ativar o controlo de alterações para controlar a sincronização de dados](/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization)
     
 7. Clique ou toque em **Novo passo**, e, em seguida, clique ou toque em **Adicionar uma ação**.
 8. Clique ou toque em **Dynamics 365 – criar um novo registo**.
@@ -84,46 +98,34 @@ Se não estiver disponível nenhum modelo para aquilo de que precisa, crie um a 
     > 
 12. Clique ou toque em **Criar fluxo**.
 
-## <a name="create-a-wunderlist-task-from-a-dynamics-365-task"></a>criar uma tarefa do Wunderlist a partir de uma tarefa do Dynamics 365
-Estas instruções mostram-lhe como criar uma tarefa no [Wunderlist](https://www.wunderlist.com) sempre que é criada uma tarefa no Dynamics 365. O Wunderlist é um serviço baseado na Internet que pode ser utilizado para criar listas de tarefas, adicionar lembretes ou acompanhar recados.
-
-1. Inicie sessão no [site do Power Automate](https://flow.microsoft.com/).
-2. Clique ou toque em **Os meus fluxos** e, em seguida, clique ou toque em **Criar do zero**.
-3. Na lista de acionadores de fluxos, clique ou toque em **Dynamics 365 - quando é criado um registo**.
-4. Em **Nome da organização**, selecione a instância do Dynamics 365 onde pretende que o fluxo escute.
-5. Em **Nome da Entidade**, selecione a entidade que quer escutar, que funcionará como um acionador que vai iniciar o fluxo.
-   
-    Nestas instruções, selecione **Tarefas**.
-6. Clique ou toque em **Novo passo**, e, em seguida, clique ou toque em **Adicionar uma ação**.
-7. Escreva *criar uma tarefa* e, em seguida, clique ou toque em **Wunderlist – criar uma tarefa**.
-8. Em **ID da lista**, selecione **Caixa de Trabalho**.
-9. Em **Título**, selecione **Assunto**, no painel de conteúdo dinâmico.
-10. Clique ou toque em **Criar fluxo**.  
-
 ## <a name="trigger-based-logic"></a>Lógica baseada em acionadores
+
 Acionadores como **Quando um registo é criado**, **Quando um registo é atualizado** e **Quando um registo é eliminado** iniciam o seu fluxo alguns minutos após a ocorrência do evento.  Em casos raros, o fluxo poderá demorar até duas horas a ser acionado.
 
 Quando o acionador é processado, o fluxo recebe uma notificação, embora seja executado de acordo com os dados existentes no momento da execução da ação.  Por exemplo, se o fluxo for acionado quando um novo registo for criado e o utilizador atualizar o registo duas vezes antes da execução do fluxo, este será executado apenas uma vez com os dados mais recentes.
 
-## <a name="specify-advanced-options"></a>Especificar as opções avançadas
+## <a name="specify-advanced-options"></a>Especificar opções avançadas
+
 Quando adiciona um passo a um fluxo, pode clicar ou tocar em **Mostrar opções avançadas** para adicionar uma consulta de filtro ou de “ordenar por” que controle a forma como os dados são filtrados nesse fluxo.
 
-Por exemplo, pode utilizar uma consulta de filtro para obter apenas contactos ativos e pode ordená-los por apelido. Para tal, introduza a consulta de filtro de OData **statuscode eq 1** e selecione **Apelido**, no painel de conteúdo dinâmico. Para obter mais informações sobre filtrar e ordenar por consultas, veja [MSDN: $filter](https://msdn.microsoft.com/library/gg309461.aspx#Anchor_1) e [MSDN: $orderby](https://msdn.microsoft.com/library/gg309461.aspx#Anchor_2).
+Por exemplo, pode utilizar uma consulta de filtro para obter apenas contactos ativos, que pode ordenar por apelido. Para tal, introduza a consulta de filtro de OData **statuscode eq 1** e selecione **Apelido**, no painel de conteúdo dinâmico. Para obter mais informações sobre filtrar e ordenar por consultas, consulte [Consultar dados > Filtrar resultados](/powerapps/developer/common-data-service/webapi/query-data-web-api#filter-results) e [Consultar dados > Ordenar resultados](/powerapps/developer/common-data-service/webapi/query-data-web-api#order-results).
 
   ![Consulta orderby de fluxo](./media/connection-dynamics365/flow-orderby-query.png)
 
 ### <a name="best-practices-when-using-advanced-options"></a>Melhores práticas quando são utilizadas opções avançadas
+
 Quando adiciona um valor a um campo, tem de corresponder o tipo de campo, independentemente de escrever um valor ou de o selecionar a partir do painel de conteúdo dinâmico.
 
-| Tipo de campo | Como utilizar | Onde encontrar | Nome | Tipo de dados |
+| Tipo de Campo | Como utilizar | Onde encontrar | Nome | Tipo de dados |
 | --- | --- | --- | --- | --- |
 | Campos de texto |Os campos de texto só requerem uma única linha de texto ou conteúdo dinâmico que seja um campo de tipo de texto. Os exemplos incluem os campos **Categoria** e **Subcategoria**. |**Definições** > **Personalizações** > **Personalizar o Sistema** > **Entidades** > **Tarefa** > **Campos** |**categoria** |**Uma Linha de Texto** |
 | Campos de número inteiro |Alguns campos requerem conteúdo de número inteiro ou dinâmico que seja um campo de tipo de número inteiro. Os exemplos incluem **Percentagem Concluída** e **Duração**. |**Definições** > **Personalizações** > **Personalizar o Sistema** > **Entidades** > **Tarefa** > **Campos** |**percentcomplete** |**Número Inteiro** |
 | Campos de data |Alguns campos requerem uma data introduzida no formato dd/mm/aaaa ou conteúdo dinâmico que seja um campo de tipo de data. Os exemplos incluem **Criado Em**, **Data de Início**, **Início Real**, **Último Tempo de Suspensão**, **Fim Real** e **Data para Conclusão**. |**Definições** > **Personalizações** > **Personalizar o Sistema** > **Entidades** > **Tarefa** > **Campos** |**createdon** |**Data e Hora** |
-| campos que requerem um ID de registo e um tipo de pesquisa |Alguns campos que fazem referência a outro registo de entidade exigem o ID de registo e o tipo de pesquisa. |**Definições** > **Personalizações** > **Personalizar o sistema** > **Entidades** > **Conta** > **Campos** |**accountid** |**Chave Primária** |
+| Campos que requerem um ID de registo e um tipo de pesquisa |Alguns campos que fazem referência a outro registo de entidade requerem o ID do registo e o tipo de pesquisa. |**Definições** > **Personalizações** > **Personalizar o Sistema** > **Entidades** > **Conta** > **Campos** |**accountid** |**Chave Primária** |
 |Conjunto de Opções|Os campos do Conjunto de Opções requerem que um valor inteiro conhecido seja transmitido para este tipo de campo.  Na área de personalização do Dynamics 365, pode ver o campo do valor inteiro subjacente aos conjuntos de opções, bem como a respetiva etiqueta.|Definições > Personalização > Personalizar o Sistema > Entidades > Conta > Campos | Método de Contacto Preferencial| Número Inteiro|
 
 ### <a name="more-examples-of-fields-that-require-both-a-record-id-and-lookup-type"></a>Mais exemplos de campos que requerem um ID de registo e um tipo de pesquisa
+
 Partindo da tabela anterior, eis mais exemplos de campos que não funcionam com valores selecionados na lista de conteúdo dinâmico. Em vez disso, estes campos requerem que sejam introduzidos o ID de registo e o tipo de pesquisa nos campos no Power Apps.
 
 * **Proprietário** e **Tipo de Proprietário**.
@@ -134,12 +136,12 @@ Partindo da tabela anterior, eis mais exemplos de campos que não funcionam com 
   
   * O campo **Cliente** tem de ser uma conta ou um ID de registo de contacto válido.
   * **Tipo de Cliente** tem de ser **accounts** ou **contacts**.
-* **Relativamente a** e **Tipo de Relativamente a**.
+* **Relativa a** e **Tipo de Relativo A**.
   
-  * O campo **Relativamente a** tem de ser um ID de registo válido, como uma conta ou um ID de registo de contacto.
-  * **Tipo de Relativamente a** tem de ser o tipo de pesquisa para o registo, como **accounts** ou **contacts**.
+  * O campo **Relativa a** tem de ser um ID de registo válido, como uma conta ou um ID de registo de contacto.
+  * **Tipo de Relativo A** tem de ser o tipo de pesquisa para o registo, como **accounts** ou **contacts**.
 
-Este exemplo acrescenta um registo de conta que corresponde ao ID de registo, adicionando-o ao campo **Relativamente a** da tarefa.
+Este exemplo acrescenta um registo de conta que corresponde ao ID de registo, adicionando-o ao campo **Relativa a** da tarefa.
 
   ![recordId e tipo de conta do fluxo](./media/connection-dynamics365/flow-recordid-account.png)
 
@@ -154,6 +156,7 @@ Para localizar o ID de um registo, veja [Localizar o ID de registo](#find-the-re
 > 
 
 ## <a name="find-the-records-id"></a>Localizar o ID do registo
+
 1. Na aplicação Web do Dynamics 365, abra um registo, como um registo de conta.
 2. Na barra de ferramentas de ações, clique ou toque em **isolar**
    ![destacar registo](./media/connection-dynamics365/popout.png) (ou clique ou toque em **ENVIAR UMA LIGAÇÃO POR E-MAIL** para copiar o URL completo para o seu programa de e-mail predefinido).
@@ -163,7 +166,8 @@ Para localizar o ID de um registo, veja [Localizar o ID de registo](#find-the-re
    ![RecordId](./media/connection-dynamics365/recordid.png)
 
 ## <a name="related-topics"></a>Tópicos relacionados
-[Troubleshooting a flow (Resolver problemas em fluxos)](fix-flow-failures.md)
+
+[Resolver problemas em fluxos](fix-flow-failures.md)
 
 [O Flow na sua organização - Perguntas e Respostas](organization-q-and-a.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Introdução | Microsoft Docs
+title: Começar | Microsoft Docs
 description: Comece a automatizar rapidamente o seu trabalho e a sua vida com o Power Automate
 services: ''
 suite: flow
@@ -20,16 +20,16 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: e78ba6de412a067ae21eb4a11a5b1a7d5165448c
-ms.sourcegitcommit: c86134235a4e3a819800c77fbc50034cfd8714c2
+ms.openlocfilehash: bd7d85dc2ec30147202c2838f00c7de6c7c587ad
+ms.sourcegitcommit: 4b9261984a554dfccb0d0d77f3d5fdca60e26433
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3298666"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3340029"
 ---
 # <a name="get-started-with-power-automate"></a>Introdução ao Power Automate 
 
-Bem-vindo! O Power Automate é um serviço que o ajuda a criar fluxos de trabalho automatizados entre as suas aplicações e serviços favoritos, para sincronizar ficheiros, obter notificações, recolher dados e muito mais.
+Bem-vindo! O Power Automate é um serviço que o ajuda a criar fluxos de trabalho automatizados entre as suas aplicações e serviços favoritos para sincronizar ficheiros, obter notificações, recolher dados e muito mais.
 
 <br/>
 
@@ -40,13 +40,13 @@ Bem-vindo! O Power Automate é um serviço que o ajuda a criar fluxos de trabalh
 
 O Power Automate é um dos pilares do Power Platform. Fornece uma plataforma de código simples para automatização dos processos e dos fluxos de trabalho. Veja a seguir uma lista dos diferentes tipos de fluxos:
 
-| **Tipo de fluxo**                                                                       | **Cenário de teste**                                                                                  | **Alvo**                                                                             |
+| **Tipo de fluxo**                                                                       | **Caso de utilização**                                                                                  | **Alvo**                                                                             |
 |-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [Fluxos automatizados](get-started-logic-flow.md)                 | Crie um fluxo que efetue automaticamente uma ou mais tarefas depois de ser acionado por um evento. | [Conectores](https://docs.microsoft.com/connectors/) para serviços cloud ou no local. |
+| [Fluxos automatizados](get-started-logic-flow.md)                 | Crie um fluxo que execute uma ou mais tarefas automaticamente depois de ser acionado por um evento. | [Conectores](https://docs.microsoft.com/connectors/) para serviços cloud ou no local. |
 | [Fluxos de botão](introduction-to-button-flows.md)              | Execute tarefas repetitivas a partir de qualquer lugar, a qualquer momento, através do dispositivo móvel.                        |                                                                                        |
-| [Fluxos agendados](run-scheduled-tasks.md)                    | Crie um fluxo que executa uma ou mais tarefas através de agendamento.             |                                                                                        |
+| [Fluxos agendados](run-scheduled-tasks.md)                    | Crie um fluxo que efetua uma ou mais tarefas numa agenda.             |                                                                                        |
 | [Fluxos do processo de negócio](business-process-flows-overview.md) | Defina um conjunto de passos que as pessoas deverão seguir para alcançarem um resultado pretendido.                 | Processos humanos                                                                        |
-| [Fluxos de IU (Pré-visualização)](ui-flows/overview.md)                                                | Grave e automatize a reprodução dos passos manuais no software herdado.                    | Aplicações Web e de computador que não têm APIs disponíveis para automatização.    |
+| [Fluxos de IU](ui-flows/overview.md)                                                | Registe e automatize a reprodução de passos manuais em software legado.                    | Aplicações Web e de computador que não têm APIs disponíveis para automatização.    |
 
 Pode criar e gerir todos os fluxos no separador **Os meus fluxos** do Power Automate.
 
@@ -74,7 +74,7 @@ Com a Power Automate, pode:
 
 Cada modelo foi concebido para um fim específico. Por exemplo, existem modelos para lhe enviar uma mensagem SMS quando o seu chefe lhe enviar um e-mail, para adicionar leads do Twitter ao Dynamics 365 ou para fazer uma cópia de segurança dos seus ficheiros. Estes modelos são apenas a ponta do icebergue. Destinam-se a inspirá-lo a criar fluxos personalizados para os processos exatos de que precisa.
 
-## <a name="create-your-first-flow"></a>Criar o seu primeiro fluxo ##
+## <a name="create-your-first-flow"></a>Criar o primeiro fluxo ##
 
 1. Selecione um modelo que seja útil para si. Um modelo simples é [**Receber lembretes diários no E-mail**](https://flow.microsoft.com/galleries/public/templates/45a3399aa29345308f08b6db0a9c85b9/) :
 
@@ -118,11 +118,11 @@ Não precisa de ser um programador para criar fluxos, embora o Power Automate di
 1. Selecione o item de menu **...** no canto superior direito de qualquer **ação** ou **acionador**. 
 1. Selecione **Código de pré-visualização**.
 
-    ![Código de pré-visualização](media/getting-started/peek-code.png)
+    ![Pré-visualizar código](media/getting-started/peek-code.png)
 
 1. Repare na representação JSON completa das ações e dos acionadores. Essa representação inclui todas as entradas, como o texto que introduzir diretamente e as expressões utilizadas. Pode selecionar expressões aqui e, em seguida, colá-las no editor de expressões de **Conteúdo Dinâmico**. Este procedimento pode funcionar como uma forma de verificar se os dados esperados estão presentes no fluxo.
 
-    ![Código de pré-visualização](media/getting-started/peek-code-details.png)
+    ![Pré-visualizar código](media/getting-started/peek-code-details.png)
    
 
 ## <a name="find-your-flows-easily"></a>Localizar facilmente os fluxos

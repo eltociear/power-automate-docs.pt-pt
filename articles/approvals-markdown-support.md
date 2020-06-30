@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 739d407df91661a6a82aa72f2891a3dac3bda3cf
-ms.sourcegitcommit: 28adfdffc00c149bc46fab85b7307e4e819000c8
+ms.openlocfilehash: fcda9a1098275ddd1e9688c2eec55ac4801aac4e
+ms.sourcegitcommit: 4dfd4013e4e632a91041783df64845651a8935c3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "3299392"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "3442695"
 ---
 # <a name="use-markdown-in-power-automate-approval-requests"></a>Utilizar o Markdown em pedidos de aprovação do Power Automate
 
@@ -37,6 +37,9 @@ Este artigo mostra como utilizar a sintaxe de [Markdown](https://en.wikipedia.or
 
 > [!IMPORTANT]
 > Todos os processadores de Markdown têm diferenças de implementação. Consulte a secção de [Suporte ao Cliente](#client-support) para obter mais detalhes.
+
+> [!IMPORTANT]
+> O Markdown não é atualmente suportado para clientes GCC e GCC High.
 
 ## <a name="client-support"></a>Suporte ao Cliente
 
@@ -84,7 +87,7 @@ Now text will appear on the next line.
 Esta é a linha 1.  
 Agora, o texto será apresentado na linha seguinte. 
 
-**Exemplo 2**  
+**Exemplo 2**  
 ```Markdown
 This is line 1.(space, space)  
 
@@ -131,7 +134,7 @@ As listas ordenadas começam com um número seguido por um ponto final para cada
 - Item 2
 - Item 3
 
-### <a name="nested-lists"></a>Listas aninhadas
+### <a name="nested-lists"></a>Nested lists
 
 **Exemplo:**  
 ```Markdown
@@ -198,7 +201,7 @@ Organize os dados estruturados através de tabelas.
 | Cabeçalho 1 | Cabeçalho 2 | Cabeçalho 3 |  
 |-----------|:---------:|-----------:|  
 | Cell A1 | Cell A2 | Cell A3 |  
-| Cell B1 | Cell B2 | Cell B3<br/>second line of text |  
+| Cell B1 | Cell B2 | Cell B3<br/>segunda linha de texto |  
 
  
 ## <a name="emphasis-bold-italics-strikethrough"></a>Ênfase (negrito, itálico, rasurado)  
@@ -218,7 +221,7 @@ Use _emphasis_ in comments to express **strong** opinions and point out ~~correc
 ```
 
 **Resultado:**  
-Use _emphasis_ in comments to express **strong** opinions and point out <s>corrections</s>   
+Utilize _ênfase_ nos comentários para expressar opiniões **fortes** e indicar <s>correções</s>   
 **_Bold, italicized text_**   
 **~~Bold, strike-through text~~**  
 

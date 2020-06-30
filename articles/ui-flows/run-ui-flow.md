@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 7d9142fa86b256ca816cf128f8b76bae7d1c5a90
-ms.sourcegitcommit: 855ee8b55aebe7b8e202006c39debfff02df1d30
+ms.openlocfilehash: f893000afea0d554ab911303cbdac2549170f554
+ms.sourcegitcommit: aefd1ebedfbd8c6cc3d08397ac171cb4ba5b5315
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3298930"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3412964"
 ---
 # <a name="run-attended-and-unattended-ui-flows"></a>Executar os fluxos de UI com e sem assistência
 
@@ -56,7 +56,7 @@ Neste exemplo, vamos utilizar um fluxo automatizado para acionar um fluxo de IU 
 1. Dê um nome ao fluxo na caixa **Nome do fluxo**.
 1. Procure “novo e-mail” e, em seguida, selecione **Quando chega um novo e-mail (V3)** na lista de acionadores. 
     
-   ![Selecione um acionador](../media/run-ui-flow/select-email-trigger.png "Selecionar um acionador")
+   ![Selecione um acionador](../media/run-ui-flow/select-email-trigger.png "Selecione um acionador")
 
 1. Selecione **Criar** e, em seguida, **Novo passo**.
 
@@ -90,15 +90,16 @@ Neste exemplo, vamos utilizar um fluxo automatizado para acionar um fluxo de IU 
    ![Selecionar fluxo de IU](../media/run-ui-flow/select-ui-flow.png "Selecionar fluxo de IU")
 
 1. Selecione **Guardar** para guardar o fluxo automatizado.
- >[!TIP]
- >Antes de testar, confirme que o seu gateway está online. Aceda a **Dados** > **Gateways** no painel de navegação, selecione o nome do gateway, clique em **...**, aceda a **Detalhes** e verifique se o **estado do gateway** apresentado é **online**. Se **o estado do gateway** apresentado for **offline**, confirme que o dispositivo está em funcionamento e ligado à Internet. 
+ 
+    >[!TIP]
+    >Antes de testar, confirme que o seu gateway está online. Aceda a **Dados** > **Gateways** no painel de navegação, selecione o nome do gateway, clique em **...**, aceda a **Detalhes** e verifique se o **estado do gateway** apresentado é **online**. Se **o estado do gateway** apresentado for **offline**, confirme que o dispositivo está em funcionamento e ligado à Internet. 
 
 1. Teste o fluxo ao enviar um e-mail para o acionar. Verá o fluxo de IU a reproduzir os passos que gravou. 
 
-![Execução bem-sucedida que chama um fluxo de IU](../media/run-ui-flow/successful-run.png "Execução bem-sucedida que chama um fluxo de IU")
+   ![Execução bem-sucedida que chama um fluxo de IU](../media/run-ui-flow/successful-run.png "Execução bem-sucedida que chama um fluxo de IU")
 
->[!TIP]
->Não interaja com o dispositivo enquanto o fluxo estiver a ser executado.
+   >[!TIP]
+   >Não interaja com o dispositivo enquanto o fluxo estiver a ser executado.
 
 ## <a name="use-inputs-and-outputs"></a>Utilizar entradas e saídas
 
@@ -113,6 +114,37 @@ Quando define entradas e saídas num fluxo de IU, pode transmitir informações 
 
 1. Também pode utilizar saídas do fluxo de IU como entradas para ações que surgem posteriormente no fluxo. Para isso, selecione o campo de texto e, em seguida, selecione uma entrada no seletor de tokens.
 
+
+## <a name="use-sensitive-text-inputs"></a>Use entradas de texto sensível
+
+Algumas entradas, como palavras-passe, precisam de ser ocultadas e omitidas do registo durante a utilização na aplicação. Os fluxos de IU suportam entradas chamadas **Entradas de texto sensível** para armazenar estes valores "privados". 
+
+Para obter mais informações sobre como criar este tipo de entradas, clique aqui.
+
+
+Para obter conteúdo sensível de outro conector, ative **Entradas Seguras** e **Saídas Seguras** seguindo estes passos:
+1.  Selecione **…** no canto superior direito da ação.
+1.  Selecione **Definições**.
+
+    ![A opção de definições ](../media/run-ui-flow/settings.png "A opção de definições ")
+
+1. Ative as propriedades **Entradas Seguras (Pré-visualização)** e **Saídas Seguras (Pré-visualização)** para evitar que estas definições sejam mostradas nos registos.
+
+   ![Entradas e saídas seguras](../media/run-ui-flow/secure-outputs-secure-inputs.png "Entradas e saídas seguras")
+
+1.  Selecione **Concluído**.
+   
+    Irá notar que a ação tem agora um ícone de bloqueio no topo direito, indicando um manuseamento especial para valores de entrada e saída.
+
+      ![O ícone de bloqueio](../media/run-ui-flow/lock-icon.png "O ícone de bloqueio")
+
+   
+      >[!TIP]
+      >Siga os mesmos passos para configurar as entradas dadas anteriormente neste artigo para passar a saída deste conector para um fluxo de IU e, em seguida, ative **Texto Seguro (Pré-Visualização)** nas **Definições**.
+
+      ![Passar as saídas para o fluxo de IU ](../media/run-ui-flow/pass-to-ui-flow.png "Entradas de fluxo de IU")
+
+
 ## <a name="run-ui-flows-unattended-or-attended"></a>Executar fluxos de IU automáticos ou assistidos
 
 Ao criar fluxos de IU, execute-os em modo **assistido** ou **automático**. O modo automático é melhor para aplicações que não necessitam de supervisão humana.
@@ -123,7 +155,7 @@ Ao serem executados de forma assistida, os fluxos de IU utilizarão uma sessão 
 
 Quando adiciona um fluxo de IU a um fluxo, pode escolher se quer que o seu fluxo de IU seja assistido ou automático. Seguem-se algumas das principais diferenças entre execuções assistidas e automáticas.
 
-### <a name="unattended-mode"></a>Modo automático
+### <a name="unattended-mode"></a>Modo não assistido
 
 Para executar fluxos de IU automáticos, a máquina de destino tem de estar disponível, com todas as sessões de utilizadores terminadas. 
 
@@ -165,7 +197,7 @@ Pode agendar a execução de múltiplos fluxos de IU num ou mais dispositivos. S
 
 Pode optar por distribuir execuções de fluxo de IU de forma uniforme por vários gateways num cluster. Por predefinição, a seleção de um gateway durante o balanceamento de carga é aleatória.
 
-Siga [estes passos para adicionar um gateway para criar um cluster](https://docs.microsoft.com/data-integration/gateway/service-gateway-install#add-another-gateway-to-create-a-cluster).
+Siga [estes passos para adicionar um gateway para criar um cluster](https://docs.microsoft.com/data-integration/gateway/service-gateway-install#add-another-gateway-to-create-a-cluster)
 
 >[!NOTE]
 >Os membros de gateway offline dentro de um cluster afetarão negativamente o desempenho. Desative ou remova estes membros.

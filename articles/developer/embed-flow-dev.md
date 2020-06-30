@@ -13,18 +13,18 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/31/2019
+ms.date: 05/05/2020
 ms.author: Deonhe
 search.app:
 - Flow
 search.audienceType:
 - developer
-ms.openlocfilehash: 6ca077b6a7b0d04f184ddf8a716dd677713e0667
-ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
+ms.openlocfilehash: bc2550d7ed20af51010b2091861732f918980a23
+ms.sourcegitcommit: 549224cf13fc761f473c880e8d0d8f2741cc7b0f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "3297698"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435094"
 ---
 # <a name="integrate-power-automate-with-websites-and-apps"></a>Integrar o Power Automate em sites e aplicações
 [!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
@@ -54,10 +54,10 @@ Para começar, adicione este código para mostrar os modelos do Power Automate n
 | Parâmetro | Descrição |
 | --- | --- |
 | região |O idioma de quatro letras e o código da região para a vista do modelo. Por exemplo, `en-us` representa inglês americano, e `de-de` representa alemão. |
-| termo de pesquisa |O termo de pesquisa para os modelos que pretende visualizar na vista. Por exemplo, procure `wunderlist` para visualizar modelos para Wunderlist. |
+| termo de pesquisa |O termo de pesquisa para os modelos que pretende visualizar na vista. Por exemplo, procure `SharePoint` para visualizar modelos para SharePoint. |
 | número de modelos |O número de modelos que pretende visualizar na vista. |
 | destino |A página que é aberta quando os utilizadores selecionam o modelo. Introduza `details` para mostrar os detalhes sobre o modelo ou introduza `new` para abrir o estruturador do Power Automate. |
-| category |Filtros para a categoria de modelo especificada. | 
+| categoria |Filtros para a categoria de modelo especificada. | 
 | parameters.{name} |Contexto adicional a transmitir o fluxo. |
 
 
@@ -65,18 +65,17 @@ Se o parâmetro de destino for `new`, o estruturador do Power Automate é aberto
 
 ### <a name="passing-additional-parameters-to-the-flow-template"></a>Transmitir parâmetros adicionais ao modelo de fluxo
 
-Se o utilizador estiver num determinado contexto no site ou aplicação, poderá querer transmitir o contexto ao fluxo. Por exemplo, um utilizador pode abrir um modelo para *Notificar-me quando um item é adicionado a uma lista* ao olhar para uma determinada lista no Wunderlist. Siga estes passos para transmitir o ID de lista como um *parâmetro* ao fluxo:
+Se o utilizador estiver num determinado contexto no site ou aplicação, poderá querer transmitir o contexto ao fluxo. Por exemplo, um utilizador pode abrir um modelo para *Quando um item é criado* enquanto vê uma determinada lista no SharePoint. Siga estes passos para transmitir o ID de lista como um *parâmetro* ao fluxo:
 
 1. Defina o parâmetro no modelo de fluxo antes de o publicar. Um parâmetro assemelha-se a `@{parameters('parameter_name')}`.
 1. Transmitir o parâmetro na cadeia de consulta do src iframe. Por exemplo, adicione `&parameters.listName={the name of the list}` se tiver um parâmetro denominado **listName**.
 
 ### <a name="full-sample"></a>Exemplo completo
 
-Para mostrar os quatro modelos principais do Wunderlist em alemão e para o utilizador começar a utilizar o **myCoolList**, utilize este código:
+Para mostrar os quatro modelos principais do SharePoint em alemão e para o utilizador começar a utilizar o **myCoolList**, utilize este código:
 
 ```html
-<iframe src="https://flow.microsoft.com/de-de/widgets/templates/?q=wunderlist
-&pagesize=4&destination=details&parameters.listName=myCoolList"></iframe>
+<iframe src="https://flow.microsoft.com/de-de/widgets/templates/?q=sharepoint%20&pagesize=4&destination=details&parameters.listName=myCoolList"></iframe>
 ```
 
 ## <a name="use-the-authenticated-flow-widgets"></a>Utilizar widgets de fluxo autenticados
@@ -85,7 +84,7 @@ A seguinte tabela mostra a lista de widgets do Power Automate que suportam a exp
 
 | Tipo de widget    | Funcionalidade suportada                                                                                                                  | 
 |----------------|------------------------------------------------------------------------------------------------------------------------------------| 
-| flows          | Mostra uma lista de fluxos num separador para fluxos pessoais e partilhados. Edite um fluxo existente ou crie um novo fluxo em branco ou a partir de um modelo. | 
+| fluxos          | Mostra uma lista de fluxos num separador para fluxos pessoais e partilhados. Edite um fluxo existente ou crie um novo fluxo em branco ou a partir de um modelo. | 
 | flowCreation   | Cria um fluxo a partir de um ID de modelo que a aplicação anfitriã fornece.                                                                | 
 | runtime        | Aciona um fluxo de acionamento híbrido ou manual que a aplicação anfitriã fornece.                                                        | 
 | approvalCenter | Incorpora pedidos de aprovação e aprovações enviadas.                                                                                        | 
@@ -166,7 +165,7 @@ Estes são os parâmetros para `renderWidget()`:
 
 | Parâmetro        | Obrigatório/Opcional | Descrição                                                                                 | 
 |------------------|-------------------|---------------------------------------------------------------------------------------------| 
-| `container`        | Necessária          | ID de um elemento DIV na página anfitriã onde o widget será incorporado                   | 
+| `container`        | Necessária          | ID de um elemento DIV na página anfitriã onde o widget será incorporado.                   | 
 | `environmentId`    | Opcional          | Os widgets necessitam de um ID de ambiente. Se não fornecer um ID, é utilizado um ambiente predefinido. | 
 | `flowsSettings`    | Opcional          | Objeto de definições do Power Automate                                                                        | 
 | `templateSettings` | Opcional          | Objeto de definições do modelo                                                                    | 
@@ -236,9 +235,9 @@ templatesSettings?: {
 | Parâmetro |Obrigatório/Opcional | Descrição                                                                        
 |-----------|-------------------|-----------------| 
 |`defaultParams` | Opcional          | Crie parâmetros de hora para utilizar ao criar um fluxo a partir de um modelo, por exemplo: <br /> ``` defaultParams: {'parameters.sharepoint.site': 'https://microsoft.sharepoint.com/teams/ProcessSimple', 'parameters.sharepoint.list': 'b3a5baa8-fe94-44ca-a6f0-270d9f821668'   } ```| 
-| `destination` | Opcional          | Os valores válidos são "new" ou "details". Quando está definido como "details", uma página de detalhes é apresentada ao criar um fluxo a partir de um modelo.     |
+| `destination` | Opcional          | Os valores válidos são "novo" ou "detalhes". Quando está definido como "detalhes", uma página de detalhes é apresentada ao criar um fluxo a partir de um modelo.     |
 | `pageSize` | Opcional          | Número de modelos a apresentar. Tamanho predefinido = 6 | 
-| `searchTerm` | Opcional          | Apresente modelos que correspondem com o termo de pesquisa fornecido| 
+| `searchTerm` | Opcional          | Apresente modelos que correspondem ao termo de pesquisa fornecido| 
 | `templateCategory` | Opcional          | Apresente modelos numa categoria específica| 
  
 ### <a name="approvalcentersettings"></a>ApprovalCenterSettings
@@ -258,7 +257,7 @@ Aplica-se a widgets ApprovalCenter.
 |------------|-------------------|--------------| 
 | `hideLink`| Opcional | Quando está definido como `true`, o widget oculta as ligações de aprovação recebidas e enviadas | 
 | `autoNavigateToDetails`| Opcional | Quando está definido como `true`, o widget abre automaticamente os detalhes de aprovação quando existe apenas uma aprovação | 
-| `approvalsFilter`| Opcional | O widget de aprovação irá aplicar o filtro de aprovação especificado ao indicar as aprovações, por exemplo: <br/> ``` approvalsFilter: 'properties/itemlink eq \'https://microsoft.sharepoint.com/teams/ProcessSimple/_layouts/15/listform.aspx?PageType=4&ListId=737e30a6-5bc4-4e9c-bcdc-d34c5c57d938&ID=3&ContentTypeID=0x010010B708969A9C16408696FD23801531C6\'' ```  <br/> <br/>``` approvalsFilter: 'properties/itemlinkencoded eq \'{Your base64 encoded item link url} \'' ```|
+| `approvalsFilter`| Opcional | O widget de aprovação irá aplicar o filtro de aprovação especificado ao indicar as aprovações, por exemplo: O widget de aprovação irá aplicar o filtro de aprovação especificado ao indicar as aprovações, por exemplo: <br/> ``` approvalsFilter: 'properties/itemlink eq \'https://microsoft.sharepoint.com/teams/ProcessSimple/_layouts/15/listform.aspx?PageType=4&ListId=737e30a6-5bc4-4e9c-bcdc-d34c5c57d938&ID=3&ContentTypeID=0x010010B708969A9C16408696FD23801531C6\'' ```  <br/> <br/>``` approvalsFilter: 'properties/itemlinkencoded eq \'{Your base64 encoded item link url} \'' ```|
 | `tab`| Opcional | Separador ativo predefinido para mostrar no widget do Flow. <br/> Valores válidos: "receivedApprovals", "sentApprovals" | 
 | `showSimpleEmptyPage`| Opcional | Mostra uma página vazia quando não existem aprovações | 
 | `hideInfoPaneCloseButton` | Opcional | Oculta o botão Fechar (ou o anfitrião já tem um botão Fechar) | 
@@ -396,14 +395,14 @@ Siga estes passos para selecionar uma ou mais permissões delegadas:
 3.  Selecione **Registos das aplicações** em **Gerir**.
 4.  Introduza a aplicação de terceiros a ser configurada para os âmbitos do serviço Flow.
 5.  Selecione **Definições**.
-      ![arquitetura do widget](../media/embed-flow-dev/AAD-App-Settings.png)
+      ![arquitetura dos widgets](../media/embed-flow-dev/AAD-App-Settings.png)
 6. Selecione **Permissões obrigatórias** em **Acesso à API**/
 7. Selecione **Adicionar**.
 8. Escolha **Selecionar uma API**.
-      ![arquitetura do widget](../media/embed-flow-dev/AAD-App-Select-an-API.png)
+      ![arquitetura dos widgets](../media/embed-flow-dev/AAD-App-Select-an-API.png)
 9. Procure por **serviço do Power Automate** e selecione-o. Nota: Antes de poder ver o serviço Power Automate, o inquilino tem de ter pelo menos um utilizador do AAD com sessão iniciada no portal do Flow (<https://flow.microsoft.com>)
 10. Selecione os âmbitos do Flow necessários para a aplicação e, em seguida, selecione **Guardar**.
-      ![arquitetura do widget](../media/embed-flow-dev/AAD-App-DelegatedPermissions.png)
+      ![arquitetura dos widgets](../media/embed-flow-dev/AAD-App-DelegatedPermissions.png)
 
 A sua aplicação irá obter um token do Serviço Flow que contém permissões delegadas na afirmação \'scp' no token JWT.
 
@@ -428,18 +427,18 @@ Uma Aplicação de Página Única (SPA) de JavaScript de exemplo é fornecida na
 <!-- todo where should I download from? -->
 1.  Transfira o exemplo e copie para uma pasta local no seu dispositivo.
 2.  Abra o ficheiro index.html na pasta FlowSDKSample e modifique o `applicationConfig` para atualizar o `clientID` para o ID da aplicação que registou anteriormente.
-    ![arquitetura do widget](../media/embed-flow-dev/SampleApp-ApplicationConfig.png)
-3.  A aplicação de exemplo está configurada para utilizar os âmbitos **Flows.Read.All** e **Flow.Manage.All.** do Flow. Pode configurar âmbitos adicionais ao atualizar a propriedade **flowScopes** no objeto **applicationConfig**.
+    ![arquitetura dos widgets](../media/embed-flow-dev/SampleApp-ApplicationConfig.png)
+3.  A aplicação de exemplo está configurada para utilizar os âmbitos **Flows.Read.All** e **Flow.Manage.All** do Flow. Pode configurar âmbitos adicionais ao atualizar a propriedade **flowScopes** no objeto **applicationConfig**.
 4.  Execute estes comandos para instalar a dependência e executar a aplicação de exemplo:
     > \> npm install \> node server.js
 5. Abra o browser e, em seguida, introduza http://localhost:30662
-6. Selecione o botão **Sign in** (Iniciar sessão) para se autenticar no AAD e adquirir um token de acesso de fluxo.
-7. A caixa de texto **Access Token** (Token de Acesso) contém o token de acesso.
-    ![arquitetura do widget](../media/embed-flow-dev/SampleApp-AccessToken.png)
-8. Selecione **Load Flows widget** (Carregar o widget Flows) ou **Load Templates widget** (Carregar o widget Templates) para incorporar os widgets correspondentes.
-    ![arquitetura do widget](../media/embed-flow-dev/SampleApp-TemplatesWidget.png)
+6. Selecione o botão **Iniciar sessão** para se autenticar no AAD e adquirir um token de acesso de fluxo.
+7. A caixa de texto **Token de Acesso** contém o token de acesso.
+    ![arquitetura dos widgets](../media/embed-flow-dev/SampleApp-AccessToken.png)
+8. Selecione **Carregar o widget Flows** ou **Carregar o widget Templates** para incorporar os widgets correspondentes.
+    ![arquitetura dos widgets](../media/embed-flow-dev/SampleApp-TemplatesWidget.png)
 
-[Ligação de transferência](https://procsi.blob.core.windows.net/docs/FlowWidgetSampleApp.zip) da aplicação de exemplo
+[Ligação de transferência](https://procsi.blob.core.windows.net/docs/FlowWidgetSampleApp.zip) da aplicação de exemplo.
 
 ## <a name="resources"></a>Recursos
 
@@ -457,21 +456,21 @@ Saiba mais sobre a integração e definições do widget:
 
 Se a região inicializada não estiver indicada, o Flow utilizará por predefinição a região suportada mais próxima.
 
-| Região     | Idioma                   | 
+| Região     | Language                   | 
 |------------|----------------------------| 
 | bg-bg      | Búlgaro (Bulgária)       | 
-| ca-es      | Catalão (Espanha)            | 
+| ca-es      | Catalão (Catalão)            | 
 | cs-cz      | Checo (República Checa)     | 
 | da-dk      | Dinamarquês (Dinamarca)           | 
 | de-de      | Alemão (Alemanha)           | 
 | el-gr      | Grego (Grécia)             | 
-| en-Us      | Inglês (Estado Unidos)    | 
+| en-US      | Inglês (Estado Unidos)    | 
 | es-es      | Espanhol (Castelhano)        | 
 | et-ee      | Estónio (Estónia)         | 
-| eu-es      | Basco (Espanha)             | 
+| eu-es      | Basco (Basco)             | 
 | fi-fi      | Finlandês (Finlândia)          | 
 | fr-fr      | Francês (França)            | 
-| gl-es      | Galego (Espanha)           | 
+| gl-es      | Galego (Galiza)           | 
 | hi-HU      | Húngaro (Hungria)        | 
 | hi-in      | Hindi (Índia)              | 
 | hr-hr      | Croata (Croácia)         | 

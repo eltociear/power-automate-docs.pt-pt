@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/07/2020
+ms.date: 05/07/2020
 ms.author: stepsic
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 99a666c80cb1e6994b774f6b269d657a62996548
-ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
+ms.openlocfilehash: 5b646d486666b92f0496f7bb5c3f851cc8ab56f0
+ms.sourcegitcommit: 8714786a5b632dfd60099871629cf369a31c4125
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3299018"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346591"
 ---
 # <a name="frequently-asked-questions"></a>Perguntas mais frequentes
 
@@ -113,10 +113,10 @@ Pode partilhar fluxos em qualquer uma das seguintes formas:
 * Para fluxos que podem ser executados manualmente, pode também garantir permissão outras pessoas ou grupos na organização para apenas executar o fluxo.
 
 ### <a name="how-many-flows-can-i-have"></a>Quantos fluxos posso ter?
-O Power Automate está equipado com um máximo de 50 fluxos. Se precisar de mais, pode solicitá-los.
+Pode criar um número ilimitado de fluxos, dependendo do [tipo de licença](https://flow.microsoft.com/pricing) que detém.
 
 ### <a name="where-do-i-get-started-with-power-automate"></a>Como começo a utilizar o Power Automate?
-Comece com os seguintes recursos:
+Comece pelos seguintes recursos:
 
 * [Blogue](https://flow.microsoft.com)
 * [Canal do YouTube](https://youtube.com/playlist?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF)
@@ -124,7 +124,7 @@ Comece com os seguintes recursos:
 * [Comunidade](https://powerusers.microsoft.com)
 
 ### <a name="what-operating-systems-does-the-mobile-app-for-power-automate-support"></a>Quais são os sistemas operativos suportados pela aplicação móvel do Power Automate?
-A aplicação móvel do Power Automate está disponível para [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) ou [Windows Phone ](https://aka.ms/flowmobilewindows).
+A aplicação móvel do Power Automate está disponível para [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) ou [Windows Phone](https://aka.ms/flowmobilewindows).
 
 ### <a name="can-flows-be-turned-off-or-disabled"></a>Os fluxos podem ser desativados?
 

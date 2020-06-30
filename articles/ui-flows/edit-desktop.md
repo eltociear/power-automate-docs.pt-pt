@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 8b0aebaa0e61758d6bc6ebeb3de7b71bde665edc
-ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
+ms.openlocfilehash: a6b34a58dc028d6d0df9bf03f66a04666998ac69
+ms.sourcegitcommit: aefd1ebedfbd8c6cc3d08397ac171cb4ba5b5315
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3298820"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3412988"
 ---
 # <a name="edit-desktop-ui-flows"></a>Editar fluxos de IU para computador
 
@@ -70,7 +70,7 @@ Pode querer gravar o fluxo de IU em várias sessões. Depois de ter concluído a
 
 1. Selecione **Iniciar gravador**.
 
-   ![Selecionar Iniciar gravador](../media/create-windows-ui-flow/select-launch-recorder.png "Selecionar iniciar gravador")
+   ![Selecione Iniciar gravador](../media/create-windows-ui-flow/select-launch-recorder.png "Selecione Iniciar gravador")
 
    O controlo do gravador é apresentado na parte superior do ecrã.
 
@@ -96,10 +96,10 @@ Depois de ter gravado uma aplicação com, pelo menos, uma ação, poderá adici
 |---------------------|-------------------------------------------------------------------|
 | Fechar aplicação   |                                                                   |
 | Clicar com o botão direito do rato         |                                                                   |
-| Enviar teclas           | Envie teclas e combinações de teclas, como CTRL + C.                             |
+| Enviar teclas           | Envie teclas e combinações de teclas, como CTRL + C.                             |
 | Clicar com o botão esquerdo do rato          |                                                                   |
 | Obter texto            | Leia o texto de um elemento da interface de utilizador e, em seguida, utilize-o como uma saída. |
-| Introduzir o texto          |                                                                   |
+| Introduzir texto          |                                                                   |
 | Obter elemento ativado | Verifique se um elemento da interface de utilizador está ativado ou desativado.         |
 | Limpar elemento       | Limpe o valor num elemento da interface de utilizador editável.             |
 | Aguardar alguns segundos    | Aguarde antes de continuar para o próximo passo.                           |
@@ -145,9 +145,9 @@ O formato do seletor é:
 }
 ```
 
-Terá de fornecer os dados para os campos **elemementStack** e **elementXPath** do elemento do seletor.
+Terá de fornecer os dados para os campos **elementStack** e **elementXPath** do elemento do seletor.
 
-Veja a seguir um exemplo do possível aspeto do **elemementStack**.
+Veja a seguir um exemplo do possível aspeto do **elementStack**.
 
 ![Pilha de elementos](../media/edit-desktop/elementstack.png "Pilha de elementos")
 
@@ -180,14 +180,90 @@ Pode realizar estas operações avançadas ao realizar os seguintes passos num f
    ![Cartão de condição](../media/edit-desktop/condition-card.png)
 
 
-## <a name="handle-error-conditions"></a>Processar condições de erro
+## <a name="add-a-recording-of-a-remote-computer-using-image-recognition-preview"></a>Adicione uma gravação de um computador remoto usando o reconhecimento de imagens (Pré-visualização)
 
-Podem surgir condições inesperadas durante a reprodução, provocando a falha dos seus fluxos de IU. Pode utilizar funcionalidades avançadas de processamento de erros para criar passos alternativos para quando surgirem condições inesperadas. 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-preview-features-expect-changes.md)]
+
+O reconhecimento de imagens nos fluxos de IU é uma funcionalidade de pré-visualização e está atualmente disponível ao gravar um computador remoto através da aplicação Ligação ao Ambiente de Trabalho Remoto (RDC).
+ 
+
+### <a name="what-is-image-recognition"></a>O que é o reconhecimento de imagens?
+
+Atualmente, os fluxos de IU no ambiente de trabalho são registados principalmente utilizando APIs de acessibilidade (UI Automation e WinAppDriver) para detetar os controlos na árvore de IU do Microsoft Windows. Por vezes, a árvore de IU não está disponível, como aplicações baseadas na Web ou em Java. A árvore de IU pode não ser fiável, como quando os IDs de um controlo mudam frequentemente ou entre sessões. 
+
+Com o reconhecimento de imagem, as localizações de cliques e outros detalhes são visualmente combinados durante a reprodução, expandindo grandemente o leque de aplicações que podem ser automatizadas. 
+
+### <a name="use-image-recognition-to-record-a-remote-computer"></a>Use o reconhecimento de imagem para gravar um computador remoto
+
+ 
+1. Num fluxo de IUI novo ou existente, vá ao separador Entradas e crie duas novas entradas de **texto sensível**, uma para o nome de utilizador e outra para a palavra-passe que serão usados para iniciar sessão no dispositivo remoto. As entradas de texto sensível permitem-lhe passar os valores dinamicamente ao testar ou chamar o fluxo de IU de outro fluxo, sem que sejam armazenados ou registados pelo próprio fluxo de IU.
+
+   ![Texto sensível ](../media/create-remote-desktop/ir-sensitive-text.png)
+
+1. Siga os passos em **Adicionar uma gravação** para iniciar o controlo do gravador para um fluxo de IU novo ou existente.
+
+1. Utilize a aplicação de Ambiente de Trabalho Remoto para ligar ao computador remoto.
+
+1. Expanda a janela do Ambiente de Trabalho Remoto para o ecrã completo.
+
+1. Selecione **Gravar** no controlo do gravador e selecione **Entendido** no alerta que aparece.
+
+   ![Pop-up](../media/create-remote-desktop/popup.png)
+
+1. Execute os passos no computador remoto e, em seguida, selecione **Concluído** no controlo do gravador.
+
+1. Localize a ação **Iniciar Ambiente de Trabalho Remoto** dentro da sua gravação e, em seguida, introduza as entradas de texto sensível para o nome de utilizador e palavra-passe.
+
+![Texto sensível de nome de utilizador e palavra-passe](../media/create-remote-desktop/ir-launch-emote_desktop-session.png)
+
+1. Selecione **Guardar** e, em seguida, teste o fluxo de IU.
+
+>[!IMPORTANT]
+>Quando chama este fluxo de IU de um fluxo automatizado, recomenda-se utilizar uma solução de gestão de chaves, como o [Azure Key Vault](https://azure.microsoft.com/services/key-vault/) para obter o nome de utilizador e a palavra-passe e, em seguida, passá-los para as entradas de **texto sensível** no fluxo de IU dinamicamente, em vez de as armazenar no próprio fluxo. 
+
+>[!TIP]
+> Ativar **Entradas seguras** no menu **Definições** para a ação **Executar um fluxo de IU para ambiente de trabalho** no fluxo que chama o fluxo de IU. Isto garante que as entradas não são armazenadas no histórico de execuções.
+
+### <a name="use-the-extract-text-from-image-action-while-recording-to-retrieve-an-output-from-a-remote-computer"></a>Utilize o Texto de Extração da ação Imagem enquanto grava para obter uma saída de um computador remoto.
+
+1. Enquanto grava os seus passos, navegue até à localização do texto que deseja capturar.
+
+1. Selecione **Saídas** > **Extrair Texto da Imagem** do controlo do gravador.
+
+1. Siga as solicitações para selecionar uma **área de ancoragem** (uma secção do ecrã que não deverá ser alterada, como a etiqueta junto de um campo).
+
+    ![Área de ancoragem](../media/create-remote-desktop/ir-anchors.png)
+
+1.  Selecione a **área de destino** (a área a partir da qual o texto será extraído com OCR).
+
+    ![Área de destino](../media/create-remote-desktop/ir-targets.png)
+
+1.  Introduza um nome para a saída.
+
+1.  Selecione **Concluído** no controlo do gravador.
+
+1.  Selecione **Guardar** e, em seguida, teste o fluxo de IU.
+
+
+### <a name="known-issues-for-remote-desktop-recordings"></a>Problemas conhecidos para gravações de Ambiente de Trabalho Remoto
+
+1. Certifique-se de que todas as entradas necessárias (nome de computador, nome de utilizador e palavra-passe) são preenchidas e guardadas antes de gravar novos passos no mesmo fluxo de IU.
+
+1. Para se ligar a uma sessão de ambiente de trabalho remoto existente, a sessão deve ter sido iniciada anteriormente no mesmo fluxo de IU.
+
+1. A forma recomendada de iniciar a Ligação ao Ambiente de Trabalho Remoto (RDC) ao gravar é a partir da aplicação de Ligação ao Ambiente de Trabalho Remoto (mstc.exe) do menu Iniciar. Se as ações de Segurança do Windows forem gravadas para além da ação **Iniciar Ambiente de Trabalho Remoto**, estas devem ser removidas do estruturador para que a reprodução não seja interrompida (isto pode acontecer quando a sessão de Ambiente de Trabalho Remoto é iniciada a partir de um atalho).
+
+1. A reprodução pode falhar se o fluxo de IU for gravado num ecrã com dimensionamento de ecrã (Definições do Windows > Monitor > Dimensionamento de Ecrã) definido para um valor diferente de 100%. Como solução alternativa, certifique-se de que o dimensionamento de ecrã está definido para 100% antes da gravação.
+
+
+## <a name="handle-error-conditions"></a>Lidar com condições de erro
+
+Podem surgir condições inesperadas durante a reprodução. Estas condições podem fazer com que os fluxos de IU falhem. Pode utilizar funcionalidades avançadas de processamento de erros para criar passos alternativos para quando surgirem condições inesperadas. 
 
 Eis os passos que tem de seguir para o fazer.
 
 1. Inicie sessão no [Power Automate](https://powerautomate.microsoft.com) com a sua conta escolar ou profissional.
-1. Selecione **Os meus fluxos** > **Fluxos de IU** para apresentar os seus fluxos de IU.
+1. Selecione **Os meus fluxos** > **Fluxos de IU**.
 1. Selecione **Mais comandos** (os três pontos verticais para o fluxo de IU que pretende editar).
 1. Selecione **Editar**.
 1. Selecione a seta para baixo que se encontra imediatamente antes do passo do fluxo de IU ao qual pretende adicionar processamento de erros e, em seguida, selecione **+** (Inserir novo passo).
@@ -248,8 +324,6 @@ Siga estes passos após gravar um script de fluxo de IU:
 
 >[!WARNING]
 >Com a reprodução baseada em coordenadas, a automatização poderá selecionar controlos que não fazem parte da aplicação-alvo devido a várias razões, por exemplo, quando as aplicações-alvo da IU mudam drasticamente.
-
-
 
 
 ## <a name="next-steps"></a>Passos seguintes

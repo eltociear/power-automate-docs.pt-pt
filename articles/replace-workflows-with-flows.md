@@ -6,18 +6,18 @@ manager: KVIVEK
 ms.author: Deonhe
 ms.service: flow
 ms.topic: article
-ms.date: 08/27/2019
+ms.date: 05/12/2020
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 6e3e6d1ca0a1700bbfaf6d8e8fb76cc888456c2c
-ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
+ms.openlocfilehash: 008a07cf5ee24b5de6d740cc19ee1f5219d86b76
+ms.sourcegitcommit: b872a664a8adcdfb3db5a4ec861c23eea883a71e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "3296620"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367735"
 ---
 # <a name="replace-classic-common-data-service-workflows-with-flows"></a>Substituir fluxos de trabalho clássicos do Common Data Service por fluxos
 
@@ -36,7 +36,7 @@ Esta tabela apresenta uma comparação entre as capacidades do Power Automate e 
 
 <table>
 <tr>
-<th colspan="2">Capacidade</th>
+<th colspan="2">Funcionalidade</th>
 <th>Power Automate</th>
 <th>Fluxo de trabalho clássico</th>
 </tr>
@@ -165,7 +165,7 @@ Esta tabela apresenta uma comparação entre as capacidades do Power Automate e 
                 </td>
                 <td>
                     
-   No
+   Sim
                     
                 </td>
                 <td>
@@ -182,7 +182,7 @@ Esta tabela apresenta uma comparação entre as capacidades do Power Automate e 
                 </td>
                 <td>
                     
-   No
+   Sim
                     
                 </td>
                 <td>
@@ -289,7 +289,7 @@ Esta tabela apresenta uma comparação entre as capacidades do Power Automate e 
                 </td>
                 <td>
                     
-   No
+   Sim
                     
                 </td>
                 <td>
@@ -535,7 +535,7 @@ Quando executa este fluxo com a proposta, este resume os itens de linha dessa pr
     
     No Power Automate, utilize a **definição executar após** numa ação para a configurar para ser executada quando a ação anterior falhar. Por exemplo, enviar uma notificação móvel do Power Automate quando a ação **atualizar um registo** falhar ou expirar.
 
-## <a name="faqs"></a>FAQ
+## <a name="faqs"></a>FAQs
 
 
 -   **Tenho uma licença do Dynamics 365. Posso utilizar o Power Automate?**

@@ -17,12 +17,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: bb8ca7efb83a863f3031dd18d0d9bd67ae3c5c07
-ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
+ms.openlocfilehash: 2c74e54c61e030bad788db97b14fca93f2a256fb
+ms.sourcegitcommit: 2284143cf147beb7d6071fd8005a41298e51e493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "3297126"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "3385007"
 ---
 # <a name="add-an-on-demand-workflow-to-a-business-process-flow"></a>Adicionar um fluxo de trabalho a pedido a um fluxo de processo de negócio
 
@@ -56,7 +56,7 @@ No exemplo abaixo, há um fluxo de trabalho a pedido chamado **My on demand work
 1. Expanda a fase 1 para mostrar a secção **Processo Acionado**. 
 2. Selecione o separador **Componentes** e arraste o **Fluxo de Trabalho** para a secção **Processo Acionado**.
     ![Adicionar um fluxo de trabalho a uma fase](media/add-workflow-to-bpf-1.png) Em alternativa, pode arrastar o **Fluxo de Trabalho** para a secção **Fluxos de Trabalho Globais**, o que aciona o fluxo de trabalho aquando da ativação ou do arquivamento do processo.
- ![Adicionar um fluxo de trabalho à ativação ou arquivamento do processo](media/add-workflow-to-bpf-global.png)
+ ![Adicionar fluxo de trabalho à ativação ou arquivamento do processo](media/add-workflow-to-bpf-global.png)
 3. Na caixa de pesquisa do separador **Propriedades**, introduza e procure o nome do fluxo de trabalho a pedido que pretende adicionar à fase do fluxo do processo de negócio e, em seguida, selecione **Aplicar**.
     ![Introduzir o nome e selecionar Aplicar](media/add-workflow-to-bpf-2.png)
 4. No separador **Propriedades**, em **Acionador**, selecione **Entrada de Fase** ou **Saída de Fase**.  
@@ -67,6 +67,6 @@ No exemplo abaixo, há um fluxo de trabalho a pedido chamado **My on demand work
 5. Selecione **Atualizar** na barra de ferramentas do estruturador de fluxo do processo de negócio.
  
 ## <a name="next-steps"></a>Passos seguintes
-[Use Workflow processes to automate processes that don't require user interaction](workflow-processes.md) (Utilizar processos de Fluxo de Trabalho para automatizar processos que não necessitam de interação do utilizador) <br/>
-[Tutorial: criar um fluxo de processo de negócio para normalizar processos](create-business-process-flow.md) <br/>
-[Business process flow automation in Dynamics 365](https://blogs.msdn.microsoft.com/crm/2017/03/28/business-process-flow-automation-in-dynamics-365/) (Automatização de fluxos do processo de negócio no Dynamics 365)
+[Utilize processos de Fluxo de Trabalho para automatizar processos que não necessitem da interação do utilizador](workflow-processes.md) <br/>
+[Tutorial: Criar um fluxo do processo de negócio para normalizar os processos](create-business-process-flow.md) <br/>
+[Automatização do fluxo do processo de negócio no Dynamics 365](https://blogs.msdn.microsoft.com/crm/2017/03/28/business-process-flow-automation-in-dynamics-365/)

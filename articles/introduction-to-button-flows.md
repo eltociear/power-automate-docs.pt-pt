@@ -20,17 +20,17 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: de691667b2c3b50d2bcbddf1684a0b1ed4608294
-ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
+ms.openlocfilehash: 3607d41dbe78b591aed97f366dd783db4a0725fb
+ms.sourcegitcommit: 549224cf13fc761f473c880e8d0d8f2741cc7b0f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "3298160"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435022"
 ---
 # <a name="introducing-instant-flows"></a>Introdução aos fluxos instantâneos
 
 ## <a name="what-are-instant-flows"></a>O que são fluxos instantâneos?
-Existem muitas tarefas repetitivas que gostaríamos de executar apenas com um toque num botão. Por exemplo, poderá ter de enviar rapidamente um e-mail para a sua equipa para os lembrar da sincronização diária, ou poderá pretender iniciar uma nova compilação do Visual Studio Online da base de código depois de ter sido notificado de que não existem mais entradas planeadas para o dia. Os fluxos instantâneos permitem-lhe realizar estas e muitas outras tarefas simplesmente ao tocar num botão no seu dispositivo móvel.
+Existem várias tarefas repetitivas que todos desejavam que fossem executadas apenas com o toque de um botão. Por exemplo, poderá ter de enviar rapidamente um e-mail para a sua equipa para os lembrar da sincronização diária, ou poderá pretender iniciar uma nova compilação do Visual Studio Online da base de código depois de ter sido notificado de que não existem mais entradas planeadas para o dia. Os fluxos instantâneos permitem-lhe realizar estas e muitas outras tarefas simplesmente ao tocar num botão no seu dispositivo móvel.
 
 **Nota** pode criar fluxos instantâneos no seu dispositivo móvel ou no Power Automate.  
   ![Imagem de descrição geral](./media/introduction-to-button-flows/buttons-montage.png)  
@@ -40,18 +40,21 @@ Crie botões para executar facilmente tarefas repetitivas em qualquer local e em
 
 ## <a name="create-a-button"></a>Criar um botão
 ### <a name="prerequisites"></a>Pré-requisitos
-* Aceda ao Flow. O administrador pode conceder esse acesso.
+* Acesso ao Power Automate](https://flow.microsoft.com).
 * Uma conta com permissões para utilizar os conectores para criar o botão. Por exemplo, precisa de uma conta do Dropbox para criar um botão que aceda ao Dropbox.
 
 ### <a name="from-the-portal"></a>No portal
-Nesta demonstração, vamos criar um botão que inicia uma compilação do Visual Studio Online (VSO) e envia notificações para o informar de quando é iniciada a compilação:  
+Nesta demonstração, vamos criar um botão que inicia uma compilação do Visual Studio Online (VSO) e envia notificações para o informar de quando é iniciada a compilação:
 
-1. Selecione a lista pendente **A mostrar** e escolha a categoria **Botão**. Este procedimento filtra a lista de modelos apenas para os que pode utilizar em fluxos instantâneos.  
-   ![Imagem a mostrar categorias](./media/introduction-to-button-flows/create-button-1.png)   
+1. Iniciar sessão no [Power Automate](https://flow.microsoft.com).
+1. Selecione **Criar** no lado esquerdo do ecrã.
+1. Selecionar **Fluxo instantâneo**.
+1. Nomeie o seu fluxo no **Nome do fluxo** > **Acionar manualmente um fluxo** > **Criar**. 
+ 
 2. Selecione o modelo **Acionar uma nova compilação no VSO** na lista de modelos.  
    ![Imagem a mostrar modelos ](./media/introduction-to-button-flows/create-button-2.png)  
 3. Selecione o botão **Utilizar este modelo** na página **Acionar uma nova compilação no VSO**.   
-   ![Imagem a mostrar o modelo a utilizar ](./media/introduction-to-button-flows/create-button-3.png)  
+   ![Imagem a mostrar o modelo a utilizar](./media/introduction-to-button-flows/create-button-3.png)  
 4. Se não tiver iniciado sessão, ser-lhe-á pedido que o faça neste momento:  
    ![Imagem a mostrar opções de início de sessão](./media/introduction-to-button-flows/create-button-4.png)  
 5. Depois de ter iniciado sessão no Flow, ser-lhe-á pedido que inicie sessão nos conectores utilizados no modelo selecionado. Neste exemplo, no passo 2 acima, selecionamos o modelo **Acionar uma nova compilação no VSO**, pelo que temos de iniciar sessão no VSO (e em quaisquer outros conectores com os quais está a trabalhar), se ainda não tiver iniciado sessão:  
@@ -70,7 +73,7 @@ Nesta demonstração, vamos criar um botão que inicia uma compilação do Visua
 11. Deverá ver esta mensagem de êxito dentro de momentos:  
     ![Mensagem de êxito](./media/introduction-to-button-flows/create-button-11.png)  
 
-Parabéns, criou um fluxo instantâneo! Agora, pode executar este fluxo instantâneo em qualquer altura e lugar a partir do separador **Botões** na aplicação Flow. Basta premir o “botão” para ser executado! A aplicação móvel do Power Automate está disponível para [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) ou [Windows Phone ](https://aka.ms/flowmobilewindows).
+Parabéns, criou um fluxo instantâneo! Agora, pode executar este fluxo instantâneo em qualquer altura e lugar a partir do separador **Botões** na aplicação Flow. Basta premir o “botão” para ser executado! A aplicação móvel do Power Automate está disponível para [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) ou [Windows Phone](https://aka.ms/flowmobilewindows).
 
 ### <a name="from-your-mobile-device"></a>No dispositivo móvel
 
@@ -95,7 +98,7 @@ Na aplicação:
    ![Ligação Criar](./media/introduction-to-button-flows/create-button-from-mobile-7.png)  
 8. Após alguns instantes, é criado o fluxo instantâneo. Selecione **VER O MEU FLUXO**:   
    ![Imagem do botão VER O MEU FLUXO](./media/introduction-to-button-flows/create-button-from-mobile-8.png)  
-9. Veja todos os seus fluxos no separador **Os meus fluxos**.  
+9. Veja todos os seus fluxos no separador **Os meus fluxos**  
    ![Imagem do botão Ver todos os fluxos](./media/introduction-to-button-flows/create-button-from-mobile-9.png)  
 
 Parabéns, criou um fluxo instantâneo! Agora, pode executar este fluxo instantâneo em qualquer altura e lugar a partir do separador **Botões** na aplicação Flow. Basta premir o “botão” para ser executado! Atualmente, a aplicação Flow está disponível nos dispositivos móveis Android e iOS.  

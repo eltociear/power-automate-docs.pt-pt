@@ -20,35 +20,35 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 16d92a2d8aad6e39ff5e2eb446438dc769b1baf8
-ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
+ms.openlocfilehash: d15e9d4e9e52c61495ec464e4db46d993deebe8a
+ms.sourcegitcommit: 2284143cf147beb7d6071fd8005a41298e51e493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3299084"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "3385041"
 ---
 # <a name="responding-to-gdpr-data-subject-delete-requests-for-power-automate"></a>Responder aos Pedidos de Eliminação dos Titulares de Dados RGPD para o Power Automate
 
 
-O “direito de apagamento” através da remoção dos dados pessoais dos Dados do Cliente de uma organização constitui uma proteção fundamental do GDPR. A remoção dos dados pessoais inclui remover todos os dados pessoais e registos gerados pelo sistema, exceto as informações dos registos de auditoria.
+O "direito de remoção" através da remoção de Dados Pessoais de um cliente de uma organização é uma proteção-chave no RGPD. A remoção de dados pessoais inclui a remoção de todos os dados pessoais e registos gerados pelo sistema, exceto as informações de registo de auditoria.
 
 O Power Automate permite aos utilizadores criar fluxos de trabalho de automatização que são fundamentais para as operações diárias da organização. Sempre que um utilizador sai da organização, um administrador deve rever manualmente e determinar se determinados dados e recursos criados pelo utilizador devem ser eliminados. Existem outros dados pessoais que são automaticamente eliminados sempre que a conta de utilizador é eliminada do Azure Active Directory.
 
 A tabela seguinte mostra os dados pessoais que são automaticamente eliminados e os dados que necessitam da revisão e da eliminação manuais por um administrador:
 
-|Requer análise e eliminação manuais|Eliminados automaticamente quando o utilizador é eliminado do Azure Active Directory|
+|Necessita de revisão e eliminação manual|Eliminados automaticamente quando o utilizador é eliminado do Azure Active Directory|
 |------|------|
 |Ambiente*|Registos gerados pelo sistema|
 |Permissões do ambiente**|Histórico de execuções|
 |Fluxos|Feed de Atividades|
 |Permissões dos fluxos|Gateway |
-|Detalhes do utilizador|Permissões dos gateways|
+|Detalhes do utilizador|Permissões de gateway|
 |Ligações*||
-|Permissões da ligação||
+|Permissões de ligação||
 |Conector personalizado*||
-|Permissões dos conectores personalizados||
+|Permissões de conector personalizado||
 
-* Cada um destes recursos contém os registos "Criado por" e "Modificado por", que incluem dados pessoais. Por motivos de segurança, estes registos são mantidos até que o recurso seja eliminado.
+*Cada um destes recursos contém registos "Criado Por" e "Modificado Por" que incluem dados pessoais. Por motivos de segurança, estes registos são mantidos até que o recurso seja eliminado.
 
 **Para ambientes que incluem uma base de dados do Common Data Service, as permissões do ambiente (por exemplo, os utilizadores aos quais são atribuídas as funções de Administrador e Criador de Ambientes) são armazenadas como registos no Common Data Service. Consulte [Executar DSRs em Dados de Clientes do Common Data Service](https://go.microsoft.com/fwlink/?linkid=872251), para obter informações sobre como responder a DSRs para utilizadores que utilizam o Common Data Service.
 
@@ -56,25 +56,25 @@ Para os dados e recursos que exigem uma revisão manual, o Power Automate oferec
 
 * **Acesso ao site:** inicie sessão no [Centro de Administração do Power Apps](https://admin.powerapps.com/) ou no [Centro de Administração do Power Automate](https://admin.flow.microsoft.com/)
 
-* **Acesso ao PowerShell:**  [Cdmlets do PowerShell para Administradores do Power Apps](https://go.microsoft.com/fwlink/?linkid=871804) 
+* **Acesso ao PowerShell:**  [Cmdlets do PowerShell para Administradores do Power Apps](https://go.microsoft.com/fwlink/?linkid=871804) 
 
 Veja a seguir a divisão das experiências que estão disponíveis para um administrador para eliminar cada tipo de dados pessoais em cada tipo de recurso:
 
-|Recursos com dados pessoais|Acesso ao site|Acesso ao PowerShell|Eliminação Automatizada|
+|Recursos que contêm dados pessoais|Acesso ao site|Acesso ao PowerShell|Eliminação Automatizada|
 |-----|----|----|----|
 |Registos gerados pelo sistema|[Portal de Confiança do Serviço do Office 365](https://servicetrust.microsoft.com/)|||
 |Ambiente|Centro de Administração do Power Automate|Cmdlets do Power Apps||
 |Permissões do ambiente*|Centro de Administração do Power Automate|Cmdlets do Power Apps||
 |Histórico de execuções||| Eliminação através da política de retenção de 28 dias|
 |Feed de atividades |||Eliminação através da política de retenção de 28 dias|
-|Tarefas do utilizador|| ||
+|Tarefas de utilizador|| ||
 |Fluxos|Power Automate Maker Portal**|||
 |Permissões dos fluxos|Portal do criador do Power Automate|||
 |Detalhes do utilizador||Cmdlets do Power Apps||
 |Ligações|Portal do criador do Power Automate| ||
-|Permissões da ligação|Portal do criador do Power Automate| ||
+|Permissões de ligação|Portal do criador do Power Automate| ||
 |Conector personalizado|Portal do criador do Power Automate| ||
-|Permissões dos conectores personalizados|Portal do criador do Power Automate| ||
+|Permissões de conector personalizado|Portal do criador do Power Automate| ||
 |Histórico de Aprovação|Microsoft Power Apps Maker Portal*|||
 
 *Com a introdução do Common Data Service, se uma base de dados for criada no ambiente, as permissões do ambiente e as permissões da aplicação condicionada por modelo serão armazenadas como registos no Common Data Service. Consulte [Executar DSRs em Dados de Clientes do Common Data Service](https://go.microsoft.com/fwlink/?linkid=872251), para obter informações sobre como responder a DSRs para utilizadores que utilizam o Common Data Service.
@@ -83,7 +83,7 @@ Veja a seguir a divisão das experiências que estão disponíveis para um admin
 
 ## <a name="manage-delete-requests"></a>Gerir Pedidos de eliminação
 
-Os passos a seguir descrevem funções administrativas destinadas a servir pedidos de eliminação de acordo com o GDPR. Estes passos devem ser executados pela ordem descrita abaixo.
+Os passos a seguir descrevem funções administrativas destinadas a servir pedidos de eliminação de acordo com o RGPD. Estes passos devem ser executados pela ordem descrita abaixo.
 
 > [!IMPORTANT]
 > Para evitar danos em dados, siga estes passos por ordem.
@@ -96,7 +96,7 @@ Estes passos copiam os fluxos existentes de um utilizador cessante. Caso atribua
 
 1. Inicie sessão no [Centro de administração do Power Automate](https://admin.flow.microsoft.com/) e selecione o ambiente com os fluxos propriedade do utilizador eliminado.
 
-    ![Ambientes de vista](./media/gdpr-dsr-delete/view-environments.png)
+    ![Ver ambientes](./media/gdpr-dsr-delete/view-environments.png)
 
 1. Selecione **Recursos** > **Fluxos** e, em seguida, selecione o título do fluxo que pretende reatribuir.
 
@@ -153,7 +153,7 @@ Consulte [Executar DSRs em Dados de Clientes do Common Data Service](https://go.
 
 ## <a name="delete-connections-created-by-a-user"></a>Eliminar ligações criadas por um utilizador
 
-As ligações são utilizadas em conjunto com os conectores para estabelecer conectividade com outros sistemas de APIs e de SaaS.  As ligações incluem referências ao utilizador que A criou e, por conseguinte, podem ser eliminadas para remover quaisquer referências ao utilizador em causa.
+As ligações são utilizadas em conjunto com os conectores para estabelecer conectividade com outros sistemas de APIs e de SaaS.  As ligações incluem referências ao utilizador que as criou e, como resultado, podem ser eliminadas para remover quaisquer referências ao utilizador.
 
 Cmdlets do Powershell do Power Apps Maker
 
@@ -201,13 +201,13 @@ Get-AdminConnectionRoleAssignment -PrincipalObjectId $deleteDsrUserId | Remove-A
 
 ```
 > [!NOTE]
-> As atribuições de funções de proprietário não podem ser eliminadas sem eliminar o recurso de ligação.
+> Não é possível eliminar as atribuições de funções de proprietário sem eliminar o recurso de ligação.
 >
 >
 
 ## <a name="delete-custom-connectors-created-by-the-user"></a>Eliminar conectores personalizados criados pelo utilizador
 
-Os conectores personalizados completam os conectores existentes integrados e permitem a conectividade com outras APIs, sistemas SaaS e sistemas personalizadas. Os Conectores Personalizados incluem referências ao utilizador que os criou e, por conseguinte, podem ser eliminados para remover quaisquer referências ao utilizador em causa.
+Os Conectores Personalizados complementam os conectores de origem existentes e permitem a ligação de outros sistemas API, SaaS e personalizados. Os Conectores Personalizados incluem referências ao utilizador que os criou e, por conseguinte, podem ser eliminados para remover quaisquer referências ao utilizador em causa.
 
 Cmdlets do Powershell do Power Apps Maker
 
@@ -254,7 +254,7 @@ Get-AdminConnectorRoleAssignment -PrincipalObjectId $deleteDsrUserId | Remove-Ad
 ```
 
 > [!NOTE]
-> As atribuições de funções de proprietário não podem ser eliminadas sem eliminar o recurso de ligação.
+> Não é possível eliminar as atribuições de funções de proprietário sem eliminar o recurso de ligação.
 >
 >
 
@@ -266,7 +266,7 @@ Como administrador, tem duas decisões a tomar ao processar um pedido de elimina
 1. Se determinar que o ambiente não está a ser utilizado por outras pessoas na sua organização, poderá optar por eliminar o ambiente
 1. Se determinar que o ambiente ainda é necessário, poderá optar por não eliminar o ambiente e adicionar-se a si próprio (ou a outro utilizador na sua organização) como Administrador do Ambiente.
 > [!IMPORTANT]
-> Eliminar um ambiente eliminará permanentemente todos os recursos no ambiente, incluindo todas as aplicações, fluxos, ligações, etc. Por isso, reveja os conteúdos de um ambiente antes da eliminação.
+> A eliminação de um ambiente eliminará permanentemente todos os recursos no ambiente, incluindo todos as aplicações, fluxos, ligações, etc., por isso, consulte o conteúdo de um ambiente antes da eliminação.
 >
 >
 
@@ -278,7 +278,7 @@ Um administrador pode conceder acesso de Administrador para um ambiente criado p
 
 Podem ser atribuídas permissões aos utilizadores (por exemplo, Administrador do Ambiente, Criador do Ambiente, etc.) num ambiente, as quais são armazenadas no serviço do Power Automate como uma “atribuição de função”.
 
-*Com a introdução do Common Data Service, se uma base de dados for criada no ambiente, estas "atribuições de função" serão armazenadas como registos no Common Data Service.
+Com a introdução do Common Data Service, se uma base de dados for criada no ambiente, estas "atribuições de função" serão armazenadas como registos no Common Data Service.
 
 Para obter mais informações sobre a eliminação da permissão de um utilizador num ambiente, navegue para [Utilizar ambientes dentro do Power Automate](https://docs.microsoft.com/flow/environments-overview-admin).
 
@@ -309,7 +309,7 @@ Após a conclusão dos passos acima, o passo final é eliminar a conta do utiliz
 
 Caso seja membro de um inquilino não gerido, tem de efetuar uma ação de **Fecho da conta** no [portal Privacidade Profissional e Escolar](https://go.microsoft.com/fwlink/?linkid=873123).
 
-Para determinar se é ou não utilizador de um inquilino gerido ou não gerido, faça o seguinte:
+Para determinar se é ou não um utilizador de um inquilino gerido ou não gerido, efetue as seguintes ações:
 
 1. Abra o seguinte URL num browser, certificando-se de que substitui o seu endereço de e-mail no URL:[https://login.microsoftonline.com/common/userrealm/foobar@contoso.com?api-version=2.1](https://login.microsoftonline.com/common/userrealm/foobar@contoso.com?api-version=2.1).
 1. Se for membro de um **inquilino não gerido**, verá um `"IsViral": true` na resposta.

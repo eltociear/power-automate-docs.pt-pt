@@ -19,18 +19,18 @@ helpviewer_keywords:
 author: msftman
 ms.author: deonhe
 manager: kvivek
-ms.openlocfilehash: b9a4a2968a251efd360a043d23e837eaeb746e4e
-ms.sourcegitcommit: 71f9b72d551887324c92b122dadd1b4dd584bc4b
+ms.openlocfilehash: 10f7e72b931cf9d4dffc51527f1b4ac17bdfbae8
+ms.sourcegitcommit: 2284143cf147beb7d6071fd8005a41298e51e493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "3299260"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "3385012"
 ---
 # <a name="best-practices-in-using-business-process-flow-attributes"></a>Melhores práticas para utilizar os atributos do fluxo do processo de negócio
 
 
 
-Os atributos legados relacionados com processos em entidades foram preteridos. Veja a seguir algumas melhores práticas para utilizar o atributo *Fase Ativa* (activestageid) na entidade do fluxo do processo de negócio. 
+Os atributos relacionados com processos legados em entidades foram preteridos. Veja a seguir algumas melhores práticas para utilizar o atributo *Fase Ativa* (activestageid) na entidade do fluxo do processo de negócio. 
 
 ## <a name="reporting-on-the-active-stage-of-a-business-process-flow"></a>Relatórios sobre a fase ativa de um fluxo de processo de negócio
 
@@ -45,7 +45,7 @@ Como o campo *Fase Ativa* (activestageid) foi preterido nas entidades relacionad
 Nas versões 9.0 e superiores, cada fluxo do processo de negócio cria a sua própria entidade do Common Data Service, normalmente com o mesmo nome do fluxo do processo de negócio. Para criar relatórios sobre o fluxo do processo de negócio, selecione a entidade do fluxo do processo de negócio para a qual pretende criar um relatório e, em seguida, crie vistas e gráficos, tal como fazia anteriormente.
 
 No nosso exemplo, siga estes passos para aceder à entidade **Processo de Vendas da Oportunidade Potencial**:
-1. Aceda a [https://make.powerapps.com](https://make.powerapps.com).
+1. Ir para o [https://make.powerapps.com](https://make.powerapps.com).
 1. Selecione **Dados**.
 1. Selecione **Entidades**.
 1. Defina o filtro como **Tudo**.

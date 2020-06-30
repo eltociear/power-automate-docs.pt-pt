@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/07/2020
+ms.date: 05/07/2020
 ms.author: sunayv
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: b797fc6e4a2e7835a7322f9fc55d50c96d113031
-ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
+ms.openlocfilehash: b1ad11b90b9682f68c6c8f22d350313f0c2edb75
+ms.sourcegitcommit: 7a42629c7bc15208c5a9d692ab89616fc0aa40cb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3299062"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "3352046"
 ---
 # <a name="choosing-an-environment"></a>Escolher um ambiente
 
@@ -49,7 +49,10 @@ Pretende criar um fluxo que utiliza uma ligação para o Common Data Service.|Co
 Está a criar um fluxo para o departamento de Recursos Humanos. Pretende garantir que apenas os utilizadores do departamento de Recursos Humanos têm acesso ao fluxo.|Crie um ambiente e adicione apenas os utilizadores de RH ao mesmo. Coloque o fluxo e quaisquer outros recursos que o fluxo utiliza neste ambiente.
 Existem utilizadores na Europa que utilizam um fluxo para mostrar dados do SharePoint.|Crie um ambiente na Europa e, em seguida, crie o seu fluxo e a ligação do SharePoint ao mesmo. Este ambiente da Europa proporciona aos utilizadores europeus o melhor desempenho, uma vez que todos os recursos estão localizados na Europa (localidade de dados).
 
-Para criar ambientes, tem de ser um administrador do Power Automate. Os administradores controlam quem tem acesso a ambientes. Para obter informações sobre como pode criar e gerir ambientes, veja o tópico [administrar ambientes](environments-overview-admin.md).
+Qualquer utilizador devidamente licenciado pode criar ambientes no centro de administração Power Platform por predefinição, a menos que a predefinição para **Quem pode criar ambientes de produção** tenha sido alterada de **Todos** para **Apenas administradores específicos**.
+
+
+Para obter informações sobre como pode criar e gerir ambientes, veja o tópico [administrar ambientes](environments-overview-admin.md).
 
 ## <a name="switching-environments"></a>Mudança de ambientes
 
@@ -83,7 +86,6 @@ Antes de criar um fluxo, selecione o ambiente no qual irá adicionar o fluxo e o
 
 Ao escolher o ambiente no qual pretende alojar os seus fluxos, considere os seguintes fatores:
 
-* Pode criar apenas gateways no ambiente predefinido. Se pretender utilizar um gateway para ligar o seu fluxo a dados no local, terá de utilizar o ambiente predefinido.
 * O Common Data Service está ligado a um ambiente específico. Por isso, se pretender criar um fluxo que utiliza o Common Data Service, tem de criar o fluxo no ambiente que aloja a base de dados.
 * Irá ver todos os ambientes nos quais pode editar recursos. No entanto, terá de pedir a um administrador para o adicionar como um criador a todos os ambientes nos quais pretende criar fluxos.
 

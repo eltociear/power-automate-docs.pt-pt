@@ -3,21 +3,21 @@ title: Os fluxos são agora armazenados no Common Data Service e utilizam a API 
 description: Os fluxos são agora armazenados no Common Data Service e utilizam a API Web avançada.
 author: stepsic-microsoft-com
 ms.reviewer: deonhe
-ms.date: 03/05/2019
+ms.date: 04/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: business-applications
 ms.technology: ''
 ms.author: stepsic
 audience: Power user
-ms.openlocfilehash: f446b1b4147b8531ee808447a18058628c2ac0cf
-ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
+ms.openlocfilehash: ebcd4951abae85f843ddaf34c8ce222eb1a83c33
+ms.sourcegitcommit: 4b9261984a554dfccb0d0d77f3d5fdca60e26433
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "3298358"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3340125"
 ---
-# <a name="power-automate-web-api"></a>API Web do Power Automate
+# <a name="power-automate-web-api"></a>Power AutomateAPI Web
 
 
 A partir de agora, todos os fluxos serão armazenados no Common Data Service e será utilizada [a API Web avançada](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/perform-operations-web-api).
@@ -34,7 +34,7 @@ Para começar a criar pedidos, primeiro necessita de criar o URL. O formato do U
 
 - O **Subdomínio Regional** depende da localização do seu ambiente. Quando inicia sessão no Power Automate, pode ver a região do seu ambiente no URL da página Web. Utilize esse nome de região para encontrar o respetivo subdomínio na tabela seguinte:
 
-     ![URL do fluxo](media/web-api/get-region-name.png "URL do fluxo")
+     ![URL do Fluxo](media/web-api/get-region-name.png "URL do Fluxo")
 
      | Região         | Subdomínio   |
      | -------------- | ----------- |
@@ -42,12 +42,13 @@ Para começar a criar pedidos, primeiro necessita de criar o URL. O formato do U
      | América do Sul  | crm2        |
      | Canadá         | crm3        |
      | Europa         | crm4        |
-     | Ásia-Pacífico   | crm5        |
+     | Ásia Pacífico   | crm5        |
      | Austrália      | crm6        |
      | Japão          | crm7        |
      | Índia          | crm8        |
      |  US Government  | crm9        |
      | Reino Unido | crm11       |
+     |Emirados Árabes Unidos |   crm15|
 
 Também pode obter a lista de instâncias disponíveis através de programação com o método [Obter instâncias](https://docs.microsoft.com/rest/api/admin.services.crm.dynamics.com/instances/getinstances) na API de Gestão Online.
 
@@ -92,7 +93,7 @@ Conforme apresentado acima, pode obter a lista de fluxos de trabalho ao chamar `
 
 | Nome da propriedade     | Descrição                                              |
 | ----------------- | -------------------------------------------------------- |
-| category          | A categoria do fluxo. Os diferentes tipos são: 0 – fluxos de trabalho do Common Data Service clássico, 1 – caixas de diálogo do Common Data Service clássico, 2 – regras de negócio, 3 – ações do Common Data Service clássico, 4 – fluxos de processo de negócio e 5 – fluxos automatizados, instantâneos ou agendados. |
+| categoria          | A categoria do fluxo. Os diferentes tipos são: 0 – fluxos de trabalho do Common Data Service clássico, 1 – caixas de diálogo do Common Data Service clássico, 2 – regras de negócio, 3 – ações do Common Data Service clássico, 4 – fluxos de processo de negócio e 5 – fluxos automatizados, instantâneos ou agendados. |
 | statecode         | O estado do fluxo. O estado pode ser **0** – desativado ou **1** – ativado.|
 | workflowuniqueid  | O identificador exclusivo desta instalação do fluxo. |
 | workflowid        | O identificador exclusivo de um fluxo em todas as importações. |
@@ -103,7 +104,7 @@ Conforme apresentado acima, pode obter a lista de fluxos de trabalho ao chamar `
 | nome              | O nome a apresentar que deu ao fluxo. |
 | _modifiedby_value | O último utilizador que atualizou o fluxo. É um ID da entidade systemusers no Common Data Service. |
 | _createdby_value  | O utilizador que criou o fluxo. É um ID da entidade systemusers no Common Data Service. |
-| tipo              | Indica se o fluxo é um fluxo em execução ou um modelo que pode ser utilizado para criar fluxos adicionais. 1 - fluxo, 2 - ativação ou 3 - modelo. |
+| tipo              | Indica se o fluxo é um fluxo em execução ou um modelo que pode ser utilizado para criar fluxos adicionais. 1 – fluxo, 2 – ativação ou 3 – modelo. |
 | descrição       | A descrição inserida pelo utilizador do fluxo. |
 | clientdata        | Uma cadeia JSON codificada de um objeto que contém connectionReferences e a definição do fluxo. |
 
@@ -165,7 +166,7 @@ Content-type: application/json
 ```
 
 > [!NOTE]
-> A sintaxe para alterar o proprietário utiliza o formato `odata.bind`. Isto significa que, em vez de aplicar patches ao campo\_ownerid_value diretamente, anexa `@odata.bind` ao nome da propriedade e, em seguida, coloca o ID em `systemusers()`.
+> A sintaxe para alterar o proprietário utiliza o formato `odata.bind`. Isto significa que, em vez de aplicar patches ao campo \_ownerid_value diretamente, anexa `@odata.bind` ao nome da propriedade e, em seguida, coloca o ID em `systemusers()`.
 
 Noutro exemplo, pode ativar um fluxo com esta chamada:
 
