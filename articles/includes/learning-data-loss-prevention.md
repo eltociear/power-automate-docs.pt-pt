@@ -1,12 +1,12 @@
-Com uma lista em expansão de [serviços](https://flow.microsoft.com/services) disponíveis para criar fluxos de trabalho com o [Power Automate](https://flow.microsoft.com), poderá precisar de salvaguardar dados de negócio críticos ou confidenciais armazenados em serviços empresariais como o SharePoint ou o Salesforce. Pode chegar à conclusão de que a sua organização precisa de criar uma política que garanta que os dados de negócio confidenciais não são publicados em serviços de consumidor como o Twitter e o Facebook. Com o Power Automate, pode criar facilmente políticas de **prevenção de perda de dados** (DLP) para exercer um controlo rigoroso sobre os serviços de consumidor com os quais os dados da empresa podem ser partilhados quando os utilizadores criam fluxos.  
+Com uma lista em expansão de [serviços](https://flow.microsoft.com/services) disponíveis para criar fluxos de trabalho com o [Power Automate](https://flow.microsoft.com), poderá precisar de salvaguardar dados de negócio críticos ou confidenciais armazenados em serviços empresariais como o SharePoint ou o Salesforce. Pode chegar à conclusão de que a sua organização precisa de criar uma política que garanta que os dados de negócio confidenciais não são publicados em serviços de consumidor como o Twitter e o Facebook. Com o Power Automate, pode criar facilmente políticas de [**prevenção de perda de dados** (DLP)](https://docs.microsoft.com/power-platform/admin/prevent-data-loss) para exercer um controlo rigoroso sobre os serviços de consumidor com os quais os dados da empresa podem ser partilhados quando os utilizadores criam fluxos.  
 
 ## <a name="terms-you-should-get-familiar-with"></a>Termos com os quais deverá familiarizar-se
 
 | Termo | Descrição |
 | --- | --- |
-| **DLP** |A abreviatura de prevenção de perda de dados. Terá de criar uma política DLP para gerir a partilha dos dados entre **serviços**. |
+| **DLP** |É uma abreviatura de prevenção de perda de dados. Terá de criar uma política DLP para gerir a partilha dos dados entre **serviços**. |
 | **Serviços** |[Serviços](https://flow.microsoft.com/services) são aplicações como o Salesforce, o SharePoint e o Twitter. Estes serviços e muitos outros são utilizados para criar fluxos. |
-| **Grupo de dados** |Um agrupamento lógico de serviços. Coloque os serviços que têm permissão para partilhar dados no mesmo grupo de dados. Existem dois grupos de dados: **apenas dados de negócio** e o grupo de dados **dados de negócio não permitidos**. |
+| **Grupo de dados** |Um agrupamento lógico de serviços. Coloque os serviços que têm permissão para partilhar dados no mesmo grupo de dados. Existem dois grupos de dados: **apenas dados de negócio** e **dados de negócio não permitidos**. |
 | **Ambiente** |Uma DLP é aplicada a um [ambiente](../environments-overview-admin.md). Um ambiente contém utilizadores. |
 | **Utilizadores** |Os utilizadores são membros da sua organização aos quais será aplicada uma política DLP, com base na respetiva associação num ambiente. |
 | **Fluxo** |Um fluxo é uma aplicação de fluxo de trabalho que utiliza qualquer combinação dos serviços disponíveis. |
@@ -33,7 +33,7 @@ Eis uma rápida descrição geral sobre como criar uma política DLP:
 2. Selecione o ambiente ao qual a política será aplicada
 3. Adicione os serviços a um dos dois grupos de dados. Lembre-se de que apenas os serviços localizados num grupo específico podem partilhar dados, pelo que qualquer fluxo que seja criado para partilhar dados entre serviços localizados nos dois grupos de dados será automaticamente bloqueado quando o criador o guardar.  
 
-Também existem [instruções mais detalhadas](../prevent-data-loss.md) sobre as políticas DLP disponíveis.  
+Também existem [instruções mais detalhadas](https://docs.microsoft.com/power-platform/admin/prevent-data-loss) sobre as políticas DLP disponíveis.  
 
 ## <a name="examples"></a>Exemplos
 * Se precisasse de criar uma política destinada a restringir a partilha de dados de negócio por parte dos fluxos apenas entre o SharePoint, os utilizadores do Office 365, o Office 365 Outlook, o OneDrive para Empresas, o Dynamics 365, o SQL Server e o Salesforce, esta teria o seguinte aspeto:  

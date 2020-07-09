@@ -16,6 +16,8 @@
       href: create-team-flows.md
     - name: Criar um fluxo que utiliza o Common Data Service
       href: common-data-model-intro.md
+    - name: Novidades
+      href: whats-new.md
     - name: Catálogo de Aprendizagem
       items:
         - name: Catálogo de Aprendizagem
@@ -310,9 +312,7 @@
       href: regions-overview.md
     - name: Limites e configuração
       href: limits-and-config.md
-    - name: Notas de versão
-      href: release-notes.md
-    - name: API Web para Power Automate
+    - name: API Web do Power Automate
       href: web-api.md
     - name: Perguntas mais frequentes
       href: frequently-asked-questions.md
@@ -324,3 +324,5 @@
       href: 'https://flow.microsoft.com/blog/'
     - name: Fóruns
       href: 'https://powerusers.microsoft.com/t5/Microsoft-Flow-Community/ct-p/FlowCommunity'
+    - name: Suporte
+      href: 'https://us.flow.microsoft.com/support/'
